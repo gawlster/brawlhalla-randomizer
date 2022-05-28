@@ -1,0 +1,15 @@
+{
+    "name": "Cannon",
+    "attacks": {
+        "nlight": {},
+        "slight": {},
+        "dlight": {},
+        "nair": {},
+        "sair": {},
+        "dair": {},
+        "recovery": {},
+        "gp": {}
+    },
+    "skins": [{}],
+    "legends": []
+}

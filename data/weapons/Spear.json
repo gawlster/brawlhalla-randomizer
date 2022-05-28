@@ -1,0 +1,15 @@
+{
+    "name": "Spear",
+    "attacks": {
+        "nlight": {},
+        "slight": {},
+        "dlight": {},
+        "nair": {},
+        "sair": {},
+        "dair": {},
+        "recovery": {},
+        "gp": {}
+    },
+    "skins": [{}],
+    "legends": []
+}
