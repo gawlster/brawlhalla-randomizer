@@ -1,8 +1,97 @@
 {
-    "name": "",
-    "desc": "",
-    "lore": "",
-    "thumbnail": "",
-    "weapons": [{}, {}],
-    "crossovers": [{}]
+    "name": "Ada",
+    "desc": "The Ghost in the Machine",
+    "lore": "Records show a precocious young Ada offered a place in the training program of Meyers Baby Food Corporation (“Your Friend in Nanotech”). After that, no official records of Ada exist. Part of an experimental group, Ada’s public education neuro-sims were replaced with training in real-time signal decryption and urban warfare.\nGraduates of the experiment joined Meyers Baby Food Corp’s black ops division, but Ada hacked the corporation’s maincloud and learned her division was protecting the Upload Enslavement Initiative. Soon, records of Meyers’ secret operations were playing on every news feed, and Ada had disappeared.\nIn the undersea free state of Miami Dome, Ada founded the Right Wrong Cavaliers, an elite team of combat hackers and post-punk revival band, and she led their masterful guerilla campaign against Meyers and their shadowy GovernCorp backers.\nShe’s pretty sure Valhalla is all some sort of computer sim, but until she can find a way out, she’s playing to win.",
+    "thumbnail": "./assets/images/characters/ada/thumbnail.png",
+    "weapons": [
+        {
+            "name": "Blasters",
+            "thumbnail": "/assets/images/weapons/blasters.jpg",
+            "signatures": {
+                "nsig": {
+                    "active-input": false,
+                    "desc": "Ada jumps up and shoots four green blasts from her guns which explode on contact on the ground.",
+                    "gif": "/assets/gifs/ada-blasters-nsig.gif"
+                },
+                "ssig": {
+                    "active-input": false,
+                    "desc": "Ada brings her guns forward and shoots a short, green laser from her guns. The laser hits several before launching the opponent.",
+                    "gif": "/assets/gifs/ada-blasters-ssig.gif"
+                },
+                "dsig": {
+                    "active-input": false,
+                    "desc": "Ada shoots out two smaller green blasts and then a very large green blast. The shots combo into each other. Ada receives recoil backwards.",
+                    "gif": "/assets/gifs/ada-blasters-dsig.gif"
+                }
+            }
+        },
+        {
+            "name": "Spear",
+            "thumbnail": "/assets/images/weapons/spear.jpg",
+            "signatures": {
+                "nsig": {
+                    "active-input": false,
+                    "desc": "Ada jumps up and swings her spear around.",
+                    "gif": "/assets/gifs/ada-spear-nsig.gif"
+                },
+                "ssig": {
+                    "active-input": false,
+                    "desc": "Ada does a quick slash with her spear.",
+                    "gif": "/assets/gifs/ada-spear-ssig.gif"
+                },
+                "dsig": {
+                    "active-input": false,
+                    "desc": "Ada does a breakdance and moves a bit forward.",
+                    "gif": "/assets/gifs/ada-spear-dsig.gif"
+                }
+            }
+        }
+    ],
+    "skins": [
+        {
+            "name": "Fatal Core",
+            "thumbnail": "/assets/images/characters/ada/AstralCoreAda.png"
+        },
+        {
+            "name": "Atlantean",
+            "thumbnail": "/assets/images/characters/ada/AtlanteanAda.png"
+        },
+        {
+            "name": "Detention",
+            "thumbnail": "/assets/images/characters/ada/DetentionAda.png"
+        },
+        {
+            "name": "DJ",
+            "thumbnail": "/assets/images/characters/ada/DJAda.png"
+        },
+        {
+            "name": "Fatal Error",
+            "thumbnail": "/assets/images/characters/ada/FatalErrorAda.png"
+        },
+        {
+            "name": "Heatblast",
+            "thumbnail": "/assets/images/characters/ada/HeatblastAda.png"
+        },
+        {
+            "name": "Lovelaced",
+            "thumbnail": "/assets/images/characters/ada/LovelacedAda.png"
+        },
+        {
+            "name": "Stormlord",
+            "thumbnail": "/assets/images/characters/ada/StormlordAda.png"
+        },
+        {
+            "name": "Technomancer",
+            "thumbnail": "/assets/images/characters/ada/TechnomancerAda.png"
+        },
+        {
+            "name": "Vixen",
+            "thumbnail": "/assets/images/characters/ada/VixenAda.png"
+        },
+        {
+            "name": "Wasteland",
+            "thumbnail": "/assets/images/characters/ada/WastelandAda.png"
+        }
+    ],
+    "crossovers": []
 }

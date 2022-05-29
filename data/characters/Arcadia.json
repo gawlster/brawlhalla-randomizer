@@ -1,8 +1,65 @@
 {
-    "name": "",
-    "desc": "",
-    "lore": "",
-    "thumbnail": "",
-    "weapons": [{}, {}],
-    "crossovers": [{}]
+    "name": "Arcadia",
+    "desc": "The Faerie Queen",
+    "lore": "Born to a poor family of beetle shepherds, the shy faerie girl’s ambition was to one day maybe have a giant beetle of her own. Destiny called when Orma, the singing sword, chose her to become queen of Arcadia. Unconvinced by the magic swords granting supreme executive power, Dacia fled. She escaped into the great Fangwild forest that surrounded Arcadia, and for years traveled among the Fangwild’s denizens both fair and foul.\nBut when the elven sorcerer Dusk unleashed the dark chaos at the forest’s heart, she thought back to that singing sword. Arcadia rallied together faefolk of the Fangwild. Gnomes, trolls, sylphs, and actual leprechauns rallied to her banner. With rose and briar, she traveled to the spirit realm, separated the three heads of the tyrant demon Balor, and earned the unlikely allegiance of the liberated ghouls and banshee.\nIt is Arcadian tradition that the new queen of the Faefolk take the name of the entire realm as her own. Thus Dacia became the Glorious Arcadia the 92nd, and few would grow to deserve the honor more than the once humble beetle girl. Now queen, Arcadia’s battles took on mythological splendor. Clad in magnificent carapace armor, she rode into battle on Domo, her great war beetle, while wielding Orma. Her battle with the armies of Dusk raged three days before she punched the dark elf’s ticket to Valhalla.\nNow Arcadia’s people hold fast to a tenuous peace with the dangerous forest. Arcadia has come to Valhalla herself. Here she has taken up giant beetle care again, teaching Ulgrim and Scarlet the finer points. She fights in the ground tournament, secretly surprised at her own skill and thirst for combat.",
+    "thumbnail": "./assets/images/characters/ada/thumbnail.png",
+    "weapons": [
+        {
+            "name": "Greatsword",
+            "thumbnail": "/assets/images/weapons/greatsword.jpg",
+            "signatures": {
+                "nsig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/assets/gifs/sigs/arcadia-greatsword-nsig.gif"
+                },
+                "ssig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/assets/gifs/sigs/arcadia-greatsword-ssig.gif"
+                },
+                "dsig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/assets/gifs/sigs/arcadia-greatsword-dsig.gif"
+                }
+            }
+        },
+        {
+            "name": "Spear",
+            "thumbnail": "/assets/images/weapons/spear.jpg",
+            "signatures": {
+                "nsig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/assets/gifs/sigs/arcadia-spear-nsig.gif"
+                },
+                "ssig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/assets/gifs/sigs/arcadia-spear-ssig.gif"
+                },
+                "dsig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/assets/gifs/sigs/arcadia-spear-dsig.gif"
+                }
+            }
+        }
+    ],
+    "skins": [
+        {
+            "name": "Briar Rose",
+            "thumbnail": "/assets/images/characters/Arcadia/BriarRoseArcadia.png"
+        },
+        {
+            "name": "Carapace Armored",
+            "thumbnail": "/assets/images/characters/Arcadia/CarapaceArmoredAcadia.png"
+        },
+        {
+            "name": "Rogue Queen",
+            "thumbnail": "/assets/images/characters/Arcadia/RogueQueenArcadia.png"
+        }
+    ],
+    "crossovers": []
 }
