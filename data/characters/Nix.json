@@ -1,8 +1,91 @@
 {
-    "name": "",
-    "desc": "",
-    "lore": "",
-    "thumbnail": "",
-    "weapons": [{}, {}],
-    "crossovers": [{}]
+    "link-info": "All paths to thumbnails, gifs, etc are relative to the root of the assets folder",
+    "name": "Nix",
+    "desc": "Freelance Reaper",
+    "lore": "Many cling to unfinished business on the mortal plane, and all need a guide to their next destination. Nix combines unmatched skill at collecting the very powerful and very unwilling with a uniquely independent worldview. She snatched the Unmovable Titan of Heraklion down to Hades, and on the return trip dropped the ancient Sphinx of Alexandria off at Anubis’ front door. She dragged The Hundred-legged Banshee of Donegal kicking and screaming to the Realm of Arawn. The Undead Lord of Elyria was her first repeat customer, and a nice source of steady work.\nDisaster struck when she took a job collecting an entire pantheon whose time had come. When the dust settled, eleven of the targets were missing. Nix is not the type to miss a mark, and professional pride put her on a thousand-year hunt that has led her finally to Valhalla.\nOdin’s warrior heaven is home to all sorts of metaphysical rulebreakers and rogue souls. Nix sees an opportunity to turn a nice profit closing a few cosmological cold-cases like the half-bear viking, that smug mobster, and maybe even the golden knight. In the meantime, she fights in the Grand Tournament, knowing her quetzalcoatl quarry must be here somewhere.",
+    "thumbnail": "/images/characters/Nix/thumbnail.png",
+    "weapons": [
+        {
+            "name": "Blasters",
+            "thumbnail": "/images/weapons/blasters.jpg",
+            "signatures": {
+                "nsig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/nix-blasters-nsig.gif"
+                },
+                "ssig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/nix-blasters-ssig.gif"
+                },
+                "dsig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/nix-blasters-dsig.gif"
+                }
+            }
+        },
+        {
+            "name": "Scythe",
+            "thumbnail": "/images/weapons/scythe.jpg",
+            "signatures": {
+                "nsig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/nix-scythe-nsig.gif"
+                },
+                "ssig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/nix-scythe-ssig.gif"
+                },
+                "dsig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/nix-scythe-dsig.gif"
+                }
+            }
+        }
+    ],
+    "skins": [
+        {
+            "name": "Eliminator",
+            "thumbnail": "/images/characters/Nix/EliminatorNix.png"
+        },
+        {
+            "name": "Grim Reaper",
+            "thumbnail": "/images/characters/Nix/GrimReaperNix.png"
+        },
+        {
+            "name": "Lockdown",
+            "thumbnail": "/images/characters/Nix/LockdownNix.png"
+        },
+        {
+            "name": "Nix Couture",
+            "thumbnail": "/images/characters/Nix/NixCoutureNix.png"
+        },
+        {
+            "name": "Retro Reaper",
+            "thumbnail": "/images/characters/Nix/RetroReaperNix.png"
+        },
+        {
+            "name": "Scarecrow",
+            "thumbnail": "/images/characters/Nix/ScarecrowNix.png"
+        },
+        {
+            "name": "White Out",
+            "thumbnail": "/images/characters/Nix/WhiteOutNix.png"
+        },
+        {
+            "name": "Wipeout",
+            "thumbnail": "/images/characters/Nix/WipeoutNix.png"
+        }
+    ],
+    "crossovers": [
+        {
+            "name": "Spectre Knight",
+            "thumbnail": "/images/characters/Nix/Z-crossOver-SpectreKnightNix.png"
+        }
+    ]
 }

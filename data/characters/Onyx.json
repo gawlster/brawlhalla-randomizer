@@ -1,8 +1,74 @@
 {
-    "name": "",
-    "desc": "",
-    "lore": "",
-    "thumbnail": "",
-    "weapons": [{}, {}],
-    "crossovers": [{}]
+    "link-info": "All paths to thumbnails, gifs, etc are relative to the root of the assets folder",
+    "name": "Onyx",
+    "desc": "The Gargoyle",
+    "lore": "Onyx’s escape from the Infernal Realm was grueling and perilous. When she finally emerged from the pit, she found herself in a mysterious castle without a plan, and the demons tasked with recapturing the fleeing spirit were in hot pursuit.\nWith the help of a haunted suit of armor, she soon discovered the secret to her salvation. Binding herself to the stone of the castle, she pledged service to the great fortress. And cosmic laws being what they are, she could not be taken from her post – even by the forces of darkness themselves.\nFor hundreds of years, Onyx was the Guardian and Protector of Castle Batavia. The War of the North, The Siege of a Hundred Thousand Turks, The Battle of Dragonriders – again and again her steadfast fury protected Castle Batavia from the mightiest of assailants. No castle guarded by Onyx could ever fall while she stood.\nAnd yet the castle did fall. For hundreds of years she’d defended the castle and its inhabitants without question, but in the midst of the legendary Siege of Lions, the commander of the assailants showed her the depravity of the mad king she defended. Knowing that it meant her own return to the Abyss, she allowed the castle to fall. One of the many Valkyries swirling above the vast battlefield, seeing her sacrifice, swooped in just ahead of the demons and offered her a place in Valhalla.\nValhalla is now Onyx’s castle and she defends it with ruthless intensity. She occasionally fights in the tournaments to hone her skills and she hopes Valhalla is her eternal escape from The Pit. She also hopes she can get the book club reading done – her stony fingers have trouble with the pages.",
+    "thumbnail": "/images/characters/Onyx/thumbnail.png",
+    "weapons": [
+        {
+            "name": "Cannon",
+            "thumbnail": "/images/weapons/cannon.jpg",
+            "signatures": {
+                "nsig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/onyx-cannon-nsig.gif"
+                },
+                "ssig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/onyx-cannon-ssig.gif"
+                },
+                "dsig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/onyx-cannon-dsig.gif"
+                }
+            }
+        },
+        {
+            "name": "Gauntlets",
+            "thumbnail": "/images/weapons/gauntlets.jpg",
+            "signatures": {
+                "nsig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/onyx-gauntlets-nsig.gif"
+                },
+                "ssig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/onyx-gauntlets-ssig.gif"
+                },
+                "dsig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/onyx-gauntlets-dsig.gif"
+                }
+            }
+        }
+    ],
+    "skins": [
+        {
+            "name": "Festive Yeti",
+            "thumbnail": "/images/characters/Onyx/FestiveYetiOnyx.png"
+        },
+        {
+            "name": "Guardian",
+            "thumbnail": "/images/characters/Onyx/GuardianOnyx.png"
+        },
+        {
+            "name": "Leonidas",
+            "thumbnail": "/images/characters/Onyx/LeonidasOnyx.png"
+        },
+        {
+            "name": "Project-0NYX",
+            "thumbnail": "/images/characters/Onyx/Project-0NYX.png"
+        },
+        {
+            "name": "Soulbound",
+            "thumbnail": "/images/characters/Onyx/SoulboundOnyx.png"
+        }
+    ],
+    "crossovers": []
 }

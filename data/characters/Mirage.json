@@ -1,8 +1,99 @@
 {
-    "name": "",
-    "desc": "",
-    "lore": "",
-    "thumbnail": "",
-    "weapons": [{}, {}],
-    "crossovers": [{}]
+    "link-info": "All paths to thumbnails, gifs, etc are relative to the root of the assets folder",
+    "name": "Mirage",
+    "desc": "The Dune Weaver",
+    "lore": "In 1923, occultist, martial artist and spy Fatima Sabiq, codenamed agent Mirage, pursued the nefarious Professor Price back in time through a gate in the pyramid of Pharaoh Amenemhet the Great.\nShe assumed, as a magic-wielding time-traveler, she would be the strangest thing in Ancient Egypt. She was not even close. The Nile River Valley of 2000 BC was a nexus of magic, aliens, technology, and living myth beyond the wildest speculations of her time.\nShe discovered Darkah, the city of assassins under the desert dunes, and was inducted into their mystic society. She learned from a forty-foot Sphinx the martial discipline he called sand-weaving. She hitched a ride on a passing Zhaktari star cruiser, and stole the Scythe of Horus from a one-eyed alien. She slew the mad Pharaoh Eh’zath who called plagues of snakes from the sky. She learned the language of the Merfolk to better parley with the Atlantean ambassador. On ‘Bax’ her flying camel, she led the Panther People to victory over the slave caravans of the ram-headed god Khnum.\nIn Valhalla, she is at home amongst the strange collection of characters who battle in the highest ranks of the Great Tournament. She has been surprised to find old friends, enemies, and even a target in the halls of glory.",
+    "thumbnail": "/images/characters/Mirage/thumbnail.png",
+    "weapons": [
+        {
+            "name": "Scythe",
+            "thumbnail": "/images/weapons/scythe.jpg",
+            "signatures": {
+                "nsig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/mirage-scythe-nsig.gif"
+                },
+                "ssig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/mirage-scythe-ssig.gif"
+                },
+                "dsig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/mirage-scythe-dsig.gif"
+                }
+            }
+        },
+        {
+            "name": "Spear",
+            "thumbnail": "/images/weapons/spear.jpg",
+            "signatures": {
+                "nsig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/mirage-spear-nsig.gif"
+                },
+                "ssig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/mirage-spear-ssig.gif"
+                },
+                "dsig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/mirage-spear-dsig.gif"
+                }
+            }
+        }
+    ],
+    "skins": [
+        {
+            "name": "Anubis",
+            "thumbnail": "/images/characters/Mirage/AnubisMirage.png"
+        },
+        {
+            "name": "Apocalypse",
+            "thumbnail": "/images/characters/Mirage/ApocalypseMirage.png"
+        },
+        {
+            "name": "Corpse Bride",
+            "thumbnail": "/images/characters/Mirage/CorpseBrideMirage.png"
+        },
+        {
+            "name": "Corsair",
+            "thumbnail": "/images/characters/Mirage/CorsairMirage.png"
+        },
+        {
+            "name": "Freestyle",
+            "thumbnail": "/images/characters/Mirage/FreestyleMirage.png"
+        },
+        {
+            "name": "Hand of Horus",
+            "thumbnail": "/images/characters/Mirage/HandofHorusMirage.png"
+        },
+        {
+            "name": "Heart of Hathor",
+            "thumbnail": "/images/characters/Mirage/HeartofHathorMirage.png"
+        },
+        {
+            "name": "Mirage Incarnate",
+            "thumbnail": "/images/characters/Mirage/MirageIncarnate.png"
+        },
+        {
+            "name": "Mirage the Cleaner",
+            "thumbnail": "/images/characters/Mirage/MiragetheCleaner.png"
+        },
+        {
+            "name": "Undying",
+            "thumbnail": "/images/characters/Mirage/UndyingMirage.png"
+        }
+    ],
+    "crossovers": [
+        {
+            "name": "Donatello",
+            "thumbnail": "/images/characters/Mirage/Z-crossOver-DonatelloMirage.png"
+        }
+    ]
 }

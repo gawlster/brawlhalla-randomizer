@@ -1,0 +1,75 @@
+{
+    "link-info": "All paths to thumbnails, gifs, etc are relative to the root of the assets folder",
+    "name": "Rayman",
+    "desc": "Champion of the Glade of Dreams",
+    "lore": "The Glade of Dreams is once again under threat from the nefarious Mr. Dark, and once again, Polokus, the Bubble Dreamer, has called upon Rayman to save the day. From Polokus, Rayman learned that the only way to defeat Mr. Dark was to find the lost Horn of Lums.\nSetting forth on his quest, Rayman ventured deep, deep into the forest. One day, after long travel and many adventures, Rayman emerged into a wide clearing. High on a hill he saw the huge golden hall and heard the roar of a vast crowd. Entering, Rayman was met by the sight of the Grand Tournament of Valhalla in full swing. Among the throng of cheering spectators, Rayman saw the god Odin wearing a “Sentinel #1” baseball cap and a Sir Roland jersey (it was 2v2s-day). Next to Odin sat the Tournament’s glorious pile of prizes. Sitting on top of the pile was the Horn of Lums.\nWithout hesitation, Rayman entered the tournament. That he would be battling the greatest warriors of every time and place bothered him not at all, and he quickly showed himself to be one of the best. But even for Rayman, victory will not come easy.\nRayman is fighting hard to win the Horn and complete his quest, but he also loves the wild ruckus of Valhalla, and feels right at home among the bizarre cast of legendary warriors. He is especially good friends with Kaya and has a truly amazing handshake with Kor that only they can do.",
+    "thumbnail": "/images/characters/Rayman/thumbnail.png",
+    "weapons": [
+        {
+            "name": "Axe",
+            "thumbnail": "/images/weapons/axe.jpg",
+            "signatures": {
+                "nsig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/rayman-axe-nsig.gif"
+                },
+                "ssig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/rayman-axe-ssig.gif"
+                },
+                "dsig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/rayman-axe-dsig.gif"
+                }
+            }
+        },
+        {
+            "name": "Gauntlets",
+            "thumbnail": "/images/weapons/gauntlets.jpg",
+            "signatures": {
+                "nsig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/rayman-gauntlets-nsig.gif"
+                },
+                "ssig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/rayman-gauntlets-ssig.gif"
+                },
+                "dsig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/rayman-gauntlets-dsig.gif"
+                }
+            }
+        }
+    ],
+    "skins": [
+        {
+            "name": "Raydvar",
+            "thumbnail": "/images/characters/Rayman/Raydvar.png"
+        },
+        {
+            "name": "Raymesis",
+            "thumbnail": "/images/characters/Rayman/Raymesis.png"
+        },
+        {
+            "name": "Ray of the Dead",
+            "thumbnail": "/images/characters/Rayman/RayoftheDead.png"
+        },
+        {
+            "name": "Sir Rayelot",
+            "thumbnail": "/images/characters/Rayman/SirRayelot.png"
+        }
+    ],
+    "crossovers": [
+        {
+            "name": "Dhalsim",
+            "thumbnail": "/images/characters/Rayman/Z-crossOver-DhalsimRayman.png"
+        }
+    ]
+}

@@ -1,8 +1,103 @@
 {
-    "name": "",
-    "desc": "",
-    "lore": "",
-    "thumbnail": "",
-    "weapons": [{}, {}],
-    "crossovers": [{}]
+    "link-info": "All paths to thumbnails, gifs, etc are relative to the root of the assets folder",
+    "name": "Ragnir",
+    "desc": "The Dragon",
+    "lore": "Ragnir Malakkar Rex is an apex predator, a dragon ninety feet long in his natural form. He hunted the Fangwild Forest and its neighboring lands, and everything he met was prey or plunder.\nThe first years after Ember’s disappearance from the Fangwild were good for the dragons. Without its heart, the eldritch forest descended into chaos, opening paths to new lands to ravage. Ragnir’s favorite entrance to a new land was to emerge from an erupting volcano silhouetted against gouts of lava.\nIn fire and battle, Ragnir’s hoard grew. He collected mountain hearts from unlucky dwarf kings. He wrested so much gold from the Madman of Barbados that he is the pirate’s Moby Dick. His Fangwild lair grew so vast it was mistaken for a city of gold.But now under mysterious assault, the forest is knotting itself into pure madness, and disaster looms. Ragnir knows the Fangwild’s only hope is to restore its Heart, and he journeyed to Asgard to bring Ember back.\nTo that end he takes humanoid form and fights in the Tournament, reveling in the battle. At night he reverts to dragon form, soaring over Asgard to find the path back to the Fangwild or just eat Odin’s sheep.",
+    "thumbnail": "/images/characters/Ragnir/thumbnail.png",
+    "weapons": [
+        {
+            "name": "Axe",
+            "thumbnail": "/images/weapons/axe.jpg",
+            "signatures": {
+                "nsig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/ragnir-axe-nsig.gif"
+                },
+                "ssig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/ragnir-axe-ssig.gif"
+                },
+                "dsig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/ragnir-axe-dsig.gif"
+                }
+            }
+        },
+        {
+            "name": "Katars",
+            "thumbnail": "/images/weapons/katars.jpg",
+            "signatures": {
+                "nsig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/ragnir-katars-nsig.gif"
+                },
+                "ssig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/ragnir-katars-ssig.gif"
+                },
+                "dsig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/ragnir-katars-dsig.gif"
+                }
+            }
+        }
+    ],
+    "skins": [
+        {
+            "name": "Asphen",
+            "thumbnail": "/images/characters/Ragnir/AsphenRagnir.png"
+        },
+        {
+            "name": "Celestial",
+            "thumbnail": "/images/characters/Ragnir/CelestialRagnir.png"
+        },
+        {
+            "name": "Dark Depths",
+            "thumbnail": "/images/characters/Ragnir/DarkDepthsRagnir.png"
+        },
+        {
+            "name": "Frost Guardian",
+            "thumbnail": "/images/characters/Ragnir/FrostGuardianRagnir.png"
+        },
+        {
+            "name": "Inferno",
+            "thumbnail": "/images/characters/Ragnir/InfernoRagnir.png"
+        },
+        {
+            "name": "Mecha",
+            "thumbnail": "/images/characters/Ragnir/MechaRagnir.png"
+        },
+        {
+            "name": "Nightshade",
+            "thumbnail": "/images/characters/Ragnir/NightshadeRagnir.png"
+        },
+        {
+            "name": "Ragnisaurus Rex",
+            "thumbnail": "/images/characters/Ragnir/RagnisaurusRex.png"
+        },
+        {
+            "name": "Ragnir the Covetous",
+            "thumbnail": "/images/characters/Ragnir/RagnirtheCovetous.png"
+        },
+        {
+            "name": "Sobek",
+            "thumbnail": "/images/characters/Ragnir/SobekRagnir.png"
+        },
+        {
+            "name": "Werebat",
+            "thumbnail": "/images/characters/Ragnir/WerebatRagnir.png"
+        }
+    ],
+    "crossovers": [
+        {
+            "name": "Raphael",
+            "thumbnail": "/images/characters/Ragnir/Z-crossOver-RaphaelRagnir.png"
+        }
+    ]
 }

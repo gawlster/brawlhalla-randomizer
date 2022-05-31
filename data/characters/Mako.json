@@ -1,8 +1,74 @@
 {
-    "name": "",
-    "desc": "",
-    "lore": "",
-    "thumbnail": "",
-    "weapons": [{}, {}],
-    "crossovers": [{}]
+    "link-info": "All paths to thumbnails, gifs, etc are relative to the root of the assets folder",
+    "name": "Mako",
+    "desc": "The Shark",
+    "lore": "Atlantis wasn’t always at the bottom of the sea. That was Mako’s fault. In the Great War of Atlantis at the end of the age of legend, the gods battled for control of the fabled city. Zeus struck down Poseidon with a lightning bolt. In rage, Poseidon’s young daughter Mako led an attack on Atlantis so terrible that the sorcerers of the city chose to sink it beneath the waves to escape her wrath, robbing Zeus of his prize. Then for good measure she bit off his foot.\nPoseidon fell to earth, his memory gone, doomed to wander the seas as a madman. But Mako became the queen of the now undersea city – much to the relief of the Atlanteans. Her terrifying presence won many battles on fear alone. The Phoenician navy fled when it saw her teeth. She scared the sea monster Cetus so badly it fled to Scotland and is still hiding. She was less interested in governing than fighting, and invented democracy because she was tired of subjects asking her questions.\nIn Valhalla, Mako is a ferocious competitor and a great 2v2 partner, though be careful is she calls you ‘chum’ – it’s not a term of endearment.",
+    "thumbnail": "/images/characters/Mako/thumbnail.png",
+    "weapons": [
+        {
+            "name": "Greatsword",
+            "thumbnail": "/images/weapons/greatsword.jpg",
+            "signatures": {
+                "nsig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/mako-greatsword-nsig.gif"
+                },
+                "ssig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/mako-greatsword-ssig.gif"
+                },
+                "dsig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/mako-greatsword-dsig.gif"
+                }
+            }
+        },
+        {
+            "name": "Katars",
+            "thumbnail": "/images/weapons/katars.jpg",
+            "signatures": {
+                "nsig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/mako-katars-nsig.gif"
+                },
+                "ssig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/mako-katars-ssig.gif"
+                },
+                "dsig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/mako-katars-dsig.gif"
+                }
+            }
+        }
+    ],
+    "skins": [
+        {
+            "name": "0RC4-M4k0",
+            "thumbnail": "/images/characters/Mako/0RC4-M4k0.png"
+        },
+        {
+            "name": "Abyssal Goblin",
+            "thumbnail": "/images/characters/Mako/AbyssalGoblinMako.png"
+        },
+        {
+            "name": "Hammerhead",
+            "thumbnail": "/images/characters/Mako/HammerheadMako.png"
+        },
+        {
+            "name": "Jörmungandr",
+            "thumbnail": "/images/characters/Mako/JormungandrMako.png"
+        },
+        {
+            "name": "Swim Team",
+            "thumbnail": "/images/characters/Mako/SwimTeamMako.png"
+        }
+    ],
+    "crossovers": []
 }
