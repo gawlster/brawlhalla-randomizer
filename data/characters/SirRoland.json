@@ -1,8 +1,95 @@
 {
-    "name": "",
-    "desc": "",
-    "lore": "",
-    "thumbnail": "",
-    "weapons": [{}, {}],
-    "crossovers": [{}]
+    "link-info": "All paths to thumbnails, gifs, etc are relative to the root of the assets folder",
+    "name": "Sir Roland",
+    "desc": "The Scarlet Lion",
+    "lore": "As a young knight, bold Sir Roland vanquished the fabled Jade Knight, and for a brief moment his eyes pierced the veil between worlds. He beheld the Valkyrie Hypernia as she lifted up his defeated foe. Overcome by her beauty, Roland dedicated his life to gaining glory in hopes of seeing the Valkyrie again.\nFor the next fifty years, the proud, bullheaded and charming Roland won more victories, made more enemies and broke more hearts than any knight of his time. His single-handed storming of the Fortress of Alsburg inspired forty-seven epic ballads and a Lifetime miniseries. Bards wrote songs about the song he wrote commemorating his victory over the Bilious Fire Drake.\nAs an old man on his deathbed, Roland finally beheld Hypernia again. She could not allow a natural death to keep such a warrior from Valhalla, so, with a ghost of a smile, she punched him herself so he could die in battle and she could offer him a seat in the hall of glory.\nNo one in Valhalla feels a greater thirst for victory in the tournament than Sir Roland. He rejoices with every win and rages at every loss.",
+    "thumbnail": "/images/characters/SirRoland/thumbnail.png",
+    "weapons": [
+        {
+            "name": "Rocket Lance",
+            "thumbnail": "/images/weapons/rocketLance.jpg",
+            "signatures": {
+                "nsig": {
+                    "active-input": false,
+                    "desc": "Roland jumps up and jousts forward. A golden horse spirit surrounds him.",
+                    "gif": "/gifs/sigs/sirRoland-lance-nsig.gif"
+                },
+                "ssig": {
+                    "active-input": false,
+                    "desc": "Roland jousts forward twice. The first strike launches the enemy into the second one, a diagonal poke.",
+                    "gif": "/gifs/sigs/sirRoland-lance-ssig.gif"
+                },
+                "dsig": {
+                    "active-input": false,
+                    "desc": "Roland takes form of a yellow knight and jousts in front of him.",
+                    "gif": "/gifs/sigs/sirRoland-lance-dsig.gif"
+                }
+            }
+        },
+        {
+            "name": "Sword",
+            "thumbnail": "/images/weapons/sword.jpg",
+            "signatures": {
+                "nsig": {
+                    "active-input": false,
+                    "desc": "Sir Roland covers his blade with golden energy and strikes upward.",
+                    "gif": "/gifs/sigs/sirRoland-sword-nsig.gif"
+                },
+                "ssig": {
+                    "active-input": false,
+                    "desc": "Roland strikes in front of him twice.",
+                    "gif": "/gifs/sigs/sirRoland-sword-ssig.gif"
+                },
+                "dsig": {
+                    "active-input": false,
+                    "desc": "Roland strikes the ground and launches four pillars of yellow flame in front of him on the ground.",
+                    "gif": "/gifs/sigs/sirRoland-sword-dsig.gif"
+                }
+            }
+        }
+    ],
+    "skins": [
+        {
+            "name": "Classy",
+            "thumbnail": "/images/characters/Roland/ClassyRoland.png"
+        },
+        {
+            "name": "Fiendish Kight",
+            "thumbnail": "/images/characters/SirRoland/FiendishKightRoland.png"
+        },
+        {
+            "name": "King",
+            "thumbnail": "/images/characters/SirRoland/KingRoland.png"
+        },
+        {
+            "name": "Lionheart",
+            "thumbnail": "/images/characters/SirRoland/LionheartRoland.png"
+        },
+        {
+            "name": "Lion Rampant",
+            "thumbnail": "/images/characters/SirRoland/LionRampantRoland.png"
+        },
+        {
+            "name": "Match Point",
+            "thumbnail": "/images/characters/SirRoland/MatchPointRoland.png"
+        },
+        {
+            "name": "Roland the Hooded",
+            "thumbnail": "/images/characters/SirRoland/RolandtheHooded.png"
+        },
+        {
+            "name": "Roland the Victorious",
+            "thumbnail": "/images/characters/SirRoland/RolandtheVictorious.png"
+        },
+        {
+            "name": "The Mad King",
+            "thumbnail": "/images/characters/SirRoland/TheMadKingRoland.png"
+        }
+    ],
+    "crossovers": [
+        {
+            "name": "King Knight",
+            "thumbnail": "/images/characters/SirRoland/Z-crossOver-KingKnightRoland.png"
+        }
+    ]
 }

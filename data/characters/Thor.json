@@ -1,8 +1,83 @@
 {
-    "name": "",
-    "desc": "",
-    "lore": "",
-    "thumbnail": "",
-    "weapons": [{}, {}],
-    "crossovers": [{}]
+    "link-info": "All paths to thumbnails, gifs, etc are relative to the root of the assets folder",
+    "name": "Thor",
+    "desc": "The God of Thunder",
+    "lore": "Thor has crushed the skulls of giants. Thunder is the roar of his chariot wheels across the sky. He is destined to slay the vast serpent that encircles the world. But if you ask him about his favorite fights, he will most likely give you a match-by-match account of his 2v2 Championship season with Jhala.\nThe God of Lightning and (as he is quick to remind you) Fertility is also the Grand Tournament’s biggest fan. It was Thor who wore the first giant foam Bödvar crown, Thor who coined the term “Brawlhalla”, and Thor who created “bleacher-jumping” – the Asgardian tradition of reckless spectators joining free-for-alls mid-match. In fact Thor jumped into the fight from the stands so often, he has been accepted as a Legend. Ulgrim even made him a special long handle for his hammer Mjölnir.\nThor remains a huge fan of all the top legends, especially Bödvar. After enough ale, Thor and Kor will reenact their epic battles in the Elven Wars.",
+    "thumbnail": "/images/characters/Thor/thumbnail.png",
+    "weapons": [
+        {
+            "name": "Grapple Hammer",
+            "thumbnail": "/images/weapons/grappleHammer.jpg",
+            "signatures": {
+                "nsig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/thor-hammer-nsig.gif"
+                },
+                "ssig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/thor-hammer-ssig.gif"
+                },
+                "dsig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/thor-hammer-dsig.gif"
+                }
+            }
+        },
+        {
+            "name": "Orb",
+            "thumbnail": "/images/weapons/orb.jpg",
+            "signatures": {
+                "nsig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/thor-orb-nsig.gif"
+                },
+                "ssig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/thor-orb-ssig.gif"
+                },
+                "dsig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/thor-orb-dsig.gif"
+                }
+            }
+        }
+    ],
+    "skins": [
+        {
+            "name": "Capra",
+            "thumbnail": "/images/characters/Thor/CapraThor.png"
+        },
+        {
+            "name": "Cinderguard",
+            "thumbnail": "/images/characters/Thor/CinderguardThor.png"
+        },
+        {
+            "name": "Draugr",
+            "thumbnail": "/images/characters/Thor/DraugrThor.png"
+        },
+        {
+            "name": "Royal Warrior",
+            "thumbnail": "/images/characters/Thor/RoyalWarriorThor.png"
+        },
+        {
+            "name": "Thor by the Shore",
+            "thumbnail": "/images/characters/Thor/ThorbytheShore.png"
+        }
+    ],
+    "crossovers": [
+        {
+            "name": "M. Bison",
+            "thumbnail": "/images/characters/Thor/Z-crossOver-MBisonThor.png"
+        },
+        {
+            "name": "The Undertaker",
+            "thumbnail": "/images/characters/Thor/Z-crossOver-TheUndertakerThor.png"
+        }
+    ]
 }

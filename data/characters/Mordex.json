@@ -20,7 +20,7 @@
                     "gif": "/gifs/sigs/mordex-gauntlets-ssig.gif"
                 },
                 "dsig": {
-                    "active-input": false,
+                    "active-input": true,
                     "desc": "nd",
                     "gif": "/gifs/sigs/mordex-gauntlets-dsig.gif"
                 }
@@ -41,7 +41,7 @@
                     "gif": "/gifs/sigs/mordex-scythe-ssig.gif"
                 },
                 "dsig": {
-                    "active-input": false,
+                    "active-input": true,
                     "desc": "nd",
                     "gif": "/gifs/sigs/mordex-scythe-dsig.gif"
                 }

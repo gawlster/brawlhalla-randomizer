@@ -1,8 +1,91 @@
 {
-    "name": "",
-    "desc": "",
-    "lore": "",
-    "thumbnail": "",
-    "weapons": [{}, {}],
-    "crossovers": [{}]
+    "link-info": "All paths to thumbnails, gifs, etc are relative to the root of the assets folder",
+    "name": "Sentinel",
+    "desc": "The Hammer of Justice",
+    "lore": "Few would ever know that Henry Coates, renowned physicist, all-star running back, and beloved host of the talk show “Night Owls” was also Sentinel, the first and greatest costumed superhero in America.\nCoates got PhDs in Chemical Engineering, Physics, Economics, and Literature before he got tired of filling out the paperwork. But when his father was shot by a cop in the pay of local crime boss Seven Fingers Dupree, Coates swore to devote his mighty intellect to fighting crime, and Sentinel was born.\nArmed with weapons of his own invention, Sentinel fought his way to the center of a web of corruption led by a secret society known as KABAL. His war with KABAL lasted years and ended only when he destroyed their base in a Kamchatkan volcano and unmasked their leader, boyband megastar Josh Von Evilstein.\nLater, as America’s most beloved president since Washington, Coates would still slip out at night to fight crime on the streets.\nNow restored in Valhalla to the simple strength of his younger days, Sentinel revels in the Tournament. But recently he has seen that there are those in Asgard who need protecting, and has turned his attention to injustice here.",
+    "thumbnail": "/images/characters/Sentinel/thumbnail.png",
+    "weapons": [
+        {
+            "name": "Grapple Hammer",
+            "thumbnail": "/images/weapons/grappleHammer.jpg",
+            "signatures": {
+                "nsig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/sentinel-hammer-nsig.gif"
+                },
+                "ssig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/sentinel-hammer-ssig.gif"
+                },
+                "dsig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/sentinel-hammer-dsig.gif"
+                }
+            }
+        },
+        {
+            "name": "Katars",
+            "thumbnail": "/images/weapons/katars.jpg",
+            "signatures": {
+                "nsig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/sentinel-katars-nsig.gif"
+                },
+                "ssig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/sentinel-katars-ssig.gif"
+                },
+                "dsig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/sentinel-katars-dsig.gif"
+                }
+            }
+        }
+    ],
+    "skins": [
+        {
+            "name": "Cú Sídhe",
+            "thumbnail": "/images/characters/Sentinel/CuSidheSentinel.png"
+        },
+        {
+            "name": "First Edition",
+            "thumbnail": "/images/characters/Sentinel/FirstEditionSentinel.png"
+        },
+        {
+            "name": "Gumshoe",
+            "thumbnail": "/images/characters/Sentinel/GumshoeSentinel.png"
+        },
+        {
+            "name": "High Impact",
+            "thumbnail": "/images/characters/Sentinel/HighImpactSentinel.png"
+        },
+        {
+            "name": "Lord",
+            "thumbnail": "/images/characters/Sentinel/LordSentinel.png"
+        },
+        {
+            "name": "Nightwatch",
+            "thumbnail": "/images/characters/Sentinel/NightwatchSentinel.png"
+        },
+        {
+            "name": "President",
+            "thumbnail": "/images/characters/Sentinel/PresidentSentinel.png"
+        },
+        {
+            "name": "Stormsteel",
+            "thumbnail": "/images/characters/Sentinel/StormsteelSentinel.png"
+        }
+    ],
+    "crossovers": [
+        {
+            "name": "The Rock",
+            "thumbnail": "/images/characters/Sentinel/Z-crossOver-TheRockSentinel.png"
+        }
+    ]
 }

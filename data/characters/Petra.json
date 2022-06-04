@@ -15,7 +15,7 @@
                     "gif": "/gifs/sigs/petra-gauntlets-nsig.gif"
                 },
                 "ssig": {
-                    "active-input": false,
+                    "active-input": true,
                     "desc": "nd",
                     "gif": "/gifs/sigs/petra-gauntlets-ssig.gif"
                 },

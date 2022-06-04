@@ -1,8 +1,74 @@
 {
-    "name": "",
-    "desc": "",
-    "lore": "",
-    "thumbnail": "",
-    "weapons": [{}, {}],
-    "crossovers": [{}]
+    "link-info": "All paths to thumbnails, gifs, etc are relative to the root of the assets folder",
+    "name": "Volkov",
+    "desc": "The Vampire King",
+    "lore": "The Royal Castle of Batavia was constructed over a large hole in the ground that was a gateway to hell. In retrospect everyone agrees this was an unforced error.\nThe hole itself was no secret. At dusk, great clouds of infernal bats vomited forth from the gateway. At dawn, voices could be heard discussing infernal lunch plans. Haunted suits of armor walked the castle halls and zombies shuffled through the gardens.\nDashing Prince Volkov earned the love of his people as the fiery defender of Batavia. But as king, living over a hellmaw proved too much. Before long, the Batavian court was placing bets on whether their sovereign would wind up a lich, a werewolf, or some kind of hungry wraith. Volkov ignored their gossip, as he was too busy getting to know an enchanting fanged lady who visited his bedroom every night. That she appeared outside the window, fifty feet above the ground did not bother Volkov. Soon all bets were settled.\nVolkov was fiendishly practical about his new unlife as a vampire. He removed his heart to prevent staking. Batavia’s many foes did not know what had happened to make Volkov an even more ferocious warrior, but after Volkov put enough heads on pikes, they decided to go marauding elsewhere. Well, the Batavians thought, there’s always a silver lining.\nValhalla is not at all where Volkov expected to wind up, given his resume. Here, few speak his name, calling him Das Vampyr, Wapierz, Upyri, or Gramps (Caspian only).",
+    "thumbnail": "/images/characters/Volkov/thumbnail.png",
+    "weapons": [
+        {
+            "name": "Axe",
+            "thumbnail": "/images/weapons/axe.jpg",
+            "signatures": {
+                "nsig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/volkov-axe-nsig.gif"
+                },
+                "ssig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/volkov-axe-ssig.gif"
+                },
+                "dsig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/volkov-axe-dsig.gif"
+                }
+            }
+        },
+        {
+            "name": "Scythe",
+            "thumbnail": "/images/weapons/scythe.jpg",
+            "signatures": {
+                "nsig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/volkov-scythe-nsig.gif"
+                },
+                "ssig": {
+                    "active-input": true,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/volkov-scythe-ssig.gif"
+                },
+                "dsig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/volkov-scythe-dsig.gif"
+                }
+            }
+        }
+    ],
+    "skins": [
+        {
+            "name": "Blodd Moon",
+            "thumbnail": "/images/characters/Volkov/BloddMoonVolkov.png"
+        },
+        {
+            "name": "Blue Virus",
+            "thumbnail": "/images/characters/Volkov/BlueVirusVolkov.png"
+        },
+        {
+            "name": "Huntsman",
+            "thumbnail": "/images/characters/Volkov/HuntsmanVolkov.png"
+        },
+        {
+            "name": "Red Romance",
+            "thumbnail": "/images/characters/Volkov/RedRomanceVolkov.png"
+        },
+        {
+            "name": "Rocker",
+            "thumbnail": "/images/characters/Volkov/RockerVolkov.png"
+        }
+    ],
+    "crossovers": []
 }

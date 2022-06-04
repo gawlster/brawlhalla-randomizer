@@ -31,7 +31,7 @@
             "thumbnail": "/images/weapons/katars.jpg",
             "signatures": {
                 "nsig": {
-                    "active-input": false,
+                    "active-input": true,
                     "desc": "nd",
                     "gif": "/gifs/sigs/mako-katars-nsig.gif"
                 },

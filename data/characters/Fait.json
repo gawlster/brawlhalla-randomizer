@@ -15,12 +15,12 @@
                     "gif": "/gifs/sigs/fait-orb-nsig.gif"
                 },
                 "ssig": {
-                    "active-input": false,
+                    "active-input": true,
                     "desc": "nd",
                     "gif": "/gifs/sigs/fait-orb-ssig.gif"
                 },
                 "dsig": {
-                    "active-input": false,
+                    "active-input": true,
                     "desc": "nd",
                     "gif": "/gifs/sigs/fait-orb-dsig.gif"
                 }
