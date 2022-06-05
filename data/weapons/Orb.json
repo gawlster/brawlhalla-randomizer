@@ -1,15 +1,69 @@
 {
+    "link-info": "All paths to thumbnails, gifs, etc are relative to the root of the assets folder",
     "name": "Orb",
+    "thumbnail": "images/weapons/orb.JPG",
     "attacks": {
-        "nlight": {},
-        "slight": {},
-        "dlight": {},
-        "nair": {},
-        "sair": {},
-        "dair": {},
-        "recovery": {},
-        "gp": {}
+        "nlight": {
+            "active-input": false,
+            "desc": "The orb rapidly orbits around the user, striking anything immediately nearby.",
+            "gif": "gifs/light/orb/nlight"
+        },
+        "slight": {
+            "active-input": false,
+            "desc": "The orb is flicked forward, spinning at high speed, hitting anything a short distance in front of the attacker.",
+            "gif": "gifs/light/orb/slight"
+        },
+        "dlight": {
+            "active-input": false,
+            "desc": "An overhead kick-flip sends the orb in an arc overhead from back-to-front.",
+            "gif": "gifs/light/orb/dlight"
+        },
+        "nair": {
+            "active-input": false,
+            "desc": "An upwards gesture sends the orb spinning up, to a position over the attacker's head.",
+            "gif": "gifs/light/orb/nair"
+        },
+        "sair": {
+            "active-input": false,
+            "desc": "A fast orbiting swipe out at a horizontal in front. Striking with this results in a followup jabbing thrust with the orb that knocks opponents horizontally away.",
+            "gif": "gifs/light/orb/sair"
+        },
+        "dair": {
+            "active-input": false,
+            "desc": "Tucking downwards, the Legend sends the orb at a straight diagonal downwards towards the ground. The orb travels a fair distance during this and if it encounters a surface (wall or floor) it will bounce off of it at a right angle and continue travelling the rest of the distance. If used very close to the ground, the Legend will spring up off the ground on one hand in order to start the kick slightly higher up.",
+            "gif": "gifs/light/orb/dair"
+        },
+        "recovery": {
+            "active-input": false,
+            "desc": "Twirling the orb around their person, the orb user goes spinning up into the air in an upwards diagonal. Carries the Legend up and forward a fair distance. Hitting sends opponents at a normal angle away.",
+            "gif": "gifs/light/orb/recovery"
+        },
+        "gp": {
+            "active-input": false,
+            "desc": "A steady dive straight downwards. Upon releasing the attack or reaching the ground or an opponent, the Legend propels the orb straight down a short distance.",
+            "gif": "gifs/light/orb/gp"
+        }
     },
-    "skins": [{}],
-    "legends": []
+    "legends": [
+        {
+            "name": "Dusk",
+            "thumbnail": "images/characters/Dusk/thumbnail.png",
+            "info": "../characters/Dusk.json"
+        },
+        {
+            "name": "Fait",
+            "thumbnail": "images/characters/Fait/thumbnail.png",
+            "info": "../characters/Fait.json"
+        },
+        {
+            "name": "Thor",
+            "thumbnail": "images/characters/Thor/thumbnail.png",
+            "info": "../characters/Thor.json"
+        },
+        {
+            "name": "Petra",
+            "thumbnail": "images/characters/Petra/thumbnail.png",
+            "info": "../characters/Petra.json"
+        }
+    ]
 }

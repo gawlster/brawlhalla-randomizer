@@ -1,15 +1,99 @@
 {
+    "link-info": "All paths to thumbnails, gifs, etc are relative to the root of the assets folder",
     "name": "Spear",
+    "thumbnail": "images/weapons/spear.JPG",
     "attacks": {
-        "nlight": {},
-        "slight": {},
-        "dlight": {},
-        "nair": {},
-        "sair": {},
-        "dair": {},
-        "recovery": {},
-        "gp": {}
+        "nlight": {
+            "active-input": false,
+            "desc": "Three quick jabs with the extended spear in front. Hitting with one jab generally guarantees hitting with subsequent jabs. Carries the Legend a very short distance forward.",
+            "gif": "gifs/light/spear/nlight"
+        },
+        "slight": {
+            "active-input": false,
+            "desc": "Two aggressive, forward swipes with the spear at half-haft. Each swipe carries the Legend forward. Hitting with the first guarantees hitting with the second.",
+            "gif": "gifs/light/spear/slight"
+        },
+        "dlight": {
+            "active-input": false,
+            "desc": "A sweeping upwards kick at head height propelled by pogoing on the spear-point. Hitting lifts targets upwards and is followed by a second kick and a swipe with the spear.",
+            "gif": "gifs/light/spear/dlight"
+        },
+        "nair": {
+            "active-input": false,
+            "desc": "A 360 spin with the shaft of the spear that hits everything near and around the Legend. Hits with several small strikes.",
+            "gif": "gifs/light/spear/nair"
+        },
+        "sair": {
+            "active-input": false,
+            "desc": "A single quarter-swipe forward with the extended spear, from above the head to in front.",
+            "gif": "gifs/light/spear/sair"
+        },
+        "dair": {
+            "active-input": false,
+            "desc": "A single two-handed stab downwards at extended range. Hitting with this “pogos” the Legend a short distance upwards. Little force.",
+            "gif": "gifs/light/spear/dair"
+        },
+        "recovery": {
+            "active-input": false,
+            "desc": "An upwards helicopter twirl over the Legend's head that carries the Legend up a moderate distance. Has short vertical range but wide horizontal range.",
+            "gif": "gifs/light/spear/recovery"
+        },
+        "gp": {
+            "active-input": false,
+            "desc": "A downwards helicopter twirl that carries the Legend straight down. Lasts until the move is halted or it reaches the ground. Steady, with short vertical range but very wide horizontal range.",
+            "gif": "gifs/light/spear/gp"
+        }
     },
-    "skins": [{}],
-    "legends": []
+    "legends": [
+        {
+            "name": "Orion",
+            "thumbnail": "images/characters/Orion/thumbnail.png",
+            "info": "../characters/Orion.json"
+        },
+        {
+            "name": "Gnash",
+            "thumbnail": "images/characters/Gnash/thumbnail.png",
+            "info": "../characters/Gnash.json"
+        },
+        {
+            "name": "Queen Nai",
+            "thumbnail": "images/characters/QueenNai/thumbnail.png",
+            "info": "../characters/QueenNai.json"
+        },
+        {
+            "name": "Hattori",
+            "thumbnail": "images/characters/Hattori/thumbnail.png",
+            "info": "../characters/Hattori.json"
+        },
+        {
+            "name": "Ada",
+            "thumbnail": "images/characters/Ada/thumbnail.png",
+            "info": "../characters/Ada.json"
+        },
+        {
+            "name": "Brynn",
+            "thumbnail": "images/characters/Brynn/thumbnail.png",
+            "info": "../characters/Brynn.json"
+        },
+        {
+            "name": "Wu Shang",
+            "thumbnail": "images/characters/WuShang/thumbnail.png",
+            "info": "../characters/WuShang.json"
+        },
+        {
+            "name": "Mirage",
+            "thumbnail": "images/characters/Mirage/thumbnail.png",
+            "info": "../characters/Mirage.json"
+        },
+        {
+            "name": "Kaya",
+            "thumbnail": "images/characters/Kaya/thumbnail.png",
+            "info": "../characters/Kaya.json"
+        },
+        {
+            "name": "Dusk",
+            "thumbnail": "images/characters/Dusk/thumbnail.png",
+            "info": "../characters/Dusk.json"
+        }
+    ]
 }

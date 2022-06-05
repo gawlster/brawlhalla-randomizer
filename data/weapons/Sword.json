@@ -1,15 +1,104 @@
 {
+    "link-info": "All paths to thumbnails, gifs, etc are relative to the root of the assets folder",
     "name": "Sword",
+    "thumbnail": "images/weapons/sword.JPG",
     "attacks": {
-        "nlight": {},
-        "slight": {},
-        "dlight": {},
-        "nair": {},
-        "sair": {},
-        "dair": {},
-        "recovery": {},
-        "gp": {}
+        "nlight": {
+            "active-input": false,
+            "desc": "A series of two sweeping slashes in place. Hitting with any one results in a third slash, also in place.",
+            "gif": "gifs/light/sword/nlight"
+        },
+        "slight": {
+            "active-input": false,
+            "desc": "A lunging pair of continual, forward circular slashes that carries the Legend forward a rather long distance. Has little force, but a wide, continual arc.",
+            "gif": "gifs/light/sword/slight"
+        },
+        "dlight": {
+            "active-input": false,
+            "desc": "A single, low cut in front at ankle/shin height. Hitting carries the target into the air and is immediately followed by another, inescapable upwards cut.",
+            "gif": "gifs/light/sword/dlight"
+        },
+        "nair": {
+            "active-input": false,
+            "desc": "A singular, arcing upwards slash. Has a slight delay, and carries targets upwards.",
+            "gif": "gifs/light/sword/nair"
+        },
+        "sair": {
+            "active-input": false,
+            "desc": "Two fast sideways slashes in front. Carries moderate force. Hitting with the first slash will typically result in hitting with the second as well.",
+            "gif": "gifs/light/sword/sair"
+        },
+        "dair": {
+            "active-input": false,
+            "desc": "A single wide, sweeping slash underneath.",
+            "gif": "gifs/light/sword/dair"
+        },
+        "recovery": {
+            "active-input": false,
+            "desc": "A upwards, twirling leap that carries the Legend upwards. Hits all around the Legend, but has a very short range. Only has force at the very end of the move.",
+            "gif": "gifs/light/sword/recovery"
+        },
+        "gp": {
+            "active-input": false,
+            "desc": "A fast, downwards diving strike with the sword, point-first. Continues until it hits ground or a target.",
+            "gif": "gifs/light/sword/gp"
+        }
     },
-    "skins": [{}],
-    "legends": []
+    "legends": [
+        {
+            "name": "Asuri",
+            "thumbnail": "images/characters/Asuri/thumbnail.png",
+            "info": "../characters/Asuri.json"
+        },
+        {
+            "name": "Bodvar",
+            "thumbnail": "images/characters/Bodvar/thumbnail.png",
+            "info": "../characters/Bodvar.json"
+        },
+        {
+            "name": "Hattori",
+            "thumbnail": "images/characters/Hattori/thumbnail.png",
+            "info": "../characters/Hattori.json"
+        },
+        {
+            "name": "Jaeyun",
+            "thumbnail": "images/characters/Jaeyun/thumbnail.png",
+            "info": "../characters/Jaeyun.json"
+        },
+        {
+            "name": "Jhala",
+            "thumbnail": "images/characters/Jhala/thumbnail.png",
+            "info": "../characters/Jhala.json"
+        },
+        {
+            "name": "Jiro",
+            "thumbnail": "images/characters/Jiro/thumbnail.png",
+            "info": "../characters/Jiro.json"
+        },
+        {
+            "name": "Koji",
+            "thumbnail": "images/characters/Koji/thumbnail.png",
+            "info": "../characters/Koji.json"
+        },
+        {
+            "name": "Sidra",
+            "thumbnail": "images/characters/Sidra/thumbnail.png",
+            "info": "../characters/Sidra.json"
+        },
+        {
+            "name": "Sir Roland",
+            "thumbnail": "images/characters/SirRoland/thumbnail.png",
+            "info": "../characters/SirRoland.json"
+        },
+        {
+            "name": "Thatch",
+            "thumbnail": "images/characters/Thatch/thumbnail.png",
+            "info": "../characters/Thatch.json"
+        },
+        {
+            "name": "Val",
+            "thumbnail": "images/characters/Val/thumbnail.png",
+            "info": "../characters/Val.json"
+        }
+    ]
 }

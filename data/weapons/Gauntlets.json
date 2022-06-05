@@ -1,15 +1,99 @@
 {
+    "link-info": "All paths to thumbnails, gifs, etc are relative to the root of the assets folder",
     "name": "Gauntlets",
+    "thumbnail": "images/weapons/gauntlets.JPG",
     "attacks": {
-        "nlight": {},
-        "slight": {},
-        "dlight": {},
-        "nair": {},
-        "sair": {},
-        "dair": {},
-        "recovery": {},
-        "gp": {}
+        "nlight": {
+            "active-input": false,
+            "desc": "Two rapid flurries of punches in place, from the rear and then the forward gauntlet. The opponent is stunned if struck, causing the Legend to deliver two more flurries in the same order, followed by a hard strike to the opponent's chin that knocks them back.",
+            "gif": "gifs/light/gauntlets/nlight"
+        },
+        "slight": {
+            "active-input": false,
+            "desc": "A swift, forward-lunging uppercut that lifts the opponent into the air. Has almost no force otherwise.",
+            "gif": "gifs/light/gauntlets/slight"
+        },
+        "dlight": {
+            "active-input": false,
+            "desc": "A step forward accompanied with a fist-smash against the ground in front of the Legend. Stuns the opponent and lifts them slightly into the air. Carries the Legend forward a short distance.",
+            "gif": "gifs/light/gauntlets/dlight"
+        },
+        "nair": {
+            "active-input": false,
+            "desc": "A short upwards grab with both gauntlets. Does not affect the Legend's momentum. Opponents struck by this attack are seized and hurled bodily downwards at a slight forward angle.",
+            "gif": "gifs/light/gauntlets/nair"
+        },
+        "sair": {
+            "active-input": false,
+            "desc": "A sidewards-dashing punch with the forward gauntlet. Carries the Legend directly forward, cancelling previous momentum. Hitting with this attack stuns the opponent briefly and results in a quick followup punch from the rear gauntlet that knocks the opponent downwards and back.",
+            "gif": "gifs/light/gauntlets/sair"
+        },
+        "dair": {
+            "active-input": false,
+            "desc": "A rapid series of three punches straight downwards from both gauntlets, rear-front-rear. Striking with any one of these causes all following hits to hit as well, along with a final smash with the front gauntlet that knocks the opponent both down and back.",
+            "gif": "gifs/light/gauntlets/dair"
+        },
+        "recovery": {
+            "active-input": false,
+            "desc": "A fast rising punch with the front gauntlet. This attack travels directly upwards regardless of previous momentum.",
+            "gif": "gifs/light/gauntlets/recovery"
+        },
+        "gp": {
+            "active-input": false,
+            "desc": "The Legend plummets downwards chest-first with fists raised overhead. Landing on an opponent directly will knock them downwards (or upwards if they are grounded). Landing on the ground creates a small impact around the Legend, which will hit any opponent a short distance in front of or immediately behind the Legend. Unlike all other ground pound moves, a Legend can move slowly left or right while this move is in the air.",
+            "gif": "gifs/light/gauntlets/gp"
+        }
     },
-    "skins": [{}],
-    "legends": []
+    "legends": [
+        {
+            "name": "Caspian",
+            "thumbnail": "images/characters/Caspian/thumbnail.png",
+            "info": "../characters/Caspian.json"
+        },
+        {
+            "name": "Cross",
+            "thumbnail": "images/characters/Cross/thumbnail.png",
+            "info": "../characters/Cross.json"
+        },
+        {
+            "name": "Kor",
+            "thumbnail": "images/characters/Kor/thumbnail.png",
+            "info": "../characters/Kor.json"
+        },
+        {
+            "name": "Mordex",
+            "thumbnail": "images/characters/Mordex/thumbnail.png",
+            "info": "../characters/Mordex.json"
+        },
+        {
+            "name": "Petra",
+            "thumbnail": "images/characters/Petra/thumbnail.png",
+            "info": "../characters/Petra.json"
+        },
+        {
+            "name": "Rayman",
+            "thumbnail": "images/characters/Rayman/thumbnail.png",
+            "info": "../characters/Rayman.json"
+        },
+        {
+            "name": "Wu Shang",
+            "thumbnail": "images/characters/WuShang/thumbnail.png",
+            "info": "../characters/WuShang.json"
+        },
+        {
+            "name": "Val",
+            "thumbnail": "images/characters/Val/thumbnail.png",
+            "info": "../characters/Val.json"
+        },
+        {
+            "name": "Zariel",
+            "thumbnail": "images/characters/Zariel/thumbnail.png",
+            "info": "../characters/Zariel.json"
+        },
+        {
+            "name": "Onyx",
+            "thumbnail": "images/characters/Onyx/thumbnail.png",
+            "info": "../characters/Onyx.json"
+        }
+    ]
 }

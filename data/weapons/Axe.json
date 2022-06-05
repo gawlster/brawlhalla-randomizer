@@ -1,15 +1,99 @@
 {
+    "link-info": "All paths to thumbnails, gifs, etc are relative to the root of the assets folder",
     "name": "Axe",
+    "thumbnail": "images/weapons/axe.JPG",
     "attacks": {
-        "nlight": {},
-        "slight": {},
-        "dlight": {},
-        "nair": {},
-        "sair": {},
-        "dair": {},
-        "recovery": {},
-        "gp": {}
+        "nlight": {
+            "active-input": false,
+            "desc": "A single sideways slice in front from a standing position. Hitting results in a second followup cut, which knocks targets up and back.",
+            "gif": "gifs/light/axe/nlight"
+        },
+        "slight": {
+            "active-input": false,
+            "desc": "A short overhead chop in front. Has a short lunge that carries the Legend forward a short distance. Carries little force.",
+            "gif": "gifs/light/axe/slight"
+        },
+        "dlight": {
+            "active-input": false,
+            "desc": "A quick cut in a high upwards diagonal in front, hitting above and in front of the player.",
+            "gif": "gifs/light/axe/dlight"
+        },
+        "nair": {
+            "active-input": false,
+            "desc": "A single arcing chop above the Legend's head. Has a broad sweep, but not very tall, with a quick execution.",
+            "gif": "gifs/light/axe/nair"
+        },
+        "sair": {
+            "active-input": false,
+            "desc": "A heavy hitting, sideways swiping attack in a narrow but long arc in front. Has a slight delay, but carries a lot of force and range.",
+            "gif": "gifs/light/axe/sair"
+        },
+        "dair": {
+            "active-input": false,
+            "desc": "An arcing chop directly underneath the Legend. Has a broad sweep, but short length, very similar to the Neutral Air.",
+            "gif": "gifs/light/axe/dair"
+        },
+        "recovery": {
+            "active-input": false,
+            "desc": "A leaping lunge forward and up into the air, followed by a 360 degree spin with the axe that hits everything around the Legend. Delivers a single, powerful strike to anything struck.",
+            "gif": "gifs/light/axe/recovery"
+        },
+        "gp": {
+            "active-input": false,
+            "desc": "A double 360 degree downwards spin with the axe that hits everything around the Legend. Delivers several small hits to anything struck. Lasts a set time, but can be held before being executed. If the Legend hits the ground before the attack completes, the axe comes to a stop in front of the Legend.",
+            "gif": "gifs/light/axe/gp"
+        }
     },
-    "skins": [{}],
-    "legends": []
+    "legends": [
+        {
+            "name": "Azoth",
+            "thumbnail": "images/characters/Azoth/thumbnail.png",
+            "info": "../characters/Azoth.json"
+        },
+        {
+            "name": "Brynn",
+            "thumbnail": "images/characters/Brynn/thumbnail.png",
+            "info": "../characters/Brynn.json"
+        },
+        {
+            "name": "Barraza",
+            "thumbnail": "images/characters/Barraza/thumbnail.png",
+            "info": "../characters/Barraza.json"
+        },
+        {
+            "name": "Jhala",
+            "thumbnail": "images/characters/Jhala/thumbnail.png",
+            "info": "../characters/Jhala.json"
+        },
+        {
+            "name": "Ragnir",
+            "thumbnail": "images/characters/Ragnir/thumbnail.png",
+            "info": "../characters/Ragnir.json"
+        },
+        {
+            "name": "Rayman",
+            "thumbnail": "images/characters/Rayman/thumbnail.png",
+            "info": "../characters/Rayman.json"
+        },
+        {
+            "name": "Teros",
+            "thumbnail": "images/characters/Teros/thumbnail.png",
+            "info": "../characters/Teros.json"
+        },
+        {
+            "name": "Ulgrim",
+            "thumbnail": "images/characters/Ulgrim/thumbnail.png",
+            "info": "../characters/Ulgrim.json"
+        },
+        {
+            "name": "Xull",
+            "thumbnail": "images/characters/Xull/thumbnail.png",
+            "info": "../characters/Xull.json"
+        },
+        {
+            "name": "Volkov",
+            "thumbnail": "images/characters/Volkov/thumbnail.png",
+            "info": "../characters/Volkov.json"
+        }
+    ]
 }

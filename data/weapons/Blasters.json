@@ -1,15 +1,99 @@
 {
+    "link-info": "All paths to thumbnails, gifs, etc are relative to the root of the assets folder",
     "name": "Blasters",
+    "thumbnail": "images/weapons/blasters.JPG",
     "attacks": {
-        "nlight": {},
-        "slight": {},
-        "dlight": {},
-        "nair": {},
-        "sair": {},
-        "dair": {},
-        "recovery": {},
-        "gp": {}
+        "nlight": {
+            "active-input": false,
+            "desc": "Two steady shots directly in front, one from each blaster, on the same spot. Hitting with either guarantees a third shot from both blasters as a followup. Little force.",
+            "gif": "gifs/light/blasters/nlight"
+        },
+        "slight": {
+            "active-input": false,
+            "desc": "A reaching single shot with the forward blaster onto a spot far in front. Little force.",
+            "gif": "gifs/light/blasters/slight"
+        },
+        "dlight": {
+            "active-input": false,
+            "desc": "A sequence of three blasts against the ground in front, starting close, with each subsequent shot slightly farther forward.",
+            "gif": "gifs/light/blasters/dlight"
+        },
+        "nair": {
+            "active-input": false,
+            "desc": "A very quick one-two blast upwards, roughly covering a short arc above the Legend's head.",
+            "gif": "gifs/light/blasters/nair"
+        },
+        "sair": {
+            "active-input": false,
+            "desc": "A quick, reaching pair of blasts from the forward blaster, covering a narrow half-arc in front.",
+            "gif": "gifs/light/blasters/sair"
+        },
+        "dair": {
+            "active-input": false,
+            "desc": "A quick and steady pair of blasts directly underneath the legend from both blasters. Hitting with these blasts results in a flurry or small blasts as a followup.",
+            "gif": "gifs/light/blasters/dair"
+        },
+        "recovery": {
+            "active-input": false,
+            "desc": "A spinning, backwards twirling, kicking somersault complete with twirling of guns ending with a single shot directly upwards. Carries the Legend a significant distance up into the air.",
+            "gif": "gifs/light/blasters/recovery"
+        },
+        "gp": {
+            "active-input": false,
+            "desc": "Twirling guns, the Legend goes into a dive directly downwards with both blasters extended out. Hit targets take a blast from both blasters at short range.",
+            "gif": "gifs/light/blasters/gp"
+        }
     },
-    "skins": [{}],
-    "legends": []
+    "legends": [
+        {
+            "name": "Ada",
+            "thumbnail": "images/characters/Ada/thumbnail.png",
+            "info": "../characters/Ada.json"
+        },
+        {
+            "name": "Barraza",
+            "thumbnail": "images/characters/Barraza/thumbnail.png",
+            "info": "../characters/Barraza.json"
+        },
+        {
+            "name": "Cassidy",
+            "thumbnail": "images/characters/Cassidy/thumbnail.png",
+            "info": "../characters/Cassidy.json"
+        },
+        {
+            "name": "Cross",
+            "thumbnail": "images/characters/Cross/thumbnail.png",
+            "info": "../characters/Cross.json"
+        },
+        {
+            "name": "Diana",
+            "thumbnail": "images/characters/Diana/thumbnail.png",
+            "info": "../characters/Diana.json"
+        },
+        {
+            "name": "Isaiah",
+            "thumbnail": "images/characters/Isaiah/thumbnail.png",
+            "info": "../characters/Isaiah.json"
+        },
+        {
+            "name": "Lord Vraxx",
+            "thumbnail": "images/characters/LordVraxx/thumbnail.png",
+            "info": "../characters/LordVraxx.json"
+        },
+        {
+            "name": "Lucien",
+            "thumbnail": "images/characters/Lucien/thumbnail.png",
+            "info": "../characters/Lucien.json"
+        },
+        {
+            "name": "Nix",
+            "thumbnail": "images/characters/Nix/thumbnail.png",
+            "info": "../characters/Nix.json"
+        },
+        {
+            "name": "Thatch",
+            "thumbnail": "images/characters/Thatch/thumbnail.png",
+            "info": "../characters/Thatch.json"
+        }
+    ]
 }

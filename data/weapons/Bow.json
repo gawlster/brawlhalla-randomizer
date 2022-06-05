@@ -1,15 +1,89 @@
 {
+    "link-info": "All paths to thumbnails, gifs, etc are relative to the root of the assets folder",
     "name": "Bow",
+    "thumbnail": "images/weapons/bow.JPG",
     "attacks": {
-        "nlight": {},
-        "slight": {},
-        "dlight": {},
-        "nair": {},
-        "sair": {},
-        "dair": {},
-        "recovery": {},
-        "gp": {}
+        "nlight": {
+            "active-input": false,
+            "desc": "A quick, single arrow fired at a 45 degree angle up into the air.",
+            "gif": "gifs/light/bow/nlight"
+        },
+        "slight": {
+            "active-input": false,
+            "desc": "A lunging swipe with the bow. Carries the Legend forward a short distance, but has a short range. Hitting is followed up with a single sideways shot from the bow.",
+            "gif": "gifs/light/bow/slight"
+        },
+        "dlight": {
+            "active-input": false,
+            "desc": "A darting forward leap, with a downwards shot from the bow into the ground ahead mid-leap. Carries the Legend forward a moderate distance and lifts targets up into the air.",
+            "gif": "gifs/light/bow/dlight"
+        },
+        "nair": {
+            "active-input": false,
+            "desc": "A quick turning kick at extreme short range. Hitting puts the target directly above the Legend and is followed up immediately with an upwards shot with the bow, carrying the target further upwards.",
+            "gif": "gifs/light/bow/nair"
+        },
+        "sair": {
+            "active-input": false,
+            "desc": "A single sideways clubbing swipe with the bow in front. Short range.",
+            "gif": "gifs/light/bow/sair"
+        },
+        "dair": {
+            "active-input": false,
+            "desc": "A single arrow fired at a 45 degree angle downwards and in front. Carries a lot of force. The Legend hangs very briefly in the air during the shot.",
+            "gif": "gifs/light/bow/dair"
+        },
+        "recovery": {
+            "active-input": false,
+            "desc": "A lunging jump at a 45 degree angle with a scooping swipe with the bow that carries the Legend a short distance up and forward. Targets caught are strung into the bow and shot away, arrow-like, at a similar 45-degree angle.",
+            "gif": "gifs/light/bow/recovery"
+        },
+        "gp": {
+            "active-input": false,
+            "desc": "A steady downwards descending stomp with the rear foot. Hits only at close range. Targets hit are struck with an immediate triple-arrow shot that carries airborne targets straight down and can smack them into the ground below, if any. Carries a lot of force.",
+            "gif": "gifs/light/bow/gp"
+        }
     },
-    "skins": [{}],
-    "legends": []
+    "legends": [
+        {
+            "name": "Azoth",
+            "thumbnail": "images/characters/Azoth/thumbnail.png",
+            "info": "../characters/Azoth.json"
+        },
+        {
+            "name": "Diana",
+            "thumbnail": "images/characters/Diana/thumbnail.png",
+            "info": "../characters/Diana.json"
+        },
+        {
+            "name": "Ember",
+            "thumbnail": "images/characters/Ember/thumbnail.png",
+            "info": "../characters/Ember.json"
+        },
+        {
+            "name": "Kaya",
+            "thumbnail": "images/characters/Kaya/thumbnail.png",
+            "info": "../characters/Kaya.json"
+        },
+        {
+            "name": "Koji",
+            "thumbnail": "images/characters/Koji/thumbnail.png",
+            "info": "../characters/Koji.json"
+        },
+        {
+            "name": "Yumiko",
+            "thumbnail": "images/characters/Yumiko/thumbnail.png",
+            "info": "../characters/Yumiko.json"
+        },
+        {
+            "name": "Zariel",
+            "thumbnail": "images/characters/Zariel/thumbnail.png",
+            "info": "../characters/Zariel.json"
+        },
+        {
+            "name": "Vector",
+            "thumbnail": "images/characters/Vector/thumbnail.png",
+            "info": "../characters/Vector.json"
+        }
+    ]
 }

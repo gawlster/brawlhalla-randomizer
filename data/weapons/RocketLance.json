@@ -1,15 +1,84 @@
 {
+    "link-info": "All paths to thumbnails, gifs, etc are relative to the root of the assets folder",
     "name": "Rocket Lance",
+    "thumbnail": "images/weapons/rocketLance.JPG",
     "attacks": {
-        "nlight": {},
-        "slight": {},
-        "dlight": {},
-        "nair": {},
-        "sair": {},
-        "dair": {},
-        "recovery": {},
-        "gp": {}
+        "nlight": {
+            "active-input": false,
+            "desc": "Two short jabs forward with the lance point from a standing position. Hitting with either results in a third jab that carries the Legend a very short distance forward.",
+            "gif": "gifs/light/lance/nlight"
+        },
+        "slight": {
+            "active-input": false,
+            "desc": "A short rocket-propelled charge forward with the lance point. Carries the Legend a short distance. Hits up to nine times, and lifts the target upwards upon impact.",
+            "gif": "gifs/light/lance/slight"
+        },
+        "dlight": {
+            "active-input": false,
+            "desc": "A fast, fiery expulsion from the lance's exhaust end in front. Hits several times with little force.",
+            "gif": "gifs/light/lance/dlight"
+        },
+        "nair": {
+            "active-input": false,
+            "desc": "A flaming backflip with the lance's exhaust that hits most things an arc above and around the Legend. Legend isn't moved by attack.",
+            "gif": "gifs/light/lance/nair"
+        },
+        "sair": {
+            "active-input": false,
+            "desc": "A short, rocket-propelled charge that carries the Legend straight forward a moderate distance. Hits up to 11 times.",
+            "gif": "gifs/light/lance/sair"
+        },
+        "dair": {
+            "active-input": false,
+            "desc": "A rocket-propelled downwards diagonal surfing dive. Carries the Legend forward and down at a perfect 20 degree angle. hits up to 13 times in the air, and up to 11 on the ground, however, hitting the opponent into the ground deals more damage.",
+            "gif": "gifs/light/lance/dair"
+        },
+        "recovery": {
+            "active-input": false,
+            "desc": "A chargeable, rocket-propelled blast upwards that carries the Legend a distance forward and upwards proportional to the amount of time charged. 45 degree angle.",
+            "gif": "gifs/light/lance/recovery"
+        },
+        "gp": {
+            "active-input": false,
+            "desc": "A downwards plummeting hit with the rear of the lance that carries the Legend straight down. Stops at the ground or if it hits a target.",
+            "gif": "gifs/light/lance/gp"
+        }
     },
-    "skins": [{}],
-    "legends": []
+    "legends": [
+        {
+            "name": "Artemis",
+            "thumbnail": "images/characters/Artemis/thumbnail.png",
+            "info": "../characters/Artemis.json"
+        },
+        {
+            "name": "Lord Vraxx",
+            "thumbnail": "images/characters/LordVraxx/thumbnail.png",
+            "info": "../characters/LordVraxx.json"
+        },
+        {
+            "name": "Orion",
+            "thumbnail": "images/characters/Orion/thumbnail.png",
+            "info": "../characters/Orion.json"
+        },
+        {
+            "name": "Scarlet",
+            "thumbnail": "images/characters/Scarlet/thumbnail.png",
+            "info": "../characters/Scarlet.json"
+        },
+        {
+            "name": "Sir Roland",
+            "thumbnail": "images/characters/SirRoland/thumbnail.png",
+            "info": "../characters/SirRoland.json"
+        },
+        {
+            "name": "Ulgrim",
+            "thumbnail": "images/characters/Ulgrim/thumbnail.png",
+            "info": "../characters/Ulgrim.json"
+        },
+        {
+            "name": "Vector",
+            "thumbnail": "images/characters/Vector/thumbnail.png",
+            "info": "../characters/Vector.json"
+        }
+    ]
 }
