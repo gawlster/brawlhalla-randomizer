@@ -1,8 +1,87 @@
 {
-    "name": "",
-    "desc": "",
-    "lore": "",
-    "thumbnail": "",
-    "weapons": [{}, {}],
-    "crossovers": [{}]
+    "link-info": "All paths to thumbnails, gifs, etc are relative to the root of the assets folder",
+    "name": "Ulgrim",
+    "desc": "The Unyeilding Anvil, Son of Ivaldi",
+    "lore": "The Sons of Ivaldi are the original master craftsmen of Asgard. They are the first, and the best. Since the World began Ulgrim has fashioned unparalleled artifacts in the Great Forges.\nThanks to Loki and his gambling ways, a pair of upstart Dwarven smiths from Nidavellir made Thor’s hammer and stole the Sons’ place of prestige. Even though they botched the handle, which the Sons grumble is the only part of hammer crafting that takes any real skill, the new smiths were still celebrated. This bitter rivalry would last for centuries, both sides constantly trying to undo the other.\nBut when the comet came crashing down it was Ulgrim the gods turned to once again. Only he had the materials to build what they needed. For ages he had harvested hundreds of impossible items, a still flaming dragon’s heart, the core of a dying star, Aesinite from the nether realm. Nothing too rare, and no mine too perilous or too far for Ulgrim. The Sons’ name was finally restored in a suit of golden armor.\nNow he wields his flawless Ivaldi creations in the arena proving their perfection with each win. When he isn’t in the ring he can often be found arguing fiestily with Scarlet on her contraption building methods. But always he keeps an eye on Orion and stays close by. Some say out of pride, others say it’s concern for what will happen if the armor were ever to fail.",
+    "thumbnail": "/images/characters/Ulgrim/thumbnail.png",
+    "weapons": [
+        {
+            "name": "Axe",
+            "thumbnail": "/images/weapons/axe.jpg",
+            "signatures": {
+                "nsig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/ulgrim-axe-nsig.gif"
+                },
+                "ssig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/ulgrim-axe-ssig.gif"
+                },
+                "dsig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/ulgrim-axe-dsig.gif"
+                }
+            }
+        },
+        {
+            "name": "Rocket Lance",
+            "thumbnail": "/images/weapons/rocketLance.jpg",
+            "signatures": {
+                "nsig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/ulgrim-lance-nsig.gif"
+                },
+                "ssig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/ulgrim-lance-ssig.gif"
+                },
+                "dsig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/ulgrim-lance-dsig.gif"
+                }
+            }
+        }
+    ],
+    "skins": [
+        {
+            "name": "Apprentice",
+            "thumbnail": "/images/characters/Ulgrim/ApprenticeUlgrim.png"
+        },
+        {
+            "name": "Arcanium",
+            "thumbnail": "/images/characters/Ulgrim/ArcaniumUlgrim.png"
+        },
+        {
+            "name": "Dragonport",
+            "thumbnail": "/images/characters/Ulgrim/DragonportUlgrim.png"
+        },
+        {
+            "name": "Jotun",
+            "thumbnail": "/images/characters/Ulgrim/JotunUlgrim.png"
+        },
+        {
+            "name": "Master Blacksmith",
+            "thumbnail": "/images/characters/Ulgrim/MasterBlacksmithUlgrim.png"
+        },
+        {
+            "name": "Star Miner",
+            "thumbnail": "/images/characters/Ulgrim/StarMinerUlgrim.png"
+        },
+        {
+            "name": "Warborn",
+            "thumbnail": "/images/characters/Ulgrim/WarbornUlgrim.png"
+        }
+    ],
+    "crossovers": [
+        {
+            "name": "Macho Man",
+            "thumbnail": "/images/characters/Ulgrim/Z-crossOver-MachoManUlgrim.png"
+        }
+    ]
 }

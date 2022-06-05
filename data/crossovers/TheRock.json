@@ -1,8 +1,8 @@
 {
-    "name": "",
-    "desc": "",
-    "lore": "",
-    "thumbnail": "",
-    "weapons": [{}, {}],
-    "crossovers": [{}]
+    "name": "The Rock",
+    "thumbnail": "images/crossovers/TheRock.png",
+    "crossover-for": {
+        "name": "Sentinel",
+        "info": "characters/Sentinel.json"
+    }
 }

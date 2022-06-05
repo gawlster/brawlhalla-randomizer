@@ -1,8 +1,8 @@
 {
-    "name": "",
-    "desc": "",
-    "lore": "",
-    "thumbnail": "",
-    "weapons": [{}, {}],
-    "crossovers": [{}]
+    "name": "Barbara",
+    "thumbnail": "images/crossovers/Barbara.png",
+    "crossover-for": {
+        "name": "Brynn",
+        "info": "characters/Brynn.json"
+    }
 }

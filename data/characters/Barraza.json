@@ -1,8 +1,95 @@
 {
-    "name": "",
-    "desc": "",
-    "lore": "",
-    "thumbnail": "",
-    "weapons": [{}, {}],
-    "crossovers": [{}]
+    "link-info": "All paths to thumbnails, gifs, etc are relative to the root of the assets folder",
+    "name": "Barraza",
+    "desc": "Diesel Heart, the Lord of the Waste",
+    "lore": "The Apocalypse came not on a missile but a mist. MBFC’s self-replicating nanobot cloud bricked anything that relied on computer circuitry, which in 2150 was everything. Deployed in desperation against a rogue agent’s hideout, the weaponized mist was supposed to become inert after twenty minutes.\nFifty years later, Barraza was born in an abandoned aircraft carrier outside the girder wastes once called Los Angeles. All Barraza knew of this world was that he had to steal, scheme, and fight for every bite of food and every breath.\nShot in the chest by The Gaslords and left for dead, he returned, kept alive by an artificial heart burning diesel and an iron will. Soon the Gaslords were dead, followed by the Ravagers, the Scorpions, the Battleborn, and every other challenger, until the man they called Diesel Heart ruled the wastes from Four Face Mountain to the Steel Wall. Waterhaulers, warbangers, zealots, radsuits, wastecroppers, junkers – all feared Diesel Heart.\nThe ultimate survivor, Barraza knows Valhalla is another threat to overcome through violence and will. The next apocalypse is coming, and he will do what it takes to come out on top again.",
+    "thumbnail": "/images/characters/barraza/thumbnail.png",
+    "weapons": [
+        {
+            "name": "Axe",
+            "thumbnail": "/images/weapons/axe.jpg",
+            "signatures": {
+                "nsig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/barraza-axe-nsig.gif"
+                },
+                "ssig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/barraza-axe-ssig.gif"
+                },
+                "dsig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/barraza-axe-dsig.gif"
+                }
+            }
+        },
+        {
+            "name": "Blasters",
+            "thumbnail": "/images/weapons/blasters.jpg",
+            "signatures": {
+                "nsig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/barraza-blasters-nsig.gif"
+                },
+                "ssig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/barraza-blasters-ssig.gif"
+                },
+                "dsig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/barraza-blasters-dsig.gif"
+                }
+            }
+        }
+    ],
+    "skins": [
+        {
+            "name": "Amun-Raza",
+            "thumbnail": "/images/characters/Barraza/AmunRaza.png"
+        },
+        {
+            "name": "Heartbreaker",
+            "thumbnail": "/images/characters/Barraza/HeartbreakerBarraza.png"
+        },
+        {
+            "name": "Metadev",
+            "thumbnail": "/images/characters/Barraza/MetadevBarraza.png"
+        },
+        {
+            "name": "Nemesis",
+            "thumbnail": "/images/characters/Barraza/NemesisBarraza.png"
+        },
+        {
+            "name": "Razerback",
+            "thumbnail": "/images/characters/Barraza/RazerbackBarraza.png"
+        },
+        {
+            "name": "Sawed-Off",
+            "thumbnail": "/images/characters/Barraza/SawedOffBarraza.png"
+        },
+        {
+            "name": "Shark Heart",
+            "thumbnail": "/images/characters/Barraza/SharkHeartBarraza.png"
+        },
+        {
+            "name": "Slasher",
+            "thumbnail": "/images/characters/Barraza/SlasherBarraza.png"
+        },
+        {
+            "name": "Wraith",
+            "thumbnail": "/images/characters/Barraza/WraithBarraza.png"
+        }
+    ],
+    "crossovers": [
+        {
+            "name": "Rick",
+            "thumbnail": "/images/characters/Barraza/Z-crossOver-RickBarraza.png"
+        }
+    ]
 }

@@ -1,8 +1,8 @@
 {
-    "name": "",
-    "desc": "",
-    "lore": "",
-    "thumbnail": "",
-    "weapons": [{}, {}],
-    "crossovers": [{}]
+    "name": "Enchantress",
+    "thumbnail": "images/crossovers/Enchantress.png",
+    "crossover-for": {
+        "name": "Fait",
+        "info": "characters/Fait.json"
+    }
 }

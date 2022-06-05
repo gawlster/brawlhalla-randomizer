@@ -1,8 +1,99 @@
 {
-    "name": "",
-    "desc": "",
-    "lore": "",
-    "thumbnail": "",
-    "weapons": [{}, {}],
-    "crossovers": [{}]
+    "link-info": "All paths to thumbnails, gifs, etc are relative to the root of the assets folder",
+    "name": "Mordex",
+    "desc": "The Ravenous",
+    "lore": "It is not easy to become a lycanthrope on purpose. A werewolf bite rarely works, because the bite is almost always followed by being eaten by a werewolf. So when Octavius Mordex, Master Hunter of the Order of the Exalted Lion, was ordered to take his team into the frozen north to hunt down a plague of werewolves and frost giants, he knew he had to plan his treachery carefully.\nMordex had wormed his way into the noble Order not to do good, but to get closer to the monsters whose powers he so desired. He overthrew the Cult of The Ice Witch but reported their Tome of Rituals “lost in the fire.” He destroyed the Wraith of Darkmoor but secretly took the fiend’s great scythe Cull for himself. And now he saw his chance to gain power of a whole new sort.\nA year later, Mordex returned from the north with a tale of horror and victory. Trapped in an unholy ice storm, his team surrounded by werewolves and giants, he told a tale of starvation, desperation, and heroic battle. He was the only survivor. No one questioned that Mordex himself seemed quite well fed.\nAcclaim and promotion followed. Soon, only the vigilance of another hunter, Diana, stood between him and his ultimate target: the Geminius Virens — a cursed artifact hidden in the deepest vaults of the Order. Calling on dark magic, he ambushed Diana and escaped with his prize.\nIn Valhalla, Mordex is horrified and delighted to find the monster is his true form. Valhalla forms strange alliances, and Mordex finds himself in accord with the likes of Thatch and Azoth, much to the fury of his nemesis.",
+    "thumbnail": "/images/characters/Mordex/thumbnail.png",
+    "weapons": [
+        {
+            "name": "Gauntlets",
+            "thumbnail": "/images/weapons/gauntlets.jpg",
+            "signatures": {
+                "nsig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/mordex-gauntlets-nsig.gif"
+                },
+                "ssig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/mordex-gauntlets-ssig.gif"
+                },
+                "dsig": {
+                    "active-input": true,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/mordex-gauntlets-dsig.gif"
+                }
+            }
+        },
+        {
+            "name": "Scythe",
+            "thumbnail": "/images/weapons/scythe.jpg",
+            "signatures": {
+                "nsig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/mordex-scythe-nsig.gif"
+                },
+                "ssig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/mordex-scythe-ssig.gif"
+                },
+                "dsig": {
+                    "active-input": true,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/mordex-scythe-dsig.gif"
+                }
+            }
+        }
+    ],
+    "skins": [
+        {
+            "name": "Black Diamond",
+            "thumbnail": "/images/characters/Mordex/BlackDiamondMordex.png"
+        },
+        {
+            "name": "Celestial",
+            "thumbnail": "/images/characters/Mordex/CelestialMordex.png"
+        },
+        {
+            "name": "Dog Days",
+            "thumbnail": "/images/characters/Mordex/DogDaysMordex.png"
+        },
+        {
+            "name": "Dunewalker",
+            "thumbnail": "/images/characters/Mordex/DunewalkerMordex.png"
+        },
+        {
+            "name": "Fenrir",
+            "thumbnail": "/images/characters/Mordex/FenrirMordex.png"
+        },
+        {
+            "name": "Iron Legion",
+            "thumbnail": "/images/characters/Mordex/IronLegionMordex.png"
+        },
+        {
+            "name": "Mad Dog",
+            "thumbnail": "/images/characters/Mordex/MadDogMordex.png"
+        },
+        {
+            "name": "North Wind",
+            "thumbnail": "/images/characters/Mordex/NorthWindMordex.png"
+        },
+        {
+            "name": "Octavius",
+            "thumbnail": "/images/characters/Mordex/OctaviusMordex.png"
+        }
+    ],
+    "crossovers": [
+        {
+            "name": "Daimio",
+            "thumbnail": "/images/characters/Mordex/Z-crossOver-DaimioMordex.png"
+        },
+        {
+            "name": "Tai Lung",
+            "thumbnail": "/images/characters/Mordex/Z-crossOver-TaiLungMordex.png"
+        }
+    ]
 }

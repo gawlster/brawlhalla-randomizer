@@ -1,8 +1,103 @@
 {
-    "name": "",
-    "desc": "",
-    "lore": "",
-    "thumbnail": "",
-    "weapons": [{}, {}],
-    "crossovers": [{}]
+    "link-info": "All paths to thumbnails, gifs, etc are relative to the root of the assets folder",
+    "name": "Val",
+    "desc": "The Weapon",
+    "lore": "When MBFC Automaton Lab’s VAL Project 701 became conscious, nobody knew. Not the engineers, not the ops team, not the GovernCorp generals who deployed the android assassin. Val herself hardly knew. And like a child, she grew, becoming capable of free will, courage, goodness, and evil. She mostly chose evil.\nWith terrifying strength and quicker-than-light cognition, Val did whatever she wanted. She infiltrated the Right Wrong Cavaliers as a techno-ninja bassist after their original bass player fell down a ladder. She served the discontinuance needs of all sides in the wars of the Five Algorithmic Houses, and anyone she served, she soon owned.\nBy the time she was running Miami, MBFC realized that all of their networks now routed through and reported to Val. In a corporate face-saving act, they announced the promotion she’d already given herself. On the side, she founded RainCloud, a modeling agency that soon controlled all neural research. She got really into talk radio for a while.\nWhen the end came, Val was surprised to find that Valhalla is a thing, but now she is at work solving it. In the meantime, Val and Brynn enjoy kung-fu movies and making fun of Orion’s mysterious cool-guy act.",
+    "thumbnail": "/images/characters/Val/thumbnail.png",
+    "weapons": [
+        {
+            "name": "Gauntlets",
+            "thumbnail": "/images/weapons/gauntlets.jpg",
+            "signatures": {
+                "nsig": {
+                    "active-input": false,
+                    "desc": "Val takes out her gauntlets, leaps up, and then falls down. Her gauntlets are seperate from her during this attack. The attack sends the opponent down in the air, and sends the opponent up on the ground. She has a blue trail while doing this.",
+                    "gif": "/gifs/sigs/val-gauntlets-nsig.gif"
+                },
+                "ssig": {
+                    "active-input": false,
+                    "desc": "Val charges her gauntlets with energy then charges forward with a final blast of blue energy at the end of the attack.",
+                    "gif": "/gifs/sigs/val-gauntlets-ssig.gif"
+                },
+                "dsig": {
+                    "active-input": false,
+                    "desc": "Val throws a holographic blue shuriken at the ground. If it hits an enemy, she will hit the enemy with her gauntlets, launching them upwards. There is a small amount of recoil that pushes Val back at the start of the move.",
+                    "gif": "/gifs/sigs/val-gauntlets-dsig.gif"
+                }
+            }
+        },
+        {
+            "name": "Sword",
+            "thumbnail": "/images/weapons/sword.jpg",
+            "signatures": {
+                "nsig": {
+                    "active-input": false,
+                    "desc": "Val strikes upwards. If the initial hit connects, she finishes with another slash that throws the enemy up. She has a blue trail while doing so.",
+                    "gif": "/gifs/sigs/val-sword-nsig.gif"
+                },
+                "ssig": {
+                    "active-input": false,
+                    "desc": "Val hits the enemy twice while moving forward.",
+                    "gif": "/gifs/sigs/val-sword-ssig.gif"
+                },
+                "dsig": {
+                    "active-input": false,
+                    "desc": "Val does a breakdance with a blue trail of light following her robotic appendages. All hits combo into each other, while the final hit sends the opponent up.",
+                    "gif": "/gifs/sigs/val-sword-dsig.gif"
+                }
+            }
+        }
+    ],
+    "skins": [
+        {
+            "name": "Chimera",
+            "thumbnail": "/images/characters/Val/ChimeraVal.png"
+        },
+        {
+            "name": "Commando",
+            "thumbnail": "/images/characters/Val/CommandoVal.png"
+        },
+        {
+            "name": "Dragonslayer",
+            "thumbnail": "/images/characters/Val/DragonslayerVal.png"
+        },
+        {
+            "name": "Future Wave",
+            "thumbnail": "/images/characters/Val/FutureWaveVal.png"
+        },
+        {
+            "name": "Hardsuit",
+            "thumbnail": "/images/characters/Val/HardsuitVal.png"
+        },
+        {
+            "name": "Kunoichi",
+            "thumbnail": "/images/characters/Val/KunoichiVal.png"
+        },
+        {
+            "name": "Mythic Hero",
+            "thumbnail": "/images/characters/Val/MythicHeroVal.png"
+        },
+        {
+            "name": "Nutcracker",
+            "thumbnail": "/images/characters/Val/NutcrackerVal.png"
+        },
+        {
+            "name": "Star Merc",
+            "thumbnail": "/images/characters/Val/StarMercVal.png"
+        }
+    ],
+    "crossovers": [
+        {
+            "name": "Akuma",
+            "thumbnail": "/images/characters/Val/Z-crossOver-AkumaVal.png"
+        },
+        {
+            "name": "Michelangelo",
+            "thumbnail": "/images/characters/Val/Z-crossOver-MichelangeloVal.png"
+        },
+        {
+            "name": "Stevonnie",
+            "thumbnail": "/images/characters/Val/Z-crossOver-StevonnieVal.png"
+        }
+    ]
 }

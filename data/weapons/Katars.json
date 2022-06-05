@@ -1,15 +1,94 @@
 {
+    "link-info": "All paths to thumbnails, gifs, etc are relative to the root of the assets folder",
     "name": "Katars",
+    "thumbnail": "images/weapons/katars.JPG",
     "attacks": {
-        "nlight": {},
-        "slight": {},
-        "dlight": {},
-        "nair": {},
-        "sair": {},
-        "dair": {},
-        "recovery": {},
-        "gp": {}
+        "nlight": {
+            "active-input": false,
+            "desc": "Two broad vertical slices with both katars, up then down. Carries the Legend forward a very short distance. Hitting with either slice results in a third upwards slice as a follow-up.",
+            "gif": "gifs/light/katars/nlight"
+        },
+        "slight": {
+            "active-input": false,
+            "desc": "A lunging forward roll, katars-forward. Extremely short range, but carries the Legend forward a good distance.",
+            "gif": "gifs/light/katars/slight"
+        },
+        "dlight": {
+            "active-input": false,
+            "desc": "A quick jumping uppercut slice with one katar. Hits close and high, lifting targets up into the air. Little force.",
+            "gif": "gifs/light/katars/dlight"
+        },
+        "nair": {
+            "active-input": false,
+            "desc": "A fast all-around spin with both katars extended. Hits in short, broad arcs both above and below.",
+            "gif": "gifs/light/katars/nair"
+        },
+        "sair": {
+            "active-input": false,
+            "desc": "A broad, lunging forward swipe with one katar. Carries the Legend forward a short distance.",
+            "gif": "gifs/light/katars/sair"
+        },
+        "dair": {
+            "active-input": false,
+            "desc": "A downwards, diagonal dive with both katars extended forward. Extremely short range, but travels a long distance. Damages with multiple small hits.",
+            "gif": "gifs/light/katars/dair"
+        },
+        "recovery": {
+            "active-input": false,
+            "desc": "A drilling diagonal dive up and forward with both katars extended. Extremely short range, but travels a long distance. Enemies are carried along for the rest of the dive and launched up and away.",
+            "gif": "gifs/light/katars/recovery"
+        },
+        "gp": {
+            "active-input": false,
+            "desc": "A plummeting swan-dive directly downwards, ending in a single downwards slash with a katar.",
+            "gif": "gifs/light/katars/gp"
+        }
     },
-    "skins": [{}],
-    "legends": []
+    "legends": [
+        {
+            "name": "Asuri",
+            "thumbnail": "images/characters/Asuri/thumbnail.png",
+            "info": "../characters/Asuri.json"
+        },
+        {
+            "name": "Caspian",
+            "thumbnail": "images/characters/Caspian/thumbnail.png",
+            "info": "../characters/Caspian.json"
+        },
+        {
+            "name": "Ember",
+            "thumbnail": "images/characters/Ember/thumbnail.png",
+            "info": "../characters/Ember.json"
+        },
+        {
+            "name": "Lin Fei",
+            "thumbnail": "images/characters/LinFei/thumbnail.png",
+            "info": "../characters/LinFei.json"
+        },
+        {
+            "name": "Lucien",
+            "thumbnail": "images/characters/Lucien/thumbnail.png",
+            "info": "../characters/Lucien.json"
+        },
+        {
+            "name": "Queen Nai",
+            "thumbnail": "images/characters/QueenNai/thumbnail.png",
+            "info": "../characters/QueenNai.json"
+        },
+        {
+            "name": "Ragnir",
+            "thumbnail": "images/characters/Ragnir/thumbnail.png",
+            "info": "../characters/Ragnir.json"
+        },
+        {
+            "name": "Sentinel",
+            "thumbnail": "images/characters/Sentinel/thumbnail.png",
+            "info": "../characters/Sentinel.json"
+        },
+        {
+            "name": "Mako",
+            "thumbnail": "images/characters/Mako/thumbnail.png",
+            "info": "../characters/Mako.json"
+        }
+    ]
 }

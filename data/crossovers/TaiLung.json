@@ -1,8 +1,8 @@
 {
-    "name": "",
-    "desc": "",
-    "lore": "",
-    "thumbnail": "",
-    "weapons": [{}, {}],
-    "crossovers": [{}]
+    "name": "Tai Lung",
+    "thumbnail": "images/crossovers/TaiLung.png",
+    "crossover-for": {
+        "name": "Mordex",
+        "info": "characters/Mordex.json"
+    }
 }

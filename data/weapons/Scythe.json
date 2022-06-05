@@ -1,15 +1,84 @@
 {
+    "link-info": "All paths to thumbnails, gifs, etc are relative to the root of the assets folder",
     "name": "Scythe",
+    "thumbnail": "images/weapons/scythe.JPG",
     "attacks": {
-        "nlight": {},
-        "slight": {},
-        "dlight": {},
-        "nair": {},
-        "sair": {},
-        "dair": {},
-        "recovery": {},
-        "gp": {}
+        "nlight": {
+            "active-input": false,
+            "desc": "An upward swing that propels the opponent into the air for a short time.",
+            "gif": "gifs/light/scythe/nlight"
+        },
+        "slight": {
+            "active-input": true,
+            "desc": "A swing to the side, with a follow-up hit if the first attack connect ACTIVE INPUT: NEUTRAL – The follow-up becomes a kick that briefly stuns your opponent and drops him next to you for more attacks, with almost no chance to dodge out of the combo. Chains naturally into Neutral Light. ACTIVE INPUT: HOLD FORWARD – You hit the enemy with the scythe for a second time, dealing more damage and sending the opponent flying forward with greater force.",
+            "gif": "gifs/light/scythe/slight"
+        },
+        "dlight": {
+            "active-input": true,
+            "desc": "A far-reaching downward stab with a scythe. Once the opponent is “reaped” and stunned, the second hit ensues after a brief delay. ACTIVE INPUT: NEUTRAL – The opponent is grabbed with the scythe, pulled towards you and sent flying up and backward a short distance. ACTIVE INPUT: HOLD FORWARD – The opponent is kicked, sending him flying forward horizontally and low to the ground.",
+            "gif": "gifs/light/scythe/dlight"
+        },
+        "nair": {
+            "active-input": true,
+            "desc": "A diagonal swing with the scythe. If the opponent is struck, he is pulled towards you for the second hit. ACTIVE INPUT: NEUTRAL – The opponent is kicked forward, up and diagonally, with a lot of force. ACTIVE INPUT: HOLD BACK – The opponent is kicked behind you, low and horizontally, with less force.",
+            "gif": "gifs/light/scythe/nair"
+        },
+        "sair": {
+            "active-input": false,
+            "desc": "A quick uppercut attack with the scythe that pushes the opponent away with medium force.",
+            "gif": "gifs/light/scythe/sair"
+        },
+        "dair": {
+            "active-input": true,
+            "desc": "A grab that throws the opponent away with tremendous force. It's also good for combos that begin in the air. ACTIVE INPUT: NEUTRAL – The enemy is thrown forward. ACTIVE INPUT: HOLD BACK – The enemy is thrown backward.",
+            "gif": "gifs/light/scythe/dair"
+        },
+        "recovery": {
+            "active-input": false,
+            "desc": "A diagonal “helicopter spin” that moves you up and forward. Any enemy that is caught into the attack is sliced, and then dunked forward and down.",
+            "gif": "gifs/light/scythe/recovery"
+        },
+        "gp": {
+            "active-input": false,
+            "desc": "You drop directly down like during a Sword Ground Pound. When the drop connects or you release the attack button, you slice the target with a wide sweep. The sliced enemy is sent flying slightly fowards.",
+            "gif": "gifs/light/scythe/gp"
+        }
     },
-    "skins": [{}],
-    "legends": []
+    "legends": [
+        {
+            "name": "Artemis",
+            "thumbnail": "images/characters/Artemis/thumbnail.png",
+            "info": "../characters/Artemis.json"
+        },
+        {
+            "name": "Fait",
+            "thumbnail": "images/characters/Fait/thumbnail.png",
+            "info": "../characters/Fait.json"
+        },
+        {
+            "name": "Jiro",
+            "thumbnail": "images/characters/Jiro/thumbnail.png",
+            "info": "../characters/Jiro.json"
+        },
+        {
+            "name": "Mirage",
+            "thumbnail": "images/characters/Mirage/thumbnail.png",
+            "info": "../characters/Mirage.json"
+        },
+        {
+            "name": "Mordex",
+            "thumbnail": "images/characters/Mordex/thumbnail.png",
+            "info": "../characters/Mordex.json"
+        },
+        {
+            "name": "Nix",
+            "thumbnail": "images/characters/Nix/thumbnail.png",
+            "info": "../characters/Nix.json"
+        },
+        {
+            "name": "Volkov",
+            "thumbnail": "images/characters/Volkov/thumbnail.png",
+            "info": "../characters/Volkov.json"
+        }
+    ]
 }

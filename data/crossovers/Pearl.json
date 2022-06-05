@@ -1,8 +1,8 @@
 {
-    "name": "",
-    "desc": "",
-    "lore": "",
-    "thumbnail": "",
-    "weapons": [{}, {}],
-    "crossovers": [{}]
+    "name": "Pearl",
+    "thumbnail": "images/crossovers/Pearl.png",
+    "crossover-for": {
+        "name": "Kaya",
+        "info": "characters/Kaya.json"
+    }
 }

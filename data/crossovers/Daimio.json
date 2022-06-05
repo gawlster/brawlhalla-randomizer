@@ -1,8 +1,8 @@
 {
-    "name": "",
-    "desc": "",
-    "lore": "",
-    "thumbnail": "",
-    "weapons": [{}, {}],
-    "crossovers": [{}]
+    "name": "Daimio",
+    "thumbnail": "images/crossovers/Daimio.png",
+    "crossover-for": {
+        "name": "Mordex",
+        "info": "characters/Mordex.json"
+    }
 }

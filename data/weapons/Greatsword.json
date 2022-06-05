@@ -1,15 +1,64 @@
 {
+    "link-info": "All paths to thumbnails, gifs, etc are relative to the root of the assets folder",
     "name": "Greatsword",
+    "thumbnail": "images/weapons/greatsword.JPG",
     "attacks": {
-        "nlight": {},
-        "slight": {},
-        "dlight": {},
-        "nair": {},
-        "sair": {},
-        "dair": {},
-        "recovery": {},
-        "gp": {}
+        "nlight": {
+            "active-input": false,
+            "desc": "nd",
+            "gif": "gifs/light/greatsword/nlight"
+        },
+        "slight": {
+            "active-input": false,
+            "desc": "nd",
+            "gif": "gifs/light/greatsword/slight"
+        },
+        "dlight": {
+            "active-input": false,
+            "desc": "nd",
+            "gif": "gifs/light/greatsword/dlight"
+        },
+        "nair": {
+            "active-input": false,
+            "desc": "nd",
+            "gif": "gifs/light/greatsword/nair"
+        },
+        "sair": {
+            "active-input": false,
+            "desc": "nd",
+            "gif": "gifs/light/greatsword/sair"
+        },
+        "dair": {
+            "active-input": false,
+            "desc": "nd",
+            "gif": "gifs/light/greatsword/dair"
+        },
+        "recovery": {
+            "active-input": false,
+            "desc": "nd",
+            "gif": "gifs/light/greatsword/recovery"
+        },
+        "gp": {
+            "active-input": false,
+            "desc": "nd",
+            "gif": "gifs/light/greatsword/gp"
+        }
     },
-    "skins": [{}],
-    "legends": []
+    "legends": [
+        {
+            "name": "Jaeyun",
+            "thumbnail": "images/characters/Jaeyun/thumbnail.png",
+            "info": "../characters/Jaeyun.json"
+        },
+        {
+            "name": "Mako",
+            "thumbnail": "images/characters/Mako/thumbnail.png",
+            "info": "../characters/Mako.json"
+        },
+        {
+            "name": "Magyar",
+            "thumbnail": "images/characters/Magyar/thumbnail.png",
+            "info": "../characters/Magyar.json"
+        }
+    ]
 }

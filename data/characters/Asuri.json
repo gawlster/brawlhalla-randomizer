@@ -1,8 +1,99 @@
 {
-    "name": "",
-    "desc": "",
-    "lore": "",
-    "thumbnail": "",
-    "weapons": [{}, {}],
-    "crossovers": [{}]
+    "link-info": "All paths to thumbnails, gifs, etc are relative to the root of the assets folder",
+    "name": "Asuri",
+    "desc": "The Night Stalker",
+    "lore": "The villages along the Arit river on the Punjab border were proud of their guardian. Proud and more than a little scared. The Tiger was a gift from Rama, they said, though a gift rarely seen. Years might pass with only a giant paw print in the mud of the riverbank to prove that The Tiger still prowled the forests between the villages.\nBut when raiders from the north or soldiers from the south came to steal and oppress, the signs of The Tiger would appear — bodies of invaders high in the trees, a would-be warlord mauled in his tent, an entire brigand camp shattered as though a typhoon had struck. And the villagers would wonder that anyone was left in the world so ignorant or so arrogant as to be heedless of their protector.\nAs for The Tiger, she barely remembered being a girl. She remembered being twelve and discovering with horror that her once noble family, the anointed protectors of the valley, now grew richer when outsiders came to plunder. She remembered her wicked uncle lashing her to the temple altar and conjuring the tiger spirit to devour her. And she remembered fighting – fighting so long and so hard that in the end she didn’t know who had devoured whom.\nIn Valhalla, Asuri has claimed the Tournament as her territory, and sets upon challengers to her domain with savage fury.",
+    "thumbnail": "/images/characters/Asuri/thumbnail.png",
+    "weapons": [
+        {
+            "name": "Katars",
+            "thumbnail": "/images/weapons/katars.jpg",
+            "signatures": {
+                "nsig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/asuri-katars-nsig.gif"
+                },
+                "ssig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/asuri-katars-ssig.gif"
+                },
+                "dsig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/asuri-katars-dsig.gif"
+                }
+            }
+        },
+        {
+            "name": "Sword",
+            "thumbnail": "/images/weapons/sword.jpg",
+            "signatures": {
+                "nsig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/asuri-sword-nsig.gif"
+                },
+                "ssig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/asuri-sword-ssig.gif"
+                },
+                "dsig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/asuri-sword-dsig.gif"
+                }
+            }
+        }
+    ],
+    "skins": [
+        {
+            "name": "Apex Predator",
+            "thumbnail": "/images/characters/Asuri/ApexPredatorAsuri.png"
+        },
+        {
+            "name": "Awakened",
+            "thumbnail": "/images/characters/Asuri/AwakenedAsuri.png"
+        },
+        {
+            "name": "Badlands",
+            "thumbnail": "/images/characters/Asuri/BadlandsAsuri.png"
+        },
+        {
+            "name": "Cat Burglar",
+            "thumbnail": "/images/characters/Asuri/CatBurglarAsuri.png"
+        },
+        {
+            "name": "First Day",
+            "thumbnail": "/images/characters/Asuri/FirstDayAsuri.png"
+        },
+        {
+            "name": "Lynx",
+            "thumbnail": "/images/characters/Asuri/LynxAsuri.png"
+        },
+        {
+            "name": "Mecha",
+            "thumbnail": "/images/characters/Asuri/MechaAsuri.png"
+        },
+        {
+            "name": "Metadev",
+            "thumbnail": "/images/characters/Asuri/MetadevAsuri.png"
+        },
+        {
+            "name": "Skel",
+            "thumbnail": "/images/characters/Asuri/SkelAsuri.png"
+        },
+        {
+            "name": "Swashbuckler",
+            "thumbnail": "/images/characters/Asuri/SwashbucklerAsuri.png"
+        }
+    ],
+    "crossovers": [
+        {
+            "name": "Tigress",
+            "thumbnail": "/images/characters/asuri/Z-crossOver-TigressAsuri.png"
+        }
+    ]
 }

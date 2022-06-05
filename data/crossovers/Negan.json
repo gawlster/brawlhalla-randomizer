@@ -1,8 +1,8 @@
 {
-    "name": "",
-    "desc": "",
-    "lore": "",
-    "thumbnail": "",
-    "weapons": [{}, {}],
-    "crossovers": [{}]
+    "name": "Negan",
+    "thumbnail": "images/crossovers/Negan.png",
+    "crossover-for": {
+        "name": "Jaeyun",
+        "info": "characters/Jaeyun.json"
+    }
 }

@@ -1,8 +1,83 @@
 {
-    "name": "",
-    "desc": "",
-    "lore": "",
-    "thumbnail": "",
-    "weapons": [{}, {}],
-    "crossovers": [{}]
+    "link-info": "All paths to thumbnails, gifs, etc are relative to the root of the assets folder",
+    "name": "Jiro",
+    "desc": "The Shogun's Shadow",
+    "lore": "The masterful shinobi from the Iga and Koga clans were known far and wide. It was behind these clever diversions that the unparalleled Gensoujin family plied their trade.\nSecreted away in the Realm of Twilight it was here that Jiro trained as a child. From the beginning his reckless and unorthodox ways kept him at the top of his class, and in trouble with the elders. When he was told to “use the darkness to your advantage,” he convinced other trainees’ shadows to fight on his side and set a school record. Perfecting his own Saiyokage technique, he began taking others’ shadows for good and struck out on his own.\nIf the family dojo wasn’t ready for Jiro, his targets in the mortal world were even less prepared. With each victory he added another Shadow to his arsenal. Shogun Mizugawa’s reign ended in the setting sun when Jiro’s Shadow stretched over the fortress wall and sliced him in two. He hooked and set the Blood Moon with his Kusarigama to turn the Demon Shogun Yotsunaga mortal. Briefly. Most notably, Jiro employed the forbidden Full Eclipse Blade technique and Shogun Fujiyama disappeared under a flood of Shadows along with his entire army.\nNow in Valhalla, some say Jiro is hiding from death, but Wu Shang says he’s hiding behind the grand tapestry in the Great Hall as a part of the yearly hide-and-go-seek tournament with Kaya and Caspian. Together Jiro and his shadows climb the rankings, and are still all too happy to take a contract for the right price.",
+    "thumbnail": "/images/characters/Jiro/thumbnail.png",
+    "weapons": [
+        {
+            "name": "Scythe",
+            "thumbnail": "/images/weapons/scythe.jpg",
+            "signatures": {
+                "nsig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/jiro-scythe-nsig.gif"
+                },
+                "ssig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/jiro-scythe-ssig.gif"
+                },
+                "dsig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/jiro-scythe-dsig.gif"
+                }
+            }
+        },
+        {
+            "name": "Sword",
+            "thumbnail": "/images/weapons/sword.jpg",
+            "signatures": {
+                "nsig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/jiro-sword-nsig.gif"
+                },
+                "ssig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/jiro-sword-ssig.gif"
+                },
+                "dsig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/jiro-sword-dsig.gif"
+                }
+            }
+        }
+    ],
+    "skins": [
+        {
+            "name": "Crimson Oni",
+            "thumbnail": "/images/characters/Jiro/CrimsonOniJiro.png"
+        },
+        {
+            "name": "Dullahan",
+            "thumbnail": "/images/characters/Jiro/DullahanJiro.png"
+        },
+        {
+            "name": "Jiro the Specialist",
+            "thumbnail": "/images/characters/Jiro/JirotheSpecialist.png"
+        },
+        {
+            "name": "Komainu",
+            "thumbnail": "/images/characters/Jiro/KomainuJiro.png"
+        },
+        {
+            "name": "Shinigami",
+            "thumbnail": "/images/characters/Jiro/ShinigamiJiro.png"
+        },
+        {
+            "name": "Shogun",
+            "thumbnail": "/images/characters/Jiro/ShogunJiro.png"
+        }
+    ],
+    "crossovers": [
+        {
+            "name": "Leonardo",
+            "thumbnail": "/images/characters/Jiro/Z-crossOver-LeonardoJiro.png"
+        }
+    ]
 }

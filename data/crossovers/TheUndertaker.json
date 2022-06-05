@@ -1,8 +1,8 @@
 {
-    "name": "",
-    "desc": "",
-    "lore": "",
-    "thumbnail": "",
-    "weapons": [{}, {}],
-    "crossovers": [{}]
+    "name": "The Untertaker",
+    "thumbnail": "images/crossovers/TheUntertaker.png",
+    "crossover-for": {
+        "name": "Thor",
+        "info": "characters/Thor.json"
+    }
 }

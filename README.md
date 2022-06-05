@@ -1,2 +1,3 @@
 # brawlhalla-randomizer
-A better character selection experience for Brawlhalla
+
+A better character selection and wiki experience for Brawlhalla

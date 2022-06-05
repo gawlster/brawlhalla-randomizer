@@ -1,8 +1,8 @@
 {
-    "name": "",
-    "desc": "",
-    "lore": "",
-    "thumbnail": "",
-    "weapons": [{}, {}],
-    "crossovers": [{}]
+    "name": "Lara Croft",
+    "thumbnail": "images/crossovers/LaraCroft.png",
+    "crossover-for": {
+        "name": "Diana",
+        "info": "characters/Diana.json"
+    }
 }

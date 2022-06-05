@@ -1,15 +1,99 @@
 {
+    "link-info": "All paths to thumbnails, gifs, etc are relative to the root of the assets folder",
     "name": "Grapple Hammer",
+    "thumbnail": "images/weapons/grappleHammer.JPG",
     "attacks": {
-        "nlight": {},
-        "slight": {},
-        "dlight": {},
-        "nair": {},
-        "sair": {},
-        "dair": {},
-        "recovery": {},
-        "gp": {}
+        "nlight": {
+            "active-input": false,
+            "desc": "The hammer legend performs 2 kicks. If one of them hit it triggers a hammer strike from the legend.",
+            "gif": "gifs/light/axe/nlight"
+        },
+        "slight": {
+            "active-input": false,
+            "desc": "The legend hits the opponent with a quick jab to the face",
+            "gif": "gifs/light/axe/slight"
+        },
+        "dlight": {
+            "active-input": false,
+            "desc": "The legend performs a stomp crating dust around them",
+            "gif": "gifs/light/axe/dlight"
+        },
+        "nair": {
+            "active-input": false,
+            "desc": "nd",
+            "gif": "gifs/light/axe/nair"
+        },
+        "sair": {
+            "active-input": false,
+            "desc": "nd",
+            "gif": "gifs/light/axe/sair"
+        },
+        "dair": {
+            "active-input": false,
+            "desc": "nd",
+            "gif": "gifs/light/axe/dair"
+        },
+        "recovery": {
+            "active-input": false,
+            "desc": "nd",
+            "gif": "gifs/light/axe/recovery"
+        },
+        "gp": {
+            "active-input": false,
+            "desc": "nd",
+            "gif": "gifs/light/axe/gp"
+        }
     },
-    "skins": [{}],
-    "legends": []
+    "legends": [
+        {
+            "name": "Bodvar",
+            "thumbnail": "images/characters/Bodvar/thumbnail.png",
+            "info": "../characters/Bodvar.json"
+        },
+        {
+            "name": "Cassidy",
+            "thumbnail": "images/characters/Cassidy/thumbnail.png",
+            "info": "../characters/Cassidy.json"
+        },
+        {
+            "name": "Gnash",
+            "thumbnail": "images/characters/Gnash/thumbnail.png",
+            "info": "../characters/Gnash.json"
+        },
+        {
+            "name": "Kor",
+            "thumbnail": "images/characters/Kor/thumbnail.png",
+            "info": "../characters/Kor.json"
+        },
+        {
+            "name": "Magyar",
+            "thumbnail": "images/characters/Magyar/thumbnail.png",
+            "info": "../characters/Magyar.json"
+        },
+        {
+            "name": "Scarlet",
+            "thumbnail": "images/characters/Scarlet/thumbnail.png",
+            "info": "../characters/Scarlet.json"
+        },
+        {
+            "name": "Sentinel",
+            "thumbnail": "images/characters/Sentinel/thumbnail.png",
+            "info": "../characters/Sentinel.json"
+        },
+        {
+            "name": "Teros",
+            "thumbnail": "images/characters/Teros/thumbnail.png",
+            "info": "../characters/Teros.json"
+        },
+        {
+            "name": "Thor",
+            "thumbnail": "images/characters/Thor/thumbnail.png",
+            "info": "../characters/Thor.json"
+        },
+        {
+            "name": "Yumiko",
+            "thumbnail": "images/characters/Yumiko/thumbnail.png",
+            "info": "../characters/Yumiko.json"
+        }
+    ]
 }

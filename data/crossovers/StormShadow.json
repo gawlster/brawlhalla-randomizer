@@ -1,8 +1,8 @@
 {
-    "name": "",
-    "desc": "",
-    "lore": "",
-    "thumbnail": "",
-    "weapons": [{}, {}],
-    "crossovers": [{}]
+    "name": "Storm Shadow",
+    "thumbnail": "images/crossovers/StormShadow.png",
+    "crossover-for": {
+        "name": "Koji",
+        "info": "characters/Koji.json"
+    }
 }

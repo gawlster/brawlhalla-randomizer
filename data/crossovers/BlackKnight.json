@@ -1,8 +1,8 @@
 {
-    "name": "",
-    "desc": "",
-    "lore": "",
-    "thumbnail": "",
-    "weapons": [{}, {}],
-    "crossovers": [{}]
+    "name": "Black Knight",
+    "thumbnail": "images/crossovers/BlackKnight.png",
+    "crossover-for": {
+        "name": "Orion",
+        "info": "characters/Orion.json"
+    }
 }

@@ -1,8 +1,8 @@
 {
-    "name": "",
-    "desc": "",
-    "lore": "",
-    "thumbnail": "",
-    "weapons": [{}, {}],
-    "crossovers": [{}]
+    "name": "King Knight",
+    "thumbnail": "images/crossovers/KingKnight.png",
+    "crossover-for": {
+        "name": "Sir Roland",
+        "info": "characters/SirRoland.json"
+    }
 }

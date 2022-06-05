@@ -1,8 +1,8 @@
 {
-    "name": "",
-    "desc": "",
-    "lore": "",
-    "thumbnail": "",
-    "weapons": [{}, {}],
-    "crossovers": [{}]
+    "name": "Daryl",
+    "thumbnail": "images/crossovers/Daryl.png",
+    "crossover-for": {
+        "name": "Ember",
+        "info": "characters/Ember.json"
+    }
 }

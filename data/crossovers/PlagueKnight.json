@@ -1,8 +1,8 @@
 {
-    "name": "",
-    "desc": "",
-    "lore": "",
-    "thumbnail": "",
-    "weapons": [{}, {}],
-    "crossovers": [{}]
+    "name": "Plague Knight",
+    "thumbnail": "images/crossovers/PlagueKnight.png",
+    "crossover-for": {
+        "name": "Caspian",
+        "info": "characters/Caspian.json"
+    }
 }

@@ -1,8 +1,8 @@
 {
-    "name": "",
-    "desc": "",
-    "lore": "",
-    "thumbnail": "",
-    "weapons": [{}, {}],
-    "crossovers": [{}]
+    "name": "Asuka",
+    "thumbnail": "images/crossovers/Asuka.png",
+    "crossover-for": {
+        "name": "Queen Nai",
+        "info": "characters/QueenNai.json"
+    }
 }

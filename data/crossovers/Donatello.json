@@ -1,8 +1,8 @@
 {
-    "name": "",
-    "desc": "",
-    "lore": "",
-    "thumbnail": "",
-    "weapons": [{}, {}],
-    "crossovers": [{}]
+    "name": "Donatello",
+    "thumbnail": "images/crossovers/Donatello.png",
+    "crossover-for": {
+        "name": "Mirage",
+        "info": "characters/Mirage.json"
+    }
 }

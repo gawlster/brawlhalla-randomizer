@@ -1,15 +1,74 @@
 {
+    "link-info": "All paths to thumbnails, gifs, etc are relative to the root of the assets folder",
     "name": "Cannon",
+    "thumbnail": "images/weapons/cannon.JPG",
     "attacks": {
-        "nlight": {},
-        "slight": {},
-        "dlight": {},
-        "nair": {},
-        "sair": {},
-        "dair": {},
-        "recovery": {},
-        "gp": {}
+        "nlight": {
+            "active-input": false,
+            "desc": "A swift jab at midsection-height with the rear of the cannon. Hitting the opponent knocks them back and results in a followup point-blank shot with the business end, which knocks the opponent further back and down.",
+            "gif": "gifs/light/cannon/nlight"
+        },
+        "slight": {
+            "active-input": false,
+            "desc": "A twirling forward uppercut with the rear of the cannon. Hits high and fairly close, knocks the opponent slightly up into the air.",
+            "gif": "gifs/light/cannon/slight"
+        },
+        "dlight": {
+            "active-input": false,
+            "desc": "Slapping the length of the cannon down against the ground in front of the Legend. Hits anything grounded a short range ahead of your Legend and knocks them a short distance up into the air.",
+            "gif": "gifs/light/cannon/dlight"
+        },
+        "nair": {
+            "active-input": false,
+            "desc": "A quick, melee-range shot upwards and over the head with the cannon's business end which knocks opponents upwards.",
+            "gif": "gifs/light/cannon/nair"
+        },
+        "sair": {
+            "active-input": false,
+            "desc": "The legend grabs onto the cannon and fires it pointed backwards, propelling them forward a good distance and ramming anything in front.",
+            "gif": "gifs/light/cannon/sair"
+        },
+        "dair": {
+            "active-input": false,
+            "desc": "The legend grabs the back end of the cannon and swings the length of it down in a semi-circular arc, hitting anything in an ample arc in front and below. Opponents struck are knocked back and downwards.",
+            "gif": "gifs/light/cannon/dair"
+        },
+        "recovery": {
+            "active-input": false,
+            "desc": "A long arcing swing with the length of the cannon at an upwards diagonal. Carries the attacker a fair distance up and forward.",
+            "gif": "gifs/light/cannon/recovery"
+        },
+        "gp": {
+            "active-input": false,
+            "desc": "The Legend grips the cannon in both hands and drops, business-end first, downwards. Impacting the ground, an opponent, or terminating the attack early results in a powerful point-blank shot downwards.",
+            "gif": "gifs/light/cannon/gp"
+        }
     },
-    "skins": [{}],
-    "legends": []
+    "legends": [
+        {
+            "name": "Isaiah",
+            "thumbnail": "images/characters/Isaiah/thumbnail.png",
+            "info": "../characters/Isaiah.json"
+        },
+        {
+            "name": "Lin Fei",
+            "thumbnail": "images/characters/LinFei/thumbnail.png",
+            "info": "../characters/LinFei.json"
+        },
+        {
+            "name": "Sidra",
+            "thumbnail": "images/characters/Sidra/thumbnail.png",
+            "info": "../characters/Sidra.json"
+        },
+        {
+            "name": "Xull",
+            "thumbnail": "images/characters/Xull/thumbnail.png",
+            "info": "../characters/Xull.json"
+        },
+        {
+            "name": "Onyx",
+            "thumbnail": "images/characters/Onyx/thumbnail.png",
+            "info": "../characters/Onyx.json"
+        }
+    ]
 }

@@ -1,8 +1,8 @@
 {
-    "name": "",
-    "desc": "",
-    "lore": "",
-    "thumbnail": "",
-    "weapons": [{}, {}],
-    "crossovers": [{}]
+    "name": "Hellboy",
+    "thumbnail": "images/crossovers/Hellboy.png",
+    "crossover-for": {
+        "name": "Cross",
+        "info": "characters/Cross.json"
+    }
 }

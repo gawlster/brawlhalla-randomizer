@@ -1,8 +1,103 @@
 {
-    "name": "",
-    "desc": "",
-    "lore": "",
-    "thumbnail": "",
-    "weapons": [{}, {}],
-    "crossovers": [{}]
+    "link-info": "All paths to thumbnails, gifs, etc are relative to the root of the assets folder",
+    "name": "Hattori",
+    "desc": "Demon Bride",
+    "lore": "Young Hattori was so gifted with the sword that the Emperor offered a prize of one thousand horses to anyone who could defeat her. For years, new warriors came to court every day only to be defeated. But on the day the Demon Kagima arrived to challenge her, Hattori sensed his malevolent power and fled.  Enraged, the Demon kidnapped Hattori’s three sisters and carried them away to his island kingdom.\nHorrified by the consequences of her actions, Hattori built a boat out of reeds and pursued the Demon. She was lost at sea until a stork lord showed her the passages between the twilight and the night to the Demon’s realm. There Hattori found a bizarre world of talking stones and eight-armed ferrymen. In the City of the Onyx Castle, she met Kagima’s own brother, who offered to give Hattori his strength to defeat his brother, in return for her hand in marriage.\nTrue to his word, the Demon exchanged his own blood with Hattori’s, and Hattori slew Kagima and freed her sisters. She became Queen of the Island Kingdom, but the demon blood burned in her. It drove Hattori to wander the twilight passages until she discovered Valhalla. Through the eternal tournament, Hattori slakes the lust for battle that threatens to consume her.",
+    "thumbnail": "/images/characters/Hattori/thumbnail.png",
+    "weapons": [
+        {
+            "name": "Spear",
+            "thumbnail": "/images/weapons/spear.jpg",
+            "signatures": {
+                "nsig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/hattori-spear-nsig.gif"
+                },
+                "ssig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/hattori-spear-ssig.gif"
+                },
+                "dsig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/hattori-spear-dsig.gif"
+                }
+            }
+        },
+        {
+            "name": "Sword",
+            "thumbnail": "/images/weapons/sword.jpg",
+            "signatures": {
+                "nsig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/hattori-sword-nsig.gif"
+                },
+                "ssig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/hattori-sword-ssig.gif"
+                },
+                "dsig": {
+                    "active-input": false,
+                    "desc": "nd",
+                    "gif": "/gifs/sigs/hattori-sword-dsig.gif"
+                }
+            }
+        }
+    ],
+    "skins": [
+        {
+            "name": "Ani Akuma No Kogo",
+            "thumbnail": "/images/characters/Hattori/AniAkumaNoKogoHattori.png"
+        },
+        {
+            "name": "Cutting Edge",
+            "thumbnail": "/images/characters/Hattori/CuttingEdgeHattori.png"
+        },
+        {
+            "name": "Death Adder",
+            "thumbnail": "/images/characters/Hattori/DeathAdderHattori.png"
+        },
+        {
+            "name": "Demon Bridge",
+            "thumbnail": "/images/characters/Hattori/DemonBridgeHattori.png"
+        },
+        {
+            "name": "Kabuki",
+            "thumbnail": "/images/characters/Hattori/KabukiHattori.png"
+        },
+        {
+            "name": "Kill Thrill",
+            "thumbnail": "/images/characters/Hattori/KillThrillHattori.png"
+        },
+        {
+            "name": "Kitsune",
+            "thumbnail": "/images/characters/Hattori/KitsuneHattori.png"
+        },
+        {
+            "name": "Maître d'Hattori",
+            "thumbnail": "/images/characters/Hattori/Maîtred'HattoriHattori.png"
+        },
+        {
+            "name": "Nightblade",
+            "thumbnail": "/images/characters/Hattori/NightbladeHattori.png"
+        },
+        {
+            "name": "Oni No",
+            "thumbnail": "/images/characters/Hattori/OniNoHattori.png"
+        },
+        {
+            "name": "Sidewinder",
+            "thumbnail": "/images/characters/Hattori/SidewinderHattori.png"
+        }
+    ],
+    "crossovers": [
+        {
+            "name": "John Cena",
+            "thumbnail": "/images/characters/Hattori/Z-crossOver-JohnCenaHattori.png"
+        }
+    ]
 }
