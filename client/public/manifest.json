@@ -1,0 +1,9 @@
+{
+    "short_name": "Brawlhalla Randomizer",
+    "name": "A better experience for character selection and exploring lore",
+    "icons": [],
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#000000",
+    "background_color": "#ffffff"
+}
