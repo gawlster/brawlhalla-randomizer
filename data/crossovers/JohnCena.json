@@ -1,8 +1,8 @@
 {
-    "name": "",
-    "desc": "",
-    "lore": "",
-    "thumbnail": "",
-    "weapons": [{}, {}],
-    "crossovers": [{}]
+    "name": "John Cena",
+    "thumbnail": "images/crossovers/JohnCena.png",
+    "crossover-for": {
+        "name": "Hattori",
+        "info": "characters/Hattori.json"
+    }
 }

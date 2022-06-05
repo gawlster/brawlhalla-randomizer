@@ -1,8 +1,8 @@
 {
-    "name": "",
-    "desc": "",
-    "lore": "",
-    "thumbnail": "",
-    "weapons": [{}, {}],
-    "crossovers": [{}]
+    "name": "Sakura",
+    "thumbnail": "images/crossovers/Sakura.png",
+    "crossover-for": {
+        "name": "Lin Fei",
+        "info": "characters/LinFei.json"
+    }
 }

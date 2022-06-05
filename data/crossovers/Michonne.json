@@ -1,0 +1,8 @@
+{
+    "name": "Michonne",
+    "thumbnail": "images/crossovers/Michonne.png",
+    "crossover-for": {
+        "name": "Koji",
+        "info": "characters/Koji.json"
+    }
+}

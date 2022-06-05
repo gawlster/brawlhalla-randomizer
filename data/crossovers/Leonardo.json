@@ -1,8 +1,8 @@
 {
-    "name": "",
-    "desc": "",
-    "lore": "",
-    "thumbnail": "",
-    "weapons": [{}, {}],
-    "crossovers": [{}]
+    "name": "Leonardo",
+    "thumbnail": "images/crossovers/Leonardo.png",
+    "crossover-for": {
+        "name": "Jiro",
+        "info": "characters/Jiro.json"
+    }
 }

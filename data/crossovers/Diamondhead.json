@@ -1,8 +1,8 @@
 {
-    "name": "",
-    "desc": "",
-    "lore": "",
-    "thumbnail": "",
-    "weapons": [{}, {}],
-    "crossovers": [{}]
+    "name": "Diamondhead",
+    "thumbnail": "images/crossovers/Diamondhead.png",
+    "crossover-for": {
+        "name": "Caspian",
+        "info": "characters/Caspian.json"
+    }
 }

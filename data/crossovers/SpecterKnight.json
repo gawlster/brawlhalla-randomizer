@@ -1,0 +1,8 @@
+{
+    "name": "Specter Knight",
+    "thumbnail": "images/crossovers/SpecterKnight.png",
+    "crossover-for": {
+        "name": "Nix",
+        "info": "characters/Nix.json"
+    }
+}

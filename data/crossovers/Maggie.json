@@ -1,8 +1,8 @@
 {
-    "name": "",
-    "desc": "",
-    "lore": "",
-    "thumbnail": "",
-    "weapons": [{}, {}],
-    "crossovers": [{}]
+    "name": "Maggie",
+    "thumbnail": "images/crossovers/Maggie.png",
+    "crossover-for": {
+        "name": "Jhala",
+        "info": "characters/Jhala.json"
+    }
 }

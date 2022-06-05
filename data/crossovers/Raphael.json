@@ -1,8 +1,8 @@
 {
-    "name": "",
-    "desc": "",
-    "lore": "",
-    "thumbnail": "",
-    "weapons": [{}, {}],
-    "crossovers": [{}]
+    "name": "Raphael",
+    "thumbnail": "images/crossovers/Raphael.png",
+    "crossover-for": {
+        "name": "Ragnir",
+        "info": "characters/Ragnir.json"
+    }
 }

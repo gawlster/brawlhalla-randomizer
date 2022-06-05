@@ -1,8 +1,8 @@
 {
-    "name": "",
-    "desc": "",
-    "lore": "",
-    "thumbnail": "",
-    "weapons": [{}, {}],
-    "crossovers": [{}]
+    "name": "Becky Lynch",
+    "thumbnail": "images/crossovers/BeckyLynch.png",
+    "crossover-for": {
+        "name": "Gnash",
+        "info": "characters/Gnash.json"
+    }
 }

@@ -1,8 +1,8 @@
 {
-    "name": "",
-    "desc": "",
-    "lore": "",
-    "thumbnail": "",
-    "weapons": [{}, {}],
-    "crossovers": [{}]
+    "name": "Macho Man",
+    "thumbnail": "images/crossovers/MachoMan.png",
+    "crossover-for": {
+        "name": "Ulgrim",
+        "info": "characters/Ulgrim.json"
+    }
 }

@@ -1,8 +1,8 @@
 {
-    "name": "",
-    "desc": "",
-    "lore": "",
-    "thumbnail": "",
-    "weapons": [{}, {}],
-    "crossovers": [{}]
+    "name": "Globox",
+    "thumbnail": "images/crossovers/Globox.png",
+    "crossover-for": {
+        "name": "Cassidy",
+        "info": "characters/Cassidy.json"
+    }
 }

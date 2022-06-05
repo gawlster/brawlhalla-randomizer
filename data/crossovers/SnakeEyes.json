@@ -1,8 +1,8 @@
 {
-    "name": "",
-    "desc": "",
-    "lore": "",
-    "thumbnail": "",
-    "weapons": [{}, {}],
-    "crossovers": [{}]
+    "name": "Snake Eyes",
+    "thumbnail": "images/crossovers/SnakeEyes.png",
+    "crossover-for": {
+        "name": "Thatch",
+        "info": "characters/Thatch.json"
+    }
 }

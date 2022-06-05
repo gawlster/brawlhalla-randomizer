@@ -1,8 +1,8 @@
 {
-    "name": "",
-    "desc": "",
-    "lore": "",
-    "thumbnail": "",
-    "weapons": [{}, {}],
-    "crossovers": [{}]
+    "name": "Xavier Woods",
+    "thumbnail": "images/crossovers/XavierWoods.png",
+    "crossover-for": {
+        "name": "Bodvar",
+        "info": "characters/Bodvar.json"
+    }
 }

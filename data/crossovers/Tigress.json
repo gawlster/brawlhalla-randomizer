@@ -1,8 +1,8 @@
 {
-    "name": "",
-    "desc": "",
-    "lore": "",
-    "thumbnail": "",
-    "weapons": [{}, {}],
-    "crossovers": [{}]
+    "name": "Tigress",
+    "thumbnail": "images/crossovers/Tigress.png",
+    "crossover-for": {
+        "name": "Asuri",
+        "info": "characters/Asuri.json"
+    }
 }

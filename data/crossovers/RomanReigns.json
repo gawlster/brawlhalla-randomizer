@@ -1,8 +1,8 @@
 {
-    "name": "",
-    "desc": "",
-    "lore": "",
-    "thumbnail": "",
-    "weapons": [{}, {}],
-    "crossovers": [{}]
+    "name": "Roman Reigns",
+    "thumbnail": "images/crossovers/RomanReigns.png",
+    "crossover-for": {
+        "name": "Teros",
+        "info": "characters/Teros.json"
+    }
 }

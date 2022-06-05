@@ -1,8 +1,8 @@
 {
-    "name": "",
-    "desc": "",
-    "lore": "",
-    "thumbnail": "",
-    "weapons": [{}, {}],
-    "crossovers": [{}]
+    "name": "Heatblast",
+    "thumbnail": "images/crossovers/Heatblast.png",
+    "crossover-for": {
+        "name": "Ada",
+        "info": "characters/Ada.json"
+    }
 }

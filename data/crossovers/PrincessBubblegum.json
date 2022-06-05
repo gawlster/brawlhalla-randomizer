@@ -1,8 +1,8 @@
 {
-    "name": "",
-    "desc": "",
-    "lore": "",
-    "thumbnail": "",
-    "weapons": [{}, {}],
-    "crossovers": [{}]
+    "name": "Princess Bubblegum",
+    "thumbnail": "images/crossovers/PrincessBubblegum.png",
+    "crossover-for": {
+        "name": "Lord Vraxx",
+        "info": "characters/LordVraxx.json"
+    }
 }

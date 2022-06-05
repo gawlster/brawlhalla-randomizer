@@ -1,8 +1,8 @@
 {
-    "name": "",
-    "desc": "",
-    "lore": "",
-    "thumbnail": "",
-    "weapons": [{}, {}],
-    "crossovers": [{}]
+    "name": "Nimue",
+    "thumbnail": "images/crossovers/Nimue.png",
+    "crossover-for": {
+        "name": "Dusk",
+        "info": "characters/Dusk.json"
+    }
 }

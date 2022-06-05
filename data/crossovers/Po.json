@@ -1,8 +1,8 @@
 {
-    "name": "",
-    "desc": "",
-    "lore": "",
-    "thumbnail": "",
-    "weapons": [{}, {}],
-    "crossovers": [{}]
+    "name": "Po",
+    "thumbnail": "images/crossovers/Po.png",
+    "crossover-for": {
+        "name": "Wu Shang",
+        "info": "characters/WuShang.json"
+    }
 }

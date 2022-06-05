@@ -1,8 +1,8 @@
 {
-    "name": "",
-    "desc": "",
-    "lore": "",
-    "thumbnail": "",
-    "weapons": [{}, {}],
-    "crossovers": [{}]
+    "name": "Luke",
+    "thumbnail": "images/crossovers/Luke.png",
+    "crossover-for": {
+        "name": "Cross",
+        "info": "characters/Cross.json"
+    }
 }

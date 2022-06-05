@@ -1,8 +1,8 @@
 {
-    "name": "",
-    "desc": "",
-    "lore": "",
-    "thumbnail": "",
-    "weapons": [{}, {}],
-    "crossovers": [{}]
+    "name": "Shovel Knight",
+    "thumbnail": "images/crossovers/ShovelKnight.png",
+    "crossover-for": {
+        "name": "Gnash",
+        "info": "characters/Gnash.json"
+    }
 }

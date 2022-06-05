@@ -1,8 +1,8 @@
 {
-    "name": "",
-    "desc": "",
-    "lore": "",
-    "thumbnail": "",
-    "weapons": [{}, {}],
-    "crossovers": [{}]
+    "name": "Michelangelo",
+    "thumbnail": "images/crossovers/Michelangelo.png",
+    "crossover-for": {
+        "name": "Val",
+        "info": "characters/Val.json"
+    }
 }

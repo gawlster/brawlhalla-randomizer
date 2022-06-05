@@ -1,8 +1,8 @@
 {
-    "name": "",
-    "desc": "",
-    "lore": "",
-    "thumbnail": "",
-    "weapons": [{}, {}],
-    "crossovers": [{}]
+    "name": "Amethyst",
+    "thumbnail": "images/crossovers/Amethyst.png",
+    "crossover-for": {
+        "name": "Xull",
+        "info": "characters/Xull.json"
+    }
 }

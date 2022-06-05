@@ -1,8 +1,8 @@
 {
-    "name": "",
-    "desc": "",
-    "lore": "",
-    "thumbnail": "",
-    "weapons": [{}, {}],
-    "crossovers": [{}]
+    "name": "Garnet",
+    "thumbnail": "images/crossovers/Garnet.png",
+    "crossover-for": {
+        "name": "Petra",
+        "info": "characters/Petra.json"
+    }
 }

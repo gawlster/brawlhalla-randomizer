@@ -1,8 +1,8 @@
 {
-    "name": "",
-    "desc": "",
-    "lore": "",
-    "thumbnail": "",
-    "weapons": [{}, {}],
-    "crossovers": [{}]
+    "name": "Guagach",
+    "thumbnail": "images/crossovers/Guagach.png",
+    "crossover-for": {
+        "name": "Teros",
+        "info": "characters/Teros.json"
+    }
 }

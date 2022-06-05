@@ -1,8 +1,8 @@
 {
-    "name": "",
-    "desc": "",
-    "lore": "",
-    "thumbnail": "",
-    "weapons": [{}, {}],
-    "crossovers": [{}]
+    "name": "Rick",
+    "thumbnail": "images/crossovers/Rick.png",
+    "crossover-for": {
+        "name": "Barraza",
+        "info": "characters/Barraza.json"
+    }
 }

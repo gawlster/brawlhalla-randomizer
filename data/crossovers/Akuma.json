@@ -1,8 +1,8 @@
 {
-    "name": "",
-    "desc": "",
-    "lore": "",
-    "thumbnail": "",
-    "weapons": [{}, {}],
-    "crossovers": [{}]
+    "name": "Akuma",
+    "thumbnail": "images/crossovers/akuma.png",
+    "crossover-for": {
+        "name": "Val",
+        "info": "characters/Val.json"
+    }
 }
