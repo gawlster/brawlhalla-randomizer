@@ -1,7 +1,14 @@
 import React from 'react'
+import Navbar from '../../components/Navbar'
+import './index.scss'
 
 const ChooseRandom = () => {
-    return <div>Hello from Choose Random</div>
+    return (
+        <div id='ChooseRandom'>
+            <Navbar />
+            <p>Hello from Choose Random</p>
+        </div>
+    )
 }
 
 export default ChooseRandom
