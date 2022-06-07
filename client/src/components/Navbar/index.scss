@@ -1,0 +1,43 @@
+#Navbar {
+    position: sticky;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    bottom: 0;
+    .icon {
+        z-index: 999999;
+        position: fixed;
+        right: 1.5rem;
+        top: 1rem;
+        cursor: pointer;
+    }
+    .open {
+        .icon {
+            color: white;
+        }
+    }
+    nav {
+        background: gray;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        text-align: center;
+        width: 100vw;
+        height: 100vh;
+        .link {
+            width: fit-content;
+            color: white;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 2rem;
+            &.active {
+                color: yellow;
+            }
+            &:hover {
+                color: yellow;
+            }
+        }
+    }
+}
