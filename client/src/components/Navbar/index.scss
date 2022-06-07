@@ -11,6 +11,11 @@
         top: 1rem;
         cursor: pointer;
     }
+    .open {
+        .icon {
+            color: white;
+        }
+    }
     nav {
         background: gray;
         display: flex;
