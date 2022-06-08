@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import Navbar from '../../components/Navbar'
 import './index.scss'
-
 const baseURL = 'http://localhost:9000/'
 
 const Home = () => {
@@ -12,11 +11,14 @@ const Home = () => {
             setI(Math.floor(Math.random() * 3) + 1)
         }
         async function getBackground(index: number) {
-            const response = await fetch(`${baseURL}home-background?i=${index}`)
+            const response: Response = await fetch(`${baseURL}home-background?i=${index}`)
             const json = await response.json()
-            const importURL: string = `../../${json.imgURL}`
-            const curBackground = await import(importURL)
-            setBackground(curBackground)
+            // const importURL: string = `../../assets/images/backgrounds/home/background${json.i}.png`
+            // const curBackground = await import(importURL)
+            const curBackground = await import(
+                '../../assets/images/backgrounds/home/background3.png'
+            )
+            setBackground(curBackground.default)
         }
         getI()
         getBackground(i)

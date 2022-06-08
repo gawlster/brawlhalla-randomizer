@@ -1,5 +1,4 @@
 import express, { Router, Request, Response } from 'express'
-import path from 'path'
 
 const router: Router = express.Router()
 
@@ -19,7 +18,7 @@ router.get('/', async (req: Request, res: Response) => {
         const response: SuccessResponse = {
             message: `Responding with the home background number ${queries.i}`,
             i: Number(queries.i),
-            imgURL: `assets/images/backgrounds/home/background${queries.i}.png`,
+            imgURL: `images/backgrounds/home/background${queries.i}`,
         }
         res.status(200).send(response)
     } else {

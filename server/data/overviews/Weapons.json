@@ -1,0 +1,67 @@
+[
+    {
+        "name": "Axe",
+        "thumbnail": "assets/images/weapons/Axe.JPG",
+        "more-info": "weapon?weapon=Axe"
+    },
+    {
+        "name": "Blasters",
+        "thumbnail": "assets/images/weapons/Blasters.JPG",
+        "more-info": "weapon?weapon=Blasters"
+    },
+    {
+        "name": "Bow",
+        "thumbnail": "assets/images/weapons/Bow.JPG",
+        "more-info": "weapon?weapon=Bow"
+    },
+    {
+        "name": "Cannon",
+        "thumbnail": "assets/images/weapons/Cannon.JPG",
+        "more-info": "weapon?weapon=Cannon"
+    },
+    {
+        "name": "Gauntlets",
+        "thumbnail": "assets/images/weapons/Gauntlets.JPG",
+        "more-info": "weapon?weapon=Gauntlets"
+    },
+    {
+        "name": "Grapple Hammer",
+        "thumbnail": "assets/images/weapons/GrappleHammer.JPG",
+        "more-info": "weapon?weapon=GrappleHammer"
+    },
+    {
+        "name": "Greatsword",
+        "thumbnail": "assets/images/weapons/Greatsword.JPG",
+        "more-info": "weapon?weapon=Greatsword"
+    },
+    {
+        "name": "Katars",
+        "thumbnail": "assets/images/weapons/Katars.JPG",
+        "more-info": "weapon?weapon=Katars"
+    },
+    {
+        "name": "Orb",
+        "thumbnail": "assets/images/weapons/Orb.JPG",
+        "more-info": "weapon?weapon=Orb"
+    },
+    {
+        "name": "Rocket Lance",
+        "thumbnail": "assets/images/weapons/RocketLance.JPG",
+        "more-info": "weapon?weapon=RocketLance"
+    },
+    {
+        "name": "Scythe",
+        "thumbnail": "assets/images/weapons/Scythe.JPG",
+        "more-info": "weapon?weapon=Scythe"
+    },
+    {
+        "name": "Spear",
+        "thumbnail": "assets/images/weapons/Spear.JPG",
+        "more-info": "weapon?weapon=Spear"
+    },
+    {
+        "name": "Sword",
+        "thumbnail": "assets/images/weapons/Sword.JPG",
+        "more-info": "weapon?weapon=Sword"
+    }
+]
