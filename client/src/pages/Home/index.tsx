@@ -12,11 +12,13 @@ const Home = () => {
             setI(Math.floor(Math.random() * 3) + 1)
         }
         async function getBackground(index: number) {
-            const res = await fetch(`${baseURL}home-background?i=${i}`)
-            setBackground(res.url)
+            const response = await fetch(`${baseURL}home-background?i=${index}`)
+            const json = await response.json()
+            const importURL: string = `../../${json.imgURL}`
+            const curBackground = await import(importURL)
+            setBackground(curBackground)
         }
         getI()
-        console.log(i)
         getBackground(i)
     }, [])
 

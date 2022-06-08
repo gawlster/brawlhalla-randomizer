@@ -1,0 +1,277 @@
+[
+    {
+        "name": "Ada",
+        "thumbnail": "../../assets/images/characters/Ada/thumbnail.png",
+        "more-info": "legend?legend=Ada"
+    },
+    {
+        "name": "Arcadia",
+        "thumbnail": "../../assets/images/characters/Arcadia/thumbnail.png",
+        "more-info": "legend?legend=Arcadia"
+    },
+    {
+        "name": "Artemis",
+        "thumbnail": "../../assets/images/characters/Artemis/thumbnail.png",
+        "more-info": "legend?legend=Artemis"
+    },
+    {
+        "name": "Asuri",
+        "thumbnail": "../../assets/images/characters/Asuri/thumbnail.png",
+        "more-info": "legend?legend=Asuri"
+    },
+    {
+        "name": "Azoth",
+        "thumbnail": "../../assets/images/characters/Azoth/thumbnail.png",
+        "more-info": "legend?legend=Azoth"
+    },
+    {
+        "name": "Barraza",
+        "thumbnail": "../../assets/images/characters/Barraza/thumbnail.png",
+        "more-info": "legend?legend=Barraza"
+    },
+    {
+        "name": "Bodvar",
+        "thumbnail": "../../assets/images/characters/Bodvar/thumbnail.png",
+        "more-info": "legend?legend=Bodvar"
+    },
+    {
+        "name": "Brynn",
+        "thumbnail": "../../assets/images/characters/Brynn/thumbnail.png",
+        "more-info": "legend?legend=Brynn"
+    },
+    {
+        "name": "Caspian",
+        "thumbnail": "../../assets/images/characters/Caspian/thumbnail.png",
+        "more-info": "legend?legend=Caspian"
+    },
+    {
+        "name": "Cassidy",
+        "thumbnail": "../../assets/images/characters/Cassidy/thumbnail.png",
+        "more-info": "legend?legend=Cassidy"
+    },
+    {
+        "name": "Cross",
+        "thumbnail": "../../assets/images/characters/Cross/thumbnail.png",
+        "more-info": "legend?legend=Cross"
+    },
+    {
+        "name": "Diana",
+        "thumbnail": "../../assets/images/characters/Diana/thumbnail.png",
+        "more-info": "legend?legend=Diana"
+    },
+    {
+        "name": "Dusk",
+        "thumbnail": "../../assets/images/characters/Dusk/thumbnail.png",
+        "more-info": "legend?legend=Dusk"
+    },
+    {
+        "name": "Ember",
+        "thumbnail": "../../assets/images/characters/Ember/thumbnail.png",
+        "more-info": "legend?legend=Ember"
+    },
+    {
+        "name": "Fait",
+        "thumbnail": "../../assets/images/characters/Fait/thumbnail.png",
+        "more-info": "legend?legend=Fait"
+    },
+    {
+        "name": "Gnash",
+        "thumbnail": "../../assets/images/characters/Gnash/thumbnail.png",
+        "more-info": "legend?legend=Gnash"
+    },
+    {
+        "name": "Hattori",
+        "thumbnail": "../../assets/images/characters/Hattori/thumbnail.png",
+        "more-info": "legend?legend=Hattori"
+    },
+    {
+        "name": "Isaiah",
+        "thumbnail": "../../assets/images/characters/Isaiah/thumbnail.png",
+        "more-info": "legend?legend=Isaiah"
+    },
+    {
+        "name": "Jaeyun",
+        "thumbnail": "../../assets/images/characters/Jaeyun/thumbnail.png",
+        "more-info": "legend?legend=Jaeyun"
+    },
+    {
+        "name": "Jhala",
+        "thumbnail": "../../assets/images/characters/Jhala/thumbnail.png",
+        "more-info": "legend?legend=Jhala"
+    },
+    {
+        "name": "Jiro",
+        "thumbnail": "../../assets/images/characters/Jiro/thumbnail.png",
+        "more-info": "legend?legend=Jiro"
+    },
+    {
+        "name": "Kaya",
+        "thumbnail": "../../assets/images/characters/Kaya/thumbnail.png",
+        "more-info": "legend?legend=Kaya"
+    },
+    {
+        "name": "Koji",
+        "thumbnail": "../../assets/images/characters/Koji/thumbnail.png",
+        "more-info": "legend?legend=Koji"
+    },
+    {
+        "name": "Kor",
+        "thumbnail": "../../assets/images/characters/Kor/thumbnail.png",
+        "more-info": "legend?legend=Kor"
+    },
+    {
+        "name": "Lin Fei",
+        "thumbnail": "../../assets/images/characters/LinFei/thumbnail.png",
+        "more-info": "legend?legend=LinFei"
+    },
+    {
+        "name": "Lord Vraxx",
+        "thumbnail": "../../assets/images/characters/LordVraxx/thumbnail.png",
+        "more-info": "legend?legend=LordVraxx"
+    },
+    {
+        "name": "Lucien",
+        "thumbnail": "../../assets/images/characters/Lucien/thumbnail.png",
+        "more-info": "legend?legend=Lucien"
+    },
+    {
+        "name": "Magyar",
+        "thumbnail": "../../assets/images/characters/Magyar/thumbnail.png",
+        "more-info": "legend?legend=Magyar"
+    },
+    {
+        "name": "Mako",
+        "thumbnail": "../../assets/images/characters/Mako/thumbnail.png",
+        "more-info": "legend?legend=Mako"
+    },
+    {
+        "name": "Mirage",
+        "thumbnail": "../../assets/images/characters/Mirage/thumbnail.png",
+        "more-info": "legend?legend=Mirage"
+    },
+    {
+        "name": "Mordex",
+        "thumbnail": "../../assets/images/characters/Mordex/thumbnail.png",
+        "more-info": "legend?legend=Mordex"
+    },
+    {
+        "name": "Munin",
+        "thumbnail": "../../assets/images/characters/Munin/thumbnail.png",
+        "more-info": "legend?legend=Munin"
+    },
+    {
+        "name": "Nix",
+        "thumbnail": "../../assets/images/characters/Nix/thumbnail.png",
+        "more-info": "legend?legend=Nix"
+    },
+    {
+        "name": "Onyx",
+        "thumbnail": "../../assets/images/characters/Onyx/thumbnail.png",
+        "more-info": "legend?legend=Onyx"
+    },
+    {
+        "name": "Orion",
+        "thumbnail": "../../assets/images/characters/Orion/thumbnail.png",
+        "more-info": "legend?legend=Orion"
+    },
+    {
+        "name": "Petra",
+        "thumbnail": "../../assets/images/characters/Petra/thumbnail.png",
+        "more-info": "legend?legend=Petra"
+    },
+    {
+        "name": "Queen Nai",
+        "thumbnail": "../../assets/images/characters/QueenNai/thumbnail.png",
+        "more-info": "legend?legend=QueenNai"
+    },
+    {
+        "name": "Ragnir",
+        "thumbnail": "../../assets/images/characters/Ragnir/thumbnail.png",
+        "more-info": "legend?legend=Ragnir"
+    },
+    {
+        "name": "Rayman",
+        "thumbnail": "../../assets/images/characters/Rayman/thumbnail.png",
+        "more-info": "legend?legend=Rayman"
+    },
+    {
+        "name": "Reno",
+        "thumbnail": "../../assets/images/characters/Reno/thumbnail.png",
+        "more-info": "legend?legend=Reno"
+    },
+    {
+        "name": "Scarlet",
+        "thumbnail": "../../assets/images/characters/Scarlet/thumbnail.png",
+        "more-info": "legend?legend=Scarlet"
+    },
+    {
+        "name": "Sentinel",
+        "thumbnail": "../../assets/images/characters/Sentinel/thumbnail.png",
+        "more-info": "legend?legend=Sentinel"
+    },
+    {
+        "name": "Sidra",
+        "thumbnail": "../../assets/images/characters/Sidra/thumbnail.png",
+        "more-info": "legend?legend=Sidra"
+    },
+    {
+        "name": "Sir Roland",
+        "thumbnail": "../../assets/images/characters/SirRoland/thumbnail.png",
+        "more-info": "legend?legend=SirRoland"
+    },
+    {
+        "name": "Teros",
+        "thumbnail": "../../assets/images/characters/Teros/thumbnail.png",
+        "more-info": "legend?legend=Teros"
+    },
+    {
+        "name": "Thatch",
+        "thumbnail": "../../assets/images/characters/Thatch/thumbnail.png",
+        "more-info": "legend?legend=Thatch"
+    },
+    {
+        "name": "Thor",
+        "thumbnail": "../../assets/images/characters/Thor/thumbnail.png",
+        "more-info": "legend?legend=Thor"
+    },
+    {
+        "name": "Ulgrim",
+        "thumbnail": "../../assets/images/characters/Ulgrim/thumbnail.png",
+        "more-info": "legend?legend=Ulgrim"
+    },
+    {
+        "name": "Val",
+        "thumbnail": "../../assets/images/characters/Val/thumbnail.png",
+        "more-info": "legend?legend=Val"
+    },
+    {
+        "name": "Vector",
+        "thumbnail": "../../assets/images/characters/Vector/thumbnail.png",
+        "more-info": "legend?legend=Vector"
+    },
+    {
+        "name": "Volkov",
+        "thumbnail": "../../assets/images/characters/Volkov/thumbnail.png",
+        "more-info": "legend?legend=Volkov"
+    },
+    {
+        "name": "Wu Shang",
+        "thumbnail": "../../assets/images/characters/WuShang/thumbnail.png",
+        "more-info": "legend?legend=WuShang"
+    },
+    {
+        "name": "Xull",
+        "thumbnail": "../../assets/images/characters/Xull/thumbnail.png",
+        "more-info": "legend?legend=Xull"
+    },
+    {
+        "name": "Yumiko",
+        "thumbnail": "../../assets/images/characters/Yumiko/thumbnail.png",
+        "more-info": "legend?legend=Yumiko"
+    },
+    {
+        "name": "Zariel",
+        "thumbnail": "../../assets/images/characters/Zariel/thumbnail.png",
+        "more-info": "legend?legend=Zariel"
+    }
+]

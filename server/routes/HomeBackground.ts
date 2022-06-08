@@ -19,14 +19,9 @@ router.get('/', async (req: Request, res: Response) => {
         const response: SuccessResponse = {
             message: `Responding with the home background number ${queries.i}`,
             i: Number(queries.i),
-            imgURL: 'imgURL',
+            imgURL: `assets/images/backgrounds/home/background${queries.i}.png`,
         }
-
-        res.sendFile(
-            path.resolve(__dirname, `../assets/images/backgrounds/home/background${queries.i}.png`)
-        )
-
-        // res.status(200).send(response)
+        res.status(200).send(response)
     } else {
         const response: ErrorResponse = {
             message: 'Invalid request, please specify an i query in the range [1, 3]',

@@ -10,6 +10,12 @@ app.use(cors())
 import HomeBackground from './routes/HomeBackground'
 app.use('/home-background', HomeBackground)
 
+import AllLegendOverview from './routes/AllLegendOverview'
+app.use('/all-legends', AllLegendOverview)
+
+import Legend from './routes/GetLegend'
+app.use('/legend', Legend)
+
 try {
     app.listen(port, (): void => {
         console.log(`Connected successfully on port ${port}`)
