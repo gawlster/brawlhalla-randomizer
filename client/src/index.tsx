@@ -14,6 +14,7 @@ root.render(
         <Routes>
             <Route path='/' element={<Home />}></Route>
             <Route path='/legends' element={<Legends />}></Route>
+            <Route path='/legend-details' element={<LegendDetails />}></Route>
             <Route path='/weapons' element={<Weapons />}></Route>
             <Route path='/choose-legend' element={<ChooseRandom />}></Route>
         </Routes>
