@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom'
 import Navbar from '../../components/Navbar'
 import './index.scss'
-import images from '../../images'
+import images from '../../imports/characterThumbnails'
 
 const BASE_URL = 'http://localhost:9000/'
 
@@ -14,6 +15,9 @@ type LegendOverview = {
     name: string
     thumbnail: any
     'more-info': string
+}
+type BackgroundStyle = {
+    background: string
 }
 
 const Legends = () => {
@@ -35,11 +39,14 @@ const Legends = () => {
         getLegends()
     }, [])
 
-    function getRandomImageStyle() {
+    function getRandomImageStyle(): BackgroundStyle {
         const r = Math.floor(Math.random() * 200) + 20
         const g = Math.floor(Math.random() * 200) + 20
         const b = Math.floor(Math.random() * 200) + 20
         return { background: `rgb(${r}, ${g}, ${b})` }
+    }
+    function toCamelCase(str: string): string {
+        return str.replace(/\s/g, '')
     }
 
     return (
@@ -50,22 +57,26 @@ const Legends = () => {
                     {legends &&
                         legends.map((legend, i) => {
                             return (
-                                <div
-                                    className='legend'
-                                    key={i}
-                                    onClick={(e: any) => {
-                                        alert(`clicked on ${legend.name}`)
-                                    }}>
-                                    <div className='image' style={getRandomImageStyle()}>
-                                        <img className='thumbnail' src={legend.thumbnail} alt='' />
-                                    </div>
-                                    <div className='onhover'>
-                                        <div className='overlay'></div>
-                                        <div className='name'>
-                                            <p>{legend.name}</p>
+                                <Link
+                                    className='link'
+                                    to={`/legend-details/${toCamelCase(legend.name)}`}
+                                    key={i}>
+                                    <div className='legend'>
+                                        <div className='image' style={getRandomImageStyle()}>
+                                            <img
+                                                className='thumbnail'
+                                                src={legend.thumbnail}
+                                                alt=''
+                                            />
+                                        </div>
+                                        <div className='onhover'>
+                                            <div className='overlay'></div>
+                                            <div className='name'>
+                                                <p>{legend.name}</p>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
+                                </Link>
                             )
                         })}
                 </div>
