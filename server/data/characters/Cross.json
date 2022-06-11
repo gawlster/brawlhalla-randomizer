@@ -1,49 +1,49 @@
 {
     "link-info": "All paths to thumbnails, gifs, etc are relative to the root of the assets folder",
     "name": "Cross",
+    "camelCase": "Cross",
     "desc": "The Dealmaker",
     "lore": "In Italy with the Allied army, PFC Joseph Cross found an ancient double-headed coin. That night, he dreamt of a demon and struck a deal. The demon would fight for him, and after his last fight, the demon would get payment. | After the war, the New York underworld was rocked as terrifying new force moved in. Cross’ outfit took over and soon ran numbers, protection, and extortion in all five boroughs. At night, enemies would get a personal visit from Cross and what those who survived called living shadows. For years, Cross owned the town. | As he grew obsessed with wealth and power, Cross turned deeper to the occult. He waded through the blood of New York’s wizard population to accumulate magical artifacts and monstrous henchmen. But after Cross obtained the Shrouded Gauntlets of Belzar, things began to turn for the worse. Strangers appeared in town looking for him; hard looking figures with archaic cloaks and ancient weapons. Battling these cloaked vigilantes with his fists and guns was far harder than scaring New York hoodlums. But Cross, with his demonic henchmen, held his own. | Valhalla is the ultimate loophole in his deal with the demons, and the frightening but charismatic mobster holds his place in the Grand Tournament for love of battle and fear of the alternative. But now Cross and the demon have a new wager, and like-minded legends are placing bets of their own.",
-    "thumbnail": "/images/characters/Cross/thumbnail.png",
     "weapons": [
         {
             "name": "Blasters",
-            "thumbnail": "/images/weapons/blasters.jpg",
+            "camelCase": "Blasters",
             "signatures": {
                 "nsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/cross-blasters-nsig.gif"
+                    "camelCase": "CrossBlastersNSig"
                 },
                 "ssig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/cross-blasters-ssig.gif"
+                    "camelCase": "CrossBlastersSSig"
                 },
                 "dsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/cross-blasters-dsig.gif"
+                    "camelCase": "CrossBlastersDSig"
                 }
             }
         },
         {
             "name": "Gauntlets",
-            "thumbnail": "/images/weapons/gauntlets.jpg",
+            "camelCase": "Gauntlets",
             "signatures": {
                 "nsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/cross-gauntlets-nsig.gif"
+                    "camelCase": "CrossGauntletsNSig"
                 },
                 "ssig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/cross-gauntlets-ssig.gif"
+                    "camelCase": "CrossGauntletsSSig"
                 },
                 "dsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/cross-gauntlets-dsig.gif"
+                    "camelCase": "CrossGauntletsDSig"
                 }
             }
         }
@@ -51,53 +51,53 @@
     "skins": [
         {
             "name": "Boss",
-            "thumbnail": "/images/characters/Cross/BossCross.png"
+            "thumbnail": "BossCross"
         },
         {
             "name": "Devil",
-            "thumbnail": "/images/characters/Cross/DevilCross.png"
+            "thumbnail": "DevilCross"
         },
         {
             "name": "Double",
-            "thumbnail": "/images/characters/Cross/DoubleCross.png"
+            "thumbnail": "DoubleCross"
         },
         {
             "name": "Honor Bound",
-            "thumbnail": "/images/characters/Cross/HonorBoundCross.png"
+            "thumbnail": "HonorBoundCross"
         },
         {
             "name": "Infernal",
-            "thumbnail": "/images/characters/Cross/InfernalCross.png"
+            "thumbnail": "InfernalCross"
         },
         {
             "name": "Krampus",
-            "thumbnail": "/images/characters/Cross/KrampusCross.png"
+            "thumbnail": "KrampusCross"
         },
         {
             "name": "Prizefighter",
-            "thumbnail": "/images/characters/Cross/PrizefighterCross.png"
+            "thumbnail": "PrizefighterCross"
         },
         {
             "name": "Shadowlord",
-            "thumbnail": "/images/characters/Cross/ShadowlordCross.png"
+            "thumbnail": "ShadowlordCross"
         },
         {
             "name": "Staff Sgt.",
-            "thumbnail": "/images/characters/Cross/StaffSgtCross.png"
+            "thumbnail": "StaffSgtCross"
         },
         {
             "name": "Water Wars",
-            "thumbnail": "/images/characters/Cross/WaterWarsCross.png"
+            "thumbnail": "WaterWarsCross"
         }
     ],
     "crossovers": [
         {
             "name": "Hellboy",
-            "thumbnail": "/images/characters/Cross/Z-crossOver-HellboyCross.png"
+            "thumbnail": "HellboyCross"
         },
         {
             "name": "Luke",
-            "thumbnail": "/images/characters/Cross/Z-crossOver-LukeCross.png"
+            "thumbnail": "LukeCross"
         }
     ]
 }

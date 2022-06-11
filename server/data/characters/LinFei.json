@@ -1,49 +1,49 @@
 {
     "link-info": "All paths to thumbnails, gifs, etc are relative to the root of the assets folder",
     "name": "Lin Fei",
+    "camelCase": "LinFei",
     "desc": "The Teacher",
     "lore": "Wu Shang tells of a time his Imperial soldiers raided a village for gunpowder, and a young girl challenged them. This girl fought with such perfect skill for her home and family that it caused him to question everything about his own life. | That girl grew up with a passion for martial arts. She traveled to distant and dangerous lands in search of ancient forms. It was deep in the long lost Library of the Seventh Empire that she freed her family’s ancestral guardian, the dragon Xiao. | She became a renowned teacher and scholar, often dealing out her lessons the hard way. She thrashed the marauding mountain giants, then taught them how to use their size to proper advantage. When the Emperor’s very first ninjas challenged her to open combat, she clobbered them, then she advised them that wearing black and tip-toeing might be more their thing. | In Valhalla, Lin Fei has not yet told Wu Shang that she was the girl from his fateful day. She has, however, told him how to improve his Fist of Fire technique with a few breathing tweaks. Top legends seek out Lin Fei to refine their own styles or learn new moves. She taught Cassidy the Tornado, Azoth his Shrieking Skulls, and Roland the Flaming Horse. Volkov dedicated his first Asgardian Cup to her. The closest That has ever come to gratitude was when Lin Fei taught him to tap his deepest inner lunatic to summon the Spirit Shark.",
-    "thumbnail": "/images/characters/LinFei/thumbnail.png",
     "weapons": [
         {
             "name": "Cannon",
-            "thumbnail": "/images/weapons/cannon.jpg",
+            "camelCase": "Cannon",
             "signatures": {
                 "nsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/linfei-cannon-nsig.gif"
+                    "camelCase": "LinFeiCannonNSig"
                 },
                 "ssig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/linfei-cannon-ssig.gif"
+                    "camelCase": "LinFeiCannonSSig"
                 },
                 "dsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/linfei-cannon-dsig.gif"
+                    "camelCase": "LinFeiCannonDSig"
                 }
             }
         },
         {
             "name": "Katars",
-            "thumbnail": "/images/weapons/katars.jpg",
+            "camelCase": "Katars",
             "signatures": {
                 "nsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/linfei-katars-nsig.gif"
+                    "camelCase": "LinFeiKatarsNSig"
                 },
                 "ssig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/linfei-katars-ssig.gif"
+                    "camelCase": "LinFeiKatarsSSig"
                 },
                 "dsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/linfei-katars-dsig.gif"
+                    "camelCase": "LinFeiKatarsDSig"
                 }
             }
         }
@@ -51,33 +51,33 @@
     "skins": [
         {
             "name": "Ace Spiker",
-            "thumbnail": "/images/characters/LinFei/AceSpikerLinFei.png"
+            "thumbnail": "AceSpikerLinFei"
         },
         {
             "name": "Daomadan",
-            "thumbnail": "/images/characters/LinFei/DaomadanLinFei.png"
+            "thumbnail": "DaomadanLinFei"
         },
         {
             "name": "Green Thumb",
-            "thumbnail": "/images/characters/LinFei/GreenThumbLinFei.png"
+            "thumbnail": "GreenThumbLinFei"
         },
         {
             "name": "Wenqing",
-            "thumbnail": "/images/characters/LinFei/WenqingLinFei.png"
+            "thumbnail": "WenqingLinFei"
         },
         {
             "name": "Xianxia",
-            "thumbnail": "/images/characters/LinFei/XianxiaLinFei.png"
+            "thumbnail": "XianxiaLinFei"
         },
         {
             "name": "Zhulong",
-            "thumbnail": "/images/characters/LinFei/ZhulongLinFei.png"
+            "thumbnail": "ZhulongLinFei"
         }
     ],
     "crossovers": [
         {
             "name": "Sakura",
-            "thumbnail": "/images/characters/LinFei/Z-crossOver-SakuraLinFei.png"
+            "thumbnail": "SakuraLinFei"
         }
     ]
 }

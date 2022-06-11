@@ -14,27 +14,19 @@ import ArcadiaSpearDSig from '../assets/gifs/Arcadia-spear-dsig.gif'
 
 export default {
     Ada: {
-        Blasters: {
-            NSig: AdaBlastersNSig,
-            SSig: AdaBlastersSSig,
-            DSig: AdaBlastersDSig,
-        },
-        Spear: {
-            NSig: AdaSpearNSig,
-            SSig: AdaSpearSSig,
-            DSig: AdaSpearDSig,
-        },
+        AdaBlastersDSig,
+        AdaBlastersNSig,
+        AdaBlastersSSig,
+        AdaSpearDSig,
+        AdaSpearNSig,
+        AdaSpearSSig,
     },
     Arcadia: {
-        Greatsword: {
-            NSig: ArcadiaGreatswordNSig,
-            SSig: ArcadiaGreatswordSSig,
-            DSig: ArcadiaGreatswordDSig,
-        },
-        Spear: {
-            NSig: ArcadiaSpearNSig,
-            SSig: ArcadiaSpearSSig,
-            DSig: ArcadiaSpearDSig,
-        },
+        ArcadiaGreatswordDSig,
+        ArcadiaGreatswordNSig,
+        ArcadiaGreatswordSSig,
+        ArcadiaSpearDSig,
+        ArcadiaSpearNSig,
+        ArcadiaSpearSSig,
     },
 }

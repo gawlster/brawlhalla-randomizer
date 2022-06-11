@@ -1,49 +1,49 @@
 {
     "link-info": "All paths to thumbnails, gifs, etc are relative to the root of the assets folder",
     "name": "Lucien",
+    "camelCase": "Lucien",
     "desc": "The Highwayman",
     "lore": "In the dark violence of the French Revolution, Count Lucien Degas lived in Paris in decadent splendor. But by night, the mysterious Highwayman stalked the roads with his gang, preying on travelers without mercy. That is, until the price on his gang’s head grew to a hundred thousand francs. Then Lucien promoted his second-in-command and turned them all in for the reward.  He had always despised dividing his loot with inferiors, anyway. | And indeed it was as a solo artist that The Highwayman became a figure of legendary dread. Relying on his own preternatural quickness and ruthless determination, he tried his hand at every sort of crime to bankroll his lavish living. Kidnapping, bank robbing, race fixing, art forgery, horse assassination, nothing was beneath Lucien. He wreaked havoc until his name became synonymous with avarice and violence. | In Valhalla, Lucien continues to scheme for gold and power. He knows the tournament is the surest way to gain influence here, and he’ll resort to any means necessary to win.",
-    "thumbnail": "/images/characters/Lucien/thumbnail.png",
     "weapons": [
         {
             "name": "Blasters",
-            "thumbnail": "/images/weapons/blasters.jpg",
+            "camelCase": "Blasters",
             "signatures": {
                 "nsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/lucien-blasters-nsig.gif"
+                    "camelCase": "LucienBlastersNSig"
                 },
                 "ssig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/lucien-blasters-ssig.gif"
+                    "camelCase": "LucienBlastersSSig"
                 },
                 "dsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/lucien-blasters-dsig.gif"
+                    "camelCase": "LucienBlastersDSig"
                 }
             }
         },
         {
             "name": "Katars",
-            "thumbnail": "/images/weapons/katars.jpg",
+            "camelCase": "Katars",
             "signatures": {
                 "nsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/lucien-katars-nsig.gif"
+                    "camelCase": "LucienKatarsNSig"
                 },
                 "ssig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/lucien-katars-ssig.gif"
+                    "camelCase": "LucienKatarsSSig"
                 },
                 "dsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/lucien-katars-dsig.gif"
+                    "camelCase": "LucienKatarsDSig"
                 }
             }
         }
@@ -51,43 +51,43 @@
     "skins": [
         {
             "name": "Bullet Driver",
-            "thumbnail": "/images/characters/Lucien/BulletDriverLucien.png"
+            "thumbnail": "BulletDriverLucien"
         },
         {
             "name": "Dark of Night",
-            "thumbnail": "/images/characters/Lucien/DarkofNightLucien.png"
+            "thumbnail": "DarkofNightLucien"
         },
         {
             "name": "Dreadnought",
-            "thumbnail": "/images/characters/Lucien/DreadnoughtLucien.png"
+            "thumbnail": "DreadnoughtLucien"
         },
         {
             "name": "Horseman",
-            "thumbnail": "/images/characters/Lucien/HorsemanLucien.png"
+            "thumbnail": "HorsemanLucien"
         },
         {
             "name": "Overdrive",
-            "thumbnail": "/images/characters/Lucien/OverdriveLucien.png"
+            "thumbnail": "OverdriveLucien"
         },
         {
             "name": "Plague Doctor",
-            "thumbnail": "/images/characters/Lucien/PlagueDoctorLucien.png"
+            "thumbnail": "PlagueDoctorLucien"
         },
         {
             "name": "Raven Rogue",
-            "thumbnail": "/images/characters/Lucien/RavenRogueLucien.png"
+            "thumbnail": "RavenRogueLucien"
         },
         {
             "name": "Spec-Ops",
-            "thumbnail": "/images/characters/Lucien/Spec-OpsLucien.png"
+            "thumbnail": "Spec-OpsLucien"
         },
         {
             "name": "Suitor",
-            "thumbnail": "/images/characters/Lucien/SuitorLucien.png"
+            "thumbnail": "SuitorLucien"
         },
         {
             "name": "Vive la Revolucien",
-            "thumbnail": "/images/characters/Lucien/VivelaRevolucien.png"
+            "thumbnail": "VivelaRevolucien"
         }
     ],
     "crossovers": []

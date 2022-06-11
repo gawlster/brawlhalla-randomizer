@@ -3,22 +3,24 @@ import { Link } from 'react-router-dom'
 import './index.scss'
 import { useParams } from 'react-router'
 import Navbar from '../../components/Navbar'
+import Skins from '../../imports/Skins'
+import Crossovers from '../../imports/Crossovers'
+import Weapons from '../../imports/Weapons'
 
 const BASE_URL = 'http://localhost:9000/'
 
 type LegendData = {
-    'link-info': string
     name: string
+    camelCase: string
     desc: string
     lore: string[]
-    thumbnail: string
     weapons: WeaponData[]
     skins: SkinData[]
     crossovers: SkinData[]
 }
 type WeaponData = {
     name: string
-    thumbnail: string
+    camelCase: string
     signatures: Sigs
 }
 type Sigs = {
@@ -29,38 +31,37 @@ type Sigs = {
 type Sig = {
     'active-input': boolean
     desc: string
-    gif: string
+    camelCase: string
 }
 type SkinData = {
     name: string
-    thumbnail: string
+    camelCase: string
 }
 
 const defaultLegendData = {
-    'link-info': '',
     name: '',
+    camelCase: '',
     desc: '',
     lore: [''],
-    thumbnail: '',
     weapons: [
         {
             name: '',
-            thumbnail: '',
+            camelCase: '',
             signatures: {
                 nsig: {
                     'active-input': false,
                     desc: '',
-                    gif: '',
+                    camelCase: '',
                 },
                 ssig: {
                     'active-input': false,
                     desc: '',
-                    gif: '',
+                    camelCase: '',
                 },
                 dsig: {
                     'active-input': false,
                     desc: '',
-                    gif: '',
+                    camelCase: '',
                 },
             },
         },
@@ -68,23 +69,25 @@ const defaultLegendData = {
     skins: [
         {
             name: '',
-            thumbnail: '',
+            camelCase: '',
         },
     ],
     crossovers: [
         {
             name: '',
-            thumbnail: '',
+            camelCase: '',
         },
     ],
 }
 
 const LegendDetails = () => {
     const [legendData, setLegendData] = useState<LegendData>(defaultLegendData)
+    const [images, setImages] = useState<any>({})
 
     let { legendName } = useParams()
 
     useEffect(() => {
+        let weapons: any[] = []
         async function getData() {
             const res = await fetch(`${BASE_URL}legend?legend=${legendName}`)
             const data = await res.json()
@@ -92,16 +95,24 @@ const LegendDetails = () => {
                 ...data,
                 lore: formatLore(data.default.lore),
             }
+            fdata.weapons.forEach((weapon: any) => {
+                weapons.push(Weapons[weapon.camelCase as keyof typeof Weapons])
+            })
             setLegendData(fdata)
         }
         getData()
+        console.log(weapons)
+        setImages({
+            weapons: weapons,
+            skins: Skins[legendName as keyof typeof Skins],
+            crossovers: Crossovers[legendName as keyof typeof Crossovers],
+        })
     }, [])
 
     function formatLore(lore: string): string[] {
         const newLore = lore.split(' | ')
         return newLore
     }
-
     return (
         <div id='LegendDetails'>
             <div className='content'>
@@ -121,27 +132,29 @@ const LegendDetails = () => {
                     {legendData.name ? `${legendData.name}'s ` : ''}Weapons
                 </h2>
                 {legendData &&
-                    legendData.weapons &&
-                    legendData.weapons.map((weapon, i) => {
+                    images &&
+                    images.weapons &&
+                    images.weapons.map((weapon: { name: string; img: string }, i: number) => {
+                        console.log(weapon)
                         return (
                             <div key={i} className='weapon'>
                                 <Link to={`/weapon-details/${weapon.name.replace(/\s/g, '')}`}>
-                                    <img className='thumbnail' src={weapon.thumbnail} alt='' />
+                                    <img className='thumbnail' src={weapon.img} alt='' />
                                     <h3 className='weapon-name'>{weapon.name}</h3>
                                 </Link>
                             </div>
                         )
                     })}
-
                 <h2 className='skin-header'>
                     {legendData.name ? `${legendData.name}'s ` : ''}Skins
                 </h2>
                 {legendData &&
-                    legendData.skins &&
-                    legendData.skins.map((skin, i) => {
+                    images &&
+                    images.skins &&
+                    images.skins.map((skin: { name: string; img: string }, i: number) => {
                         return (
                             <div key={i} className='skin'>
-                                <img className='thumbnail' src={skin.thumbnail} alt='' />
+                                <img className='thumbnail' src={skin.img} alt='' />
                                 <h3 className='skin-name'>{skin.name}</h3>
                             </div>
                         )
@@ -154,11 +167,12 @@ const LegendDetails = () => {
                     </h2>
                 )}
                 {legendData &&
-                    legendData.crossovers &&
-                    legendData.crossovers.map((crossover, i) => {
+                    images &&
+                    images.crossovers &&
+                    images.crossovers.map((crossover: { name: string; img: string }, i: number) => {
                         return (
                             <div key={i} className='crossover'>
-                                <img className='thumbnail' src={crossover.thumbnail} alt='' />
+                                <img className='thumbnail' src={crossover.img} alt='' />
                                 <h3 className='crossover-name'>{crossover.name}</h3>
                             </div>
                         )

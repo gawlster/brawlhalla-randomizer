@@ -1,49 +1,49 @@
 {
     "link-info": "All paths to thumbnails, gifs, etc are relative to the root of the assets folder",
     "name": "Kaya",
+    "camelCase": "Kaya",
     "desc": "The Natural",
     "lore": "When Kaya was six she could put an arrow through a falling snowflake. At eight she brought down two bison with one spear throw. At ten she was visited by an owl spirit who told her she would decide the fate of her world. More interesting to her, the spirit also showed her how to befriend the wooly mammoth. | Atop her great mammoth, Blue, Kaya became the beloved icon of her tribe, the People of the Lights. Kaya and Blue stalked every corner of the frozen tundra, finding adventure and amassing a huge supply of lost mittens. | In Kaya’s fourteenth year, the Ice Titans, thought to be only a legend, brutally attacked Kaya’s village. The Titans pillaged or destroyed every store of food, skin, or kayak. Though still a child, Kaya and Blue led her people through the Northern Lights, straight into the heart of Jotunheim. In the Titan homeland, Kaya fought with the reckless bravery and tactical brilliance of one far beyond her years. | The valkyrie Hypernia saw Kaya’s unconquerable heart and offered her a place in the warrior’s heaven. In Valhalla, Kaya rejoiced in exploring the strange world of Asgard with her best friend, Hypernia’s young daughter Brynn. Now, as Brynn has grown older, Kaya has begun to take an interest in the Grand Tournament as well, and she thinks perhaps she and Blue will give it a try.",
-    "thumbnail": "/images/characters/Kaya/thumbnail.png",
     "weapons": [
         {
             "name": "Bow",
-            "thumbnail": "/images/weapons/bow.jpg",
+            "camelCase": "Bow",
             "signatures": {
                 "nsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/kaya-bow-nsig.gif"
+                    "camelCase": "KayaBowNSig"
                 },
                 "ssig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/kaya-bow-ssig.gif"
+                    "camelCase": "KayaBowNSig"
                 },
                 "dsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/kaya-bow-dsig.gif"
+                    "camelCase": "KayaBowNSig"
                 }
             }
         },
         {
             "name": "Spear",
-            "thumbnail": "/images/weapons/spear.jpg",
+            "camelCase": "Spear",
             "signatures": {
                 "nsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/kaya-spear-nsig.gif"
+                    "camelCase": "KayaSpearNSig"
                 },
                 "ssig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/kaya-spear-ssig.gif"
+                    "camelCase": "KayaSpearNSig"
                 },
                 "dsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/kaya-spear-dsig.gif"
+                    "camelCase": "KayaSpearNSig"
                 }
             }
         }
@@ -51,37 +51,37 @@
     "skins": [
         {
             "name": "Alpine",
-            "thumbnail": "/images/characters/Kaya/AlpineKaya.png"
+            "thumbnail": "AlpineKaya"
         },
         {
             "name": "Athena",
-            "thumbnail": "/images/characters/Kaya/AthenaKaya.png"
+            "thumbnail": "AthenaKaya"
         },
         {
             "name": "Aurora",
-            "thumbnail": "/images/characters/Kaya/AuroraKaya.png"
+            "thumbnail": "AuroraKaya"
         },
         {
             "name": "Huntress",
-            "thumbnail": "/images/characters/Kaya/HuntressKaya.png"
+            "thumbnail": "HuntressKaya"
         },
         {
             "name": "Kindergarten",
-            "thumbnail": "/images/characters/Kaya/KindergartenKaya.png"
+            "thumbnail": "KindergartenKaya"
         },
         {
             "name": "Red Rose",
-            "thumbnail": "/images/characters/Kaya/RedRoseKaya.png"
+            "thumbnail": "RedRoseKaya"
         },
         {
             "name": "Snow Stalker",
-            "thumbnail": "/images/characters/Kaya/SnowStalkerKaya.png"
+            "thumbnail": "SnowStalkerKaya"
         }
     ],
     "crossovers": [
         {
             "name": "Pearl",
-            "thumbnail": "/images/characters/Kaya/Z-crossOver-PearlKaya.png"
+            "thumbnail": "PearlKaya"
         }
     ]
 }

@@ -1,49 +1,49 @@
 {
     "link-info": "All paths to thumbnails, gifs, etc are relative to the root of the assets folder",
     "name": "Gnash",
+    "camelCase": "Gnash",
     "desc": "The First Real Man",
     "lore": "In the darkness before the dawn of history, Gnash was raised by the harsh jungle itself. The lone hunter was called Long Fang by the saber-tooths, The Beast by the human clans, and Swift Death by the Primordials, an ancient race of savage cannibal apes. | The ruthless Primordials drove humankind to the brink of extinction before Gnash emerged to stalk their steps. He devised the very first ‘plan’ when he drove the last of the Primordials through the Great Crevasse to the Valley of the Never Setting Sun and trapped them there with a giant avalanche. | No one has been in Valhalla longer, and some say he was hunting these heavenly forests before Odin and company arrived. He continues to collect firewood, avoid darkness, store food for winter, and does not seem to understand or care that he is not still on Earth. He talks little about the Tournament, or anything else, but his winning record speaks for itself.",
-    "thumbnail": "/images/characters/Gnash/thumbnail.png",
     "weapons": [
         {
             "name": "Grapple Hammer",
-            "thumbnail": "/images/weapons/grappleHammer.jpg",
+            "camelCase": "GrappleHammer",
             "signatures": {
                 "nsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/gnash-hammer-nsig.gif"
+                    "camelCase": "GnashHammerNSig"
                 },
                 "ssig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/gnash-hammer-ssig.gif"
+                    "camelCase": "GnashHammerSSig"
                 },
                 "dsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/gnash-hammer-dsig.gif"
+                    "camelCase": "GnashHammerDSig"
                 }
             }
         },
         {
             "name": "Spear",
-            "thumbnail": "/images/weapons/spear.jpg",
+            "camelCase": "Spear",
             "signatures": {
                 "nsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/gnash-spear-nsig.gif"
+                    "camelCase": "GnashSpearNSig"
                 },
                 "ssig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/gnash-spear-ssig.gif"
+                    "camelCase": "GnashSpearSSig"
                 },
                 "dsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/gnash-spear-dsig.gif"
+                    "camelCase": "GnashSpearDSig"
                 }
             }
         }
@@ -51,53 +51,53 @@
     "skins": [
         {
             "name": "Chrometooth",
-            "thumbnail": "/images/characters/Gnash/ChrometoothGnash.png"
+            "thumbnail": "ChrometoothGnash"
         },
         {
             "name": "Jurassic",
-            "thumbnail": "/images/characters/Gnash/JurassicGnash.png"
+            "thumbnail": "JurassicGnash"
         },
         {
             "name": "Mogar",
-            "thumbnail": "/images/characters/Gnash/MogarGnash.png"
+            "thumbnail": "MogarGnash"
         },
         {
             "name": "Outback",
-            "thumbnail": "/images/characters/Gnash/OutbackGnash.png"
+            "thumbnail": "OutbackGnash"
         },
         {
             "name": "Pteranodon",
-            "thumbnail": "/images/characters/Gnash/PteranodonGnash.png"
+            "thumbnail": "PteranodonGnash"
         },
         {
             "name": "Reindeer Games",
-            "thumbnail": "/images/characters/Gnash/ReindeerGamesGnash.png"
+            "thumbnail": "ReindeerGamesGnash"
         },
         {
             "name": "Silvermane",
-            "thumbnail": "/images/characters/Gnash/SilvermaneGnash.png"
+            "thumbnail": "SilvermaneGnash"
         },
         {
             "name": "Team Spirit",
-            "thumbnail": "/images/characters/Gnash/TeamSpiritGnash.png"
+            "thumbnail": "TeamSpiritGnash"
         },
         {
             "name": "The Monster",
-            "thumbnail": "/images/characters/Gnash/TheMonsterGnash.png"
+            "thumbnail": "TheMonsterGnash"
         },
         {
             "name": "White Fang",
-            "thumbnail": "/images/characters/Gnash/WhiteFangGnash.png"
+            "thumbnail": "WhiteFangGnash"
         }
     ],
     "crossovers": [
         {
             "name": "Becky Lynch",
-            "thumbnail": "/images/characters/Gnash/Z-crossOver-BeckyLynchGnash.png"
+            "thumbnail": "BeckyLynchGnash"
         },
         {
             "name": "SShovel Knight",
-            "thumbnail": "/images/characters/Gnash/Z-crossOver-ShovelKnightGnash.png"
+            "thumbnail": "ShovelKnightGnash"
         }
     ]
 }

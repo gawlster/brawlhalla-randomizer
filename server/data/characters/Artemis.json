@@ -1,49 +1,49 @@
 {
     "link-info": "All paths to thumbnails, gifs, etc are relative to the root of the assets folder",
     "name": "Artemis",
+    "camelCase": "Artemis",
     "desc": "The Answer",
     "lore": "Philosophers sometimes talk about “The will of the universe”, a consciousness above that of even the gods. We may never know if the universe has a will, but we do know it has an immune response. When foreign matter streaked over the skies of Valhalla, the response was an antibody of celestial proportions. As the name Orion was spoken, Artemis came into being, although she would not call herself that for many years. | Born Mary Washington in West Plaza New York, she was a voracious reader with a love for strawberry ice cream. While Mary had a relatively normal childhood, her parents sometimes wondered why she would read stories of the goddess Artemis killing the hunter Orion over and over again. | Mary was too eager to confront her opponent. At the first sign of her powers manifesting, she opened a wormhole intending to stride into Valhalla. Instead, she emerged in the vacuum of space. Struggling for survival, she fought to keep a cocoon of atmosphere cycling in from nearby worlds. Knowing she would have to sleep eventually, she delved into knowledge of her foe to replicate a suit with life support. Mutating and adapting the design to work with her latent abilities, she honed the precision of her wormholes and emerged in Asgard. Artemis was complete. | In Valhalla, Artemis is still subject to the rules of local gods and must complete her destiny through the bouts of The Tournament. Sensing a common frustration, Nix has taken her under her wing and given the young challenger some pointers on scythe use. As Orion’s reputation grows in the arena, Artemis wonders if all of Asgard might be too infected to save.",
-    "thumbnail": "/images/characters/artemis/thumbnail.png",
     "weapons": [
         {
             "name": "Rocket Lance",
-            "thumbnail": "/images/weapons/RocketLance.jpg",
+            "camelCase": "RocketLance",
             "signatures": {
                 "nsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/artemis-rocketlance-nsig.gif"
+                    "camelCase": "ArtemisLanceNSig"
                 },
                 "ssig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/artemis-rocketlance-ssig.gif"
+                    "camelCase": "ArtemisLanceSSig"
                 },
                 "dsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/artemis-rocketlance-dsig.gif"
+                    "camelCase": "ArtemisLanceDSig"
                 }
             }
         },
         {
-            "name": "Spear",
-            "thumbnail": "/images/weapons/scythe.jpg",
+            "name": "Scythe",
+            "camelCase": "Scythe",
             "signatures": {
                 "nsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/artemis-scythe-nsig.gif"
+                    "camelCase": "ArtemisScytheNSig"
                 },
                 "ssig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/artemis-scythe-ssig.gif"
+                    "camelCase": "ArtemisScytheSSig"
                 },
                 "dsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/artemis-scythe-dsig.gif"
+                    "camelCase": "ArtemisScytheDSig"
                 }
             }
         }
@@ -51,43 +51,43 @@
     "skins": [
         {
             "name": "Darkheart",
-            "thumbnail": "/images/characters/Artemis/DarkheartArtemis.png"
+            "thumbnail": "DarkheartArtemis"
         },
         {
             "name": "Demon Rider",
-            "thumbnail": "/images/characters/Artemis/DemonRiderArtemis.png"
+            "thumbnail": "DemonRiderArtemis"
         },
         {
             "name": "Eclipse",
-            "thumbnail": "/images/characters/Artemis/EclipseArtemis.png"
+            "thumbnail": "EclipseArtemis"
         },
         {
             "name": "Event Horizon",
-            "thumbnail": "/images/characters/Artemis/EventHorizonArtemis.png"
+            "thumbnail": "EventHorizonArtemis"
         },
         {
             "name": "Future Spirit",
-            "thumbnail": "/images/characters/Artemis/FutureSpiritArtemis.png"
+            "thumbnail": "FutureSpiritArtemis"
         },
         {
             "name": "Iron Lady",
-            "thumbnail": "/images/characters/Artemis/IronLadyArtemis.png"
+            "thumbnail": "IronLadyArtemis"
         },
         {
             "name": "Netherworld",
-            "thumbnail": "/images/characters/Artemis/NetherworldArtemis.png"
+            "thumbnail": "NetherworldArtemis"
         },
         {
             "name": "Seraph",
-            "thumbnail": "/images/characters/Artemis/SeraphArtemis.png"
+            "thumbnail": "SeraphArtemis"
         },
         {
             "name": "Slapshot",
-            "thumbnail": "/images/characters/Artemis/SlapshotArtemis.png"
+            "thumbnail": "SlapshotArtemis"
         },
         {
             "name": "Street Race",
-            "thumbnail": "/images/characters/Artemis/StreetRaceArtemis.png"
+            "thumbnail": "StreetRaceArtemis"
         }
     ],
     "crossovers": []

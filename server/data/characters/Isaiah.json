@@ -1,49 +1,49 @@
 {
     "link-info": "All paths to thumbnails, gifs, etc are relative to the root of the assets folder",
     "name": "Isaiah",
+    "camelCase": "Isaiah",
     "desc": "The Specialist",
     "lore": "People with security clearance to know that the Office of Emergency Logistics existed also knew that it was Major Isaiah Marshall who made the OEL America’s first line of defense. When President Coates first took office, he was shocked to discover the sheer number of malevolent forces, both supernatural and mundane, menacing the nation he now led. The new President leaned heavily on the top-secret OEL and its resourceful commander to battle these threats. | Whether alien, monster, or homegrown menace, Isaiah took an ecumencial and pracical approach to battling the scourges of the world. He resolved a crisis in Mumbai when he established at the last possible moment that Rakshasa’s invisibility does not extend to ultraviolet scopes. He determined that silvered ceramic is the best multi-purpose shell for penetrating narco-terrorist kevlar, Zhaktari powershields, and werewolf hide. When rappelling into interdimensional portals, he established the need for copper cable and sound belaying technique. | In Valhalla, Isaiah still loves to fight, but has also finally found time for slackline and guitar. He has put together a techno-fantasy euro pop band with Ada, Ulgrim, and Fait.",
-    "thumbnail": "/images/characters/Isaiah/thumbnail.png",
     "weapons": [
         {
             "name": "Blasters",
-            "thumbnail": "/images/weapons/blasters.jpg",
+            "camelCase": "Blasters",
             "signatures": {
                 "nsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/isaiah-blasters-nsig.gif"
+                    "camelCase": "IsaiahBlastersNSig"
                 },
                 "ssig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/isaiah-blasters-ssig.gif"
+                    "camelCase": "IsaiahBlastersSSig"
                 },
                 "dsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/isaiah-blasters-dsig.gif"
+                    "camelCase": "IsaiahBlastersDSig"
                 }
             }
         },
         {
             "name": "Cannon",
-            "thumbnail": "/images/weapons/cannon.jpg",
+            "camelCase": "Cannon",
             "signatures": {
                 "nsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/isaiah-cannon-nsig.gif"
+                    "camelCase": "IsaiahCannonNSig"
                 },
                 "ssig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/isaiah-cannon-ssig.gif"
+                    "camelCase": "IsaiahCannonSSig"
                 },
                 "dsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/isaiah-cannon-dsig.gif"
+                    "camelCase": "IsaiahCannonDSig"
                 }
             }
         }
@@ -51,31 +51,31 @@
     "skins": [
         {
             "name": "Admiral",
-            "thumbnail": "/images/characters/Isaiah/AdmiralIsaiah.png"
+            "thumbnail": "AdmiralIsaiah"
         },
         {
             "name": "Brawl Dad",
-            "thumbnail": "/images/characters/Isaiah/BrawlDadIsaiah.png"
+            "thumbnail": "BrawlDadIsaiah"
         },
         {
             "name": "Cybernetic Beat",
-            "thumbnail": "/images/characters/Isaiah/CyberneticBeatIsaiah.png"
+            "thumbnail": "CyberneticBeatIsaiah"
         },
         {
             "name": "Dragon Hunter",
-            "thumbnail": "/images/characters/Isaiah/DragonHunterIsaiah.png"
+            "thumbnail": "DragonHunterIsaiah"
         },
         {
             "name": "Section Zero",
-            "thumbnail": "/images/characters/Isaiah/SectionZeroIsaiah.png"
+            "thumbnail": "SectionZeroIsaiah"
         },
         {
             "name": "Shadow Ops",
-            "thumbnail": "/images/characters/Isaiah/ShadowOpsIsaiah.png"
+            "thumbnail": "ShadowOpsIsaiah"
         },
         {
             "name": "Task Force",
-            "thumbnail": "/images/characters/Isaiah/TaskForceIsaiah.png"
+            "thumbnail": "TaskForceIsaiah"
         }
     ],
     "crossovers": []

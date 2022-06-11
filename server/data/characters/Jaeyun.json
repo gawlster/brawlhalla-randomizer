@@ -1,49 +1,49 @@
 {
     "link-info": "All paths to thumbnails, gifs, etc are relative to the root of the assets folder",
     "name": "Jaeyun",
+    "camelCase": "Jaeyun",
     "desc": "The Sellsword",
     "lore": "The legendary mercenary Jaeyun traveled the seas of the Old Kingdom on the back of his dragon turtle companion Imugi. As a soldier of fortune he won treasure beyond counting – at least he never counted it himself before he gambled it away. | He earned three wishes in one day rescuing a unicorn-lion’s soul from The Goblin King, but lost four wishes that night playing poker with a fox spirit and had to grant a wish himself. He earned ten thousand rubies and a huge magic sword on a job protecting the king from the shadow ninja Jiro, and managed to hang on to the sword. He earned 2 copper/hour delivering barbecue. Work is work. | His most famous task was his epic five year quest to help Imugi become a true dragon. His least famous job was the time he lost an eye getting a cat out of a tree. | Jaeyun loves Valhalla, though regrets teaching Fait to play tujeon. In the arena, he loves side bets and bets heavily on himself. The year he won the Grand Tournament, he put everything on “In the final match, Jaeyun will be the first to greet his opponent” and lost a fortune when Kaya was quick and in a good mood that day.",
-    "thumbnail": "/images/characters/Jaeyun/thumbnail.png",
     "weapons": [
         {
             "name": "Greatsword",
-            "thumbnail": "/images/weapons/greatsword.jpg",
+            "camelCase": "Greatsword",
             "signatures": {
                 "nsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/jaeyun-greatsword-nsig.gif"
+                    "camelCase": "JaeyunGreatswordNSig"
                 },
                 "ssig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/jaeyun-greatsword-ssig.gif"
+                    "camelCase": "JaeyunGreatswordSSig"
                 },
                 "dsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/jaeyun-greatsword-dsig.gif"
+                    "camelCase": "JaeyunGreatswordDSig"
                 }
             }
         },
         {
             "name": "Sword",
-            "thumbnail": "/images/weapons/sword.jpg",
+            "camelCase": "Sword",
             "signatures": {
                 "nsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/jaeyun-sword-nsig.gif"
+                    "camelCase": "JaeyunSwordNSig"
                 },
                 "ssig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/jaeyun-sword-ssig.gif"
+                    "camelCase": "JaeyunSwordSSig"
                 },
                 "dsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/jaeyun-sword-dsig.gif"
+                    "camelCase": "JaeyunSwordDSig"
                 }
             }
         }
@@ -51,25 +51,25 @@
     "skins": [
         {
             "name": "Death Jester",
-            "thumbnail": "/images/characters/Jaeyun/DeathJesterJaeyun.png"
+            "thumbnail": "DeathJesterJaeyun"
         },
         {
             "name": "Glided Glory",
-            "thumbnail": "/images/characters/Jaeyun/GlidedGloryJaeyun.png"
+            "thumbnail": "GlidedGloryJaeyun"
         },
         {
             "name": "Hanbok",
-            "thumbnail": "/images/characters/Jaeyun/HanbokJaeyun.png"
+            "thumbnail": "HanbokJaeyun"
         },
         {
             "name": "Hwarang",
-            "thumbnail": "/images/characters/Jaeyun/HwarangJaeyun.png"
+            "thumbnail": "HwarangJaeyun"
         }
     ],
     "crossovers": [
         {
             "name": "Negan",
-            "thumbnail": "/images/characters/Jaeyun/Z-crossOver-NeganJaeyun.png"
+            "thumbnail": "NeganJaeyun"
         }
     ]
 }

@@ -1,103 +1,103 @@
 {
     "link-info": "All paths to thumbnails, gifs, etc are relative to the root of the assets folder",
     "name": "Hattori",
+    "camelCase": "Hattori",
     "desc": "Demon Bride",
     "lore": "Young Hattori was so gifted with the sword that the Emperor offered a prize of one thousand horses to anyone who could defeat her. For years, new warriors came to court every day only to be defeated. But on the day the Demon Kagima arrived to challenge her, Hattori sensed his malevolent power and fled.  Enraged, the Demon kidnapped Hattori’s three sisters and carried them away to his island kingdom. | Horrified by the consequences of her actions, Hattori built a boat out of reeds and pursued the Demon. She was lost at sea until a stork lord showed her the passages between the twilight and the night to the Demon’s realm. There Hattori found a bizarre world of talking stones and eight-armed ferrymen. In the City of the Onyx Castle, she met Kagima’s own brother, who offered to give Hattori his strength to defeat his brother, in return for her hand in marriage. | True to his word, the Demon exchanged his own blood with Hattori’s, and Hattori slew Kagima and freed her sisters. She became Queen of the Island Kingdom, but the demon blood burned in her. It drove Hattori to wander the twilight passages until she discovered Valhalla. Through the eternal tournament, Hattori slakes the lust for battle that threatens to consume her.",
-    "thumbnail": "/images/characters/Hattori/thumbnail.png",
     "weapons": [
         {
             "name": "Spear",
-            "thumbnail": "/images/weapons/spear.jpg",
+            "camelCase": "Spear",
             "signatures": {
                 "nsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/hattori-spear-nsig.gif"
+                    "camelCase": "HattoriSpearNSig"
                 },
                 "ssig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/hattori-spear-ssig.gif"
+                    "camelCase": "HattoriSpearSSig"
                 },
                 "dsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/hattori-spear-dsig.gif"
+                    "camelCase": "HattoriSpearDSig"
                 }
             }
         },
         {
             "name": "Sword",
-            "thumbnail": "/images/weapons/sword.jpg",
+            "camelCase": "Sword",
             "signatures": {
                 "nsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/hattori-sword-nsig.gif"
+                    "camelCase": "HattoriSwordNSig"
                 },
                 "ssig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/hattori-sword-ssig.gif"
+                    "camelCase": "HattoriSwordSSig"
                 },
                 "dsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/hattori-sword-dsig.gif"
+                    "camelCase": "HattoriSwordDSig"
                 }
             }
         }
     ],
     "skins": [
         {
-            "name": "Ani Akuma No Kogo",
-            "thumbnail": "/images/characters/Hattori/AniAkumaNoKogoHattori.png"
+            "name": "Akuma No Kogo",
+            "thumbnail": "AkumaNoKogoHattori"
         },
         {
             "name": "Cutting Edge",
-            "thumbnail": "/images/characters/Hattori/CuttingEdgeHattori.png"
+            "thumbnail": "CuttingEdgeHattori"
         },
         {
             "name": "Death Adder",
-            "thumbnail": "/images/characters/Hattori/DeathAdderHattori.png"
+            "thumbnail": "DeathAdderHattori"
         },
         {
             "name": "Demon Bridge",
-            "thumbnail": "/images/characters/Hattori/DemonBridgeHattori.png"
+            "thumbnail": "DemonBridgeHattori"
         },
         {
             "name": "Kabuki",
-            "thumbnail": "/images/characters/Hattori/KabukiHattori.png"
+            "thumbnail": "KabukiHattori"
         },
         {
             "name": "Kill Thrill",
-            "thumbnail": "/images/characters/Hattori/KillThrillHattori.png"
+            "thumbnail": "KillThrillHattori"
         },
         {
             "name": "Kitsune",
-            "thumbnail": "/images/characters/Hattori/KitsuneHattori.png"
+            "thumbnail": "KitsuneHattori"
         },
         {
             "name": "Maître d'Hattori",
-            "thumbnail": "/images/characters/Hattori/Maîtred'HattoriHattori.png"
+            "thumbnail": "Maîtred'HattoriHattori"
         },
         {
             "name": "Nightblade",
-            "thumbnail": "/images/characters/Hattori/NightbladeHattori.png"
+            "thumbnail": "NightbladeHattori"
         },
         {
             "name": "Oni No",
-            "thumbnail": "/images/characters/Hattori/OniNoHattori.png"
+            "thumbnail": "OniNoHattori"
         },
         {
             "name": "Sidewinder",
-            "thumbnail": "/images/characters/Hattori/SidewinderHattori.png"
+            "thumbnail": "SidewinderHattori"
         }
     ],
     "crossovers": [
         {
             "name": "John Cena",
-            "thumbnail": "/images/characters/Hattori/Z-crossOver-JohnCenaHattori.png"
+            "thumbnail": "JohnCenaHattori"
         }
     ]
 }

@@ -1,49 +1,49 @@
 {
     "link-info": "All paths to thumbnails, gifs, etc are relative to the root of the assets folder",
     "name": "Cassidy",
+    "camelCase": "Cassidy",
     "desc": "The Martial of the Old West",
-    "lor": "When fifteen-year-old Cassidy Miller captured Wild Zeb and his gang, Zeb insisted his gun jammed and the sun was in his eyes. But, outlaws soon changed their tune, and just five years later, Bloody Cal Johnson bragged from prison that Utah had been forced to call in the great Marshal Cassidy just to bring him down. | In her long career, Cassidy’s insistence on justice for all earned her many unlikely friends, including “the meanest horse in the West,” a giant cougar named Boots. But it also put her on the wrong side of the law when she joined the Underground Railroad and became a wanted fugitive herself. Later, Cassidy returned to law enforcement in dramatic style when President Lincoln begged her to track down the Bloodfang Rangers, a company of Confederate Vampires. | To Cassidy, Valhalla is like any other frontier boomtown in need of her rough brand of Justice. She’s always on the lookout for suspicious types and reckons that trouble’s brewing.",
-    "thumbnail": "/images/characters/Cassidy/thumbnail.png",
+    "lore": "When fifteen-year-old Cassidy Miller captured Wild Zeb and his gang, Zeb insisted his gun jammed and the sun was in his eyes. But, outlaws soon changed their tune, and just five years later, Bloody Cal Johnson bragged from prison that Utah had been forced to call in the great Marshal Cassidy just to bring him down. | In her long career, Cassidy’s insistence on justice for all earned her many unlikely friends, including “the meanest horse in the West,” a giant cougar named Boots. But it also put her on the wrong side of the law when she joined the Underground Railroad and became a wanted fugitive herself. Later, Cassidy returned to law enforcement in dramatic style when President Lincoln begged her to track down the Bloodfang Rangers, a company of Confederate Vampires. | To Cassidy, Valhalla is like any other frontier boomtown in need of her rough brand of Justice. She’s always on the lookout for suspicious types and reckons that trouble’s brewing.",
     "weapons": [
         {
             "name": "Blasters",
-            "thumbnail": "/images/weapons/blasters.jpg",
+            "camelCase": "Blasters",
             "signatures": {
                 "nsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/cassidy-blasters-nsig.gif"
+                    "camelCase": "CassidyBlastersNSig"
                 },
                 "ssig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/cassidy-blasters-ssig.gif"
+                    "camelCase": "CassidyBlastersSSig"
                 },
                 "dsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/cassidy-blasters-dsig.gif"
+                    "camelCase": "CassidyBlastersDSig"
                 }
             }
         },
         {
             "name": "Grapple Hammer",
-            "thumbnail": "/images/weapons/GrappleHammer.jpg",
+            "camelCase": "GrappleHammer",
             "signatures": {
                 "nsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/cassidy-hammer-nsig.gif"
+                    "camelCase": "CassidyHammerNSig"
                 },
                 "ssig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/cassidy-hammer-ssig.gif"
+                    "camelCase": "CassidyHammerSSig"
                 },
                 "dsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/cassidy-hammer-dsig.gif"
+                    "camelCase": "CassidyHammerDSig"
                 }
             }
         }
@@ -51,49 +51,49 @@
     "skins": [
         {
             "name": "Bitpunk",
-            "thumbnail": "/images/characters/Cassidy/BitpunkCassidy.png"
+            "thumbnail": "BitpunkCassidy"
         },
         {
             "name": "Calavera",
-            "thumbnail": "/images/characters/Cassidy/CalaveraCassidy.png"
+            "thumbnail": "CalaveraCassidy"
         },
         {
             "name": "Cupcake",
-            "thumbnail": "/images/characters/Cassidy/CupcakeCassidy.png"
+            "thumbnail": "CupcakeCassidy"
         },
         {
             "name": "Dawnwalker",
-            "thumbnail": "/images/characters/Cassidy/DawnwalkerCassidy.png"
+            "thumbnail": "DawnwalkerCassidy"
         },
         {
             "name": "Dust Devil",
-            "thumbnail": "/images/characters/Cassidy/DustDevilCassidy.png"
+            "thumbnail": "DustDevilCassidy"
         },
         {
             "name": "High Noon",
-            "thumbnail": "/images/characters/Cassidy/HighNoonCassidy.png"
+            "thumbnail": "HighNoonCassidy"
         },
         {
             "name": "Masked Hero",
-            "thumbnail": "/images/characters/Cassidy/MaskedHeroCassidy.png"
+            "thumbnail": "MaskedHeroCassidy"
         },
         {
             "name": "Nutcracker",
-            "thumbnail": "/images/characters/Cassidy/NutcrackerCassidy.png"
+            "thumbnail": "NutcrackerCassidy"
         },
         {
             "name": "Serape Kid",
-            "thumbnail": "/images/characters/Cassidy/SerapeKidCassidy.png"
+            "thumbnail": "SerapeKidCassidy"
         },
         {
             "name": "Space Race",
-            "thumbnail": "/images/characters/Cassidy/SpaceRaceCassidy.png"
+            "thumbnail": "SpaceRaceCassidy"
         }
     ],
     "crossovers": [
         {
             "name": "Globox",
-            "thumbnail": "/images/characters/Cassidy/Z-crossOver-GloboxCassidy.png"
+            "thumbnail": "GloboxCassidy"
         }
     ]
 }

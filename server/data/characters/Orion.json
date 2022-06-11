@@ -1,49 +1,49 @@
 {
     "link-info": "All paths to thumbnails, gifs, etc are relative to the root of the assets folder",
     "name": "Orion",
+    "camelCase": "Orion",
     "desc": "The Mysterious Stranger",
     "lore": "Watching from the doors of Valhalla, Bödvar, Cassidy and the other legends saw a blazing trail of smoke cut across the Asgardian sky. Behind the fiery comet, a Valkyrie raced in pursuit, as though trying to stop the fireball as it plunged into the fields of Folkvangr in a gout of dirt and flame. The legends then watched as Valkyries and emissaries of Odin gathered around the smoking crater. | Weeks later, the Sons of Ivaldi, the same dwarven smiths who had forged Odin’s spear, quietly appeared in Asgard. They bore a suit of dazzling golden armor and presented it to the gods themselves. Soon after, the mighty Orion joined the feast halls of Valhalla. | Tentative and aloof at first, Orion soon warmed to the great hall and is now among its greatest warriors and most popular champions. Orion does not speak of his past, and other legends can only speculate. But Valkyries stop by his chambers to ask if he wants to, “you know, hang out or whatever, no big deal.” He is the only hero seen to leave Asgard from time to time.",
-    "thumbnail": "/images/characters/Orion/thumbnail.png",
     "weapons": [
         {
             "name": "Rocket Lance",
-            "thumbnail": "/images/weapons/rocketLance.jpg",
+            "camelCase": "RocketLance",
             "signatures": {
                 "nsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/orion-lance-nsig.gif"
+                    "camelCase": "OrionLanceNSig"
                 },
                 "ssig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/orion-lance-ssig.gif"
+                    "camelCase": "OrionLanceSSig"
                 },
                 "dsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/orion-lance-dsig.gif"
+                    "camelCase": "OrionLanceDSig"
                 }
             }
         },
         {
             "name": "Spear",
-            "thumbnail": "/images/weapons/spear.jpg",
+            "camelCase": "Spear",
             "signatures": {
                 "nsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/orion-spear-nsig.gif"
+                    "camelCase": "OrionSpearNSig"
                 },
                 "ssig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/orion-spear-ssig.gif"
+                    "camelCase": "OrionSpearSSig"
                 },
                 "dsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/orion-spear-dsig.gif"
+                    "camelCase": "OrionSpearDSig"
                 }
             }
         }
@@ -51,53 +51,53 @@
     "skins": [
         {
             "name": "Atlantean",
-            "thumbnail": "/images/characters/Orion/AtlanteanOrion.png"
+            "thumbnail": "AtlanteanOrion"
         },
         {
             "name": "Atomic",
-            "thumbnail": "/images/characters/Orion/AtomicOrion.png"
+            "thumbnail": "AtomicOrion"
         },
         {
             "name": "Corsair",
-            "thumbnail": "/images/characters/Orion/CorsairOrion.png"
+            "thumbnail": "CorsairOrion"
         },
         {
             "name": "Crossfade",
-            "thumbnail": "/images/characters/Orion/CrossfadeOrion.png"
+            "thumbnail": "CrossfadeOrion"
         },
         {
             "name": "Cyber Oni",
-            "thumbnail": "/images/characters/Orion/CyberOniOrion.png"
+            "thumbnail": "CyberOniOrion"
         },
         {
             "name": "Dark Age",
-            "thumbnail": "/images/characters/Orion/DarkAgeOrion.png"
+            "thumbnail": "DarkAgeOrion"
         },
         {
             "name": "Harbringer",
-            "thumbnail": "/images/characters/Orion/HarbringerOrion.png"
+            "thumbnail": "HarbringerOrion"
         },
         {
             "name": "Kabuto",
-            "thumbnail": "/images/characters/Orion/KabutoOrion.png"
+            "thumbnail": "KabutoOrion"
         },
         {
             "name": "Metadev",
-            "thumbnail": "/images/characters/Orion/MetadevOrion.png"
+            "thumbnail": "MetadevOrion"
         },
         {
             "name": "Orion For Hire",
-            "thumbnail": "/images/characters/Orion/OrionForHire.png"
+            "thumbnail": "OrionForHire"
         },
         {
             "name": "Orion Prime",
-            "thumbnail": "/images/characters/Orion/OrionPrime.png"
+            "thumbnail": "OrionPrime"
         }
     ],
     "crossovers": [
         {
             "name": "Black Knight",
-            "thumbnail": "/images/characters/Orion/Z-crossOver-BlackKnightOrion.png"
+            "thumbnail": "BlackKnightOrion"
         }
     ]
 }

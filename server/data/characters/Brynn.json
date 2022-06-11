@@ -1,49 +1,49 @@
 {
     "link-info": "All paths to thumbnails, gifs, etc are relative to the root of the assets folder",
     "name": "Brynn",
+    "camelCase": "Brynn",
     "desc": "Chooser of the Slain, Slayer of the Chosen",
     "lore": "Children are rare among the immortals of Asgard, and every immortal with any heart came to love Hypernia’s daughter, the heir to her immortal mother’s impossible beauty and her human father’s legendary charm. Brynn grew up in every corner of Asgard. She made it her school and her playground. Raised to be a Valkyrie, she nonetheless can shoe an eight legged horse, weave the threads of fate with the Norns, and curse a blue streak in Dwarvish. | As a Valkyrie, her sense for the mortal mind has helped her spot greatness in the most unlikely places, not just in princes on battlefields, holding their swords high. Three of her most shocking choices have won the Great Tournament. But Asgard is a vast society, and some don’t see Brynn as a true Asgardian, while her success has bred jealousy as well as admiration. | Brynn was drawn to the tournament by a desire to study these mortals. Does she belong with them? She watched, learned their ways, and eventually came to love their bravura and their mettle. Now she competes for the pure joy of it, her human thirst for the fight surprising everyone, including herself.",
-    "thumbnail": "/images/characters/Brynn/thumbnail.png",
     "weapons": [
         {
             "name": "Axe",
-            "thumbnail": "/images/weapons/axe.jpg",
+            "camelCase": "Axe",
             "signatures": {
                 "nsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/brynn-axe-nsig.gif"
+                    "camelCase": "BrynnAxeNSig"
                 },
                 "ssig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/brynn-axe-ssig.gif"
+                    "camelCase": "BrynnAxeSSig"
                 },
                 "dsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/brynn-axe-dsig.gif"
+                    "camelCase": "BrynnAxeDSig"
                 }
             }
         },
         {
             "name": "Spear",
-            "thumbnail": "/images/weapons/spear.jpg",
+            "camelCase": "Spear",
             "signatures": {
                 "nsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/brynn-spear-nsig.gif"
+                    "camelCase": "BrynnSpearNSig"
                 },
                 "ssig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/brynn-spear-ssig.gif"
+                    "camelCase": "BrynnSpearSSig"
                 },
                 "dsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/brynn-spear-dsig.gif"
+                    "camelCase": "BrynnSpearDSig"
                 }
             }
         }
@@ -51,49 +51,49 @@
     "skins": [
         {
             "name": "Aesir-Forged",
-            "thumbnail": "/images/characters/Brynn/AesirForgedBrynn.png"
+            "thumbnail": "AesirForgedBrynn"
         },
         {
             "name": "Aurora",
-            "thumbnail": "/images/characters/Brynn/AuroraBrynn.png"
+            "thumbnail": "AuroraBrynn"
         },
         {
             "name": "Cinderguard",
-            "thumbnail": "/images/characters/Brynn/CinderguardBrynn.png"
+            "thumbnail": "CinderguardBrynn"
         },
         {
             "name": "Eternal Love",
-            "thumbnail": "/images/characters/Brynn/EternalLoveBrynn.png"
+            "thumbnail": "EternalLoveBrynn"
         },
         {
             "name": "Fallen",
-            "thumbnail": "/images/characters/Brynn/FallenBrynn.png"
+            "thumbnail": "FallenBrynn"
         },
         {
             "name": "Harpy",
-            "thumbnail": "/images/characters/Brynn/HarpyBrynn.png"
+            "thumbnail": "HarpyBrynn"
         },
         {
             "name": "Metadev",
-            "thumbnail": "/images/characters/Brynn/MetadevBrynn.png"
+            "thumbnail": "MetadevBrynn"
         },
         {
             "name": "Shieldmaden",
-            "thumbnail": "/images/characters/Brynn/ShieldmadenBrynn.png"
+            "thumbnail": "ShieldmadenBrynn"
         },
         {
             "name": "Volsung",
-            "thumbnail": "/images/characters/Brynn/VolsungBrynn.png"
+            "thumbnail": "VolsungBrynn"
         },
         {
             "name": "Witchfire",
-            "thumbnail": "/images/characters/Brynn/WitchfireBrynn.png"
+            "thumbnail": "WitchfireBrynn"
         }
     ],
     "crossovers": [
         {
             "name": "Barbara",
-            "thumbnail": "/images/characters/Brynn/Z-crossOver-BarbaraBrynn.png"
+            "thumbnail": "BarbaraBrynn"
         }
     ]
 }
