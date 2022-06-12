@@ -1,27 +1,14 @@
 import React, { useEffect, useState } from 'react'
 import Navbar from '../../components/Navbar'
 import './index.scss'
+import homeBackgrounds from '../../imports/homeBackgrounds'
 const baseURL = 'http://localhost:9000/'
 
 const Home = () => {
-    const [background, setBackground] = useState<any>() //todo: change type here
-    const [i, setI] = useState<number>(1)
+    const [background, setBackground] = useState<string>()
     useEffect(() => {
-        function getI() {
-            setI(Math.floor(Math.random() * 3) + 1)
-        }
-        async function getBackground(index: number) {
-            const response: Response = await fetch(`${baseURL}home-background?i=${index}`)
-            const json = await response.json()
-            // const importURL: string = `../../assets/images/backgrounds/home/background${json.i}.png`
-            // const curBackground = await import(importURL)
-            const curBackground = await import(
-                '../../assets/images/backgrounds/home/background3.png'
-            )
-            setBackground(curBackground.default)
-        }
-        getI()
-        getBackground(i)
+        const i = Math.floor(Math.random() * 3) + 1
+        setBackground(homeBackgrounds[`background${i}` as keyof typeof homeBackgrounds])
     }, [])
 
     return (
