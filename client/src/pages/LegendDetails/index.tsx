@@ -163,7 +163,7 @@ const LegendDetails = () => {
                 {legendData && legendData.crossovers && legendData.crossovers.length > 0 && (
                     <h2 className='crossover-header'>
                         {legendData.name ? `${legendData.name}'s ` : ''}
-                        Crosssovers
+                        Crossovers
                     </h2>
                 )}
                 {legendData &&

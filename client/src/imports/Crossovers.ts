@@ -36,6 +36,21 @@ import Garnet from '../assets/images/characters/Petra/Z-crossOver-GarnetPetra.we
 import Ken from '../assets/images/characters/Petra/Z-crossOver-KenPetra.webp'
 import Ryu from '../assets/images/characters/Petra/Z-crossOver-RyuPetra.webp'
 import Asuka from '../assets/images/characters/QueenNai/Z-crossOver-AsukaNai.webp'
+import Raphael from '../assets/images/characters/Ragnir/Z-crossOver-RaphaelRagnir.webp'
+import Dhalsim from '../assets/images/characters/Rayman/Z-crossOver-DhalsimRayman.webp'
+import TheRock from '../assets/images/characters/Sentinel/Z-crossOver-TheRockSentinel.webp'
+import KingKnight from '../assets/images/characters/SirRoland/Z-crossOver-KingKnightRoland.webp'
+import Gruagach from '../assets/images/characters/Teros/Z-crossOver-GruagachTeros.webp'
+import RomanReigns from '../assets/images/characters/Teros/Z-crossOver-RomanReignsTeros.webp'
+import SnakeEyes from '../assets/images/characters/Thatch/Z-crossOver-SnakeEyesThatch.webp'
+import MBison from '../assets/images/characters/Thor/Z-crossOver-MBisonThor.webp'
+import TheUndertaker from '../assets/images/characters/Thor/Z-crossOver-TheUndertakerThor.webp'
+import MachoMan from '../assets/images/characters/Ulgrim/Z-crossOver-MachoManUlgrim.webp'
+import Akuma from '../assets/images/characters/Val/Z-crossOver-AkumaVal.webp'
+import Stevonnie from '../assets/images/characters/Val/Z-crossOver-StevonnieVal.webp'
+import ChunLi from '../assets/images/characters/WuShang/Z-crossOver-ChunLiWuShang.webp'
+import Po from '../assets/images/characters/WuShang/Z-crossOver-PoWuShang.webp'
+import Amethyst from '../assets/images/characters/Xull/Z-crossOver-AmethystXull.webp'
 
 const crossOverObj = {
     Ada: [
@@ -244,6 +259,88 @@ const crossOverObj = {
         {
             name: 'Asuka',
             img: Asuka,
+        },
+    ],
+    Ragnir: [
+        {
+            name: 'Raphael',
+            img: Raphael,
+        },
+    ],
+    Rayman: [
+        {
+            name: 'Dhalsim',
+            img: Dhalsim,
+        },
+    ],
+    Sentinel: [
+        {
+            name: 'The Rock',
+            img: TheRock,
+        },
+    ],
+    SirRoland: [
+        {
+            name: 'King Knight',
+            img: KingKnight,
+        },
+    ],
+    Teros: [
+        {
+            name: 'Gruagach',
+            img: Gruagach,
+        },
+        {
+            name: 'Roman Reigns',
+            img: RomanReigns,
+        },
+    ],
+    Thatch: [
+        {
+            name: 'Snake Eyes',
+            img: SnakeEyes,
+        },
+    ],
+    Thor: [
+        {
+            name: 'M. Bison',
+            img: MBison,
+        },
+        {
+            name: 'The Undertaker',
+            img: TheUndertaker,
+        },
+    ],
+    Ulgrim: [
+        {
+            name: 'Macho Man',
+            img: MachoMan,
+        },
+    ],
+    Val: [
+        {
+            name: 'Akuma',
+            img: Akuma,
+        },
+        {
+            name: 'Stevonnie',
+            img: Stevonnie,
+        },
+    ],
+    WuShang: [
+        {
+            name: 'Chun Li',
+            img: ChunLi,
+        },
+        {
+            name: 'Po',
+            img: Po,
+        },
+    ],
+    Xull: [
+        {
+            name: 'Amethyst',
+            img: Amethyst,
         },
     ],
 }

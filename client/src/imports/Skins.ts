@@ -373,6 +373,173 @@ import SnakeGoddessNai from '../assets/images/characters/QueenNai/SnakeGoddessNa
 import TombTamerNai from '../assets/images/characters/QueenNai/TombTamerNai.webp'
 import WingedSerpentNai from '../assets/images/characters/QueenNai/WingedSerpentNai.webp'
 
+/* RAGNIR */
+import AshenRagnir from '../assets/images/characters/Ragnir/AshenRagnir.webp'
+import CelestialRagnir from '../assets/images/characters/Ragnir/CelestialRagnir.webp'
+import DarkDepthsRagnir from '../assets/images/characters/Ragnir/DarkDepthsRagnir.webp'
+import FrostGuardianRagnir from '../assets/images/characters/Ragnir/FrostGuardianRagnir.webp'
+import InfernoRagnir from '../assets/images/characters/Ragnir/InfernoRagnir.webp'
+import MechaRagnir from '../assets/images/characters/Ragnir/MechaRagnir.webp'
+import NightshadeRagnir from '../assets/images/characters/Ragnir/NightshadeRagnir.webp'
+import RagnirsaurusRex from '../assets/images/characters/Ragnir/RagnirsaurusRex.webp'
+import RagnirtheCovetous from '../assets/images/characters/Ragnir/RagnirtheCovetous.webp'
+import SobekRagnir from '../assets/images/characters/Ragnir/SobekRagnir.webp'
+import WerebatRagnir from '../assets/images/characters/Ragnir/WerebatRagnir.webp'
+
+/* RAYMAN */
+import Raydvar from '../assets/images/characters/Rayman/Raydvar.webp'
+import Raymesis from '../assets/images/characters/Rayman/Raymesis.webp'
+import RayoftheDead from '../assets/images/characters/Rayman/RayoftheDead.webp'
+import SirRayelot from '../assets/images/characters/Rayman/SirRayelot.webp'
+
+/* RENO */
+import DesperadoReno from '../assets/images/characters/Reno/DesperadoReno.webp'
+import FerrymothReno from '../assets/images/characters/Reno/FerrymothReno.webp'
+import Honeybeeno from '../assets/images/characters/Reno/Honeybeeno.webp'
+import WidowmakerReno from '../assets/images/characters/Reno/WidowmakerReno.webp'
+
+/* SCARLET */
+import AirshipScarlet from '../assets/images/characters/Scarlet/AirshipScarlet.webp'
+import BewitchingScarlet from '../assets/images/characters/Scarlet/BewitchingScarlet.webp'
+import MadGeniusScarlet from '../assets/images/characters/Scarlet/MadGeniusScarlet.webp'
+import SkyCaptainScarlet from '../assets/images/characters/Scarlet/SkyCaptainScarlet.webp'
+import SteamFactionScarlet from '../assets/images/characters/Scarlet/SteamFactionScarlet.webp'
+import SteamSentryScarlet from '../assets/images/characters/Scarlet/SteamSentryScarlet.webp'
+import SteamsmithScarlet from '../assets/images/characters/Scarlet/SteamsmithScarlet.webp'
+import SteamTankScarlet from '../assets/images/characters/Scarlet/SteamTankScarlet.webp'
+
+/* SENTINEL */
+import CuSidheSentinel from '../assets/images/characters/Sentinel/CuSidheSentinel.webp'
+import FirstEditionSentinel from '../assets/images/characters/Sentinel/FirstEditionSentinel.webp'
+import GumshoeSentinel from '../assets/images/characters/Sentinel/GumshoeSentinel.webp'
+import HighImpactSentinel from '../assets/images/characters/Sentinel/HighImpactSentinel.webp'
+import LordSentinel from '../assets/images/characters/Sentinel/LordSentinel.webp'
+import NightwatchSentinel from '../assets/images/characters/Sentinel/NightwatchSentinel.webp'
+import PresidentSentinel from '../assets/images/characters/Sentinel/PresidentSentinel.webp'
+import StormsteelSentinel from '../assets/images/characters/Sentinel/StormsteelSentinel.webp'
+
+/* SIDRA */
+import AtlanteanSidra from '../assets/images/characters/Sidra/AtlanteanSidra.webp'
+import KrakenSidra from '../assets/images/characters/Sidra/KrakenSidra.webp'
+import MerrowSidra from '../assets/images/characters/Sidra/MerrowSidra.webp'
+import PirateQueenSidra from '../assets/images/characters/Sidra/PirateQueenSidra.webp'
+import QueenBeatSidra from '../assets/images/characters/Sidra/QueenBeatSidra.webp'
+import SkyPirateSidra from '../assets/images/characters/Sidra/SkyPirateSidra.webp'
+
+/* SIR ROLAND */
+import ClassyRoland from '../assets/images/characters/SirRoland/ClassyRoland.webp'
+import FiendishKnightRoland from '../assets/images/characters/SirRoland/FiendishKnightRoland.webp'
+import KingRoland from '../assets/images/characters/SirRoland/KingRoland.webp'
+import LionheartRoland from '../assets/images/characters/SirRoland/LionheartRoland.webp'
+import LionRampantRoland from '../assets/images/characters/SirRoland/LionRampantRoland.webp'
+import MatchPointRoland from '../assets/images/characters/SirRoland/MatchPointRoland.webp'
+import RolandtheHooded from '../assets/images/characters/SirRoland/RolandtheHooded.webp'
+import RolandtheVictorious from '../assets/images/characters/SirRoland/RolandtheVictorious.webp'
+import TheMadKingRoland from '../assets/images/characters/SirRoland/TheMadKingRoland.webp'
+
+/* TEROS */
+import ForgeheartTeros from '../assets/images/characters/Teros/ForgeheartTeros.webp'
+import GatekeeperTeros from '../assets/images/characters/Teros/GatekeeperTeros.webp'
+import GodKingTeros from '../assets/images/characters/Teros/GodKingTeros.webp'
+import HallMinotaurTeros from '../assets/images/characters/Teros/HallMinotaurTeros.webp'
+import IronLegionTeros from '../assets/images/characters/Teros/IronLegionTeros.webp'
+import MechaTeros from '../assets/images/characters/Teros/MechaTeros.webp'
+import ReadyToRiotTeros from '../assets/images/characters/Teros/ReadyToRiotTeros.webp'
+import RiftDwellerTeros from '../assets/images/characters/Teros/RiftDwellerTeros.webp'
+import TheYeteeTeros from '../assets/images/characters/Teros/TheYeteeTeros.webp'
+import WrecktheHallsTeros from '../assets/images/characters/Teros/WrecktheHallsTeros.webp'
+
+/* THATCH */
+import BikerThatch from '../assets/images/characters/Thatch/BikerThatch.webp'
+import CastawayThatch from '../assets/images/characters/Thatch/CastawayThatch.webp'
+import ClassyThatch from '../assets/images/characters/Thatch/ClassyThatch.webp'
+import CursedGoldThatch from '../assets/images/characters/Thatch/CursedGoldThatch.webp'
+import GoblinThatch from '../assets/images/characters/Thatch/GoblinThatch.webp'
+import PoseidonThatch from '../assets/images/characters/Thatch/PoseidonThatch.webp'
+import SecretSantaThatch from '../assets/images/characters/Thatch/SecretSantaThatch.webp'
+import SharkAttackThatch from '../assets/images/characters/Thatch/SharkAttackThatch.webp'
+import WerewolfThatch from '../assets/images/characters/Thatch/WerewolfThatch.webp'
+
+/* THOR */
+import CapraThor from '../assets/images/characters/Thor/CapraThor.webp'
+import CinderguardThor from '../assets/images/characters/Thor/CinderguardThor.webp'
+import DraugrThor from '../assets/images/characters/Thor/DraugrThor.webp'
+import RoyalWarriorThor from '../assets/images/characters/Thor/RoyalWarriorThor.webp'
+import ThorbytheShore from '../assets/images/characters/Thor/ThorbytheShore.webp'
+
+/* ULGRIM */
+import ApprenticeUlgrim from '../assets/images/characters/Ulgrim/ApprenticeUlgrim.webp'
+import ArcaniumUlgrim from '../assets/images/characters/Ulgrim/ArcaniumUlgrim.webp'
+import DragonportUlgrim from '../assets/images/characters/Ulgrim/DragonportUlgrim.webp'
+import JotunUlgrim from '../assets/images/characters/Ulgrim/JotunUlgrim.webp'
+import MasterBlacksmithUlgrim from '../assets/images/characters/Ulgrim/MasterBlacksmithUlgrim.webp'
+import StarMinerUlgrim from '../assets/images/characters/Ulgrim/StarMinerUlgrim.webp'
+import WarbornUlgrim from '../assets/images/characters/Ulgrim/WarbornUlgrim.webp'
+
+/* VAL */
+import ChimeraVal from '../assets/images/characters/Val/ChimeraVal.webp'
+import CommandoVal from '../assets/images/characters/Val/CommandoVal.webp'
+import DragonslayerVal from '../assets/images/characters/Val/DragonslayerVal.webp'
+import FutureWaveVal from '../assets/images/characters/Val/FutureWaveVal.webp'
+import HardsuitVal from '../assets/images/characters/Val/HardsuitVal.webp'
+import KunoichiVal from '../assets/images/characters/Val/KunoichiVal.webp'
+import MythicHeroVal from '../assets/images/characters/Val/MythicHeroVal.webp'
+import NutcrackerVal from '../assets/images/characters/Val/NutcrackerVal.webp'
+import StarMercVal from '../assets/images/characters/Val/StarMercVal.webp'
+
+/* VECTOR */
+import DragonautVector from '../assets/images/characters/Vector/DragonautVector.webp'
+import HotshotVector from '../assets/images/characters/Vector/HotshotVector.webp'
+import HyperdriftVector from '../assets/images/characters/Vector/HyperdriftVector.webp'
+import MatchmakerVector from '../assets/images/characters/Vector/MatchmakerVector.webp'
+import VectorModel01 from '../assets/images/characters/Vector/VectorModel01.webp'
+
+/* VOLKOV */
+import BloodMoonVolkov from '../assets/images/characters/Volkov/BloodMoonVolkov.webp'
+import BlueVirusVolkov from '../assets/images/characters/Volkov/BlueVirusVolkov.webp'
+import HuntsmanVolkov from '../assets/images/characters/Volkov/HuntsmanVolkov.webp'
+import RedRomanceVolkov from '../assets/images/characters/Volkov/RedRomanceVolkov.webp'
+import RockerVolkov from '../assets/images/characters/Volkov/RockerVolkov.webp'
+
+/* WU SHANG */
+import DjinnWuShang from '../assets/images/characters/WuShang/DjinnWuShang.webp'
+import GentlemanWuShang from '../assets/images/characters/WuShang/GentlemanWuShang.webp'
+import InfiniteWuShang from '../assets/images/characters/WuShang/InfiniteWuShang.webp'
+import PerfectWuShang from '../assets/images/characters/WuShang/PerfectWuShang.webp'
+import RannoWuShang from '../assets/images/characters/WuShang/RannoWuShang.webp'
+import SantaWuShang from '../assets/images/characters/WuShang/SantaWuShang.webp'
+import SeekerWuShang from '../assets/images/characters/WuShang/SeekerWuShang.webp'
+import WuShangKong from '../assets/images/characters/WuShang/WuShangKong.webp'
+import WuShangtheBreaker from '../assets/images/characters/WuShang/WuShangtheBreaker.webp'
+
+/* XULL */
+import ArcticTrapperXull from '../assets/images/characters/Xull/ArcticTrapperXull.webp'
+import CommanderXull from '../assets/images/characters/Xull/CommanderXull.webp'
+import DemonOgreXull from '../assets/images/characters/Xull/DemonOgreXull.webp'
+import ElvenhollowXull from '../assets/images/characters/Xull/ElvenhollowXull.webp'
+import GridironXull from '../assets/images/characters/Xull/GridironXull.webp'
+
+/* YUMIKO */
+import ArcticFoxYumiko from '../assets/images/characters/Yumiko/ArcticFoxYumiko.webp'
+import CaelestisYumiko from '../assets/images/characters/Yumiko/CaelestisYumiko.webp'
+import CursedMaskYumiko from '../assets/images/characters/Yumiko/CursedMaskYumiko.webp'
+import FoxSpiritYumiko from '../assets/images/characters/Yumiko/FoxSpiritYumiko.webp'
+import HighFrequencyYumiko from '../assets/images/characters/Yumiko/HighFrequencyYumiko.webp'
+import LilYumiko from '../assets/images/characters/Yumiko/LilYumiko.webp'
+import MadameYumiko from '../assets/images/characters/Yumiko/MadameYumiko.webp'
+import MatsuriYumiko from '../assets/images/characters/Yumiko/MatsuriYumiko.webp'
+import PunkinSpiceYumiko from '../assets/images/characters/Yumiko/PunkinSpiceYumiko.webp'
+import TokyoYumiko from '../assets/images/characters/Yumiko/TokyoYumiko.webp'
+
+/* ZARIEL */
+import ArchangelZariel from '../assets/images/characters/Zariel/ArchangelZariel.webp'
+import ArchfiendZariel from '../assets/images/characters/Zariel/ArchfiendZariel.webp'
+import BeachsideZariel from '../assets/images/characters/Zariel/BeachsideZariel.webp'
+import DarkheartZariel from '../assets/images/characters/Zariel/DarkheartZariel.webp'
+import OuterworldZariel from '../assets/images/characters/Zariel/OuterworldZariel.webp'
+import SecretAdmirerZariel from '../assets/images/characters/Zariel/SecretAdmirerZariel.webp'
+import UrbanGuardianZariel from '../assets/images/characters/Zariel/UrbanGuardianZariel.webp'
+
 let exportObj = {
     Ada: [
         {
@@ -1650,6 +1817,566 @@ let exportObj = {
         {
             name: 'Winged Serpent',
             img: WingedSerpentNai,
+        },
+    ],
+    Ragnir: [
+        {
+            name: 'Ashen',
+            img: AshenRagnir,
+        },
+        {
+            name: 'Celestial',
+            img: CelestialRagnir,
+        },
+        {
+            name: 'Dark Depths',
+            img: DarkDepthsRagnir,
+        },
+        {
+            name: 'Frost Guardian',
+            img: FrostGuardianRagnir,
+        },
+        {
+            name: 'Inferno',
+            img: InfernoRagnir,
+        },
+        {
+            name: 'Mecha',
+            img: MechaRagnir,
+        },
+        {
+            name: 'Nightshade',
+            img: NightshadeRagnir,
+        },
+        {
+            name: 'Ragnirsaurus Rex',
+            img: RagnirsaurusRex,
+        },
+        {
+            name: 'Ragnir the Covetous',
+            img: RagnirtheCovetous,
+        },
+        {
+            name: 'Sobek',
+            img: SobekRagnir,
+        },
+        {
+            name: 'Werebat',
+            img: WerebatRagnir,
+        },
+    ],
+    Rayman: [
+        {
+            name: 'Raydvar',
+            img: Raydvar,
+        },
+        {
+            name: 'Raymesis',
+            img: Raymesis,
+        },
+        {
+            name: 'Ray of the Dead',
+            img: RayoftheDead,
+        },
+        {
+            name: 'Sir Rayelot',
+            img: SirRayelot,
+        },
+    ],
+    Reno: [
+        {
+            name: 'Desperado',
+            img: DesperadoReno,
+        },
+        {
+            name: 'Ferrymoth',
+            img: FerrymothReno,
+        },
+        {
+            name: 'Honeybeeno',
+            img: Honeybeeno,
+        },
+        {
+            name: 'Widowmaker',
+            img: WidowmakerReno,
+        },
+    ],
+    Scarlet: [
+        {
+            name: 'Airship',
+            img: AirshipScarlet,
+        },
+        {
+            name: 'Bewitching',
+            img: BewitchingScarlet,
+        },
+        {
+            name: 'Mad Genius',
+            img: MadGeniusScarlet,
+        },
+        {
+            name: 'Sky Captain',
+            img: SkyCaptainScarlet,
+        },
+        {
+            name: 'Steam Faction',
+            img: SteamFactionScarlet,
+        },
+        {
+            name: 'Steam Sentry',
+            img: SteamSentryScarlet,
+        },
+        {
+            name: 'Steamsmith',
+            img: SteamsmithScarlet,
+        },
+        {
+            name: 'SteamTank',
+            img: SteamTankScarlet,
+        },
+    ],
+    Sentinel: [
+        {
+            name: 'Cu Sidhe',
+            img: CuSidheSentinel,
+        },
+        {
+            name: 'First Edition',
+            img: FirstEditionSentinel,
+        },
+        {
+            name: 'Gumshoe',
+            img: GumshoeSentinel,
+        },
+        {
+            name: 'High Impact',
+            img: HighImpactSentinel,
+        },
+        {
+            name: 'Lord Sentinel',
+            img: LordSentinel,
+        },
+        {
+            name: 'Nightwatch',
+            img: NightwatchSentinel,
+        },
+        {
+            name: 'President Sentinel',
+            img: PresidentSentinel,
+        },
+        {
+            name: 'Stormsteel',
+            img: StormsteelSentinel,
+        },
+    ],
+    Sidra: [
+        {
+            name: 'Atlantean',
+            img: AtlanteanSidra,
+        },
+        {
+            name: 'Kraken',
+            img: KrakenSidra,
+        },
+        {
+            name: 'Merrow',
+            img: MerrowSidra,
+        },
+        {
+            name: 'Pirate Queen',
+            img: PirateQueenSidra,
+        },
+        {
+            name: 'Queen Beat',
+            img: QueenBeatSidra,
+        },
+        {
+            name: 'Sky Pirate',
+            img: SkyPirateSidra,
+        },
+    ],
+    SirRoland: [
+        {
+            name: 'Classy',
+            img: ClassyRoland,
+        },
+        {
+            name: 'Fiendish Knight',
+            img: FiendishKnightRoland,
+        },
+        {
+            name: 'King Roland',
+            img: KingRoland,
+        },
+        {
+            name: 'Lionheart',
+            img: LionheartRoland,
+        },
+        {
+            name: 'Lion Rampant',
+            img: LionRampantRoland,
+        },
+        {
+            name: 'Match Point',
+            img: MatchPointRoland,
+        },
+        {
+            name: 'Roland the Hooded',
+            img: RolandtheHooded,
+        },
+        {
+            name: 'Roland the Victorious',
+            img: RolandtheVictorious,
+        },
+        {
+            name: 'The Mad King',
+            img: TheMadKingRoland,
+        },
+    ],
+    Teros: [
+        {
+            name: 'Forgeheart',
+            img: ForgeheartTeros,
+        },
+        {
+            name: 'Gatekeeper',
+            img: GatekeeperTeros,
+        },
+        {
+            name: 'God King',
+            img: GodKingTeros,
+        },
+        {
+            name: 'Hall Minotaur',
+            img: HallMinotaurTeros,
+        },
+        {
+            name: 'Iron Legion',
+            img: IronLegionTeros,
+        },
+        {
+            name: 'Mecha',
+            img: MechaTeros,
+        },
+        {
+            name: 'Ready To Riot',
+            img: ReadyToRiotTeros,
+        },
+        {
+            name: 'Rift Dweller',
+            img: RiftDwellerTeros,
+        },
+        {
+            name: 'The Yetee',
+            img: TheYeteeTeros,
+        },
+        {
+            name: 'Wreck the Halls',
+            img: WrecktheHallsTeros,
+        },
+    ],
+    Thatch: [
+        {
+            name: 'Biker',
+            img: BikerThatch,
+        },
+        {
+            name: 'Castaway',
+            img: CastawayThatch,
+        },
+        {
+            name: 'Classy',
+            img: ClassyThatch,
+        },
+        {
+            name: 'Cursed Gold',
+            img: CursedGoldThatch,
+        },
+        {
+            name: 'Goblin',
+            img: GoblinThatch,
+        },
+        {
+            name: 'Poseidon',
+            img: PoseidonThatch,
+        },
+        {
+            name: 'Secret Santa',
+            img: SecretSantaThatch,
+        },
+        {
+            name: 'SharkAttack',
+            img: SharkAttackThatch,
+        },
+        {
+            name: 'Werewolf',
+            img: WerewolfThatch,
+        },
+    ],
+    Thor: [
+        {
+            name: 'Capra',
+            img: CapraThor,
+        },
+        {
+            name: 'Cinderguard',
+            img: CinderguardThor,
+        },
+        {
+            name: 'Draugr',
+            img: DraugrThor,
+        },
+        {
+            name: 'Royal Warrior',
+            img: RoyalWarriorThor,
+        },
+        {
+            name: 'Thor by the Shore',
+            img: ThorbytheShore,
+        },
+    ],
+    Ulgrim: [
+        {
+            name: 'Apprentice',
+            img: ApprenticeUlgrim,
+        },
+        {
+            name: 'Arcanium',
+            img: ArcaniumUlgrim,
+        },
+        {
+            name: 'Dragonport',
+            img: DragonportUlgrim,
+        },
+        {
+            name: 'Jotun',
+            img: JotunUlgrim,
+        },
+        {
+            name: 'Master Blacksmith',
+            img: MasterBlacksmithUlgrim,
+        },
+        {
+            name: 'Star Miner',
+            img: StarMinerUlgrim,
+        },
+        {
+            name: 'Warborn',
+            img: WarbornUlgrim,
+        },
+    ],
+    Val: [
+        {
+            name: 'Chimera',
+            img: ChimeraVal,
+        },
+        {
+            name: 'Commando',
+            img: CommandoVal,
+        },
+        {
+            name: 'Dragonslayer',
+            img: DragonslayerVal,
+        },
+        {
+            name: 'Future Wave',
+            img: FutureWaveVal,
+        },
+        {
+            name: 'Hardsuit',
+            img: HardsuitVal,
+        },
+        {
+            name: 'Kunoichi',
+            img: KunoichiVal,
+        },
+        {
+            name: 'Mythic Hero',
+            img: MythicHeroVal,
+        },
+        {
+            name: 'Nutcracker',
+            img: NutcrackerVal,
+        },
+        {
+            name: 'Star Merc',
+            img: StarMercVal,
+        },
+    ],
+    Vector: [
+        {
+            name: 'Dragonaut',
+            img: DragonautVector,
+        },
+        {
+            name: 'Hotshot',
+            img: HotshotVector,
+        },
+        {
+            name: 'Hyperdrift',
+            img: HyperdriftVector,
+        },
+        {
+            name: 'Matchmaker',
+            img: MatchmakerVector,
+        },
+        {
+            name: 'Vector Model 01',
+            img: VectorModel01,
+        },
+    ],
+    Volkov: [
+        {
+            name: 'Blood Moon',
+            img: BloodMoonVolkov,
+        },
+        {
+            name: 'Blue Virus',
+            img: BlueVirusVolkov,
+        },
+        {
+            name: 'Huntsman',
+            img: HuntsmanVolkov,
+        },
+        {
+            name: 'Red Romance',
+            img: RedRomanceVolkov,
+        },
+        {
+            name: 'Rocker',
+            img: RockerVolkov,
+        },
+    ],
+    WuShang: [
+        {
+            name: 'Djinn',
+            img: DjinnWuShang,
+        },
+        {
+            name: 'Gentleman',
+            img: GentlemanWuShang,
+        },
+        {
+            name: 'Infinite',
+            img: InfiniteWuShang,
+        },
+        {
+            name: 'Perfect',
+            img: PerfectWuShang,
+        },
+        {
+            name: 'Ranno',
+            img: RannoWuShang,
+        },
+        {
+            name: 'Santa',
+            img: SantaWuShang,
+        },
+        {
+            name: 'Seeker',
+            img: SeekerWuShang,
+        },
+        {
+            name: 'WuShangKong',
+            img: WuShangKong,
+        },
+        {
+            name: 'WuShang the Breaker',
+            img: WuShangtheBreaker,
+        },
+    ],
+    Xull: [
+        {
+            name: 'Arctic Trapper',
+            img: ArcticTrapperXull,
+        },
+        {
+            name: 'Commander',
+            img: CommanderXull,
+        },
+        {
+            name: 'Demon Ogre',
+            img: DemonOgreXull,
+        },
+        {
+            name: 'Elvenhollow',
+            img: ElvenhollowXull,
+        },
+        {
+            name: 'Gridiron',
+            img: GridironXull,
+        },
+    ],
+    Yumiko: [
+        {
+            name: 'Arctic Fox',
+            img: ArcticFoxYumiko,
+        },
+        {
+            name: 'Caelestis',
+            img: CaelestisYumiko,
+        },
+        {
+            name: 'Cursed Mask',
+            img: CursedMaskYumiko,
+        },
+        {
+            name: 'Fox Spirit',
+            img: FoxSpiritYumiko,
+        },
+        {
+            name: 'High Frequency',
+            img: HighFrequencyYumiko,
+        },
+        {
+            name: 'Lil Yumiko',
+            img: LilYumiko,
+        },
+        {
+            name: 'Madame Yumiko',
+            img: MadameYumiko,
+        },
+        {
+            name: 'Matsuri Yumiko',
+            img: MatsuriYumiko,
+        },
+        {
+            name: 'Punkin Spice',
+            img: PunkinSpiceYumiko,
+        },
+        {
+            name: 'Tokyo',
+            img: TokyoYumiko,
+        },
+    ],
+    Zariel: [
+        {
+            name: 'Archangel',
+            img: ArchangelZariel,
+        },
+        {
+            name: 'Archfiend',
+            img: ArchfiendZariel,
+        },
+        {
+            name: 'Beachside',
+            img: BeachsideZariel,
+        },
+        {
+            name: 'Darkheart',
+            img: DarkheartZariel,
+        },
+        {
+            name: 'Outerworld',
+            img: OuterworldZariel,
+        },
+        {
+            name: 'Secret Admirer',
+            img: SecretAdmirerZariel,
+        },
+        {
+            name: 'Urban Guardian',
+            img: UrbanGuardianZariel,
         },
     ],
 }
