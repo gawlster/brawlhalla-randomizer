@@ -7,14 +7,23 @@
     .icon {
         z-index: 999999;
         position: fixed;
-        right: 1.5rem;
-        top: 1rem;
+        right: 0.5rem;
+        top: 0rem;
         cursor: pointer;
+        padding: 1rem;
+        border-radius: 20%;
     }
     .open {
         .icon {
             color: white;
         }
+    }
+    .icondiv {
+        position: absolute;
+        top: 0;
+        right: 0.5rem;
+        padding: 1rem;
+        border-radius: 20%;
     }
     nav {
         background: gray;

@@ -113,72 +113,106 @@ const LegendDetails = () => {
         const newLore = lore.split(' | ')
         return newLore
     }
+    function getRandomNameColor() {
+        const r = Math.floor(Math.random() * 200)
+        const g = Math.floor(Math.random() * 200)
+        const b = Math.floor(Math.random() * 200)
+        return `rgb(${r}, ${g}, ${b})`
+    }
     return (
         <div id='LegendDetails'>
             <div className='content'>
-                <h1 className='name'>{legendData.name}</h1>
-                <h2 className='description'>{legendData.desc}</h2>
-                {legendData &&
-                    legendData.lore &&
-                    legendData.lore.map((fragment, i) => {
-                        return (
-                            <p key={i} style={{ marginTop: '30px' }}>
-                                {fragment}
-                            </p>
-                        )
-                    })}
+                <div className='details'>
+                    <div className='charhead'>
+                        <h1 className='name' style={{ color: getRandomNameColor() }}>
+                            {legendData.name}
+                        </h1>
+                        <h2 className='description'>{legendData.desc}</h2>
+                    </div>
+                    <div className='lore'>
+                        {legendData &&
+                            legendData.lore &&
+                            legendData.lore.map((fragment, i) => {
+                                return <p key={i}>{fragment}</p>
+                            })}
+                    </div>
+                </div>
 
-                <h2 className='weapon-header'>
-                    {legendData.name ? `${legendData.name}'s ` : ''}Weapons
-                </h2>
-                {legendData &&
-                    images &&
-                    images.weapons &&
-                    images.weapons.map((weapon: { name: string; img: string }, i: number) => {
-                        console.log(weapon)
-                        return (
-                            <div key={i} className='weapon'>
-                                <Link to={`/weapon-details/${weapon.name.replace(/\s/g, '')}`}>
-                                    <img className='thumbnail' src={weapon.img} alt='' />
-                                    <h3 className='weapon-name'>{weapon.name}</h3>
-                                </Link>
-                            </div>
-                        )
-                    })}
-                <h2 className='skin-header'>
-                    {legendData.name ? `${legendData.name}'s ` : ''}Skins
-                </h2>
-                {legendData &&
-                    images &&
-                    images.skins &&
-                    images.skins.map((skin: { name: string; img: string }, i: number) => {
-                        return (
-                            <div key={i} className='skin'>
-                                <img className='thumbnail' src={skin.img} alt='' />
-                                <h3 className='skin-name'>{skin.name}</h3>
-                            </div>
-                        )
-                    })}
-
-                {legendData && legendData.crossovers && legendData.crossovers.length > 0 && (
-                    <h2 className='crossover-header'>
-                        {legendData.name ? `${legendData.name}'s ` : ''}
-                        Crossovers
+                <div className='weapons'>
+                    <h2 className='weapon-header'>
+                        {legendData.name ? `${legendData.name}'s ` : ''}Weapons
                     </h2>
-                )}
-                {legendData &&
-                    images &&
-                    images.crossovers &&
-                    images.crossovers.map((crossover: { name: string; img: string }, i: number) => {
-                        return (
-                            <div key={i} className='crossover'>
-                                <img className='thumbnail' src={crossover.img} alt='' />
-                                <h3 className='crossover-name'>{crossover.name}</h3>
-                            </div>
-                        )
-                    })}
+                    <div className='data'>
+                        {legendData &&
+                            images &&
+                            images.weapons &&
+                            images.weapons.map(
+                                (weapon: { name: string; img: string }, i: number) => {
+                                    console.log(weapon)
+                                    return (
+                                        <div key={i} className={`weapon weapon${i}`}>
+                                            <Link
+                                                style={{ textDecoration: 'none' }}
+                                                to={`/weapon-details/${weapon.name.replace(
+                                                    /\s/g,
+                                                    ''
+                                                )}`}>
+                                                <img
+                                                    className='thumbnail'
+                                                    src={weapon.img}
+                                                    alt=''
+                                                />
+                                                <h3 className='weapon-name'>{weapon.name}</h3>
+                                            </Link>
+                                        </div>
+                                    )
+                                }
+                            )}
+                    </div>
+                </div>
+                <div className='skins'>
+                    <h2 className='skin-header'>
+                        {legendData.name ? `${legendData.name}'s ` : ''}Skins
+                    </h2>
+                    <div className='data'>
+                        {legendData &&
+                            images &&
+                            images.skins &&
+                            images.skins.map((skin: { name: string; img: string }, i: number) => {
+                                return (
+                                    <div key={i} className={`skin skin${i}`}>
+                                        <img className='thumbnail' src={skin.img} alt='' />
+                                        <h3 className='skin-name'>{skin.name}</h3>
+                                    </div>
+                                )
+                            })}
+                    </div>
+                </div>
+                <div className='crossovers'>
+                    {legendData && legendData.crossovers && legendData.crossovers.length > 0 && (
+                        <h2 className='crossover-header'>
+                            {legendData.name ? `${legendData.name}'s ` : ''}
+                            Crossovers
+                        </h2>
+                    )}
+                    <div className='data'>
+                        {legendData &&
+                            images &&
+                            images.crossovers &&
+                            images.crossovers.map(
+                                (crossover: { name: string; img: string }, i: number) => {
+                                    return (
+                                        <div key={i} className={`crossover crosssover${i}`}>
+                                            <img className='thumbnail' src={crossover.img} alt='' />
+                                            <h3 className='crossover-name'>{crossover.name}</h3>
+                                        </div>
+                                    )
+                                }
+                            )}
+                    </div>
+                </div>
             </div>
-            <Navbar />
+            <Navbar style={{ background: 'white' }} />
         </div>
     )
 }
