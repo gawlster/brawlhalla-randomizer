@@ -1,49 +1,49 @@
 {
     "link-info": "All paths to thumbnails, gifs, etc are relative to the root of the assets folder",
     "name": "Dusk",
+    "camelCase": "Dusk",
     "desc": "The Renegade Sorcerer",
-    "lore": "If there’s one thing the Elven King regrets above all else, it’s not killing Dusk thoroughly enough. It was Master Artificer Dusk who wove the mighty fabric of spells that created the great golem battalions. It was Dusk who led the golem assault on Asgard. And when the elves were defeated by Thor and the valkyries, it was Dusk whom the Elven King blamed.\nDusk was thrown into Elondil Prison, and for four hundred years, there he stayed. But he was not defeated. For two hundred years, in a bare and lightless cell, Dusk forged the tool that would free him – an orb made of stone and magic. And, for another two hundred years, Dusk taught himself to wield it, bonding the Orb to his will and turning the tool into a weapon.\nWhen he was ready, the orb smashed walls and guards alike, and Dusk escaped Aelfheim into the great Fangwild forest. The Guardian of the Fangwild was not prepared for the strange new weapon Dusk wields and fell to his ambush. Styling himself the new Lord of the Fangwild, he gathered the power of the eldritch forest and schemes to overthrow both Aelfheim and Asgard.\nBut the Fangwild is not so easy to master, and now Dusk is in Valhalla. Yet his ambitions run deep, and he is planning something big. Dusk and the new weapon he wields have taken the Grand Tournament by storm. Ember and Ragnir loathe him as a betrayer, but his intensity and ambition have gathered him a following among the less scrupulous legends.",
-    "thumbnail": "/images/characters/Dusk/thumbnail.png",
+    "lore": "If there’s one thing the Elven King regrets above all else, it’s not killing Dusk thoroughly enough. It was Master Artificer Dusk who wove the mighty fabric of spells that created the great golem battalions. It was Dusk who led the golem assault on Asgard. And when the elves were defeated by Thor and the valkyries, it was Dusk whom the Elven King blamed. | Dusk was thrown into Elondil Prison, and for four hundred years, there he stayed. But he was not defeated. For two hundred years, in a bare and lightless cell, Dusk forged the tool that would free him – an orb made of stone and magic. And, for another two hundred years, Dusk taught himself to wield it, bonding the Orb to his will and turning the tool into a weapon. | When he was ready, the orb smashed walls and guards alike, and Dusk escaped Aelfheim into the great Fangwild forest. The Guardian of the Fangwild was not prepared for the strange new weapon Dusk wields and fell to his ambush. Styling himself the new Lord of the Fangwild, he gathered the power of the eldritch forest and schemes to overthrow both Aelfheim and Asgard. | But the Fangwild is not so easy to master, and now Dusk is in Valhalla. Yet his ambitions run deep, and he is planning something big. Dusk and the new weapon he wields have taken the Grand Tournament by storm. Ember and Ragnir loathe him as a betrayer, but his intensity and ambition have gathered him a following among the less scrupulous legends.",
     "weapons": [
         {
             "name": "Orb",
-            "thumbnail": "/images/weapons/orb.jpg",
+            "camelCase": "Orb",
             "signatures": {
                 "nsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/dusk-orb-nsig.gif"
+                    "camelCase": "DuskOrbNSig"
                 },
                 "ssig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/dusk-orb-ssig.gif"
+                    "camelCase": "DuskOrbNSig"
                 },
                 "dsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/dusk-orb-dsig.gif"
+                    "camelCase": "DuskOrbNSig"
                 }
             }
         },
         {
             "name": "Spear",
-            "thumbnail": "/images/weapons/spear.jpg",
+            "camelCase": "Spear",
             "signatures": {
                 "nsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/dusk-spear-nsig.gif"
+                    "camelCase": "DuskSpearNSig"
                 },
                 "ssig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/dusk-spear-ssig.gif"
+                    "camelCase": "DuskSpearNSig"
                 },
                 "dsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/dusk-spear-dsig.gif"
+                    "camelCase": "DuskSpearNSig"
                 }
             }
         }
@@ -51,29 +51,29 @@
     "skins": [
         {
             "name": "Date Night",
-            "thumbnail": "/images/characters/Dusk/DateNightDusk.png"
+            "thumbnail": "DateNightDusk"
         },
         {
             "name": "Dusk Till Dawn",
-            "thumbnail": "/images/characters/Dusk/DuskTillDawn.png"
+            "thumbnail": "DuskTillDawn"
         },
         {
             "name": "Imperial Lord",
-            "thumbnail": "/images/characters/Dusk/ImperialLordDusk.png"
+            "thumbnail": "ImperialLordDusk"
         },
         {
             "name": "Raven Shaman",
-            "thumbnail": "/images/characters/Dusk/RavenShamanDusk.png"
+            "thumbnail": "RavenShamanDusk"
         },
         {
             "name": "Thornwood",
-            "thumbnail": "/images/characters/Dusk/ThornwoodDusk.png"
+            "thumbnail": "ThornwoodDusk"
         }
     ],
     "crossovers": [
         {
             "name": "Nimue",
-            "thumbnail": "/images/characters/Dusk/Z-crossOver-NimueDusk.png"
+            "thumbnail": "NimueDusk"
         }
     ]
 }

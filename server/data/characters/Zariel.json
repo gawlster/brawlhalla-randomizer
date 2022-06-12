@@ -1,49 +1,49 @@
 {
     "link-info": "All paths to thumbnails, gifs, etc are relative to the root of the assets folder",
     "name": "Zariel",
+    "camelCase": "Zariel",
     "desc": "The Celestial",
-    "lore": "Zariel is on a mission from God – specifically the god Paladium, the warrior deity of Holy Justice who abides in blessed Elysium. In Elysium too, Zariel resided, a saintly soldier in Paladium’s perfect celestial army that stands ready to fight the demon hordes that will one day be released from Gehenna.\nAges ago, Elysium was visited by the leader of another pantheon – Odin the All-Father. The Viking God was impressed by Paladium’s mighty host- and jealous. Returning to Asgard, Odin sent out his valkyries to raise his own army for the end-times. Naturally, Paladium scoffed – no boorish viking horde could ever match his most excellent and holy host.\nBut recently, Paladium has heard rumors that the valkyries’ intense rivalry to bring back the best warriors has borne fruit. And he’s heard whispers that through the chaos and nonsense of the Grand Tournament of Valhalla, Odin’s ragtag army of the afterlife has forged itself into a formidable force. Paladium has sent Zariel to investigate.\nIn Valhalla, Zariel entered the tournament to take measure of this motley crew. However, the battles of the Grand Tournament hold an allure for any warrior, and Zariel’s emotionless participation is starting to give way to fun.",
-    "thumbnail": "/images/characters/Zariel/thumbnail.png",
+    "lore": "Zariel is on a mission from God – specifically the god Paladium, the warrior deity of Holy Justice who abides in blessed Elysium. In Elysium too, Zariel resided, a saintly soldier in Paladium’s perfect celestial army that stands ready to fight the demon hordes that will one day be released from Gehenna. | Ages ago, Elysium was visited by the leader of another pantheon – Odin the All-Father. The Viking God was impressed by Paladium’s mighty host- and jealous. Returning to Asgard, Odin sent out his valkyries to raise his own army for the end-times. Naturally, Paladium scoffed – no boorish viking horde could ever match his most excellent and holy host. | But recently, Paladium has heard rumors that the valkyries’ intense rivalry to bring back the best warriors has borne fruit. And he’s heard whispers that through the chaos and nonsense of the Grand Tournament of Valhalla, Odin’s ragtag army of the afterlife has forged itself into a formidable force. Paladium has sent Zariel to investigate. | In Valhalla, Zariel entered the tournament to take measure of this motley crew. However, the battles of the Grand Tournament hold an allure for any warrior, and Zariel’s emotionless participation is starting to give way to fun.",
     "weapons": [
         {
             "name": "Bow",
-            "thumbnail": "/images/weapons/bow.jpg",
+            "camelCase": "Bow",
             "signatures": {
                 "nsig": {
                     "active-input": false,
                     "desc": "Their Nsig creates a circle of golden god-like power with one of their arrows just a bit above their head and forward. If that hits, Zariel will then shoot another batch of three arrows at the enemy, launching them back.",
-                    "gif": "/gifs/sigs/zariel-bow-nsig.gif"
+                    "camelCase": "ZarielBowNSig"
                 },
                 "ssig": {
                     "active-input": false,
                     "desc": "This Ssig is a fast leap forward from Zariel which covers a great distance and grabs anyone it finds. If it hits, Zariel will proceed to fire another bunch of three arrows at the opponents it hits.",
-                    "gif": "/gifs/sigs/zariel-bow-ssig.gif"
+                    "camelCase": "ZarielBowNSig"
                 },
                 "dsig": {
                     "active-input": false,
                     "desc": "Zariel's Dsig will make them leap upwards and shoot arrows where they were before the jump. This launches enemies down, but most of the time they just ricochet on the ground, relaunching them up.",
-                    "gif": "/gifs/sigs/zariel-bow-dsig.gif"
+                    "camelCase": "ZarielBowNSig"
                 }
             }
         },
         {
             "name": "Gauntlets",
-            "thumbnail": "/images/weapons/gauntlets.jpg",
+            "camelCase": "Gauntlets",
             "signatures": {
                 "nsig": {
                     "active-input": false,
                     "desc": "Their Nsig launches Zariel diagonally, trying to grab enemies in range. If an enemy is grabbed, then Zariel creates a golden-circular platform and throws the enemy with force onto it. This launches enemies at angle of 45 degrees.",
-                    "gif": "/gifs/sigs/zariel-gauntlets-nsig.gif"
+                    "camelCase": "ZarielGauntletsNSig"
                 },
                 "ssig": {
                     "active-input": false,
                     "desc": "Zariel's Gauntlet Ssig creates a golden ring of power, like a disc, which, when connected to an enemy, will make Zariel finish with a punch, launching them back.",
-                    "gif": "/gifs/sigs/zariel-gauntlets-ssig.gif"
+                    "camelCase": "ZarielGauntletsNSig"
                 },
                 "dsig": {
                     "active-input": false,
                     "desc": "This Dsig has a short range and hits enemies that are in the same position as Zariel. It opens up Zariel's wings and grabs enemies, that are then thrown upwards.",
-                    "gif": "/gifs/sigs/zariel-gauntlets-dsig.gif"
+                    "camelCase": "ZarielGauntletsNSig"
                 }
             }
         }
@@ -51,31 +51,31 @@
     "skins": [
         {
             "name": "Archangel",
-            "thumbnail": "/images/characters/Zariel/ArchangelZariel.png"
+            "thumbnail": "ArchangelZariel"
         },
         {
             "name": "Archfiend",
-            "thumbnail": "/images/characters/Zariel/ArchfiendZariel.png"
+            "thumbnail": "ArchfiendZariel"
         },
         {
             "name": "Beachside",
-            "thumbnail": "/images/characters/Zariel/BeachsideZariel.png"
+            "thumbnail": "BeachsideZariel"
         },
         {
             "name": "Darkheart",
-            "thumbnail": "/images/characters/Zariel/DarkheartZariel.png"
+            "thumbnail": "DarkheartZariel"
         },
         {
             "name": "Outerworld",
-            "thumbnail": "/images/characters/Zariel/OuterworldZariel.png"
+            "thumbnail": "OuterworldZariel"
         },
         {
             "name": "Secret Admirer",
-            "thumbnail": "/images/characters/Zariel/SecretAdmirerZariel.png"
+            "thumbnail": "SecretAdmirerZariel"
         },
         {
             "name": "Urban Guardian",
-            "thumbnail": "/images/characters/Zariel/UrbanGuardianZariel.png"
+            "thumbnail": "UrbanGuardianZariel"
         }
     ],
     "crossovers": []

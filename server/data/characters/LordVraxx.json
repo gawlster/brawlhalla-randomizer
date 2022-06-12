@@ -1,49 +1,49 @@
 {
     "link-info": "All paths to thumbnails, gifs, etc are relative to the root of the assets folder",
     "name": "Lord Vraxx",
+    "camelCase": "LordVraxx",
     "desc": "The Despotic",
-    "lore": "Vraxx’s father was Governor-Tyrant of the Ice Planet Roldakk-9, and young Vraxx spent his childhood like most Zhaktari noblespawn – in a vat. As a cadet pilot in the Zhaktar Academy for Conquest and Subjugation, he excelled in space dogfighting, spacedog fighting, judging the weak, and planetary immolation.\nAs a young warlord, Vraxx destroyed Roldakk for harboring his childhood piano teacher, and soon built an impressive empire through fear, intimidation, brilliant space combat, and fear.  However, Vraxx’s extraordinary military prowess was always undermined by overconfidence, grandstanding, gloating, unworkable revenge plots, and general self-indulgence. He vaporized one planet because he didn’t like the color of their beaches, and disintegrated so many ill-performing generals that the rank of lieutenant colonel became known as ‘the sweet spot.’\nIn Valhalla, Vraxx’s naked ambition and unremitting scheming is reassuringly constant. He is contemptuous of heroes who are not royalty, and only Nai, Bödvar, Hattori and Orion are worthy of direct address. Vraxx’s most prized possession is everything he owns so no touching.",
-    "thumbnail": "/images/characters/LordVraxx/thumbnail.png",
+    "lore": "Vraxx’s father was Governor-Tyrant of the Ice Planet Roldakk-9, and young Vraxx spent his childhood like most Zhaktari noblespawn – in a vat. As a cadet pilot in the Zhaktar Academy for Conquest and Subjugation, he excelled in space dogfighting, spacedog fighting, judging the weak, and planetary immolation. | As a young warlord, Vraxx destroyed Roldakk for harboring his childhood piano teacher, and soon built an impressive empire through fear, intimidation, brilliant space combat, and fear.  However, Vraxx’s extraordinary military prowess was always undermined by overconfidence, grandstanding, gloating, unworkable revenge plots, and general self-indulgence. He vaporized one planet because he didn’t like the color of their beaches, and disintegrated so many ill-performing generals that the rank of lieutenant colonel became known as ‘the sweet spot.’ | In Valhalla, Vraxx’s naked ambition and unremitting scheming is reassuringly constant. He is contemptuous of heroes who are not royalty, and only Nai, Bödvar, Hattori and Orion are worthy of direct address. Vraxx’s most prized possession is everything he owns so no touching.",
     "weapons": [
         {
             "name": "Blasters",
-            "thumbnail": "/images/weapons/blasters.jpg",
+            "camelCase": "Blasters",
             "signatures": {
                 "nsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/lordVraxx-blasters-nsig.gif"
+                    "camelCase": "LordVraxxBlastersNSig"
                 },
                 "ssig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/lordVraxx-blasters-ssig.gif"
+                    "camelCase": "LordVraxxBlastersSSig"
                 },
                 "dsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/lordVraxx-blasters-dsig.gif"
+                    "camelCase": "LordVraxxBlastersDSig"
                 }
             }
         },
         {
             "name": "Rocket Lance",
-            "thumbnail": "/images/weapons/rocketLance.jpg",
+            "camelCase": "RocketLance",
             "signatures": {
                 "nsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/lordVraxx-lance-nsig.gif"
+                    "camelCase": "LordVraxxLanceNSig"
                 },
                 "ssig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/lordVraxx-lance-ssig.gif"
+                    "camelCase": "LordVraxxLanceSSig"
                 },
                 "dsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/lordVraxx-lance-dsig.gif"
+                    "camelCase": "LordVraxxLanceDSig"
                 }
             }
         }
@@ -51,41 +51,41 @@
     "skins": [
         {
             "name": "Dark Matter",
-            "thumbnail": "/images/characters/LordVraxx/DarkMatterVraxx.png"
+            "thumbnail": "DarkMatterVraxx"
         },
         {
             "name": "General",
-            "thumbnail": "/images/characters/LordVraxx/GeneralVraxx.png"
+            "thumbnail": "GeneralVraxx"
         },
         {
             "name": "Professor",
-            "thumbnail": "/images/characters/LordVraxx/ProfessorVraxx.png"
+            "thumbnail": "ProfessorVraxx"
         },
         {
             "name": "Space Dogfighter",
-            "thumbnail": "/images/characters/LordVraxx/SpaceDogfighterVraxx.png"
+            "thumbnail": "SpaceDogfighterVraxx"
         },
         {
             "name": "Supreme Ruler",
-            "thumbnail": "/images/characters/LordVraxx/SupremeRulerVraxx.png"
+            "thumbnail": "SupremeRulerVraxx"
         },
         {
             "name": "Vraxx the King",
-            "thumbnail": "/images/characters/LordVraxx/VraxxtheKing.png"
+            "thumbnail": "VraxxtheKing"
         },
         {
             "name": "Vraxx the Viking",
-            "thumbnail": "/images/characters/LordVraxx/VraxxtheViking.png"
+            "thumbnail": "VraxxtheViking"
         },
         {
             "name": "Wasteland",
-            "thumbnail": "/images/characters/LordVraxx/WastelandVraxx.png"
+            "thumbnail": "WastelandVraxx"
         }
     ],
     "crossovers": [
         {
             "name": "Princess Bubblegum",
-            "thumbnail": "/images/characters/LordVraxx/Z-crossOver-PrincessBubblegumVraxx.png"
+            "thumbnail": "PrincessBubblegumVraxx"
         }
     ]
 }

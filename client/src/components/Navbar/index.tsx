@@ -4,7 +4,11 @@ import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons'
 
-const Navbar = () => {
+type PropType = {
+    style?: { background: string }
+}
+
+const Navbar = (props: PropType) => {
     const [open, setOpen] = useState(false)
 
     const handleClick = () => {
@@ -60,8 +64,9 @@ const Navbar = () => {
                 </div>
             ) : (
                 <div className='closed'>
-                    <div className='icon'>
+                    <div className='icondiv'>
                         <FontAwesomeIcon
+                            style={props && props.style}
                             className='icon'
                             size='2x'
                             icon={faBars}

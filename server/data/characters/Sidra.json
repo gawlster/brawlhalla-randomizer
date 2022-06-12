@@ -1,49 +1,49 @@
 {
     "link-info": "All paths to thumbnails, gifs, etc are relative to the root of the assets folder",
     "name": "Sidra",
+    "camelCase": "Sidra",
     "desc": "The Corsair Queen",
-    "lore": "Sidra and her monster crew ruled the Seas of Thera from the ice floes of Ikrusk to the Atlantean Gate. The Corsair Queen was legendary for her fearless raids, masterful skill with a cutlass, and a tough but fair approach to plank-walking.\nIN a daring attack on Poseidon’s undersea realm, Sidra stole a giant diamond, The Eye of Charybdis, from under the beak of its guardian, The Great Kraken. She lost The Eye (along with a city and a ham sandwich) in a bar bet, but she remains cursed to forever be hunted by a vengeful and embarrassed kraken.\nEver resourceful, Sidra channels the kraken’s relentless pursuit to punish her foes. She even allowed the Iron Admiral to capture her so she could laugh as the kraken smashed his fleet to splinters in search of her.\nSidra arrived in Valhalla in the chaotic time before the Grand Tournament was created. She took one look around, commandeered a ship, recruited a crew, and resumed life as a pirate in her new home. This new Terror of the Asgardian Sea was the last straw for Odin, and he created the Grand Tournament in an attempt to channel the warlike drive of the Valhallans.\nFor now Sidra has been lured back to Valhalla by the wondrous prizes of the Tournament, spcifically the gold. But her ship stands ready to sail in a secret cove. Teros was the first crewmonster Sidra recruited, and his loyalty to her is unshakable.",
-    "thumbnail": "/images/characters/Sidra/thumbnail.png",
+    "lore": "Sidra and her monster crew ruled the Seas of Thera from the ice floes of Ikrusk to the Atlantean Gate. The Corsair Queen was legendary for her fearless raids, masterful skill with a cutlass, and a tough but fair approach to plank-walking. | IN a daring attack on Poseidon’s undersea realm, Sidra stole a giant diamond, The Eye of Charybdis, from under the beak of its guardian, The Great Kraken. She lost The Eye (along with a city and a ham sandwich) in a bar bet, but she remains cursed to forever be hunted by a vengeful and embarrassed kraken. | Ever resourceful, Sidra channels the kraken’s relentless pursuit to punish her foes. She even allowed the Iron Admiral to capture her so she could laugh as the kraken smashed his fleet to splinters in search of her. | Sidra arrived in Valhalla in the chaotic time before the Grand Tournament was created. She took one look around, commandeered a ship, recruited a crew, and resumed life as a pirate in her new home. This new Terror of the Asgardian Sea was the last straw for Odin, and he created the Grand Tournament in an attempt to channel the warlike drive of the Valhallans. | For now Sidra has been lured back to Valhalla by the wondrous prizes of the Tournament, spcifically the gold. But her ship stands ready to sail in a secret cove. Teros was the first crewmonster Sidra recruited, and his loyalty to her is unshakable.",
     "weapons": [
         {
             "name": "Cannon",
-            "thumbnail": "/images/weapons/cannon.jpg",
+            "camelCase": "Cannon",
             "signatures": {
                 "nsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/sidra-cannon-nsig.gif"
+                    "camelCase": "SidraCannonNSig"
                 },
                 "ssig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/sidra-cannon-ssig.gif"
+                    "camelCase": "SidraCannonSSig"
                 },
                 "dsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/sidra-cannon-dsig.gif"
+                    "camelCase": "SidraCannonDSig"
                 }
             }
         },
         {
             "name": "Sword",
-            "thumbnail": "/images/weapons/sword.jpg",
+            "camelCase": "Sword",
             "signatures": {
                 "nsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/sidra-sword-nsig.gif"
+                    "camelCase": "SidraSwordNSig"
                 },
                 "ssig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/sidra-sword-ssig.gif"
+                    "camelCase": "SidraSwordSSig"
                 },
                 "dsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/sidra-sword-dsig.gif"
+                    "camelCase": "SidraSwordDSig"
                 }
             }
         }
@@ -51,27 +51,27 @@
     "skins": [
         {
             "name": "Atlantean",
-            "thumbnail": "/images/characters/Sidra/AtlanteanSidra.png"
+            "thumbnail": "AtlanteanSidra"
         },
         {
             "name": "Kraken",
-            "thumbnail": "/images/characters/Sidra/KrakenSidra.png"
+            "thumbnail": "KrakenSidra"
         },
         {
             "name": "Merrow",
-            "thumbnail": "/images/characters/Sidra/MerrowSidra.png"
+            "thumbnail": "MerrowSidra"
         },
         {
             "name": "Pirate Queen",
-            "thumbnail": "/images/characters/Sidra/PirateQueenSidra.png"
+            "thumbnail": "PirateQueenSidra"
         },
         {
             "name": "Queen Beat",
-            "thumbnail": "/images/characters/Sidra/QueenBeatSidra.png"
+            "thumbnail": "QueenBeatSidra"
         },
         {
             "name": "Sky Pirate",
-            "thumbnail": "/images/characters/Sidra/SkyPirateSidra.png"
+            "thumbnail": "SkyPirateSidra"
         }
     ],
     "crossovers": []

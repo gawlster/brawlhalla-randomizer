@@ -1,49 +1,49 @@
 {
     "link-info": "All paths to thumbnails, gifs, etc are relative to the root of the assets folder",
     "name": "Bödvar",
+    "camelCase": "Bodvar",
     "desc": "The Unconquered Viking, The Great Bear",
-    "lore": "Born of a viking mother and bear father, Bödvar grew up feared and mistrusted by his own people.\nBödvar’s first nemesis was the terrible giant bear Grothnar, his own brother. By defeating Grothnar in a battle that lasted seven days, Bödvar chose to side with humanity and became the protector of the people of the north. He led his Skandian people against the Witch Queen of Helheim, slew the White Dragon Sorcerer, and lived the life of an all-conquering hero.\nAfter he single-handedly ended the Giant Wars by trapping the fire giant king in his own volcano, Bödvar sensed his work was done. But he felt doomed to never be taken by the Valkyries to Valhalla because he could never manage to be defeated in battle. So he travelled to Asgard himself, broke down the doors, and let himself in.\nValhalla is everything Bödvar hoped – an endless reward of feasting and fighting, with himself among its greatest champions.",
-    "thumbnail": "/images/characters/Bodvar/thumbnail.png",
+    "lore": "Born of a viking mother and bear father, Bödvar grew up feared and mistrusted by his own people. | Bödvar’s first nemesis was the terrible giant bear Grothnar, his own brother. By defeating Grothnar in a battle that lasted seven days, Bödvar chose to side with humanity and became the protector of the people of the north. He led his Skandian people against the Witch Queen of Helheim, slew the White Dragon Sorcerer, and lived the life of an all-conquering hero. | After he single-handedly ended the Giant Wars by trapping the fire giant king in his own volcano, Bödvar sensed his work was done. But he felt doomed to never be taken by the Valkyries to Valhalla because he could never manage to be defeated in battle. So he travelled to Asgard himself, broke down the doors, and let himself in. | Valhalla is everything Bödvar hoped – an endless reward of feasting and fighting, with himself among its greatest champions.",
     "weapons": [
         {
             "name": "Grapple Hammer",
-            "thumbnail": "/images/weapons/grappleHammer.jpg",
+            "camelCase": "GrappleHammer",
             "signatures": {
                 "nsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/bodvar-hammer-nsig.gif"
+                    "camelCase": "BodvarHammerNSig"
                 },
                 "ssig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/bodvar-hammer-ssig.gif"
+                    "camelCase": "BodvarHammerSSig"
                 },
                 "dsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/bodvar-hammer-dsig.gif"
+                    "camelCase": "BodvarHammerDSig"
                 }
             }
         },
         {
             "name": "Sword",
-            "thumbnail": "/images/weapons/sword.jpg",
+            "camelCase": "Sword",
             "signatures": {
                 "nsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/bodvar-sword-nsig.gif"
+                    "camelCase": "BodvarSwordNSig"
                 },
                 "ssig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/bodvar-sword-ssig.gif"
+                    "camelCase": "BodvarSwordSSig"
                 },
                 "dsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/bodvar-sword-dsig.gif"
+                    "camelCase": "BodvarSwordDSig"
                 }
             }
         }
@@ -51,57 +51,57 @@
     "skins": [
         {
             "name": "Asgard",
-            "thumbnail": "/images/characters/Bodvar/AsgardBodvar.png"
+            "thumbnail": "AsgardBodvar"
         },
         {
             "name": "Beardvar",
-            "thumbnail": "/images/characters/Bodvar/Beardvar.png"
+            "thumbnail": "Beardvar"
         },
         {
             "name": "Big Rig",
-            "thumbnail": "/images/characters/Bodvar/BigRigBodvar.png"
+            "thumbnail": "BigRigBodvar"
         },
         {
             "name": "Bodvar-Mania",
-            "thumbnail": "/images/characters/Bodvar/BodvarMania.png"
+            "thumbnail": "BodvarMania"
         },
         {
             "name": "Cyber",
-            "thumbnail": "/images/characters/Bodvar/CyberBodvar.png"
+            "thumbnail": "CyberBodvar"
         },
         {
             "name": "Draugr",
-            "thumbnail": "/images/characters/Bodvar/DraugrBodvar.png"
+            "thumbnail": "DraugrBodvar"
         },
         {
             "name": "Marauder",
-            "thumbnail": "/images/characters/Bodvar/MarauderBodvar.png"
+            "thumbnail": "MarauderBodvar"
         },
         {
             "name": "Metadev",
-            "thumbnail": "/images/characters/Bodvar/MetadevBodvar.png"
+            "thumbnail": "MetadevBodvar"
         },
         {
             "name": "Nutcracker",
-            "thumbnail": "/images/characters/Bodvar/NutcrackerBodvar.png"
+            "thumbnail": "NutcrackerBodvar"
         },
         {
             "name": "Ritzy",
-            "thumbnail": "/images/characters/Bodvar/RitzyBodvar.png"
+            "thumbnail": "RitzyBodvar"
         },
         {
             "name": "Vanir",
-            "thumbnail": "/images/characters/Bodvar/VanirBodvar.png"
+            "thumbnail": "VanirBodvar"
         },
         {
             "name": "Warchief",
-            "thumbnail": "/images/characters/Bodvar/WarchiefBodvar.png"
+            "thumbnail": "WarchiefBodvar"
         }
     ],
     "crossovers": [
         {
             "name": "Xavier Woods",
-            "thumbnail": "/images/characters/Bodvar/Z-crossOver-XavierWoodsBodvar.png"
+            "thumbnail": "XavierWoodsBodvar"
         }
     ]
 }

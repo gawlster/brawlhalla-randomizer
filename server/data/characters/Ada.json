@@ -1,49 +1,48 @@
 {
-    "link-info": "All paths to thumbnails, gifs, etc are relative to the root of the assets folder",
     "name": "Ada",
+    "camelCase": "Ada",
     "desc": "The Ghost in the Machine",
-    "lore": "Records show a precocious young Ada offered a place in the training program of Meyers Baby Food Corporation (“Your Friend in Nanotech”). After that, no official records of Ada exist. Part of an experimental group, Ada’s public education neuro-sims were replaced with training in real-time signal decryption and urban warfare.\nGraduates of the experiment joined Meyers Baby Food Corp’s black ops division, but Ada hacked the corporation’s maincloud and learned her division was protecting the Upload Enslavement Initiative. Soon, records of Meyers’ secret operations were playing on every news feed, and Ada had disappeared.\nIn the undersea free state of Miami Dome, Ada founded the Right Wrong Cavaliers, an elite team of combat hackers and post-punk revival band, and she led their masterful guerilla campaign against Meyers and their shadowy GovernCorp backers.\nShe’s pretty sure Valhalla is all some sort of computer sim, but until she can find a way out, she’s playing to win.",
-    "thumbnail": "/images/characters/ada/thumbnail.png",
+    "lore": "Records show a precocious young Ada offered a place in the training program of Meyers Baby Food Corporation (“Your Friend in Nanotech”). After that, no official records of Ada exist. Part of an experimental group, Ada’s public education neuro-sims were replaced with training in real-time signal decryption and urban warfare. | Graduates of the experiment joined Meyers Baby Food Corp’s black ops division, but Ada hacked the corporation’s maincloud and learned her division was protecting the Upload Enslavement Initiative. Soon, records of Meyers’ secret operations were playing on every news feed, and Ada had disappeared. | In the undersea free state of Miami Dome, Ada founded the Right Wrong Cavaliers, an elite team of combat hackers and post-punk revival band, and she led their masterful guerilla campaign against Meyers and their shadowy GovernCorp backers. | She’s pretty sure Valhalla is all some sort of computer sim, but until she can find a way out, she’s playing to win.",
     "weapons": [
         {
             "name": "Blasters",
-            "thumbnail": "/images/weapons/blasters.jpg",
+            "camelCase": "Blasters",
             "signatures": {
                 "nsig": {
                     "active-input": false,
                     "desc": "Ada jumps up and shoots four green blasts from her guns which explode on contact on the ground.",
-                    "gif": "/gifs/ada-blasters-nsig.gif"
+                    "camelCase": "AdaBlastersNSig"
                 },
                 "ssig": {
                     "active-input": false,
                     "desc": "Ada brings her guns forward and shoots a short, green laser from her guns. The laser hits several before launching the opponent.",
-                    "gif": "/gifs/ada-blasters-ssig.gif"
+                    "camelCase": "AdaBlastersSSig"
                 },
                 "dsig": {
                     "active-input": false,
                     "desc": "Ada shoots out two smaller green blasts and then a very large green blast. The shots combo into each other. Ada receives recoil backwards.",
-                    "gif": "/gifs/ada-blasters-dsig.gif"
+                    "camelCase": "AdaBlastersDSig"
                 }
             }
         },
         {
             "name": "Spear",
-            "thumbnail": "/images/weapons/spear.jpg",
+            "camelCase": "Spear",
             "signatures": {
                 "nsig": {
                     "active-input": false,
                     "desc": "Ada jumps up and swings her spear around.",
-                    "gif": "/gifs/ada-spear-nsig.gif"
+                    "camelCase": "AdaSpearNSig"
                 },
                 "ssig": {
                     "active-input": false,
                     "desc": "Ada does a quick slash with her spear.",
-                    "gif": "/gifs/ada-spear-ssig.gif"
+                    "camelCase": "AdaSpearSSig"
                 },
                 "dsig": {
                     "active-input": false,
                     "desc": "Ada does a breakdance and moves a bit forward.",
-                    "gif": "/gifs/ada-spear-dsig.gif"
+                    "camelCase": "AdaSpearDSig"
                 }
             }
         }
@@ -51,49 +50,49 @@
     "skins": [
         {
             "name": "Fatal Core",
-            "thumbnail": "/images/characters/ada/AstralCoreAda.png"
+            "thumbnail": "AstralCoreAda"
         },
         {
             "name": "Atlantean",
-            "thumbnail": "/images/characters/ada/AtlanteanAda.png"
+            "thumbnail": "AtlanteanAda"
         },
         {
             "name": "Detention",
-            "thumbnail": "/images/characters/ada/DetentionAda.png"
+            "thumbnail": "DetentionAda"
         },
         {
             "name": "DJ",
-            "thumbnail": "/images/characters/ada/DJAda.png"
+            "thumbnail": "DJAda"
         },
         {
             "name": "Fatal Error",
-            "thumbnail": "/images/characters/ada/FatalErrorAda.png"
+            "thumbnail": "FatalErrorAda"
         },
         {
             "name": "Lovelaced",
-            "thumbnail": "/images/characters/ada/LovelacedAda.png"
+            "thumbnail": "LovelacedAda"
         },
         {
             "name": "Stormlord",
-            "thumbnail": "/images/characters/ada/StormlordAda.png"
+            "thumbnail": "StormlordAda"
         },
         {
             "name": "Technomancer",
-            "thumbnail": "/images/characters/ada/TechnomancerAda.png"
+            "thumbnail": "TechnomancerAda"
         },
         {
             "name": "Vixen",
-            "thumbnail": "/images/characters/ada/VixenAda.png"
+            "thumbnail": "VixenAda"
         },
         {
             "name": "Wasteland",
-            "thumbnail": "/images/characters/ada/WastelandAda.png"
+            "thumbnail": "WastelandAda"
         }
     ],
     "crossovers": [
         {
             "name": "Heatblast",
-            "thumbnail": "/assets/images/characters/ada/Z-crossOver-HeatblastAda.png"
+            "thumbnail": "HeatblastAda"
         }
     ]
 }

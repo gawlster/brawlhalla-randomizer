@@ -1,49 +1,49 @@
 {
     "link-info": "All paths to thumbnails, gifs, etc are relative to the root of the assets folder",
     "name": "Azoth",
+    "camelCase": "Azoth",
     "desc": "The One-Man Dynasty",
-    "lore": "King Azoth the Great vowed his empire would endure for all eternity. Delving into dark and ancient magic, his court sorcerer crafted seven soul stones that, when brought together, could summon Azoth from the grip of death itself to fulfill his oath.\nA thousand years after his death, his empire all but forgotten, devoted acolytes assembled the soul stones. The awoken Azoth was as brilliant and ruthless in battle as ever, if physically somewhat the worse for wear. He reforged his empire, and so began the first reign of Lichlord Azoth. Only after a saga of unprecedented heroism were the servants of light able to defeat Azoth and scatter the soul stones. The Valkyries, impressed by both Azoth’s battle prowess and his stick-to-itativeness, offered the lich a seat in Valhalla.\nBut the vow was not forgotten. Azothian cultists gathered the soul stones again, and Azoth found himself back in Elyria. Once more, only heroes pushed to the absolute limit of valor and luck defeated him. Lord Azoth the Mighty. Asothos the Terrible. Azothus Triumphant – again and again Azoth has been summoned from Valhalla to reprise his role as the scourge of the living.\nWelcome to Azoth’s afterlife. He would be more than happy to stay retired in Asgard, enjoying some reading, an occasional battle, and the company of his cat Dander. But the curse of eternal life is not easily broken. By the Old Law, even the most heinous curse must contain the seed of its undoing. Azoth could break the burdensome cycle of undeath through ten thousand selfless acts. He reckons if pet care counts, he might be at one.",
-    "thumbnail": "/images/characters/Azoth/thumbnail.png",
+    "lore": "King Azoth the Great vowed his empire would endure for all eternity. Delving into dark and ancient magic, his court sorcerer crafted seven soul stones that, when brought together, could summon Azoth from the grip of death itself to fulfill his oath. | A thousand years after his death, his empire all but forgotten, devoted acolytes assembled the soul stones. The awoken Azoth was as brilliant and ruthless in battle as ever, if physically somewhat the worse for wear. He reforged his empire, and so began the first reign of Lichlord Azoth. Only after a saga of unprecedented heroism were the servants of light able to defeat Azoth and scatter the soul stones. The Valkyries, impressed by both Azoth’s battle prowess and his stick-to-itativeness, offered the lich a seat in Valhalla. | But the vow was not forgotten. Azothian cultists gathered the soul stones again, and Azoth found himself back in Elyria. Once more, only heroes pushed to the absolute limit of valor and luck defeated him. Lord Azoth the Mighty. Asothos the Terrible. Azothus Triumphant – again and again Azoth has been summoned from Valhalla to reprise his role as the scourge of the living. | Welcome to Azoth’s afterlife. He would be more than happy to stay retired in Asgard, enjoying some reading, an occasional battle, and the company of his cat Dander. But the curse of eternal life is not easily broken. By the Old Law, even the most heinous curse must contain the seed of its undoing. Azoth could break the burdensome cycle of undeath through ten thousand selfless acts. He reckons if pet care counts, he might be at one.",
     "weapons": [
         {
             "name": "Axe",
-            "thumbnail": "/images/weapons/axe.jpg",
+            "camelCase": "Axe",
             "signatures": {
                 "nsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/azoth-axe-nsig.gif"
+                    "camelCase": "AzothAxeNSig"
                 },
                 "ssig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/azoth-axe-ssig.gif"
+                    "camelCase": "AzothAxeSSig"
                 },
                 "dsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/azoth-axe-dsig.gif"
+                    "camelCase": "AzothAxeDSig"
                 }
             }
         },
         {
             "name": "Bow",
-            "thumbnail": "/images/weapons/bow.jpg",
+            "camelCase": "Bow",
             "signatures": {
                 "nsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/azoth-bow-nsig.gif"
+                    "camelCase": "AzothBowNSig"
                 },
                 "ssig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/azoth-bow-ssig.gif"
+                    "camelCase": "AzothBowSSig"
                 },
                 "dsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/azoth-bow-dsig.gif"
+                    "camelCase": "AzothBowDSig"
                 }
             }
         }
@@ -51,43 +51,43 @@
     "skins": [
         {
             "name": "Ancient",
-            "thumbnail": "/images/characters/Azoth/AncientAzoth.png"
+            "thumbnail": "AncientAzoth"
         },
         {
             "name": "Annihilator",
-            "thumbnail": "/images/characters/Azoth/AnnihilatorAzoth.png"
+            "thumbnail": "AnnihilatorAzoth"
         },
         {
             "name": "Baron",
-            "thumbnail": "/images/characters/Azoth/BaronAzoth.png"
+            "thumbnail": "BaronAzoth"
         },
         {
             "name": "Deep One",
-            "thumbnail": "/images/characters/Azoth/DeepOneAzoth.png"
+            "thumbnail": "DeepOneAzoth"
         },
         {
             "name": "Ehzot",
-            "thumbnail": "/images/characters/Azoth/EhzotAzoth.png"
+            "thumbnail": "EhzotAzoth"
         },
         {
             "name": "Island",
-            "thumbnail": "/images/characters/Azoth/IslandAzoth.png"
+            "thumbnail": "IslandAzoth"
         },
         {
             "name": "Lichlord",
-            "thumbnail": "/images/characters/Azoth/LichlordAzoth.png"
+            "thumbnail": "LichlordAzoth"
         },
         {
             "name": "Muerto",
-            "thumbnail": "/images/characters/Azoth/MuertoAzoth.png"
+            "thumbnail": "MuertoAzoth"
         },
         {
             "name": "Necromancer",
-            "thumbnail": "/images/characters/Azoth/NecromancerAzoth.png"
+            "thumbnail": "NecromancerAzoth"
         },
         {
             "name": "Sky Scourge",
-            "thumbnail": "/images/characters/Azoth/SkyScourgeAzoth.png"
+            "thumbnail": "SkyScourgeAzoth"
         }
     ],
     "crossovers": []

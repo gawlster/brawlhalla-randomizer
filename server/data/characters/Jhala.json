@@ -1,49 +1,49 @@
 {
     "link-info": "All paths to thumbnails, gifs, etc are relative to the root of the assets folder",
     "name": "Jhala",
+    "camelCase": "Jhala",
     "desc": "The Unbroken",
-    "lore": "Life was tough for the hardy villagers of the Ikrusk. They survived freezing winters in the shadow of Mt Tragedy by huddling around pools of the hellfire that rained eternally from its peak. A good summer was when the scorpion swarms thinned out the vampires. By day they would tend livestock, and by night they would drive back the haunted suits of armor that fell from the sky. Hardship made them tough, and most potential enemies were awed enough to leave them alone.\nNot so The Lord of Scales. Riding the Dragon of Conflagration, he burned the village to the ground and then some. Young Jhala survived only because she was safely suspended in midair, climbing the dragon’s bulk with axe and knife. In the sky over her burning town, Jhala cast down The Lord of Scales and seized control of the Dragon. However, it was too late for her home. Astride the great wyrm, Jhala set off.\nThus began the greatest adventure epic of the age. Jhala stole the Scepter of Invincibility from the (formerly) Invincible King. She bested the Orc Warlord in single combat, earning the (purely honorary) title “Friend”. She won the city of Dragonport in a drinking contest with the pirate queen. Apollo himself gave Jhala the title “Exalted Lion” after she led the armies of all Thera to victory against Ehzot, the Zombie Lord.\nJhala takes the glamor of Valhalla in stride, thinking at any moment she could be back to roast scorpion and improbably violent precipitation. But in the meantime this is fun too.",
-    "thumbnail": "/images/characters/Jhala/thumbnail.png",
+    "lore": "Life was tough for the hardy villagers of the Ikrusk. They survived freezing winters in the shadow of Mt Tragedy by huddling around pools of the hellfire that rained eternally from its peak. A good summer was when the scorpion swarms thinned out the vampires. By day they would tend livestock, and by night they would drive back the haunted suits of armor that fell from the sky. Hardship made them tough, and most potential enemies were awed enough to leave them alone. | Not so The Lord of Scales. Riding the Dragon of Conflagration, he burned the village to the ground and then some. Young Jhala survived only because she was safely suspended in midair, climbing the dragon’s bulk with axe and knife. In the sky over her burning town, Jhala cast down The Lord of Scales and seized control of the Dragon. However, it was too late for her home. Astride the great wyrm, Jhala set off. | Thus began the greatest adventure epic of the age. Jhala stole the Scepter of Invincibility from the (formerly) Invincible King. She bested the Orc Warlord in single combat, earning the (purely honorary) title “Friend”. She won the city of Dragonport in a drinking contest with the pirate queen. Apollo himself gave Jhala the title “Exalted Lion” after she led the armies of all Thera to victory against Ehzot, the Zombie Lord. | Jhala takes the glamor of Valhalla in stride, thinking at any moment she could be back to roast scorpion and improbably violent precipitation. But in the meantime this is fun too.",
     "weapons": [
         {
             "name": "Axe",
-            "thumbnail": "/images/weapons/axe.jpg",
+            "camelCase": "Axe",
             "signatures": {
                 "nsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/jhala-axe-nsig.gif"
+                    "camelCase": "JhalaAxeNSig"
                 },
                 "ssig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/jhala-axe-ssig.gif"
+                    "camelCase": "JhalaAxeNSig"
                 },
                 "dsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/jhala-axe-dsig.gif"
+                    "camelCase": "JhalaAxeNSig"
                 }
             }
         },
         {
             "name": "Sword",
-            "thumbnail": "/images/weapons/sword.jpg",
+            "camelCase": "Sword",
             "signatures": {
                 "nsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/jhala-sword-nsig.gif"
+                    "camelCase": "JhalaSwordNSig"
                 },
                 "ssig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/jhala-sword-ssig.gif"
+                    "camelCase": "JhalaSwordNSig"
                 },
                 "dsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/jhala-sword-dsig.gif"
+                    "camelCase": "JhalaSwordNSig"
                 }
             }
         }
@@ -51,45 +51,45 @@
     "skins": [
         {
             "name": "Gallowglass",
-            "thumbnail": "/images/characters/Jhala/GallowglassJhala.png"
+            "thumbnail": "GallowglassJhala"
         },
         {
             "name": "New School",
-            "thumbnail": "/images/characters/Jhala/NewSchoolJhala.png"
+            "thumbnail": "NewSchoolJhala"
         },
         {
             "name": "Orc Raider",
-            "thumbnail": "/images/characters/Jhala/OrcRaiderJhala.png"
+            "thumbnail": "OrcRaiderJhala"
         },
         {
             "name": "Queen of Scales",
-            "thumbnail": "/images/characters/Jhala/QueenofScalesJhala.png"
+            "thumbnail": "QueenofScalesJhala"
         },
         {
             "name": "Silver Age",
-            "thumbnail": "/images/characters/Jhala/SilverAgeJhala.png"
+            "thumbnail": "SilverAgeJhala"
         },
         {
             "name": "Sky Scourge",
-            "thumbnail": "/images/characters/Jhala/SkyScourgeJhala.png"
+            "thumbnail": "SkyScourgeJhala"
         },
         {
             "name": "Speedmetal",
-            "thumbnail": "/images/characters/Jhala/SpeedmetalJhala.png"
+            "thumbnail": "SpeedmetalJhala"
         },
         {
             "name": "Warlord",
-            "thumbnail": "/images/characters/Jhala/WarlordJhala.png"
+            "thumbnail": "WarlordJhala"
         }
     ],
     "crossovers": [
         {
             "name": "Finn",
-            "thumbnail": "/images/characters/Jhala/Z-crossOver-FinnJhala.png"
+            "thumbnail": "FinnJhala"
         },
         {
             "name": "Maggie",
-            "thumbnail": "/images/characters/Jhala/Z-crossOver-MaggieJhala.png"
+            "thumbnail": "MaggieJhala"
         }
     ]
 }

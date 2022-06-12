@@ -1,0 +1,155 @@
+#LegendDetails {
+    .content {
+        padding: 1rem 1rem 2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        .details {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            .charhead {
+                .name {
+                    font-size: 3rem;
+                    font-weight: 800;
+                }
+                .description {
+                    font-style: italic;
+                }
+            }
+            .lore {
+                display: flex;
+                flex-direction: column;
+                gap: 0.75rem;
+            }
+        }
+        .weapons {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            .data {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                gap: 1rem;
+                .weapon {
+                    width: 20%;
+                    .thumbnail {
+                        width: 100%;
+                        transition: 250ms;
+                        border-radius: 7%;
+                    }
+                    .weapon-name {
+                        font-size: 1rem;
+                        text-decoration: none;
+                        text-align: center;
+                        color: black;
+                        font-weight: 600;
+                        font-style: oblique;
+                    }
+
+                    &:hover,
+                    &:focus {
+                        .thumbnail {
+                            transform: scale(105%);
+                        }
+                    }
+                }
+            }
+        }
+        .skins {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            .data {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                gap: 2rem;
+                .skin {
+                    width: 25%;
+                    .thumbnail {
+                        width: 100%;
+                        transition: 250ms;
+                    }
+                    .skin-name {
+                        font-size: 1rem;
+                        text-align: center;
+                        color: black;
+                        font-weight: 600;
+                        font-style: oblique;
+                    }
+
+                    &:hover,
+                    &:focus {
+                        .thumbnail {
+                            transform: scale(105%);
+                        }
+                    }
+                }
+            }
+        }
+        .crossovers {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            .data {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                gap: 2rem;
+                .crossover {
+                    width: 30%;
+                    .thumbnail {
+                        width: 100%;
+                        transition: 250ms;
+                    }
+                    .crossover-name {
+                        font-size: 1rem;
+                        text-align: center;
+                        color: black;
+                        font-weight: 600;
+                        font-style: oblique;
+                    }
+                    &:hover,
+                    &:focus {
+                        .thumbnail {
+                            transform: scale(105%);
+                        }
+                    }
+                }
+            }
+        }
+        @media screen and (min-width: 800px) {
+            padding: 1.5rem 2rem 3rem;
+            .weapons .data .weapon {
+                width: 8rem;
+            }
+            .skins .data .skin {
+                width: 18%;
+            }
+            .crossovers .data .crossover {
+                width: 23%;
+            }
+        }
+        @media screen and (min-width: 1000px) {
+            padding: 3rem 4rem 4rem;
+        }
+        @media screen and (min-width: 1350px) {
+            padding: 5rem 7rem 5rem;
+            .weapons .data .weapon {
+                width: 8rem;
+            }
+            .skins .data .skin {
+                width: 14%;
+            }
+            .crossovers .data .crossover {
+                width: 18%;
+            }
+        }
+    }
+}

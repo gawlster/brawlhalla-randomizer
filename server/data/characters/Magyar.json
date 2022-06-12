@@ -1,49 +1,49 @@
 {
     "link-info": "All paths to thumbnails, gifs, etc are relative to the root of the assets folder",
     "name": "Magyar",
+    "camelCase": "Magyar",
     "desc": "The Spectral Guardian",
-    "lore": "Batavian ghost stories tell of the Strazci, 100 elite knights slain in a battle with dragons. Using the power of an unholy relic, the desperate king raised his knights from death, reanimating each suit of dragon-burned armor with a spectre of the undead. With this unholy legion, Batavia terrorized its enemies. To the horror of their foes, the power of the necromancy was such that whenever a Strazci fell, its spirit escaped to join and strengthen a knight that remained. Thus the might of the Strazci went undiminished.\nOver centuries, the Strazci won countless battles for their masters, but constant war whittled away the undead company’s numbers. The power of the remaining Strazci concentrated and grew. Finally, at the great Siege of Lions, the final knights fell but one. Only Magyar, the last of the Strazci, survived the losing battle.\nMagyar remained to haunt the ruined halls of the abandoned castle until the 21st century finally brought doom. Grown complacent from dispatching meddling intruders armed only with snacks, Magyar was not ready when real monster hunters came armed with ethervision goggles, guns, and the Spear of Saint Cuthred.\nIn Valhalla, the spirits inside Magyar love battle, steer clear of Nix, and fill out the baritone section of the Asgardian Halloween Spooktacular Choir.",
-    "thumbnail": "/images/characters/Magyar/thumbnail.png",
+    "lore": "Batavian ghost stories tell of the Strazci, 100 elite knights slain in a battle with dragons. Using the power of an unholy relic, the desperate king raised his knights from death, reanimating each suit of dragon-burned armor with a spectre of the undead. With this unholy legion, Batavia terrorized its enemies. To the horror of their foes, the power of the necromancy was such that whenever a Strazci fell, its spirit escaped to join and strengthen a knight that remained. Thus the might of the Strazci went undiminished. | Over centuries, the Strazci won countless battles for their masters, but constant war whittled away the undead company’s numbers. The power of the remaining Strazci concentrated and grew. Finally, at the great Siege of Lions, the final knights fell but one. Only Magyar, the last of the Strazci, survived the losing battle. | Magyar remained to haunt the ruined halls of the abandoned castle until the 21st century finally brought doom. Grown complacent from dispatching meddling intruders armed only with snacks, Magyar was not ready when real monster hunters came armed with ethervision goggles, guns, and the Spear of Saint Cuthred. | In Valhalla, the spirits inside Magyar love battle, steer clear of Nix, and fill out the baritone section of the Asgardian Halloween Spooktacular Choir.",
     "weapons": [
         {
             "name": "Grapple Hammer",
-            "thumbnail": "/images/weapons/grappleHammer.jpg",
+            "camelCase": "GrappleHammer",
             "signatures": {
                 "nsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/magyar-hammer-nsig.gif"
+                    "camelCase": "MagyarHammerNSig"
                 },
                 "ssig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/magyar-hammer-ssig.gif"
+                    "camelCase": "MagyarHammerSSig"
                 },
                 "dsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/magyar-hammer-dsig.gif"
+                    "camelCase": "MagyarHammerDSig"
                 }
             }
         },
         {
             "name": "Greatsword",
-            "thumbnail": "/images/weapons/greatsword.jpg",
+            "camelCase": "Greatsword",
             "signatures": {
                 "nsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/magyar-greatsword-nsig.gif"
+                    "camelCase": "MagyarGreatswordNSig"
                 },
                 "ssig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/magyar-greatsword-ssig.gif"
+                    "camelCase": "MagyarGreatswordSSig"
                 },
                 "dsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/magyar-greatsword-dsig.gif"
+                    "camelCase": "MagyarGreatswordDSig"
                 }
             }
         }
@@ -51,15 +51,15 @@
     "skins": [
         {
             "name": "Golden Gladiator",
-            "thumbnail": "/images/characters/Magyar/GoldenGladiatorMagyar.png"
+            "thumbnail": "GoldenGladiatorMagyar"
         },
         {
             "name": "Phantom of the Armor",
-            "thumbnail": "/images/characters/Magyar/PhantomoftheArmorMagyar.png"
+            "thumbnail": "PhantomoftheArmorMagyar"
         },
         {
             "name": "Pharaoh King",
-            "thumbnail": "/images/characters/Magyar/PharaohKingMagyar.png"
+            "thumbnail": "PharaohKingMagyar"
         }
     ],
     "crossovers": []

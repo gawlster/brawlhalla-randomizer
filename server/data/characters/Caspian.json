@@ -1,49 +1,49 @@
 {
     "link-info": "All paths to thumbnails, gifs, etc are relative to the root of the assets folder",
     "name": "Caspian",
+    "camelCase": "Caspian",
     "desc": "The Master Thief",
-    "lore": "The Mad King of Batavia was a demanding father, and his lunacy honed his son into the greatest thief ever known. “Steal me the Royal Sceptre of hamburg, the nose of the Sphinx, and the beard of the emperor of China!” his father would rave, and Caspian would deliver them all.\nBut his father’s rule descended from capricious to diabolical, and when the Order of the Exalted Lion stepped in, the young prince quietly vanished.\nOn his own, The Great Caspian’s showmanship and thirst for danger only grew. His theatrical heists left his targets applauding more often than calling the police. He replaced the Mona Lisa with a portrait of himself with an enigmatic smile. He stole the Crown Jewels of Britain with one hand actually tied behind his back. Citizens of Kiev woke up one morning to find he had somehow stolen their entire city and was now, in every legal way, their Mayor.\nEmboldened by cheers of the people, Caspian stepped up his game. He won the Battle of Trafalgar disguised as Admiral Nelson. He won the Kentucky Derby disguised as a horse. He decided to take some time for himself, and August 32nd was never seen again.\nIn Valhalla he has not slowed his larcenous ways. He disguised himself as Vraxx for an entire tournament – a tournament Vraxx was in. He stole Thatch’s beard and replaced it with bees. He stole Cross’s coin and quickly gave it back. None doubt that the Grand Tournament is his stage now, and he’s here to give them a show.",
-    "thumbnail": "/images/characters/Caspian/thumbnail.png",
+    "lore": "The Mad King of Batavia was a demanding father, and his lunacy honed his son into the greatest thief ever known. “Steal me the Royal Sceptre of hamburg, the nose of the Sphinx, and the beard of the emperor of China!” his father would rave, and Caspian would deliver them all. | But his father’s rule descended from capricious to diabolical, and when the Order of the Exalted Lion stepped in, the young prince quietly vanished. | On his own, The Great Caspian’s showmanship and thirst for danger only grew. His theatrical heists left his targets applauding more often than calling the police. He replaced the Mona Lisa with a portrait of himself with an enigmatic smile. He stole the Crown Jewels of Britain with one hand actually tied behind his back. Citizens of Kiev woke up one morning to find he had somehow stolen their entire city and was now, in every legal way, their Mayor. | Emboldened by cheers of the people, Caspian stepped up his game. He won the Battle of Trafalgar disguised as Admiral Nelson. He won the Kentucky Derby disguised as a horse. He decided to take some time for himself, and August 32nd was never seen again. | In Valhalla he has not slowed his larcenous ways. He disguised himself as Vraxx for an entire tournament – a tournament Vraxx was in. He stole Thatch’s beard and replaced it with bees. He stole Cross’s coin and quickly gave it back. None doubt that the Grand Tournament is his stage now, and he’s here to give them a show.",
     "weapons": [
         {
             "name": "Gauntlets",
-            "thumbnail": "/images/weapons/gauntlets.jpg",
+            "camelCase": "Gauntlets",
             "signatures": {
                 "nsig": {
                     "active-input": false,
                     "desc": "Caspian launches one bomb from his gauntlets up. The bomb explodes after a short time or on impact with enemy.",
-                    "gif": "/gifs/sigs/caspian-gauntlets-nsig.gif"
+                    "camelCase": "CaspianGauntletsNSig"
                 },
                 "ssig": {
                     "active-input": false,
                     "desc": "Caspian leaps forward with a bomb in his hand. If it connects, the bomb will stick to the back of the enemy, sending them away. While Caspian is sticking the bomb on the enemy, they will levitate in the air. This signature is a reversal signature.",
-                    "gif": "/gifs/sigs/caspian-gauntlets-ssig.gif"
+                    "camelCase": "CaspianGauntletsSSig"
                 },
                 "dsig": {
                     "active-input": false,
                     "desc": "Caspian launches five bombs from his gauntlets forward. Caspian will be pushed back by recoil. A \"scary organ\" sound plays, referencing Caspian's thief-like design.",
-                    "gif": "/gifs/sigs/caspian-gauntlets-dsig.gif"
+                    "camelCase": "CaspianGauntletsDSig"
                 }
             }
         },
         {
             "name": "Katars",
-            "thumbnail": "/images/weapons/katars.jpg",
+            "camelCase": "Katars",
             "signatures": {
                 "nsig": {
                     "active-input": false,
                     "desc": "Caspian throws three katars up in a fan shape.",
-                    "gif": "/gifs/sigs/caspian-katars-nsig.gif"
+                    "camelCase": "CaspianKatarsNSig"
                 },
                 "ssig": {
                     "active-input": false,
                     "desc": "Caspian throws one katar forward. If it connects, then Caspian will run up and launch them.",
-                    "gif": "/gifs/sigs/caspian-katars-ssig.gif"
+                    "camelCase": "CaspianKatarsNSig"
                 },
                 "dsig": {
                     "active-input": false,
                     "desc": "Caspian jumps up and throws two katars at the ground. The length he leaps up is dictated by the amount of time you charge the signature. (can also spike opponents if they are in the air)",
-                    "gif": "/gifs/sigs/caspian-katars-dsig.gif"
+                    "camelCase": "CaspianKatarsNSig"
                 }
             }
         }
@@ -51,37 +51,37 @@
     "skins": [
         {
             "name": "Aces High",
-            "thumbnail": "/images/characters/Caspian/AcesHighCaspian.png"
+            "thumbnail": "AcesHighCaspian"
         },
         {
             "name": "All City",
-            "thumbnail": "/images/characters/Caspian/AllCityCaspian.png"
+            "thumbnail": "AllCityCaspian"
         },
         {
             "name": "Fortune Hunter",
-            "thumbnail": "/images/characters/Caspian/FortuneHunterCaspian.png"
+            "thumbnail": "FortuneHunterCaspian"
         },
         {
             "name": "Harlequin",
-            "thumbnail": "/images/characters/Caspian/HarlequinCaspian.png"
+            "thumbnail": "HarlequinCaspian"
         },
         {
             "name": "Immortal",
-            "thumbnail": "/images/characters/Caspian/ImmortalCaspian.png"
+            "thumbnail": "ImmortalCaspian"
         },
         {
             "name": "Nightcap",
-            "thumbnail": "/images/characters/Caspian/NightcapCaspian.png"
+            "thumbnail": "NightcapCaspian"
         }
     ],
     "crossovers": [
         {
             "name": "Diamondhead",
-            "thumbnail": "/images/characters/Caspian/Z-crossOver-DiamondheadCaspian.png"
+            "thumbnail": "DiamondheadCaspian"
         },
         {
             "name": "Plague Knight",
-            "thumbnail": "/images/characters/Caspian/Z-crossOver-PlagueKnightCaspian.png"
+            "thumbnail": "PlagueKnightCaspian"
         }
     ]
 }

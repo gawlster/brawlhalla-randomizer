@@ -1,49 +1,49 @@
 {
     "link-info": "All paths to thumbnails, gifs, etc are relative to the root of the assets folder",
     "name": "Vector",
+    "camelCase": "Vector",
     "desc": "The Superbot",
-    "lore": "In the year 3006, cybermarine Arcturius Vector pursued his nemesis, the Mechassassin Blackstorm far into the distant past of New Earth. His mission did not go as planned.\nFirst, when Vector arrived in 1987 he discovered his time had a very distorted image of what humans looked in the ancient past. Humans were not steel-winged, they did not subsist on a primitive naptha-kerosene blend, and they did not have epic guitar chords playing in the background at all times. If he ever returned to his own time, he would correct Engram-Killivac’s Encyclopedia of World History. But in the meantime, it was too late to change, and while his jet-hybrid form was not the disguise he’d hoped, it was comfortable, useful and incredibly cool.\nSecond, when Vector found Sentinel, he discovered not a defenseless civilian, but a Superhero locked in deadly combat with the evil KABAL, and an Earth assaulted by villains and threats of all sorts. Vector pitched in with enthusiasm. He led the counterattack against an alien invasion force, he defeated a squadron of super-intelligent super-jets, and he fought Blackstorm in a battle over Los Angeles so epic that the soundtrack could be heard as far away as New Mexico.\nIn Valhalla Vector fights, builds jet engines with Scarlet, teaches yoga, and communicates mostly in Top Gun quotes. But he has recently discovered that Scarlet may know more about time travel than she admits, and his circuits are beginning to whir.",
-    "thumbnail": "/images/characters/Vector/thumbnail.png",
+    "lore": "In the year 3006, cybermarine Arcturius Vector pursued his nemesis, the Mechassassin Blackstorm far into the distant past of New Earth. His mission did not go as planned. | First, when Vector arrived in 1987 he discovered his time had a very distorted image of what humans looked in the ancient past. Humans were not steel-winged, they did not subsist on a primitive naptha-kerosene blend, and they did not have epic guitar chords playing in the background at all times. If he ever returned to his own time, he would correct Engram-Killivac’s Encyclopedia of World History. But in the meantime, it was too late to change, and while his jet-hybrid form was not the disguise he’d hoped, it was comfortable, useful and incredibly cool. | Second, when Vector found Sentinel, he discovered not a defenseless civilian, but a Superhero locked in deadly combat with the evil KABAL, and an Earth assaulted by villains and threats of all sorts. Vector pitched in with enthusiasm. He led the counterattack against an alien invasion force, he defeated a squadron of super-intelligent super-jets, and he fought Blackstorm in a battle over Los Angeles so epic that the soundtrack could be heard as far away as New Mexico. | In Valhalla Vector fights, builds jet engines with Scarlet, teaches yoga, and communicates mostly in Top Gun quotes. But he has recently discovered that Scarlet may know more about time travel than she admits, and his circuits are beginning to whir.",
     "weapons": [
         {
             "name": "Bow",
-            "thumbnail": "/images/weapons/bow.jpg",
+            "camelCase": "Bow",
             "signatures": {
                 "nsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/vector-bow-nsig.gif"
+                    "camelcase": "VectorBowNSig"
                 },
                 "ssig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/vector-bow-ssig.gif"
+                    "camelcase": "VectorBowSSig"
                 },
                 "dsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/vector-bow-dsig.gif"
+                    "camelcase": "VectorBowDSig"
                 }
             }
         },
         {
             "name": "Rocket Lance",
-            "thumbnail": "/images/weapons/rocketLance.jpg",
+            "camelCase": "RocketLance",
             "signatures": {
                 "nsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/vector-lance-nsig.gif"
+                    "camelcase": "VectorLanceNSig"
                 },
                 "ssig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/vector-lance-ssig.gif"
+                    "camelcase": "VectorLanceSSig"
                 },
                 "dsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/vector-lance-dsig.gif"
+                    "camelcase": "VectorLanceDSig"
                 }
             }
         }
@@ -51,23 +51,23 @@
     "skins": [
         {
             "name": "Dragonaut",
-            "thumbnail": "/images/characters/Vector/DragonautVector.png"
+            "thumbnail": "DragonautVector"
         },
         {
             "name": "Hotshot",
-            "thumbnail": "/images/characters/Vector/HotshotVector.png"
+            "thumbnail": "HotshotVector"
         },
         {
             "name": "Hyperdrift",
-            "thumbnail": "/images/characters/Vector/HyperdriftVector.png"
+            "thumbnail": "HyperdriftVector"
         },
         {
             "name": "Matchmaker",
-            "thumbnail": "/images/characters/Vector/MatchmakerVector.png"
+            "thumbnail": "MatchmakerVector"
         },
         {
             "name": "Vector Model 01",
-            "thumbnail": "/images/characters/Vector/VectorModel01.png"
+            "thumbnail": "VectorModel01"
         }
     ],
     "crossovers": []

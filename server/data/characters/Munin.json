@@ -1,49 +1,49 @@
 {
     "link-info": "All paths to thumbnails, gifs, etc are relative to the root of the assets folder",
     "name": "Munin",
+    "camelCase": "Munin",
     "desc": "The Raven",
-    "lore": "Munin’s day job is to fly across the Nine Realms of Creation, and then return to Asgard to tell Odin, King of the Gods, what she has seen. If she finishes her report by 5:30 she’ll make it to band rehearsal on time. She’s been doing this since the Midgard Serpent was a tadpole and is, by now, both very wise and can absolutely shred.\nThere was a time when Odin worried about the terrible dangers Munin faces in her travels, fearing that one day she would not return. Then he saw her shatter the ice giant Mjolda with a savage power chord. She had merged her music into her fighting style to create a fearsome, versatile martial art. Her power ballad ‘The Last Sentai’ caused an invading army of trolls to sit down and cry – an army she had accidentally summoned with her folk-metal hymn ‘Summon the Trolls.’ Roland wrote a song about the song she wrote that crushed him in a tournament semi-final. Odin doesn’t worry about Munin anymore.\nMunin loves variety, new style, and shiny objects. With her sister Hugin, she is currently the Asgardian glam-rock duo Ravenqueen – previously Winged Mayhem, previously the Chorvyds, previously the Crow Mountain Sisters (their bluegrass phase).\nThe Grand Tournament is a way for Munin to win beautiful things she can add to her collection – a mountain of priceless gemstones, rare beads from each of the nine realms, and colorful bits of string. Munin and Kaya use it to make friendship bracelets.",
-    "thumbnail": "/images/characters/Munin/thumbnail.png",
+    "lore": "Munin’s day job is to fly across the Nine Realms of Creation, and then return to Asgard to tell Odin, King of the Gods, what she has seen. If she finishes her report by 5:30 she’ll make it to band rehearsal on time. She’s been doing this since the Midgard Serpent was a tadpole and is, by now, both very wise and can absolutely shred. | There was a time when Odin worried about the terrible dangers Munin faces in her travels, fearing that one day she would not return. Then he saw her shatter the ice giant Mjolda with a savage power chord. She had merged her music into her fighting style to create a fearsome, versatile martial art. Her power ballad ‘The Last Sentai’ caused an invading army of trolls to sit down and cry – an army she had accidentally summoned with her folk-metal hymn ‘Summon the Trolls.’ Roland wrote a song about the song she wrote that crushed him in a tournament semi-final. Odin doesn’t worry about Munin anymore. | Munin loves variety, new style, and shiny objects. With her sister Hugin, she is currently the Asgardian glam-rock duo Ravenqueen – previously Winged Mayhem, previously the Chorvyds, previously the Crow Mountain Sisters (their bluegrass phase). | The Grand Tournament is a way for Munin to win beautiful things she can add to her collection – a mountain of priceless gemstones, rare beads from each of the nine realms, and colorful bits of string. Munin and Kaya use it to make friendship bracelets.",
     "weapons": [
         {
             "name": "Bow",
-            "thumbnail": "/images/weapons/bow.jpg",
+            "camelCase": "Bow",
             "signatures": {
                 "nsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/munin-bow-nsig.gif"
+                    "camelCase": "MuninBowNSig"
                 },
                 "ssig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/munin-bow-ssig.gif"
+                    "camelCase": "MuninBowSSig"
                 },
                 "dsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/munin-bow-dsig.gif"
+                    "camelCase": "MuninBowDSig"
                 }
             }
         },
         {
             "name": "Scythe",
-            "thumbnail": "/images/weapons/scythe.jpg",
+            "camelCase": "Scythe",
             "signatures": {
                 "nsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/munin-scythe-nsig.gif"
+                    "camelCase": "MuninScytheNSig"
                 },
                 "ssig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/munin-scythe-ssig.gif"
+                    "camelCase": "MuninScytheSSig"
                 },
                 "dsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/munin-scythe-dsig.gif"
+                    "camelCase": "MuninScytheDSig"
                 }
             }
         }
@@ -51,19 +51,19 @@
     "skins": [
         {
             "name": "DJ Hugin",
-            "thumbnail": "/images/characters/Munin/DJHuginMunin.png"
+            "thumbnail": "DJHuginMunin"
         },
         {
             "name": "Hugin",
-            "thumbnail": "/images/characters/Munin/HuginMunin.png"
+            "thumbnail": "HuginMunin"
         },
         {
             "name": "Magpie",
-            "thumbnail": "/images/characters/Munin/MagpieMunin.png"
+            "thumbnail": "MagpieMunin"
         },
         {
             "name": "Starlet",
-            "thumbnail": "/images/characters/Munin/StarletMunin.png"
+            "thumbnail": "StarletMunin"
         }
     ],
     "crossovers": []

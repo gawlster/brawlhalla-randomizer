@@ -1,49 +1,49 @@
 {
     "link-info": "All paths to thumbnails, gifs, etc are relative to the root of the assets folder",
     "name": "Kor",
+    "camelCase": "Kor",
     "desc": "The Golem",
-    "lore": "Long ago, Elven sorcerers built a mighty army of golems. The Elven King marched the golem army against Asgard. Bodvar still cries when he remembers that he was not at the battle that ensued. The Elves were defeated and the Asgardians took the golems as spoils of war. They put the golems to work performing the menial labor of Asgard. But unknown to the Asgardians, the golems are sentient creatures and never forgot that they were made for battle.\nTen thousand years later, Sentinel, investigating the hidden places of the city, discovered secret golem fight clubs. In these arenas, the golems shed their quiet, biddable exterior and rekindled the terrifying ferocity of their warrior days.\nAnd everywhere Sentinel heard whispers of the mighty Kor. Kor the Unvanquished, Kor the Destroyer, Kor the Magnificent. Kor, who all those years ago had led the golem charge right to the steps of Odin’s palace and matched fists with Thor himself, was now the greatest golem fighter of them all.\nSentinel, political genius that he is, did not reveal himself, but simply left for Kor a hammer engraved with the Asgardian symbol for justice. Soon after, Kor the Golem entered the Grand Tournament wielding his mighty fists and the hammer. His victories inspire the movement for golem justice, though Kor also continues to enjoy his job as assistant platform mover in Blackguard Keep.",
-    "thumbnail": "/images/characters/Kor/thumbnail.png",
+    "lore": "Long ago, Elven sorcerers built a mighty army of golems. The Elven King marched the golem army against Asgard. Bodvar still cries when he remembers that he was not at the battle that ensued. The Elves were defeated and the Asgardians took the golems as spoils of war. They put the golems to work performing the menial labor of Asgard. But unknown to the Asgardians, the golems are sentient creatures and never forgot that they were made for battle. | Ten thousand years later, Sentinel, investigating the hidden places of the city, discovered secret golem fight clubs. In these arenas, the golems shed their quiet, biddable exterior and rekindled the terrifying ferocity of their warrior days. | And everywhere Sentinel heard whispers of the mighty Kor. Kor the Unvanquished, Kor the Destroyer, Kor the Magnificent. Kor, who all those years ago had led the golem charge right to the steps of Odin’s palace and matched fists with Thor himself, was now the greatest golem fighter of them all. | Sentinel, political genius that he is, did not reveal himself, but simply left for Kor a hammer engraved with the Asgardian symbol for justice. Soon after, Kor the Golem entered the Grand Tournament wielding his mighty fists and the hammer. His victories inspire the movement for golem justice, though Kor also continues to enjoy his job as assistant platform mover in Blackguard Keep.",
     "weapons": [
         {
             "name": "Gauntlets",
-            "thumbnail": "/images/weapons/gauntlets.jpg",
+            "camelCase": "Gauntlets",
             "signatures": {
                 "nsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/kor-gauntlets-nsig.gif"
+                    "camelCase": "KorGauntletsNSig"
                 },
                 "ssig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/kor-gauntlets-ssig.gif"
+                    "camelCase": "KorGauntletsSSig"
                 },
                 "dsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/kor-gauntlets-dsig.gif"
+                    "camelCase": "KorGauntletsDSig"
                 }
             }
         },
         {
             "name": "Grapple Hammer",
-            "thumbnail": "/images/weapons/grappleHammer.jpg",
+            "camelCase": "GrappleHammer",
             "signatures": {
                 "nsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/kor-hammer-nsig.gif"
+                    "camelCase": "KorHammerNSig"
                 },
                 "ssig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/kor-hammer-ssig.gif"
+                    "camelCase": "KorHammerSSig"
                 },
                 "dsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/kor-hammer-dsig.gif"
+                    "camelCase": "KorHammerDSig"
                 }
             }
         }
@@ -51,53 +51,53 @@
     "skins": [
         {
             "name": "Armored",
-            "thumbnail": "/images/characters/Kor/ArmoredKor.png"
+            "thumbnail": "ArmoredKor"
         },
         {
             "name": "Cho-Kor-Late",
-            "thumbnail": "/images/characters/Kor/Cho-Kor-Late.png"
+            "thumbnail": "Cho-Kor-Late"
         },
         {
             "name": "Fangwild",
-            "thumbnail": "/images/characters/Kor/FangwildKor.png"
+            "thumbnail": "FangwildKor"
         },
         {
             "name": "Gentleman",
-            "thumbnail": "/images/characters/Kor/GentlemanKor.png"
+            "thumbnail": "GentlemanKor"
         },
         {
             "name": "Korin Space",
-            "thumbnail": "/images/characters/Kor/KorinSpace.png"
+            "thumbnail": "KorinSpace"
         },
         {
             "name": "Kor Wrecking LLC.",
-            "thumbnail": "/images/characters/Kor/KorWreckingLLC.png"
+            "thumbnail": "KorWreckingLLC"
         },
         {
             "name": "Molten",
-            "thumbnail": "/images/characters/Kor/MoltenKor.png"
+            "thumbnail": "MoltenKor"
         },
         {
             "name": "Snowman",
-            "thumbnail": "/images/characters/Kor/SnowmanKor.png"
+            "thumbnail": "SnowmanKor"
         },
         {
             "name": "The Korinthian",
-            "thumbnail": "/images/characters/Kor/TheKorinthian.png"
+            "thumbnail": "TheKorinthian"
         },
         {
             "name": "Warrior Spirit",
-            "thumbnail": "/images/characters/Kor/WarriorSpiritKor.png"
+            "thumbnail": "WarriorSpiritKor"
         }
     ],
     "crossovers": [
         {
             "name": "Four Arms",
-            "thumbnail": "/images/characters/Kor/Z-crossOver-FourArmsKor.png"
+            "thumbnail": "FourArmsKor"
         },
         {
             "name": "Jake",
-            "thumbnail": "/images/characters/Kor/Z-crossOver-JakeKor.png"
+            "thumbnail": "JakeKor"
         }
     ]
 }

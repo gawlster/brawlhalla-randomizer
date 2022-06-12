@@ -1,49 +1,49 @@
 {
     "link-info": "All paths to thumbnails, gifs, etc are relative to the root of the assets folder",
     "name": "Diana",
+    "camelCase": "Diana",
     "desc": "The Monster Hunter",
-    "lore": "For a thousand years, the Order of the Exalted Lion has defended mundane society from the supernatural with a trademark combination of elite training and exotic weaponry.\nAs the commander of the Order’s hunters, Diana drove Europe’s vampire population into exile and eliminated the self-appointed Unseelie Diplomat. She slew the Mad King of Batavia, then slew the Vampire Mad King of Batavia, then finally slew the Ghost Vampire Mad King of Batavia. She is the national hero of Batavia.\nBut when she uncovered corruption in the Order itself, Diana fell into a trap. Breaking into the chambers of the Supreme Patriach, Diana was seized by dark magic that drove her into a deathlike sleep. She fought for moments of wakefulness – catching a glimpse of the Order’s subbasements, of a winding forest of thorns, and finally of an expanse of darkness filled with screams.\nDiana awoke on the shores of Nastrond, a land deep within Helheim. The endless dead sensed the unfamiliar warmth of mortality and swarmed to consume it. And so she fought. She held the damned at bay for eleven days before the Goddess Hel herself found her and ejected the troublemaker. A Valkyrie found Diana lost between worlds, and offered her a place in Valhalla.\nIn Valhalla, Diana is a ruthless combatant and a force for justice. But she seethes that monsters like Azoth and Mordex are allowed in the warrior’s heaven, and plots their destruction.",
-    "thumbnail": "/images/characters/Diana/thumbnail.png",
+    "lore": "For a thousand years, the Order of the Exalted Lion has defended mundane society from the supernatural with a trademark combination of elite training and exotic weaponry. | As the commander of the Order’s hunters, Diana drove Europe’s vampire population into exile and eliminated the self-appointed Unseelie Diplomat. She slew the Mad King of Batavia, then slew the Vampire Mad King of Batavia, then finally slew the Ghost Vampire Mad King of Batavia. She is the national hero of Batavia. | But when she uncovered corruption in the Order itself, Diana fell into a trap. Breaking into the chambers of the Supreme Patriach, Diana was seized by dark magic that drove her into a deathlike sleep. She fought for moments of wakefulness – catching a glimpse of the Order’s subbasements, of a winding forest of thorns, and finally of an expanse of darkness filled with screams. | Diana awoke on the shores of Nastrond, a land deep within Helheim. The endless dead sensed the unfamiliar warmth of mortality and swarmed to consume it. And so she fought. She held the damned at bay for eleven days before the Goddess Hel herself found her and ejected the troublemaker. A Valkyrie found Diana lost between worlds, and offered her a place in Valhalla. | In Valhalla, Diana is a ruthless combatant and a force for justice. But she seethes that monsters like Azoth and Mordex are allowed in the warrior’s heaven, and plots their destruction.",
     "weapons": [
         {
             "name": "Blasters",
-            "thumbnail": "/images/weapons/blasters.jpg",
+            "camelCase": "Blasters",
             "signatures": {
                 "nsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/diana-blasters-nsig.gif"
+                    "camelCase": "DianaBlastersNSig"
                 },
                 "ssig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/diana-blasters-ssig.gif"
+                    "camelCase": "DianaBlastersSSig"
                 },
                 "dsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/diana-blasters-dsig.gif"
+                    "camelCase": "DianaBlastersDSig"
                 }
             }
         },
         {
             "name": "Bow",
-            "thumbnail": "/images/weapons/bow.jpg",
+            "camelCase": "Bow",
             "signatures": {
                 "nsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/diana-bow-nsig.gif"
+                    "camelCase": "DianaBowNSig"
                 },
                 "ssig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/diana-bow-ssig.gif"
+                    "camelCase": "DianaBowSSig"
                 },
                 "dsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/diana-bow-dsig.gif"
+                    "camelCase": "DianaBowDSig"
                 }
             }
         }
@@ -51,57 +51,57 @@
     "skins": [
         {
             "name": "Bitten",
-            "thumbnail": "/images/characters/Diana/BittenDiana.png"
+            "thumbnail": "BittenDiana"
         },
         {
             "name": "Cryptomage",
-            "thumbnail": "/images/characters/Diana/CryptomageDiana.png"
+            "thumbnail": "CryptomageDiana"
         },
         {
             "name": "Demonkin",
-            "thumbnail": "/images/characters/Diana/DemonkinDiana.png"
+            "thumbnail": "DemonkinDiana"
         },
         {
             "name": "Elven Ranger",
-            "thumbnail": "/images/characters/Diana/ElvenRangerDiana.png"
+            "thumbnail": "ElvenRangerDiana"
         },
         {
             "name": "Lionguard",
-            "thumbnail": "/images/characters/Diana/LionguardDiana.png"
+            "thumbnail": "LionguardDiana"
         },
         {
             "name": "Pool Party",
-            "thumbnail": "/images/characters/Diana/PoolPartyDiana.png"
+            "thumbnail": "PoolPartyDiana"
         },
         {
             "name": "Shadowstalker",
-            "thumbnail": "/images/characters/Diana/ShadowstalkerDiana.png"
+            "thumbnail": "ShadowstalkerDiana"
         },
         {
             "name": "Soulbound",
-            "thumbnail": "/images/characters/Diana/SoulboundDiana.png"
+            "thumbnail": "SoulboundDiana"
         },
         {
             "name": "Spellbreaker",
-            "thumbnail": "/images/characters/Diana/SpellbreakerDiana.png"
+            "thumbnail": "SpellbreakerDiana"
         },
         {
             "name": "Survivor",
-            "thumbnail": "/images/characters/Diana/SurvivorDiana.png"
+            "thumbnail": "SurvivorDiana"
         },
         {
             "name": "Wyrmslayer",
-            "thumbnail": "/images/characters/Diana/WyrmslayerDiana.png"
+            "thumbnail": "WyrmslayerDiana"
         }
     ],
     "crossovers": [
         {
             "name": "Lara Croft",
-            "thumbnail": "/images/characters/Diana/Z-crossOver-LaraCroftDiana.png"
+            "thumbnail": "LaraCroftDiana"
         },
         {
             "name": "Survivor Lara Croft",
-            "thumbnail": "/images/characters/Diana/Z-crossOver-SurvivorLaraCroftDiana.png"
+            "thumbnail": "SurvivorLaraCroftDiana"
         }
     ]
 }

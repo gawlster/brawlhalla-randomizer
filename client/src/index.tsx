@@ -5,6 +5,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 import Home from './pages/Home'
 import Legends from './pages/Legends'
+import LegendDetails from './pages/LegendDetails'
 import Weapons from './pages/Weapons'
 import ChooseRandom from './pages/ChooseRandom'
 
@@ -14,7 +15,7 @@ root.render(
         <Routes>
             <Route path='/' element={<Home />}></Route>
             <Route path='/legends' element={<Legends />}></Route>
-            <Route path='/legend-details' element={<LegendDetails />}></Route>
+            <Route path='legend-details/:legendName' element={<LegendDetails />}></Route>
             <Route path='/weapons' element={<Weapons />}></Route>
             <Route path='/choose-legend' element={<ChooseRandom />}></Route>
         </Routes>

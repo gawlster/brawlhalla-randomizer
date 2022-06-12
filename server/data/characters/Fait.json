@@ -1,49 +1,49 @@
 {
     "link-info": "All paths to thumbnails, gifs, etc are relative to the root of the assets folder",
     "name": "Fait",
+    "camelCase": "Fait",
     "desc": "The Star Speaker",
-    "lore": "Great oracles are rare because by the time a witch has toiled through the many grueling years required to master Starspeak, they’ve almost certainly lost the charm and positive attitude needed for stars to want to talk to them. Fait’s greatest power was most likely her unwavering good-nature.\nAs a young witch Fait would hang out with the stars at night, who gave her fleeting visions of past, present, and future. In daylight, she made ends meet selling fortunes on the streets of Edasich. As her power grew, she learned to deduce a human’s fate from the smallest visions.\nBut when the mighty Deathspeaker Lord Zothkhan arose, Fait transformed herself into a battlemage to oppose his monstrous army. The world soon learned just how powerful even the smallest glimpse of the future could be in battle. Her vision of The Invulnerable Pit Fiend facedown with a scythe blade buried in his weak spot spelled his doom. Her foresight of a flattened werewolf led her to lure the vampire general into Avalanche Gulch.\nAnd a vision of a lava-scorched Lord Zothkhan in the afterlife, retrieving his beloved cat from its demon caretaker, prompted her to bring her own cat Butterscotch as a distraction to her showdown with the Deathspeaker on a bridge over Mount Inferno.\nWhen Brynn came to offer her a place in Valhalla, Fait had already packed. In Valhalla Fait is popular, and has joined a band, a book club, and wins big on poker nights.",
-    "thumbnail": "/images/characters/Fait/thumbnail.png",
+    "lore": "Great oracles are rare because by the time a witch has toiled through the many grueling years required to master Starspeak, they’ve almost certainly lost the charm and positive attitude needed for stars to want to talk to them. Fait’s greatest power was most likely her unwavering good-nature. | As a young witch Fait would hang out with the stars at night, who gave her fleeting visions of past, present, and future. In daylight, she made ends meet selling fortunes on the streets of Edasich. As her power grew, she learned to deduce a human’s fate from the smallest visions. | But when the mighty Deathspeaker Lord Zothkhan arose, Fait transformed herself into a battlemage to oppose his monstrous army. The world soon learned just how powerful even the smallest glimpse of the future could be in battle. Her vision of The Invulnerable Pit Fiend facedown with a scythe blade buried in his weak spot spelled his doom. Her foresight of a flattened werewolf led her to lure the vampire general into Avalanche Gulch. | And a vision of a lava-scorched Lord Zothkhan in the afterlife, retrieving his beloved cat from its demon caretaker, prompted her to bring her own cat Butterscotch as a distraction to her showdown with the Deathspeaker on a bridge over Mount Inferno. | When Brynn came to offer her a place in Valhalla, Fait had already packed. In Valhalla Fait is popular, and has joined a band, a book club, and wins big on poker nights.",
     "weapons": [
         {
             "name": "Orb",
-            "thumbnail": "/images/weapons/orb.jpg",
+            "camelCase": "Orb",
             "signatures": {
                 "nsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/fait-orb-nsig.gif"
+                    "camelCase": "FaitOrbNSig"
                 },
                 "ssig": {
                     "active-input": true,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/fait-orb-ssig.gif"
+                    "camelCase": "FaitOrbSSig"
                 },
                 "dsig": {
                     "active-input": true,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/fait-orb-dsig.gif"
+                    "camelCase": "FaitOrbDSig"
                 }
             }
         },
         {
             "name": "Scythe",
-            "thumbnail": "/images/weapons/scythe.jpg",
+            "camelCase": "Scythe",
             "signatures": {
                 "nsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/fait-scythe-nsig.gif"
+                    "camelCase": "FaitScytheNSig"
                 },
                 "ssig": {
-                    "active-input": false,
+                    "active-input": true,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/fait-scythe-ssig.gif"
+                    "camelCase": "FaitScytheSSig"
                 },
                 "dsig": {
-                    "active-input": false,
+                    "active-input": true,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/fait-scythe-dsig.gif"
+                    "camelCase": "FaitScytheDSig"
                 }
             }
         }
@@ -51,33 +51,33 @@
     "skins": [
         {
             "name": "Cosmic",
-            "thumbnail": "/images/characters/Fait/CosmicFait.png"
+            "thumbnail": "CosmicFait"
         },
         {
             "name": "Dark Arts",
-            "thumbnail": "/images/characters/Fait/DarkArtsFait.png"
+            "thumbnail": "DarkArtsFait"
         },
         {
             "name": "Feline",
-            "thumbnail": "/images/characters/Fait/FelineFait.png"
+            "thumbnail": "FelineFait"
         },
         {
             "name": "Headmaster",
-            "thumbnail": "/images/characters/Fait/HeadmasterFait.png"
+            "thumbnail": "HeadmasterFait"
         },
         {
             "name": "Metadev",
-            "thumbnail": "/images/characters/Fait/MetadevFait.png"
+            "thumbnail": "MetadevFait"
         },
         {
             "name": "Star Commander",
-            "thumbnail": "/images/characters/Fait/StarCommanderFait.png"
+            "thumbnail": "StarCommanderFait"
         }
     ],
     "crossovers": [
         {
             "name": "Enchantress",
-            "thumbnail": "/images/characters/Fait/Z-crossOver-EnchantressFait.png"
+            "thumbnail": "EnchantressFait"
         }
     ]
 }

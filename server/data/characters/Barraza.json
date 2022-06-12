@@ -1,49 +1,49 @@
 {
     "link-info": "All paths to thumbnails, gifs, etc are relative to the root of the assets folder",
     "name": "Barraza",
+    "camelCase": "Barraza",
     "desc": "Diesel Heart, the Lord of the Waste",
-    "lore": "The Apocalypse came not on a missile but a mist. MBFC’s self-replicating nanobot cloud bricked anything that relied on computer circuitry, which in 2150 was everything. Deployed in desperation against a rogue agent’s hideout, the weaponized mist was supposed to become inert after twenty minutes.\nFifty years later, Barraza was born in an abandoned aircraft carrier outside the girder wastes once called Los Angeles. All Barraza knew of this world was that he had to steal, scheme, and fight for every bite of food and every breath.\nShot in the chest by The Gaslords and left for dead, he returned, kept alive by an artificial heart burning diesel and an iron will. Soon the Gaslords were dead, followed by the Ravagers, the Scorpions, the Battleborn, and every other challenger, until the man they called Diesel Heart ruled the wastes from Four Face Mountain to the Steel Wall. Waterhaulers, warbangers, zealots, radsuits, wastecroppers, junkers – all feared Diesel Heart.\nThe ultimate survivor, Barraza knows Valhalla is another threat to overcome through violence and will. The next apocalypse is coming, and he will do what it takes to come out on top again.",
-    "thumbnail": "/images/characters/barraza/thumbnail.png",
+    "lore": "The Apocalypse came not on a missile but a mist. MBFC’s self-replicating nanobot cloud bricked anything that relied on computer circuitry, which in 2150 was everything. Deployed in desperation against a rogue agent’s hideout, the weaponized mist was supposed to become inert after twenty minutes. | Fifty years later, Barraza was born in an abandoned aircraft carrier outside the girder wastes once called Los Angeles. All Barraza knew of this world was that he had to steal, scheme, and fight for every bite of food and every breath. | Shot in the chest by The Gaslords and left for dead, he returned, kept alive by an artificial heart burning diesel and an iron will. Soon the Gaslords were dead, followed by the Ravagers, the Scorpions, the Battleborn, and every other challenger, until the man they called Diesel Heart ruled the wastes from Four Face Mountain to the Steel Wall. Waterhaulers, warbangers, zealots, radsuits, wastecroppers, junkers – all feared Diesel Heart. | The ultimate survivor, Barraza knows Valhalla is another threat to overcome through violence and will. The next apocalypse is coming, and he will do what it takes to come out on top again.",
     "weapons": [
         {
             "name": "Axe",
-            "thumbnail": "/images/weapons/axe.jpg",
+            "camelCase": "Axe",
             "signatures": {
                 "nsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/barraza-axe-nsig.gif"
+                    "camelCase": "BarrazaAxeNSig"
                 },
                 "ssig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/barraza-axe-ssig.gif"
+                    "camelCase": "BarrazaAxeSSig"
                 },
                 "dsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/barraza-axe-dsig.gif"
+                    "camelCase": "BarrazaAxeDSig"
                 }
             }
         },
         {
             "name": "Blasters",
-            "thumbnail": "/images/weapons/blasters.jpg",
+            "camelCase": "Blasters",
             "signatures": {
                 "nsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/barraza-blasters-nsig.gif"
+                    "camelCase": "BarrazaBlastersNSig"
                 },
                 "ssig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/barraza-blasters-ssig.gif"
+                    "camelCase": "BarrazaBlastersSSig"
                 },
                 "dsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/barraza-blasters-dsig.gif"
+                    "camelCase": "BarrazaBlastersDSig"
                 }
             }
         }
@@ -51,45 +51,45 @@
     "skins": [
         {
             "name": "Amun-Raza",
-            "thumbnail": "/images/characters/Barraza/AmunRaza.png"
+            "thumbnail": "AmunRaza"
         },
         {
             "name": "Heartbreaker",
-            "thumbnail": "/images/characters/Barraza/HeartbreakerBarraza.png"
+            "thumbnail": "HeartbreakerBarraza"
         },
         {
             "name": "Metadev",
-            "thumbnail": "/images/characters/Barraza/MetadevBarraza.png"
+            "thumbnail": "MetadevBarraza"
         },
         {
             "name": "Nemesis",
-            "thumbnail": "/images/characters/Barraza/NemesisBarraza.png"
+            "thumbnail": "NemesisBarraza"
         },
         {
             "name": "Razerback",
-            "thumbnail": "/images/characters/Barraza/RazerbackBarraza.png"
+            "thumbnail": "RazerbackBarraza"
         },
         {
             "name": "Sawed-Off",
-            "thumbnail": "/images/characters/Barraza/SawedOffBarraza.png"
+            "thumbnail": "SawedOffBarraza"
         },
         {
             "name": "Shark Heart",
-            "thumbnail": "/images/characters/Barraza/SharkHeartBarraza.png"
+            "thumbnail": "SharkHeartBarraza"
         },
         {
             "name": "Slasher",
-            "thumbnail": "/images/characters/Barraza/SlasherBarraza.png"
+            "thumbnail": "SlasherBarraza"
         },
         {
             "name": "Wraith",
-            "thumbnail": "/images/characters/Barraza/WraithBarraza.png"
+            "thumbnail": "WraithBarraza"
         }
     ],
     "crossovers": [
         {
             "name": "Rick",
-            "thumbnail": "/images/characters/Barraza/Z-crossOver-RickBarraza.png"
+            "thumbnail": "RickBarraza"
         }
     ]
 }

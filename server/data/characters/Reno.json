@@ -1,49 +1,49 @@
 {
     "link-info": "All paths to thumbnails, gifs, etc are relative to the root of the assets folder",
     "name": "Reno",
+    "camelCase": "Reno",
     "desc": "The Bounty Hunter",
-    "lore": "With four pearl-handled lazblasters and his robot companion Orbot, Reno traveled the Rexxar star system hunting down the most vicious outlaws in the tri-stars. Four arms, compound eyes, and utter fearlessnses make Chitinoids natural gunslingers, but Reno added a dose of genius that made him the greatest tracker this side of the Pecosid asteroid belt.\nReno never talked about his past. Some said he’d been raised by the wild Ocarians in the Endless Wastes. Some said he’d been a commander in the Zhaktar Wars. But everyone knew it wasn’t smart to cross the laconic gunslinger if you valued your carapace.\nHe brought in the Gygan millipede in 500 tiny handcuffs. He collared the ninety-foot Death Worm, wanted for not returning library books. He stayed busy, often scheduling shootouts for high noon, 12:15, 12:30, and 12:45, then after lunch starting at 2:00.\nBut even for the best space bug cowboys, bounty hunting isn’t much of a living, and it always ends on the wrong end of a laser. In Valhalla, Reno pretty much keeps to himself, though Orbot has become quite social, hanging out with Cassidy and even fighting for Thor when his Thunder Ball was in the shop. Reno fights for prize money and dreams of maybe winning enough to stake himself a little ranch on the Ifing river.",
-    "thumbnail": "/images/characters/Reno/thumbnail.png",
+    "lore": "With four pearl-handled lazblasters and his robot companion Orbot, Reno traveled the Rexxar star system hunting down the most vicious outlaws in the tri-stars. Four arms, compound eyes, and utter fearlessnses make Chitinoids natural gunslingers, but Reno added a dose of genius that made him the greatest tracker this side of the Pecosid asteroid belt. | Reno never talked about his past. Some said he’d been raised by the wild Ocarians in the Endless Wastes. Some said he’d been a commander in the Zhaktar Wars. But everyone knew it wasn’t smart to cross the laconic gunslinger if you valued your carapace. | He brought in the Gygan millipede in 500 tiny handcuffs. He collared the ninety-foot Death Worm, wanted for not returning library books. He stayed busy, often scheduling shootouts for high noon, 12:15, 12:30, and 12:45, then after lunch starting at 2:00. | But even for the best space bug cowboys, bounty hunting isn’t much of a living, and it always ends on the wrong end of a laser. In Valhalla, Reno pretty much keeps to himself, though Orbot has become quite social, hanging out with Cassidy and even fighting for Thor when his Thunder Ball was in the shop. Reno fights for prize money and dreams of maybe winning enough to stake himself a little ranch on the Ifing river.",
     "weapons": [
         {
             "name": "Blasters",
-            "thumbnail": "/images/weapons/blasters.jpg",
+            "camelCase": "Blasters",
             "signatures": {
                 "nsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/reno-blasters-nsig.gif"
+                    "camelCase": "RenoBlastersNSig"
                 },
                 "ssig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/reno-blasters-ssig.gif"
+                    "camelCase": "RenoBlastersSSig"
                 },
                 "dsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/reno-blasters-dsig.gif"
+                    "camelCase": "RenoBlastersDSig"
                 }
             }
         },
         {
             "name": "Orb",
-            "thumbnail": "/images/weapons/orb.jpg",
+            "camelCase": "Orb",
             "signatures": {
                 "nsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/reno-orb-nsig.gif"
+                    "camelCase": "RenoOrbNSig"
                 },
                 "ssig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/reno-orb-ssig.gif"
+                    "camelCase": "RenoOrbSSig"
                 },
                 "dsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/reno-orb-dsig.gif"
+                    "camelCase": "RenoOrbDSig"
                 }
             }
         }
@@ -51,19 +51,19 @@
     "skins": [
         {
             "name": "Desperado",
-            "thumbnail": "/images/characters/Reno/DesperadoReno.png"
+            "thumbnail": "DesperadoReno"
         },
         {
             "name": "Ferrymoth",
-            "thumbnail": "/images/characters/Reno/FerrymothReno.png"
+            "thumbnail": "FerrymothReno"
         },
         {
             "name": "Honeybeeno",
-            "thumbnail": "/images/characters/Reno/Honeybeeno.png"
+            "thumbnail": "Honeybeeno"
         },
         {
             "name": "Widowmaker",
-            "thumbnail": "/images/characters/Reno/WidowmakerReno.png"
+            "thumbnail": "WidowmakerReno"
         }
     ],
     "crossovers": []

@@ -1,49 +1,49 @@
 {
     "link-info": "All paths to thumbnails, gifs, etc are relative to the root of the assets folder",
     "name": "Xull",
+    "camelCase": "Xull",
     "desc": "The Iron Commander",
-    "lore": "Xull seized command of the Iron Legion from the Troll Titan with a brutal down stroke. His first order was to create a cannon brigade. His second order was that cowardly long-range combat would not be tolerated.\nAs a warlord of the mercenary army, he was savage, vengeful, and extremely effective. In battle, he rode a T-Rex and swung a deadly steel trap made from his predecessor. His innovative use of the tactic “minotaur release” is still studied today.\nUnder Xull the Iron Legion grew rich and powerful. Recruiting was simple – he placed a generous bounty on his own head. Anyone fearless enough to attempt to claim it, and tough enough to survive the resulting beatdown, would be offered their own lives as the Legion’s signing bonus.\nHis physical strength was legendary, and he would fight any challenger for any stakes. He only ever lost once, and he honored that wager, switching sides in the Undead Wars, despite being certain she must have somehow cheated.\nIn Valhalla, Xull knows he should always lead. He challenged Kor for leadership of the Golem Underground. He challenged Thor for leadership for Thursday. He challenged Scarlet for leadership of the Valhallan Ladies Book Club. At Ragnarok, he will lead a great army, and it makes little difference to him what side that army is on.",
-    "thumbnail": "/images/characters/Xull/thumbnail.png",
+    "lore": "Xull seized command of the Iron Legion from the Troll Titan with a brutal down stroke. His first order was to create a cannon brigade. His second order was that cowardly long-range combat would not be tolerated. | As a warlord of the mercenary army, he was savage, vengeful, and extremely effective. In battle, he rode a T-Rex and swung a deadly steel trap made from his predecessor. His innovative use of the tactic “minotaur release” is still studied today. | Under Xull the Iron Legion grew rich and powerful. Recruiting was simple – he placed a generous bounty on his own head. Anyone fearless enough to attempt to claim it, and tough enough to survive the resulting beatdown, would be offered their own lives as the Legion’s signing bonus. | His physical strength was legendary, and he would fight any challenger for any stakes. He only ever lost once, and he honored that wager, switching sides in the Undead Wars, despite being certain she must have somehow cheated. | In Valhalla, Xull knows he should always lead. He challenged Kor for leadership of the Golem Underground. He challenged Thor for leadership for Thursday. He challenged Scarlet for leadership of the Valhallan Ladies Book Club. At Ragnarok, he will lead a great army, and it makes little difference to him what side that army is on.",
     "weapons": [
         {
             "name": "Axe",
-            "thumbnail": "/images/weapons/axe.jpg",
+            "camelCase": "Axe",
             "signatures": {
                 "nsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/xull-axe-nsig.gif"
+                    "camelCase": "XullAxeNSig"
                 },
                 "ssig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/xull-axe-ssig.gif"
+                    "camelCase": "XullAxeSSig"
                 },
                 "dsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/xull-axe-dsig.gif"
+                    "camelCase": "XullAxeDSig"
                 }
             }
         },
         {
             "name": "Cannon",
-            "thumbnail": "/images/weapons/cannon.jpg",
+            "camelCase": "Cannon",
             "signatures": {
                 "nsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/xull-cannon-nsig.gif"
+                    "camelCase": "XullCannonNSig"
                 },
                 "ssig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/xull-cannon-ssig.gif"
+                    "camelCase": "XullCannonSSig"
                 },
                 "dsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/xull-cannon-dsig.gif"
+                    "camelCase": "XullCannonDSig"
                 }
             }
         }
@@ -51,29 +51,29 @@
     "skins": [
         {
             "name": "Arctic Trapper",
-            "thumbnail": "/images/characters/Xull/ArcticTrapperXull.png"
+            "thumbnail": "ArcticTrapperXull"
         },
         {
             "name": "Commander",
-            "thumbnail": "/images/characters/Xull/CommanderXull.png"
+            "thumbnail": "CommanderXull"
         },
         {
             "name": "Demon Ogre",
-            "thumbnail": "/images/characters/Xull/DemonOgreXull.png"
+            "thumbnail": "DemonOgreXull"
         },
         {
             "name": "Elvenhollow",
-            "thumbnail": "/images/characters/Xull/ElvenhollowXull.png"
+            "thumbnail": "ElvenhollowXull"
         },
         {
             "name": "Gridiron",
-            "thumbnail": "/images/characters/Xull/GridironXull.png"
+            "thumbnail": "GridironXull"
         }
     ],
     "crossovers": [
         {
             "name": "Amethyst",
-            "thumbnail": "/images/characters/Xull/Z-crossOver-AmethystXull.png"
+            "thumbnail": "AmethystXull"
         }
     ]
 }

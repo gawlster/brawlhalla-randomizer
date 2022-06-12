@@ -1,49 +1,49 @@
 {
     "link-info": "All paths to thumbnails, gifs, etc are relative to the root of the assets folder",
     "name": "Queen Nai",
+    "camelCase": "QueenNai",
     "desc": "The Jaguar Queen",
-    "lore": "Hundreds of years of war and plague had reduced the once mighty Empire of the Jaguar Kingdom to a shadow of its former glory. Neither the brilliant battlefield victories nor the cunning sorcery of the great Queen Nai could stem the tide of decline of her people or of her gods – a once great pantheon now faded to near extinction.\nSeeing that her civilization’s doom was sealed, Nai made a plan. She cast a spell, drawing into herself the essence of the eleven surviving gods of the Jaguar Kingdom. And when, during the Battle of Ixanocala, a Valkyrie offered Nai a place in Valhalla, she accepted, carrying Xanlecutli the Coatl, Eba the Snake, and nine other ailing gods with her to the great hall.\nIn Valhalla, Nai is a consummate warrior and has grown to love the place. Yet she never loses sight of her purpose – her victories nourish the gods of her people, and little by little they recover.\nNai believes tales of Ragnarok represent Asgardians’ dim understanding that creation is cyclical and that Asgard must be destroyed for the world to be renewed and for her gods to rule again.",
-    "thumbnail": "/images/characters/QueenNai/thumbnail.png",
+    "lore": "Hundreds of years of war and plague had reduced the once mighty Empire of the Jaguar Kingdom to a shadow of its former glory. Neither the brilliant battlefield victories nor the cunning sorcery of the great Queen Nai could stem the tide of decline of her people or of her gods – a once great pantheon now faded to near extinction. | Seeing that her civilization’s doom was sealed, Nai made a plan. She cast a spell, drawing into herself the essence of the eleven surviving gods of the Jaguar Kingdom. And when, during the Battle of Ixanocala, a Valkyrie offered Nai a place in Valhalla, she accepted, carrying Xanlecutli the Coatl, Eba the Snake, and nine other ailing gods with her to the great hall. | In Valhalla, Nai is a consummate warrior and has grown to love the place. Yet she never loses sight of her purpose – her victories nourish the gods of her people, and little by little they recover. | Nai believes tales of Ragnarok represent Asgardians’ dim understanding that creation is cyclical and that Asgard must be destroyed for the world to be renewed and for her gods to rule again.",
     "weapons": [
         {
             "name": "Katars",
-            "thumbnail": "/images/weapons/katars.jpg",
+            "camelCase": "Katars",
             "signatures": {
                 "nsig": {
                     "active-input": false,
                     "desc": "Her Nsig will cover her in purple spiritual magical wings and grab any enemies that are close, causing damage and finally launching them up when she reaches her peak.",
-                    "gif": "/gifs/sigs/queenNai-katars-nsig.gif"
+                    "camelCase": "QueenNaiKatarsNSig"
                 },
                 "ssig": {
                     "active-input": false,
                     "desc": "Queen Nai's Ssig produces a giant purple wing on her arm, thrusting forward and damaging enemies within range of the attack.",
-                    "gif": "/gifs/sigs/queenNai-katars-ssig.gif"
+                    "camelCase": "QueenNaiKatarsSSig"
                 },
                 "dsig": {
                     "active-input": false,
                     "desc": "Nai's Dsig produces two purple magical wings by her right and left, hitting any enemies that are close to her, but not above her.",
-                    "gif": "/gifs/sigs/queenNai-katars-dsig.gif"
+                    "camelCase": "QueenNaiKatarsDSig"
                 }
             }
         },
         {
             "name": "Spear",
-            "thumbnail": "/images/weapons/spear.jpg",
+            "camelCase": "Spear",
             "signatures": {
                 "nsig": {
                     "active-input": false,
                     "desc": "Nai's sig creates a smaller, but still big magical snake that doesn't hit enemies right above her, but enemies that are positioned slightly diagonally, dealing great damage.",
-                    "gif": "/gifs/sigs/queenNai-spear-nsig.gif"
+                    "camelCase": "QueenNaiSpearNSig"
                 },
                 "ssig": {
                     "active-input": false,
                     "desc": "Her sig with the spear creates three medium-sized snakes that hit enemies at her close range. This sig covers the area that her Dsig doesn't, but can't reach enemies mid-range.",
-                    "gif": "/gifs/sigs/queenNai-spear-ssig.gif"
+                    "camelCase": "QueenNaiSpearNSig"
                 },
                 "dsig": {
                     "active-input": false,
                     "desc": "This sig creates a gigantic purple snake from her spear, covering great distance mid range, but not hitting enemies that are too close.",
-                    "gif": "/gifs/sigs/queenNai-spear-dsig.gif"
+                    "camelCase": "QueenNaiSpearNSig"
                 }
             }
         }
@@ -51,49 +51,49 @@
     "skins": [
         {
             "name": "Date Night",
-            "thumbnail": "/images/characters/QueenNai/DateNightNai.png"
+            "thumbnail": "DateNightNai"
         },
         {
             "name": "Empress",
-            "thumbnail": "/images/characters/QueenNai/EmpressNai.png"
+            "thumbnail": "EmpressNai"
         },
         {
             "name": "Galaxy X",
-            "thumbnail": "/images/characters/QueenNai/GalaxyXNai.png"
+            "thumbnail": "GalaxyXNai"
         },
         {
             "name": "High Priestess",
-            "thumbnail": "/images/characters/QueenNai/HighPriestessNai.png"
+            "thumbnail": "HighPriestessNai"
         },
         {
             "name": "Lady of the Dead",
-            "thumbnail": "/images/characters/QueenNai/LadyoftheDeadNai.png"
+            "thumbnail": "LadyoftheDeadNai"
         },
         {
             "name": "Nidhogg",
-            "thumbnail": "/images/characters/QueenNai/NidhoggNai.png"
+            "thumbnail": "NidhoggNai"
         },
         {
             "name": "Snake Charmer",
-            "thumbnail": "/images/characters/QueenNai/SnakeCharmerNai.png"
+            "thumbnail": "SnakeCharmerNai"
         },
         {
             "name": "Snake Goddess",
-            "thumbnail": "/images/characters/QueenNai/SnakeGoddessNai.png"
+            "thumbnail": "SnakeGoddessNai"
         },
         {
             "name": "Tomb Tamer",
-            "thumbnail": "/images/characters/QueenNai/TombTamerNai.png"
+            "thumbnail": "TombTamerNai"
         },
         {
             "name": "Winged Serpent",
-            "thumbnail": "/images/characters/QueenNai/WingedSerpentNai.png"
+            "thumbnail": "WingedSerpentNai"
         }
     ],
     "crossovers": [
         {
             "name": "Asuka",
-            "thumbnail": "/images/characters/QueenNai/Z-crossOver-AsukaNai.png"
+            "thumbnail": "AsukaNai"
         }
     ]
 }

@@ -1,49 +1,49 @@
 {
     "link-info": "All paths to thumbnails, gifs, etc are relative to the root of the assets folder",
     "name": "Koji",
+    "camelCase": "Koji",
     "desc": "The Wanderer, Honor's Blade",
-    "lore": "As the second son Koji knew he would never take over his father’s school or inherit the coveted family sword. He spent his days determined to make his own technique, one without a silly made up name.\nOne day that changed. Fearful of the “School of the Demon Slaying Sword” a corrupt Shogun ordered Koji’s father and all his students slain. To save their legacy, Koji was ordered to take ancestral katana and flee, keeping it safe at all costs.\nAfter many patient and careful years he was ready. Seeking an audience with the Shogun he revealed his name and petitioned to reinstate his family’s place. The twisted Shogun only laughed. Knowing his fate was sealed, Koji leapt across the hall and cut him down. The stunned chamber guards fell next.\nAs Koji caught his breath, the palace alarm sounded. A slight man with red eyes walked out of the shadows. Introducing himself as a fellow second son, the younger Kagima offered Koji a way out. Power untold and a guaranteed escape, and all he needed to do was part with the family blade.\nKoji examined the sword, remembering the stories his father told him as a child. He smiled. When the 3,000 guards entered the chamber they found the demon’s head lying on the floor and Koji rushing toward them, cutting his path to Valhalla.",
-    "thumbnail": "/images/characters/Koji/thumbnail.png",
+    "lore": "As the second son Koji knew he would never take over his father’s school or inherit the coveted family sword. He spent his days determined to make his own technique, one without a silly made up name. | One day that changed. Fearful of the “School of the Demon Slaying Sword” a corrupt Shogun ordered Koji’s father and all his students slain. To save their legacy, Koji was ordered to take ancestral katana and flee, keeping it safe at all costs. | After many patient and careful years he was ready. Seeking an audience with the Shogun he revealed his name and petitioned to reinstate his family’s place. The twisted Shogun only laughed. Knowing his fate was sealed, Koji leapt across the hall and cut him down. The stunned chamber guards fell next. | As Koji caught his breath, the palace alarm sounded. A slight man with red eyes walked out of the shadows. Introducing himself as a fellow second son, the younger Kagima offered Koji a way out. Power untold and a guaranteed escape, and all he needed to do was part with the family blade. | Koji examined the sword, remembering the stories his father told him as a child. He smiled. When the 3,000 guards entered the chamber they found the demon’s head lying on the floor and Koji rushing toward them, cutting his path to Valhalla.",
     "weapons": [
         {
             "name": "Bow",
-            "thumbnail": "/images/weapons/bow.jpg",
+            "camelCase": "Bow",
             "signatures": {
                 "nsig": {
                     "active-input": false,
                     "desc": "This Nsig will make Koji fire a powerful arrow just above his head, launching any enemy hit in the process upwards.",
-                    "gif": "/gifs/sigs/koji-bow-nsig.gif"
+                    "camelCase": "KojiBowNSig"
                 },
                 "ssig": {
                     "active-input": false,
                     "desc": "This simple Ssig is a mid-short ranged shot by Koji's bow that hits quickly and launches them back with great force.",
-                    "gif": "/gifs/sigs/koji-bow-ssig.gif"
+                    "camelCase": "KojiBowSSig"
                 },
                 "dsig": {
                     "active-input": false,
                     "desc": "Koji's Dsig with his bow creates a large tatami mat in front of him, which has a large hitbox. If it connects to an enemy, Koji draws his bow and fires an arrow at the opponent, launching him with force diagonally upwards",
-                    "gif": "/gifs/sigs/koji-bow-dsig.gif"
+                    "camelCase": "KojiBowDSig"
                 }
             }
         },
         {
             "name": "Sword",
-            "thumbnail": "/images/weapons/sword.jpg",
+            "camelCase": "Sword",
             "signatures": {
                 "nsig": {
                     "active-input": false,
                     "desc": "Koji's Nsig will make him cut through the air above him very quickly with his sword, and if it hits an enemy, he will finish with a final and powerful cut, sheathing his sword (cosmetic only) and launching his opponent up.",
-                    "gif": "/gifs/sigs/koji-sword-nsig.gif"
+                    "camelCase": "KojiSwordNSig"
                 },
                 "ssig": {
                     "active-input": false,
                     "desc": "This Ssig hits two times, one as a quick slash with very short range, and the other a stronger hit, with mid-short range. However, holding the attack button will only charge the second attack, making that dangerous and not that much effective, since it leaves open space for the enemy to escape or strike.",
-                    "gif": "/gifs/sigs/koji-sword-ssig.gif"
+                    "camelCase": "KojiSwordSSig"
                 },
                 "dsig": {
                     "active-input": false,
                     "desc": "His Dsig is a very fast strike forward that covers a large distance, but only hits where Koji lands. The place he is intended to land is marked with a little spark.",
-                    "gif": "/gifs/sigs/koji-sword-dsig.gif"
+                    "camelCase": "KojiSwordDSig"
                 }
             }
         }
@@ -51,53 +51,53 @@
     "skins": [
         {
             "name": "Ani Shin Sekai",
-            "thumbnail": "/images/characters/Koji/AniShinSekaiKoji.png"
+            "thumbnail": "AniShinSekaiKoji"
         },
         {
             "name": "Demon Ogre",
-            "thumbnail": "/images/characters/Koji/DemonOgreKoji.png"
+            "thumbnail": "DemonOgreKoji"
         },
         {
             "name": "Emperor",
-            "thumbnail": "/images/characters/Koji/EmperorKoji.png"
+            "thumbnail": "EmperorKoji"
         },
         {
             "name": "Greased Lightning",
-            "thumbnail": "/images/characters/Koji/GreasedLightningKoji.png"
+            "thumbnail": "GreasedLightningKoji"
         },
         {
             "name": "Ojiisan",
-            "thumbnail": "/images/characters/Koji/OjiisanKoji.png"
+            "thumbnail": "OjiisanKoji"
         },
         {
             "name": "Ronin",
-            "thumbnail": "/images/characters/Koji/RoninKoji.png"
+            "thumbnail": "RoninKoji"
         },
         {
             "name": "Shogun",
-            "thumbnail": "/images/characters/Koji/ShogunKoji.png"
+            "thumbnail": "ShogunKoji"
         },
         {
             "name": "Street Samurai",
-            "thumbnail": "/images/characters/Koji/StreetSamuraiKoji.png"
+            "thumbnail": "StreetSamuraiKoji"
         },
         {
             "name": "Tengu",
-            "thumbnail": "/images/characters/Koji/TenguKoji.png"
+            "thumbnail": "TenguKoji"
         },
         {
             "name": "Yakuza",
-            "thumbnail": "/images/characters/Koji/YakuzaKoji.png"
+            "thumbnail": "YakuzaKoji"
         }
     ],
     "crossovers": [
         {
             "name": "Michonne",
-            "thumbnail": "/images/characters/Koji/Z-crossOver-MichonneKoji.png"
+            "thumbnail": "MichonneKoji"
         },
         {
             "name": "Storm Shadow",
-            "thumbnail": "/images/characters/Koji/Z-crossOver-StormShadowKoji.png"
+            "thumbnail": "StormShadowKoji"
         }
     ]
 }

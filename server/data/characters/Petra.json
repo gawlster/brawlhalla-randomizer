@@ -1,49 +1,49 @@
 {
     "link-info": "All paths to thumbnails, gifs, etc are relative to the root of the assets folder",
     "name": "Petra",
+    "camelCase": "Petra",
     "desc": "The Dark Heart",
-    "lore": "To most, Terminus is a dystopian prison realm where frighteningly violent and dangerous undesirables are banished. To Petra, Terminus is home.\nBorn in the chaotic nexus dimension that contains Terminus, Petra was as wild and ungovernable as her native world. While a young street urchin, Petra bought and sold anything forbidden – stim packs, mana potions, mayochup. She would fight anyone in any way – at sixteen she took over her street gang by defeating the previous boss in what can only be described as flying laser death chess. By eighteen her gang, the Incarnates, ran the Raptor Pits and the Cyborg Rings. And at nineteen, the Incarnates won a turf war that gave them control of a Darkheart quarry that would change Petra’s life forever.\nBefore Terminus was a prison, it was a mine – the only source in the multiverse of the cryptic ore called Darkheart. The power and danger of Darkheart was so great the gods folded Terminus into its own dimension and declared it eternally bound just to quarantine the ore. Darkheart became the ultimate cosmic contraband.\nSome say Petra was infected by Darkheart, others say she unlocked its power. Whatever the truth, she has brought that mythic ore and the strength it imbues to Valhalla. In Valhalla, Petra is quarrelsome, violent, brooding, unruly, and very well-liked. Her orb sparring matches with Thor draw huge crowds and huge fines for property damage – both of which the two ignore.\n",
-    "thumbnail": "/images/characters/Petra/thumbnail.png",
+    "lore": "To most, Terminus is a dystopian prison realm where frighteningly violent and dangerous undesirables are banished. To Petra, Terminus is home. | Born in the chaotic nexus dimension that contains Terminus, Petra was as wild and ungovernable as her native world. While a young street urchin, Petra bought and sold anything forbidden – stim packs, mana potions, mayochup. She would fight anyone in any way – at sixteen she took over her street gang by defeating the previous boss in what can only be described as flying laser death chess. By eighteen her gang, the Incarnates, ran the Raptor Pits and the Cyborg Rings. And at nineteen, the Incarnates won a turf war that gave them control of a Darkheart quarry that would change Petra’s life forever. | Before Terminus was a prison, it was a mine – the only source in the multiverse of the cryptic ore called Darkheart. The power and danger of Darkheart was so great the gods folded Terminus into its own dimension and declared it eternally bound just to quarantine the ore. Darkheart became the ultimate cosmic contraband. | Some say Petra was infected by Darkheart, others say she unlocked its power. Whatever the truth, she has brought that mythic ore and the strength it imbues to Valhalla. In Valhalla, Petra is quarrelsome, violent, brooding, unruly, and very well-liked. Her orb sparring matches with Thor draw huge crowds and huge fines for property damage – both of which the two ignore. | ",
     "weapons": [
         {
             "name": "Gauntlets",
-            "thumbnail": "/images/weapons/gauntlets.jpg",
+            "camelCase": "Gauntlets",
             "signatures": {
                 "nsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/petra-gauntlets-nsig.gif"
+                    "camelCase": "PetraGauntletsNSig"
                 },
                 "ssig": {
                     "active-input": true,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/petra-gauntlets-ssig.gif"
+                    "camelCase": "PetraGauntletsSSig"
                 },
                 "dsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/petra-gauntlets-dsig.gif"
+                    "camelCase": "PetraGauntletsDSig"
                 }
             }
         },
         {
             "name": "Orb",
-            "thumbnail": "/images/weapons/orb.jpg",
+            "camelCase": "Orb",
             "signatures": {
                 "nsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/petra-orb-nsig.gif"
+                    "camelCase": "PetraOrbNSig"
                 },
                 "ssig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/petra-orb-ssig.gif"
+                    "camelCase": "PetraOrbSSig"
                 },
                 "dsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/petra-orb-dsig.gif"
+                    "camelCase": "PetraOrbDSig"
                 }
             }
         }
@@ -51,41 +51,41 @@
     "skins": [
         {
             "name": "Darkheart",
-            "thumbnail": "/images/characters/Petra/DarkheartPetra.png"
+            "thumbnail": "DarkheartPetra"
         },
         {
             "name": "Lost World",
-            "thumbnail": "/images/characters/Petra/LostWorldPetra.png"
+            "thumbnail": "LostWorldPetra"
         },
         {
             "name": "Obake",
-            "thumbnail": "/images/characters/Petra/ObakePetra.png"
+            "thumbnail": "ObakePetra"
         },
         {
             "name": "Petra Reanimated",
-            "thumbnail": "/images/characters/Petra/PetraReanimated.png"
+            "thumbnail": "PetraReanimated"
         },
         {
             "name": "Riptide",
-            "thumbnail": "/images/characters/Petra/RiptidePetra.png"
+            "thumbnail": "RiptidePetra"
         },
         {
             "name": "Sourcecode",
-            "thumbnail": "/images/characters/Petra/SourcecodePetra.png"
+            "thumbnail": "SourcecodePetra"
         }
     ],
     "crossovers": [
         {
             "name": "Garnet",
-            "thumbnail": "/images/characters/Petra/Z-crossOver-GarnetPetra.png"
+            "thumbnail": "GarnetPetra"
         },
         {
             "name": "Ken",
-            "thumbnail": "/images/characters/Petra/Z-crossOver-KenPetra.png"
+            "thumbnail": "KenPetra"
         },
         {
             "name": "Ryu",
-            "thumbnail": "/images/characters/Petra/Z-crossOver-RyuPetra.png"
+            "thumbnail": "RyuPetra"
         }
     ]
 }

@@ -1,49 +1,49 @@
 {
     "link-info": "All paths to thumbnails, gifs, etc are relative to the root of the assets folder",
     "name": "Yumiko",
+    "camelCase": "Yumiko",
     "desc": "The Kitsune",
-    "lore": "Any Valkyrie could see that the blind seamstress was a centuries old fox spirit in disguise. Only the half-Valkyrie saw a great Valhallan. From time immemorial the Japanese village of Aoku sat at peace on the edge of the great northern forest.\nThen the forest changed.\nThe winters grew bitter, and the cold seemed to flow out of the forest itself. From the forest too came great wolves – first in ones and twos and then in great packs. The forest came to be called Kiba, The Fang, and the villagers feared.\nTo villagers, Yumiko, the blind seamstress, was a happy soul – afraid of dogs, and roused to anger only by shoddy needlework. None ever knew that, at the age of 537, she picked up a bow for the first time and went to war with the monsters of the Kiba.\nThe first winter, she rescued a toddler from wandering wolf, the second winter she slew a pack of wolves to protect the hibernating Tororu. Year after year, the assault grew, and so did her skill. By the twenty-fifth year, she had defeated a Tengu army, slain a dragon, and realized she must confront this mystery at its source. Weary but determined, she traveled deep into the woods. There she fought the witch Ukionna and broke the bond between Yumiko’s world and the twisted forest corrupting her land. In the final moments of the battle, a valkyrie appeared. Without a word, Yumiko leapt on the flying horse and went happily to sleep.\nYumiko is happy to fight in the tournament, while she senses that she has one more great deed to accomplish, but waits patiently. Yumiko recoils at the sight of Mordex, tinkers with Scarlet in her workshop, and has a quiet bond with the enigmatic Asuri.",
-    "thumbnail": "/images/characters/Yumiko/thumbnail.png",
+    "lore": "Any Valkyrie could see that the blind seamstress was a centuries old fox spirit in disguise. Only the half-Valkyrie saw a great Valhallan. From time immemorial the Japanese village of Aoku sat at peace on the edge of the great northern forest. | Then the forest changed. | The winters grew bitter, and the cold seemed to flow out of the forest itself. From the forest too came great wolves – first in ones and twos and then in great packs. The forest came to be called Kiba, The Fang, and the villagers feared. | To villagers, Yumiko, the blind seamstress, was a happy soul – afraid of dogs, and roused to anger only by shoddy needlework. None ever knew that, at the age of 537, she picked up a bow for the first time and went to war with the monsters of the Kiba. | The first winter, she rescued a toddler from wandering wolf, the second winter she slew a pack of wolves to protect the hibernating Tororu. Year after year, the assault grew, and so did her skill. By the twenty-fifth year, she had defeated a Tengu army, slain a dragon, and realized she must confront this mystery at its source. Weary but determined, she traveled deep into the woods. There she fought the witch Ukionna and broke the bond between Yumiko’s world and the twisted forest corrupting her land. In the final moments of the battle, a valkyrie appeared. Without a word, Yumiko leapt on the flying horse and went happily to sleep. | Yumiko is happy to fight in the tournament, while she senses that she has one more great deed to accomplish, but waits patiently. Yumiko recoils at the sight of Mordex, tinkers with Scarlet in her workshop, and has a quiet bond with the enigmatic Asuri.",
     "weapons": [
         {
             "name": "Bow",
-            "thumbnail": "/images/weapons/bow.jpg",
+            "camelCase": "Bow",
             "signatures": {
                 "nsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/yumiko-bow-nsig.gif"
+                    "camelCase": "YumikoBowNSig"
                 },
                 "ssig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/yumiko-bow-ssig.gif"
+                    "camelCase": "YumikoBowSSig"
                 },
                 "dsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/yumiko-bow-dsig.gif"
+                    "camelCase": "YumikoBowDSig"
                 }
             }
         },
         {
             "name": "Grapple Hammer",
-            "thumbnail": "/images/weapons/grappleHammer.jpg",
+            "camelCase": "GrappleHammer",
             "signatures": {
                 "nsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/yumiko-hammer-nsig.gif"
+                    "camelCase": "YumikoHammerNSig"
                 },
                 "ssig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/yumiko-hammer-ssig.gif"
+                    "camelCase": "YumikoHammerSSig"
                 },
                 "dsig": {
                     "active-input": false,
                     "desc": "nd",
-                    "gif": "/gifs/sigs/yumiko-hammer-dsig.gif"
+                    "camelCase": "YumikoHammerDSig"
                 }
             }
         }
@@ -51,43 +51,43 @@
     "skins": [
         {
             "name": "Arctic Fox",
-            "thumbnail": "/images/characters/Yumiko/ArcticFoxYumiko.png"
+            "thumbnail": "ArcticFoxYumiko"
         },
         {
             "name": "Caelistis",
-            "thumbnail": "/images/characters/Yumiko/CaelistisYumiko.png"
+            "thumbnail": "CaelistisYumiko"
         },
         {
             "name": "Cursed Mask",
-            "thumbnail": "/images/characters/Yumiko/CursedMaskYumiko.png"
+            "thumbnail": "CursedMaskYumiko"
         },
         {
             "name": "Fox Spirit",
-            "thumbnail": "/images/characters/Yumiko/FoxSpiritYumiko.png"
+            "thumbnail": "FoxSpiritYumiko"
         },
         {
             "name": "High Frequency",
-            "thumbnail": "/images/characters/Yumiko/HighFrequencyYumiko.png"
+            "thumbnail": "HighFrequencyYumiko"
         },
         {
             "name": "Lil' Yumiko",
-            "thumbnail": "/images/characters/Yumiko/LilYumiko.png"
+            "thumbnail": "LilYumiko"
         },
         {
             "name": "Madame",
-            "thumbnail": "/images/characters/Yumiko/MadameYumiko.png"
+            "thumbnail": "MadameYumiko"
         },
         {
             "name": "Matsuri",
-            "thumbnail": "/images/characters/Yumiko/MatsuriYumiko.png"
+            "thumbnail": "MatsuriYumiko"
         },
         {
             "name": "Punkin Spice",
-            "thumbnail": "/images/characters/Yumiko/Punkin SpiceYumiko.png"
+            "thumbnail": "Punkin SpiceYumiko"
         },
         {
             "name": "Tokyo",
-            "thumbnail": "/images/characters/Yumiko/TokyoYumiko.png"
+            "thumbnail": "TokyoYumiko"
         }
     ],
     "crossovers": []

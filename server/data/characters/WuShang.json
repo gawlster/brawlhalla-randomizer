@@ -1,49 +1,49 @@
 {
     "link-info": "All paths to thumbnails, gifs, etc are relative to the root of the assets folder",
     "name": "Wu Shang",
+    "camelCase": "WuShang",
     "desc": "The Traveler",
-    "lore": "The brilliant and ruthless General Wu Shang led the Emperor’s armies to victory after victory, but his heart was empty. One day he rose from his tent, stripped off his finery, and walked away from war and power. Penniless and in rags, Wu Shang came to a monastery. The monks took him in and he took up the Way of peace, discipline, and martial arts.\nAs his mind grew clear, Wu Shang realized he didn’t need to kill. When the angry Emperor sent his agents to attack the temple. Wu Shang defeated a company of Imperial soldiers without hurting a hair on their heads.\nTo protect the monastery, Wu Shang took up a life of wandering, honing the soft powers of distraction and influence. He once concealed a hundred villagers in a single willow tree. He sneaked into the palace stable and turned the emperor’s horse against him. He hid a bridge from an advancing army.\nHaving looked for Enlightenment in every corner of the world, Wu Shang let himself be captured. The Emperor’s men shackled him deep inside a volcano. There in the dark, Wu Shang breathed in the silent energy of the mountain. His inner eye opened, and he found peace. Projecting himself outward and away, he wandered the Astral plane until a Valkyrie led him to Valhalla.\nWu Shang follows the Way in Valhalla, and is delighted to find he can fight without killing. Kor is teaching him to move platforms.",
-    "thumbnail": "/images/characters/WuShang/thumbnail.png",
+    "lore": "The brilliant and ruthless General Wu Shang led the Emperor’s armies to victory after victory, but his heart was empty. One day he rose from his tent, stripped off his finery, and walked away from war and power. Penniless and in rags, Wu Shang came to a monastery. The monks took him in and he took up the Way of peace, discipline, and martial arts. | As his mind grew clear, Wu Shang realized he didn’t need to kill. When the angry Emperor sent his agents to attack the temple. Wu Shang defeated a company of Imperial soldiers without hurting a hair on their heads. | To protect the monastery, Wu Shang took up a life of wandering, honing the soft powers of distraction and influence. He once concealed a hundred villagers in a single willow tree. He sneaked into the palace stable and turned the emperor’s horse against him. He hid a bridge from an advancing army. | Having looked for Enlightenment in every corner of the world, Wu Shang let himself be captured. The Emperor’s men shackled him deep inside a volcano. There in the dark, Wu Shang breathed in the silent energy of the mountain. His inner eye opened, and he found peace. Projecting himself outward and away, he wandered the Astral plane until a Valkyrie led him to Valhalla. | Wu Shang follows the Way in Valhalla, and is delighted to find he can fight without killing. Kor is teaching him to move platforms.",
     "weapons": [
         {
             "name": "Gauntlets",
-            "thumbnail": "/images/weapons/gauntlets.jpg",
+            "camelCase": "Gauntlets",
             "signatures": {
                 "nsig": {
                     "active-input": false,
                     "desc": "Wu Shang leaps forward, spinning around with a yellow aura around him. Enemies who touch him will be launched when he stops spinning.",
-                    "gif": "/gifs/sigs/wuShang-gauntlets-nsig.gif"
+                    "camelCase": "WuShangGauntletsNSig"
                 },
                 "ssig": {
                     "active-input": false,
                     "desc": "Wu Shang releases two blasts from his gauntlets while moving forward. If either of the blasts connect, Wu Shang teleports and punches them again in the air.",
-                    "gif": "/gifs/sigs/wuShang-gauntlets-ssig.gif"
+                    "camelCase": "WuShangGauntletsSSig"
                 },
                 "dsig": {
                     "active-input": false,
                     "desc": "Wu Shang absorbs energy around him, stores it, and then releases it through his hands. This move covers both his sides. The initial startup of the move has one hitbox that draws enemies into the move.",
-                    "gif": "/gifs/sigs/wuShang-gauntlets-dsig.gif"
+                    "camelCase": "WuShangGauntletsDSig"
                 }
             }
         },
         {
             "name": "Spear",
-            "thumbnail": "/images/weapons/spear.jpg",
+            "camelCase": "Spear",
             "signatures": {
                 "nsig": {
                     "active-input": false,
                     "desc": "Wu Shang does a forward flip while spinning his spear. Similar to his other Neutral Signature, all enemies who are caught in the attack will be launched after he stops spinning with a final spear strike.",
-                    "gif": "/gifs/sigs/wuShang-spear-nsig.gif"
+                    "camelCase": "WuShangSpearNSig"
                 },
                 "ssig": {
                     "active-input": false,
                     "desc": "Wu Shang kicks at the opponent. If it lands, he will attack again using his spear.",
-                    "gif": "/gifs/sigs/wuShang-spear-ssig.gif"
+                    "camelCase": "WuShangSpearSSig"
                 },
                 "dsig": {
                     "active-input": false,
                     "desc": "Wu Shang climbs his spear like a pole, concentrating energy and launching it below him in the form of four yellow fireballs.",
-                    "gif": "/gifs/sigs/wuShang-spear-dsig.gif"
+                    "camelCase": "WuShangSpearDSig"
                 }
             }
         }
@@ -51,49 +51,49 @@
     "skins": [
         {
             "name": "Djinn",
-            "thumbnail": "/images/characters/WuShang/DjinnWuShang.png"
+            "thumbnail": "DjinnWuShang"
         },
         {
             "name": "Gentleman",
-            "thumbnail": "/images/characters/WuShang/GentlemanWuShang.png"
+            "thumbnail": "GentlemanWuShang"
         },
         {
             "name": "Infinite",
-            "thumbnail": "/images/characters/WuShang/InfiniteWuShang.png"
+            "thumbnail": "InfiniteWuShang"
         },
         {
             "name": "Perfect",
-            "thumbnail": "/images/characters/WuShang/PerfectWuShang.png"
+            "thumbnail": "PerfectWuShang"
         },
         {
             "name": "Ranno",
-            "thumbnail": "/images/characters/WuShang/RannoWuShang.png"
+            "thumbnail": "RannoWuShang"
         },
         {
             "name": "Santa",
-            "thumbnail": "/images/characters/WuShang/SantaWuShang.png"
+            "thumbnail": "SantaWuShang"
         },
         {
             "name": "Seeker",
-            "thumbnail": "/images/characters/WuShang/SeekerWuShang.png"
+            "thumbnail": "SeekerWuShang"
         },
         {
             "name": "Wu Shang Kong",
-            "thumbnail": "/images/characters/WuShang/WuShangKong.png"
+            "thumbnail": "WuShangKong"
         },
         {
             "name": "Wu Shang the Breaker",
-            "thumbnail": "/images/characters/WuShang/WuShangtheBreaker.png"
+            "thumbnail": "WuShangtheBreaker"
         }
     ],
     "crossovers": [
         {
             "name": "Chun-Li",
-            "thumbnail": "/images/characters/WuShang/Z-crossOver-ChunLiWuShang.png"
+            "thumbnail": "ChunLiWuShang"
         },
         {
             "name": "Po",
-            "thumbnail": "/images/characters/WuShang/Z-crossOver-PoWuShang.png"
+            "thumbnail": "PoWuShang"
         }
     ]
 }
