@@ -43,7 +43,7 @@ router.get('/', async (req: Request, res: Response): Promise<any> => {
         legendsList.legends.includes(req.query.legend)
     ) {
         const legendInfo: LegendInfo = await import(`../data/characters/${req.query.legend}.json`)
-        res.json(legendInfo)
+        res.status(200).json(legendInfo)
     } else {
         const badRequest: BadRequest400 = {
             message:

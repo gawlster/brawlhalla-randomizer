@@ -101,7 +101,6 @@ const LegendDetails = () => {
             setLegendData(fdata)
         }
         getData()
-        console.log(weapons)
         setImages({
             weapons: weapons,
             skins: Skins[legendName as keyof typeof Skins],
@@ -146,28 +145,22 @@ const LegendDetails = () => {
                         {legendData &&
                             images &&
                             images.weapons &&
-                            images.weapons.map(
-                                (weapon: { name: string; img: string }, i: number) => {
-                                    console.log(weapon)
-                                    return (
-                                        <div key={i} className={`weapon weapon${i}`}>
-                                            <Link
-                                                style={{ textDecoration: 'none' }}
-                                                to={`/weapon-details/${weapon.name.replace(
-                                                    /\s/g,
-                                                    ''
-                                                )}`}>
-                                                <img
-                                                    className='thumbnail'
-                                                    src={weapon.img}
-                                                    alt=''
-                                                />
-                                                <h3 className='weapon-name'>{weapon.name}</h3>
-                                            </Link>
-                                        </div>
-                                    )
-                                }
-                            )}
+                            images.weapons.map((weapon: string, i: number) => {
+                                return (
+                                    <div key={i} className={`weapon weapon${i}`}>
+                                        <Link
+                                            style={{ textDecoration: 'none' }}
+                                            to={`/weapon-details/${legendData.weapons[
+                                                i
+                                            ].name.replace(/\s/g, '')}`}>
+                                            <img className='thumbnail' src={weapon} alt='' />
+                                            <h3 className='weapon-name'>
+                                                {legendData.weapons[i].name}
+                                            </h3>
+                                        </Link>
+                                    </div>
+                                )
+                            })}
                     </div>
                 </div>
                 <div className='skins'>

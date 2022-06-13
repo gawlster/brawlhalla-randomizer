@@ -8,6 +8,7 @@ import Legends from './pages/Legends'
 import LegendDetails from './pages/LegendDetails'
 import Weapons from './pages/Weapons'
 import ChooseRandom from './pages/ChooseRandom'
+import WeaponDetails from './pages/WeaponDetails'
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement)
 root.render(
@@ -17,6 +18,7 @@ root.render(
             <Route path='/legends' element={<Legends />}></Route>
             <Route path='legend-details/:legendName' element={<LegendDetails />}></Route>
             <Route path='/weapons' element={<Weapons />}></Route>
+            <Route path='weapon-details/:weaponName' element={<WeaponDetails />}></Route>
             <Route path='/choose-legend' element={<ChooseRandom />}></Route>
         </Routes>
     </BrowserRouter>
