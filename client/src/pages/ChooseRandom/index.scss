@@ -112,8 +112,12 @@
                                 aspect-ratio: 1;
                                 overflow: hidden;
                                 border-radius: 5%;
+                                margin: 0;
+                                padding: 0;
                                 img {
                                     height: 100%;
+                                    margin: 0;
+                                    padding: 0;
                                 }
                             }
                             .weapons {
