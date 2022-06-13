@@ -45,6 +45,22 @@
                             aspect-ratio: 1;
                             overflow: hidden;
                             .hidden {
+                                @media (pointer: coarse) {
+                                    .text-no-touch {
+                                        display: none;
+                                    }
+                                    .text-touch {
+                                        display: block;
+                                    }
+                                }
+                                @media (pointer: fine) {
+                                    .text-no-touch {
+                                        display: block;
+                                    }
+                                    .text-touch {
+                                        display: none;
+                                    }
+                                }
                                 width: 100%;
                                 height: 100%;
                                 display: grid;

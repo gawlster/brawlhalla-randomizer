@@ -1,4 +1,107 @@
 #Weapons {
-    height: 150vh;
-    background: pink;
+    width: 100vw;
+    .content {
+        overflow-x: hidden;
+        padding: 10%;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+        justify-content: center;
+        h1 {
+            margin-top: 1rem;
+            text-align: center;
+            font-size: 2rem;
+            @media screen and (min-width: 465px) {
+                font-size: 3rem;
+            }
+            @media screen and (min-width: 1300px) {
+                font-size: 4rem;
+            }
+        }
+        .container {
+            .link {
+                width: 80%;
+                aspect-ratio: 1;
+            }
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            align-items: center;
+            justify-content: center;
+            .weapon {
+                border-radius: 5%;
+                overflow: hidden;
+                cursor: pointer;
+                position: relative;
+                width: 100%;
+                aspect-ratio: 1;
+                .image {
+                    height: 100%;
+                    img {
+                        height: 100%;
+                    }
+                }
+                .onhover {
+                    opacity: 0;
+                    transition: opacity 250ms;
+                }
+                &:hover,
+                &:focus {
+                    .onhover {
+                        opacity: 1;
+                        width: 100%;
+                        height: 100%;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        .overlay {
+                            position: absolute;
+                            width: 100%;
+                            height: 100%;
+                            top: 0;
+                            left: 0;
+                            background: rgba(255, 255, 255, 0.4);
+                        }
+                        .name {
+                            text-align: center;
+                            position: absolute;
+                            color: black;
+                            left: 50%;
+                            top: 50%;
+                            transform: translate(-50%, -50%);
+                            font-weight: 900;
+                            font-size: 170%;
+                            @media screen and (min-width: 350px) {
+                                font-size: 220%;
+                            }
+                            @media screen and (min-width: 550px) {
+                                font-size: 250%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        @media screen and (min-width: 750px) {
+            padding: 8% 4%;
+            .container {
+                flex-direction: row;
+                flex-wrap: wrap;
+                .link {
+                    width: 20%;
+                    @media screen and (min-width: 1300px) {
+                        width: 15%;
+                    }
+                }
+                .weapon {
+                    width: 100%;
+                    @media screen and (min-width: 1300px) {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
 }

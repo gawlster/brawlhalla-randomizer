@@ -136,7 +136,8 @@ const AttackComp = (props: AttackPropType) => {
             <div className='data'>
                 <div className='images'>
                     <div className='hidden'>
-                        <p className='text-mobile'>Click to see {fAttack}</p>
+                        <p className='text-touch'>Click to see {fAttack}</p>
+                        <p className='text-no-touch'>Hover to see {fAttack}</p>
                     </div>
                     <img
                         className='gif'

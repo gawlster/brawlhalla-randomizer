@@ -1,0 +1,173 @@
+#ChooseRandom {
+    width: 100vw;
+    height: 100vh;
+    .content {
+        overflow: hidden;
+        height: 100%;
+        padding-inline: 1rem;
+        .searching {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            form {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 1.5rem;
+                h1 {
+                    font-size: 3rem;
+                    font-weight: 800;
+                    text-align: center;
+                }
+                .sub {
+                    margin-bottom: -1rem;
+                }
+                label {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 0.5rem;
+                    justify-content: center;
+                    align-items: center;
+                    p {
+                        font-style: italic;
+                    }
+                    select {
+                        cursor: pointer;
+                        width: 70%;
+                        height: 3rem;
+                        font-size: 1rem;
+                        padding: 0.5rem;
+                        option {
+                            cursor: pointer;
+                        }
+                    }
+                }
+                .button {
+                    width: 70%;
+                    height: 3rem;
+                    position: relative;
+                    button {
+                        cursor: pointer;
+                        width: 100%;
+                        height: 100%;
+                        border: none;
+                        outline: none;
+                        font-size: 1rem;
+                        font-weight: bold;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        transition: opacity 250ms;
+                    }
+                    .hover {
+                        opacity: 0;
+                    }
+                    .default {
+                        opacity: 1;
+                    }
+                    &:hover {
+                        .hover {
+                            opacity: 1;
+                        }
+                        .default {
+                            opacity: 0;
+                        }
+                    }
+                }
+            }
+        }
+        .showing {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+            .container {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 2rem;
+                h1 {
+                    font-size: 3rem;
+                    font-weight: 800;
+                    text-align: center;
+                }
+                .link {
+                    .legend-details {
+                        .images {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            gap: 0.25rem;
+                            .legend {
+                                width: 100%;
+                                aspect-ratio: 1;
+                                overflow: hidden;
+                                border-radius: 5%;
+                                img {
+                                    height: 100%;
+                                }
+                            }
+                            .weapons {
+                                display: flex;
+                                flex-direction: row;
+                                gap: 0.25rem;
+                                justify-content: center;
+                                align-items: center;
+                            }
+                        }
+                        .name {
+                            font-size: 2rem;
+                            font-weight: 700;
+                            text-align: center;
+                        }
+                        .desc {
+                            font-size: 1.25rem;
+                            font-weight: 600;
+                            font-style: oblique;
+                            text-align: center;
+                            margin-top: -0.25rem;
+                        }
+                    }
+                }
+                .search-again {
+                    font-weight: 600;
+                    position: relative;
+                    width: 100%;
+                    p {
+                        text-align: center;
+                        cursor: pointer;
+                        position: absolute;
+                        width: 100%;
+                        height: 100%;
+                        top: 0;
+                        left: 0;
+                        transition: opacity 250ms;
+                    }
+                    .hover {
+                        opacity: 0;
+                    }
+                    .default {
+                        opacity: 1;
+                    }
+                    &:hover {
+                        .hover {
+                            opacity: 1;
+                        }
+                        .default {
+                            opacity: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
