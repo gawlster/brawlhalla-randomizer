@@ -19,6 +19,9 @@ app.use('/legend', Legend)
 import AllWeaponOverview from './routes/AllWeaponOverview'
 app.use('/all-weapons', AllWeaponOverview)
 
+import Weapon from './routes/GetWeapon'
+app.use('/weapon', Weapon)
+
 try {
     app.listen(port, (): void => {
         console.log(`Connected successfully on port ${port}`)
