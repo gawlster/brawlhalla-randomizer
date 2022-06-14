@@ -1,15 +1,11 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import './index.scss'
 import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons'
 
-type PropType = {
-    style?: { background: string }
-}
-
-const Navbar = (props: PropType) => {
-    const [open, setOpen] = useState(false)
+const Navbar = () => {
+    const [open, setOpen] = useState<boolean>(false)
 
     const handleClick = () => {
         if (open) {
@@ -39,14 +35,20 @@ const Navbar = (props: PropType) => {
                         </Link>
                         <Link
                             className={
-                                window.location.pathname == '/legends' ? 'link active' : 'link'
+                                window.location.pathname == '/legends' ||
+                                window.location.pathname.includes('legend-details')
+                                    ? 'link active'
+                                    : 'link'
                             }
                             to='/legends'>
                             Legends
                         </Link>
                         <Link
                             className={
-                                window.location.pathname == '/weapons' ? 'link active' : 'link'
+                                window.location.pathname == '/weapons' ||
+                                window.location.pathname.includes('weapon-details')
+                                    ? 'link active'
+                                    : 'link'
                             }
                             to='/weapons'>
                             Weapons
@@ -66,7 +68,6 @@ const Navbar = (props: PropType) => {
                 <div className='closed'>
                     <div className='icondiv'>
                         <FontAwesomeIcon
-                            style={props && props.style}
                             className='icon'
                             size='2x'
                             icon={faBars}

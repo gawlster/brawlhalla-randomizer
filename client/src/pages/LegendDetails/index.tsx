@@ -205,7 +205,7 @@ const LegendDetails = () => {
                     </div>
                 </div>
             </div>
-            <Navbar style={{ background: 'white' }} />
+            <Navbar />
         </div>
     )
 }

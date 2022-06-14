@@ -229,7 +229,7 @@ const ChooseRandom = () => {
                     </div>
                 )}
             </div>
-            <Navbar style={{ background: 'white' }} />
+            <Navbar />
         </div>
     )
 }

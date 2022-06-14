@@ -172,7 +172,6 @@ const WeaponDetails = () => {
             const image = WeaponImages[weaponName as keyof typeof WeaponImages]
             setWeaponImage(image)
             const attacks = lightGIFS[weaponName as keyof typeof lightGIFS]
-            console.log(attacks)
             setWeaponGIFS(attacks)
         }
         getData()
@@ -273,7 +272,7 @@ const WeaponDetails = () => {
                     </div>
                 </div>
             </div>
-            <Navbar style={{ background: 'white' }} />
+            <Navbar />
         </div>
     )
 }
