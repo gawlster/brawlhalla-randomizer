@@ -59,7 +59,15 @@ const ChooseRandom = () => {
         e.preventDefault()
         setLoading(true)
         if (selectWeapon == 'any') {
-            alert('searching from all legends')
+            const resLegendsList = await fetch(`${BASE_URL}all-legends`)
+            const dataLegendsList = await resLegendsList.json()
+            const index = getRandomNumber(dataLegendsList.length)
+            const chosenLegend = dataLegendsList[index]
+            const resLegend = await fetch(
+                `${BASE_URL}legend?legend=${chosenLegend.name.replace(/\s/g, '')}`
+            )
+            const dataLegend = await resLegend.json()
+            setSelectedRandomLegend(dataLegend)
         } else {
             const resWeapon = await fetch(`${BASE_URL}weapon?weapon=${selectWeapon}`)
             const dataWeapon = await resWeapon.json()
