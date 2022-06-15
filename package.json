@@ -1,0 +1,23 @@
+{
+    "name": "hallapedia",
+    "version": "1.0.0",
+    "description": "A better character selection and wiki experience for Brawlhalla",
+    "main": "index.js",
+    "scripts": {
+        "start": "node server",
+        "build": "cd client/ && npm install/ && npm run build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/gawlster/hallapedia.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/gawlster/hallapedia/issues"
+    },
+    "homepage": "https://github.com/gawlster/hallapedia#readme",
+    "dependencies": {
+        "express": "^4.18.1"
+    }
+}
