@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react'
 import Navbar from '../../components/Navbar'
 import './index.scss'
 import homeBackgrounds from '../../imports/homeBackgrounds'
-const baseURL = 'http://localhost:9000/'
 
 const Home = () => {
     const [background, setBackground] = useState<string>()

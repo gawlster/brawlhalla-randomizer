@@ -6,7 +6,7 @@ import './index.scss'
 import WeaponImages from '../../imports/Weapons'
 import lightGIFS from '../../imports/lightGifs'
 import characterThumbnails from '../../imports/characterThumbnails'
-const BASE_URL = 'http://localhost:9000/'
+const BASE_URL = process.env.BASE_URL
 
 type WeaponData = {
     name: string

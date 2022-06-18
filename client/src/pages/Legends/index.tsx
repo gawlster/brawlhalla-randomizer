@@ -4,7 +4,7 @@ import Navbar from '../../components/Navbar'
 import './index.scss'
 import images from '../../imports/characterThumbnails'
 
-const BASE_URL = 'http://localhost:9000/'
+const BASE_URL = process.env.BASE_URL
 
 type APIRes = {
     name: string

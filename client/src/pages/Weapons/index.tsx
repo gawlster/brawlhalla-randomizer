@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import Navbar from '../../components/Navbar'
 import './index.scss'
 import weaponThumbnails from '../../imports/weaponThumbnails'
-const BASE_URL = 'http://localhost:9000/'
+const BASE_URL = process.env.BASE_URL
 
 type ApiRes = {
     name: string

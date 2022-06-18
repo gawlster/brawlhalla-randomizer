@@ -7,7 +7,7 @@ import Skins from '../../imports/Skins'
 import Crossovers from '../../imports/Crossovers'
 import Weapons from '../../imports/Weapons'
 
-const BASE_URL = 'http://localhost:9000/'
+const BASE_URL = process.env.BASE_URL
 
 type LegendData = {
     name: string
